@@ -1,0 +1,79 @@
+Corpus Question: May I save any of my unused OPT eligibility and use it at a later time?
+
+Corpus Answer: 
+No. Once you apply for OPT and complete your program of study, the OPT work eligibility is either used or not. There is no recapture of unused OPT time.
+
+
+Sentence Tokenizer: ['May I save any of my unused OPT eligibility and use it at a later time?', 'No.', 'Once you apply for OPT and complete your program of study, the OPT work eligibility is either used or not.', 'There is no recapture of unused OPT time.']
+
+Words Tokenizer: ['May', 'I', 'save', 'any', 'of', 'my', 'unused', 'OPT', 'eligibility', 'and', 'use', 'it', 'at', 'a', 'later', 'time', '?', 'No', '.', 'Once', 'you', 'apply', 'for', 'OPT', 'and', 'complete', 'your', 'program', 'of', 'study', ',', 'the', 'OPT', 'work', 'eligibility', 'is', 'either', 'used', 'or', 'not', '.', 'There', 'is', 'no', 'recapture', 'of', 'unused', 'OPT', 'time', '.']
+
+words_without_stop_words: ['May', 'I', 'save', 'unused', 'OPT', 'eligibility', 'use', 'later', 'time', '?', 'No', '.', 'Once', 'apply', 'OPT', 'complete', 'program', 'study', ',', 'OPT', 'work', 'eligibility', 'either', 'used', '.', 'There', 'recapture', 'unused', 'OPT', 'time', '.']
+
+words_with_stemming: ['may', 'i', 'save', 'unus', 'opt', 'elig', 'use', 'later', 'time', '?', 'no', '.', 'onc', 'appli', 'opt', 'complet', 'program', 'studi', ',', 'opt', 'work', 'elig', 'either', 'use', '.', 'there', 'recaptur', 'unus', 'opt', 'time', '.']
+
+words_with_lemmatization: ['May', 'I', 'save', 'unused', 'OPT', 'eligibility', 'use', 'later', 'time', '?', 'No', '.', 'Once', 'apply', 'OPT', 'complete', 'program', 'study', ',', 'OPT', 'work', 'eligibility', 'either', 'use', '.', 'There', 'recapture', 'unused', 'OPT', 'time', '.']
+
+words_with_pos_tags: [('May', 'NNP'), ('I', 'PRP'), ('save', 'VBP'), ('unused', 'JJ'), ('OPT', 'NNP'), ('eligibility', 'NN'), ('use', 'NN'), ('later', 'JJ'), ('time', 'NN'), ('?', '.'), ('No', 'UH'), ('.', '.'), ('Once', 'RB'), ('apply', 'JJ'), ('OPT', 'NNP'), ('complete', 'JJ'), ('program', 'NN'), ('study', 'NN'), (',', ','), ('OPT', 'NNP'), ('work', 'NN'), ('eligibility', 'NN'), ('either', 'DT'), ('used', 'VBN'), ('.', '.'), ('There', 'EX'), ('recapture', 'NN'), ('unused', 'VBD'), ('OPT', 'NNP'), ('time', 'NN'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (S
+    (NP-TMP (NNP May))
+    (NP (PRP I))
+    (VP
+      (VP (VBP save)
+        (NP
+          (NP (DT any))
+          (PP (IN of)
+            (NP (PRP$ my) (JJ unused) (NNP OPT) (NN eligibility)))))
+      (CC and)
+      (VP (VB use)
+        (NP (PRP it))
+        (PP (IN at)
+          (NP (DT a) (JJ later) (NN time)))))
+    (. ?)))(ROOT
+  (FRAG
+    (NP (DT No))
+    (. .)))(ROOT
+  (S
+    (SBAR (RB Once)
+      (S
+        (NP (PRP you))
+        (VP
+          (VP (VB apply)
+            (PP (IN for)
+              (NP (NNP OPT))))
+          (CC and)
+          (VP (VB complete)
+            (NP
+              (NP (PRP$ your) (NN program))
+              (PP (IN of)
+                (NP (NN study))))))))
+    (, ,)
+    (NP (DT the) (NN OPT) (NN work) (NN eligibility))
+    (VP (VBZ is)
+      (ADVP (CC either))
+      (VP (VBN used)
+        (NP
+          (QP (CC or)
+            (RB not)))))
+    (. .)))(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ is)
+      (S
+        (NP (DT no))
+        (VP (VB recapture)
+          (PP (IN of)
+            (NP (JJ unused) (NN OPT) (NN time))))))
+    (. .)))
+
+hypernyms_list: ['moment', 'product', 'occupation', 'document', 'drawing', 'activity', 'performance', 'memorizer', 'system', 'seizure', 'concentration', 'keep', 'spend', 'term', 'rhythmicity', 'announcement', 'attribute', 'rescue', 'compel', 'give', 'idea', 'gregorian_calendar_month', 'show', 'qualification', 'hawthorn', 'refer', 'geographic_point', 'act', 'information', 'software', 'time_period', 'end_product', 'influence', 'demand', 'room', 'prevent', 'dimension', 'cover', 'energy', 'refrain', 'exploit', 'reading', 'custom', 'musical_composition', 'request', 'record', 'learning', 'reserve', 'examination', 'consume', 'case', 'utility', 'distribute', 'denote', 'knowledge_domain', 'contemplation', 'recovery', 'legal_right', 'experience']
+
+hyponyms_list: ['conserve', 'musical_time', 'television_program', 'woodwork', 'strain', 'vignette', 'exploitation', 'graphology', 'central', 'drill_site', 'fish_farm', 'spare', 'follow-up', 'pervert', 'care', 'progress_report', 'case_study', 'coaching', 'hoard', 'text-matching', 'racecard', 'overwrite', 'ephemera', 'dab', 'incarnation', 'dress', 'workload', 'high_time', 'library_program', 'ministry', 'insurability', 'assembler', 'bibliotics', 'position_paper', 'putty', 'audit_program', 'road_map', 'life_sentence', 'lacework', 'publication', 'spreadsheet', 'colliery', 'marriageability', 'patch', 'supervisory_program', 'defense_program', 'bakery', 'waterworks', 'brokerage_house', 'ology', 'game_show', 'playbill', 'masterpiece', 'hard_time', 'prime_time', 'superfund_program', 'cleanliness', 'fortran_program', 'welfare_work', 'project', 'cream', 'housewifery', 'lisp_program', 'educational_program', 'talk_show', 'administer', 'geological_time', 'escapology', 'creamery', 'debugger', 'work', 'white_book', 'ironwork', 'plan_of_action', 'moment', 'forge', 'work_in_progress', 'misuse', 'futurology', 'openwork', 'translator', 'pull_out_all_the_stops', 'eternity', 'wash', 'execute', 'shipyard', 'monitor_program', 'roundhouse', 'space_program', "raison_d'etre", 'tread', 'sustaining_program', 'logging', 'implement', 'coursework', 'location', 'drink', 'news_program', 'military_science', 'favor', 'hour', 'give', 'design', 'subbing', 'oyster_bed', 'humanistic_discipline', 'tax_program', 'run', 'pension_plan', 'beehive', 'trespass', 'tannery', 'system_program', 'serial', 'ropewalk', 'mission', 'metalwork', 'silverwork', 'civil_time', 'theology', 'lucubration', 'syntax_checker', 'piecework', 'wicker', 'application', 'workshop', 'blueprint', 'shining', 'ironing', 'housework', 'second_nature', 'present', 'labor', 'fair_use', 'polychrome', 'relocatable_program', 'ironworks', 'medical_report', 'day', 'cannibalize', 'binary', 'workpiece', 'busywork', 'spadework', 'lumberyard', 'put', 'hard_times', 'continuum', 'follow', 'anti-virus_program', 'degree_program', 'tagger', 'architecture', 'job', 'source_program', 'malevolent_program', 'studio', 'abuse', 'undertaking', 'duration', 'stored_program', 'action', 'ply', 'green_paper', 'exert', 'slap_on', 'test_bed', 'avail', 'loop', 'major', 'dead', 'misapply', 'daub', 'daylight-saving_time', 'employee_savings_plan', 'cosmic_time', 'compiler', 'reusable_program', 'exploit', 'exchange', 'enjoy', 'services', 'engagement', 'practice', 'seafaring', 'fall_back', 'past', 'nightwork', 'paper_route', 'while', 'allometry', 'proving_ground', 'greenwich_mean_time', 'engineering', 'parser', 'board', 'sponge_on', 'heavy_lifting', 'recycling', 'crash_course', 'lacquerware', 'reading_program', "tighten_one's_belt", 'lab', 'assay', 'spider', 'cold-cream', 'fishery', 'bill', 'public_service', 'leatherwork', 'writing', 'put_in', 'search_engine', 'master_plan', 'ritual', 'operation', 'wee', 'protology', 'glassworks', 'shop_floor', 'theogony', 'budget', 'web_map_service', 'outline', 'science', 'gasworks', 'episode', 'duty', 'timework', 'space_age', 'self-adapting_program', 'waste', 'farm', 'rescue', 'spacecraft_clock_time', 'overuse', 'rerun', 'works_program', 'biological_time', 'c_program', 'play', 'agenda', 'investigation', 'interface', 'scrimp', 'address', 'telecommuting', 'future', 'recycle', 'regimen', 'fruition', 'handicraft', 'interpreter', 'gum', 'service', 'communications', 'record', 'numerology', 'loose_end', 'laundry', 'utility_program', 'occasion', 'checking_program', 'mind_game', 'conspicuous_consumption', 'stock_purchase_plan', 'share', 'rehabilitation_program', 'job_control', 'object_program', 'frontier', 'draft', 'blue_book', 'genealogy', 'resurvey', 'take', 'occultism', 'paperwork']
+
+meronyms_list: ['plank', 'mid-may', 'routine', 'locker_room', "mother's_day", 'may_day', 'memorial_day', 'course_of_lectures', 'commonwealth_day', 'armed_forces_day', 'instruction']
+
+holonyms_list: ['gregorian_calendar', 'crataegus', 'house']
+
+synonyms_list: ['complete', 'recapture', 'study', 'spare', 'usage', 'sentence', 'report', 'economise', 'terminated', 'consumption', 'metre', 'unused', 'write', 'keep_open', 'sketch', 'manipulation', 'whitethorn', 'enjoyment', 'lay_aside', 'political_platform', 'Crataegus_laevigata', 'subject', 'economize', 'unadulterated', 'save_up', 'stark', 'over', 'habit', 'bring_through', 'thoroughgoing', 'work', 'course_of_study', 'time', 'utilization', 'clip', 'fresh', 'ended', 'programme', 'implement', 'sodding', 'subject_area', 'prison_term', 'give', 'May', 'accomplished', 'perfect', 'habituate', 'meter', 'may', 'utilise', 'computer_program', 'cogitation', 'pull_through', 'relieve', 'expend', 'everlasting', 'concluded', 'field_of_study', 'hold_open', 'make_unnecessary', 'field', 'redeem', 'salvage', 'consummate', 'apply', 'curriculum', 'utilisation', 'salve', 'put_on', 'go_for', 'economic_consumption', 'pure', 'English_hawthorn', 'program', 'keep', 'exercise', 'discipline', 'double-dyed', 'save', 'syllabus', 'carry_through', 'plan', 'hold', 'all_over', 'lend_oneself', 'employment', 'political_program', 'staring', 'practice', 'survey', 'use_of_goods_and_services', 'broadcast', 'oeuvre', 'enforce', 'arrant', 'workplace', 'purpose', 'clock_time', 'written_report', 'deliver', 'Crataegus_oxycantha', 'eligibility', 'body_of_work', 'role', 'utter', 'idle', 'utilize', 'computer_programme', 'retaking', 'platform', 'piece_of_work', 'usance', 'use', 'bailiwick', 'preserve', 'subject_field', 'employ', 'fourth_dimension', 'gross', 'function']

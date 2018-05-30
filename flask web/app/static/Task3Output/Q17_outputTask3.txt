@@ -1,0 +1,64 @@
+Corpus Question: When can I start working under OPT?
+
+Corpus Answer:  Only once you possess the OPT employment document ("Employment Authorization Document") issued by the immigration service, and the effective beginning date listed on the employment document has been reached.
+
+
+
+Sentence Tokenizer: ['When can I start working under OPT?', 'Only once you possess the OPT employment document ("Employment Authorization Document") issued by the immigration service, and the effective beginning date listed on the employment document has been reached.']
+
+Words Tokenizer: ['When', 'can', 'I', 'start', 'working', 'under', 'OPT', '?', 'Only', 'once', 'you', 'possess', 'the', 'OPT', 'employment', 'document', '(', '``', 'Employment', 'Authorization', 'Document', "''", ')', 'issued', 'by', 'the', 'immigration', 'service', ',', 'and', 'the', 'effective', 'beginning', 'date', 'listed', 'on', 'the', 'employment', 'document', 'has', 'been', 'reached', '.']
+
+words_without_stop_words: ['When', 'I', 'start', 'working', 'OPT', '?', 'Only', 'possess', 'OPT', 'employment', 'document', '(', '``', 'Employment', 'Authorization', 'Document', "''", ')', 'issued', 'immigration', 'service', ',', 'effective', 'beginning', 'date', 'listed', 'employment', 'document', 'reached', '.']
+
+words_with_stemming: ['when', 'i', 'start', 'work', 'opt', '?', 'onli', 'possess', 'opt', 'employ', 'document', '(', '``', 'employ', 'author', 'document', "''", ')', 'issu', 'immigr', 'servic', ',', 'effect', 'begin', 'date', 'list', 'employ', 'document', 'reach', '.']
+
+words_with_lemmatization: ['When', 'I', 'start', 'work', 'OPT', '?', 'Only', 'posse', 'OPT', 'employment', 'document', '(', '``', 'Employment', 'Authorization', 'Document', "''", ')', 'issue', 'immigration', 'service', ',', 'effective', 'beginning', 'date', 'list', 'employment', 'document', 'reach', '.']
+
+words_with_pos_tags: [('When', 'WRB'), ('I', 'PRP'), ('start', 'VBP'), ('working', 'VBG'), ('OPT', 'NNP'), ('?', '.'), ('Only', 'RB'), ('possess', 'JJ'), ('OPT', 'NNP'), ('employment', 'NN'), ('document', 'NN'), ('(', '('), ('``', '``'), ('Employment', 'NNP'), ('Authorization', 'NNP'), ('Document', 'NNP'), ("''", "''"), (')', ')'), ('issued', 'VBD'), ('immigration', 'NN'), ('service', 'NN'), (',', ','), ('effective', 'JJ'), ('beginning', 'NN'), ('date', 'NN'), ('listed', 'VBN'), ('employment', 'NN'), ('document', 'NN'), ('reached', 'VBD'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SBARQ
+    (WHADVP (WRB When))
+    (SQ (MD can)
+      (NP (PRP I))
+      (VP (VB start)
+        (S
+          (VP (VBG working)
+            (PP (IN under)
+              (NP (NNP OPT)))))))
+    (. ?)))(ROOT
+  (S
+    (S
+      (ADVP (RB Only) (RB once))
+      (NP (PRP you))
+      (VP (VBP possess)
+        (NP
+          (NP (DT the) (NNP OPT) (NN employment) (NN document))
+          (PRN (-LRB- -LRB-) (`` ``)
+            (NP (NNP Employment) (NNP Authorization) (NNP Document))
+            ('' '') (-RRB- -RRB-))
+          (VP (VBN issued)
+            (PP (IN by)
+              (NP (DT the) (NN immigration) (NN service)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP
+        (NP (DT the) (JJ effective) (NN beginning) (NN date))
+        (VP (VBN listed)
+          (PP (IN on)
+            (NP (DT the) (NN employment) (NN document)))))
+      (VP (VBZ has)
+        (VP (VBN been)
+          (VP (VBN reached)))))
+    (. .)))
+
+hypernyms_list: ['become', 'state', 'body', 'writing', 'succeed', 'go', 'occupation', 'police', 'move', 'day', 'tug', 'name', 'activity', 'signal', 'care', 'reflex', 'publicize', 'arrive', 'companion', 'action', 'helpfulness', 'enumerate', 'create_from_raw_material', 'convert', 'fix', 'computer_file', 'pass', 'write', 'migration', 'transform', 'management', 'act', 'manipulate', 'accommodation', 'talk', 'tennis_stroke', 'achieve', 'edible_fruit', 'aid', 'coupling', 'register', 'use', 'control', 'change_state', 'make', 'force', 'delivery', 'lean', 'turn', 'employment', 'tableware', 'transfer', 'legal_document', 'operate', 'beginning', 'calendar_year', 'communicate', 'communication', 'manage', 'stimulate', 'point', 'distribute', 'advantage', 'calendar_day', 'line', 'understand', 'meeting', 'capture', 'change_of_state', 'religious_ceremony', 'permission', 'company', 'calendar_month', 'representation', 'affect', 'work', 'be', 'present']
+
+hyponyms_list: ['reshape', 'embark', 'fink', 'double_date', 'find', 'overcrop', 'drive', 'exploitation', 'first_step', 'quittance', 'report', 'rubber_stamp', 'come_on', 'onset', 'hot-work', 'maturity', 'coaching', 'masticate', 'summit', 'none', 'vesper', 'future_date', 'answer', 'constitution', 'moonlight', 'slave', 'imprint', 'workload', 'committal_service', 'stamp', 'average', 'roughcast', 'incipiency', 'ministry', 'post', 'assist', 'debouch', 'bud', 'shape-up', 'freelance', 'installation', 'startup', 'command', 'trouble_oneself', 'booking', 'claw', 'cast', 'make_hay', 'mound', 'prayer_meeting', 'scrum', 'serve', 'carve', 'legal_document', 'scale', 'groundbreaking', 'ascii_text_file', 'edit', 'start', 'cybernate', 'brevet', 'carpenter', 'debt_instrument', 'bushwhack', 'startle_response', 'whore', 'bottom_out', 'man', 'work', 'facility', 'recommence', 'escape', 'birthday', 'introduction', 'stir', 'tinker', 'adrenarche', 'misuse', 'springboard', 'intern', 'rain_date', 'vinify', 'color', 'unblock', 'watch_night', 'swing', 'resignation', 'pop_out', 'come_to', 'minister', 'work_through', 'blackmail', 'access', 'skipper', 'jostle', 'come_out', 'blacklist', 'specialize', 'model', 'give', 'muscle', 'power_of_appointment', 'valet_parking', 'index', 'putter', 'national_service', 'turn_a_trick', 'dawn', 'run', 'coldwork', 'break', 'epoch', 'license', 'attack', 'electioneer', 'tryst', 'work_at', 'set_in', 'wince', 'aliyah', 'marines', 'devotional', 'navy', 'jumpstart', 'guess', 'startle_reflex', 'overwork', 'get_through', 'interim_overhaul', 'jump_off', 'source', 'call-back', 'layer', 'place_setting', 'utility', 'piecework', 'letter_of_credit', 'reach_into', 'community_service', 'application', 'thelarche', 'dominate', 'cut_out', 'imperium', 'release', 'patent', 'bank', 'lordship', 'labor', 'free', 'set_off', 'curb_service', 'reach', 'beaver', 'collaborate', 'boondoggle', "pull_one's_weight", 'certificate', 'jump_ball', 'job', 'birth', 'double', 'originate', 'auspicate', "knight's_service", 'menarche', 'sinter', 'rework', 'culminate', 'entrust', 'opening', 'exercise', 'grind', 'busy', 'chip', 'get_to', 'erupt', 'consulting_service', 'initiation', 'let', 'terminus_a_quo', 'throw', 'hand_over', 'activation', 'cut', 'check', 'army', 'strike_out', 'seating', 'avail', 'ace', 'plunge', 'face-off', 'enclosure', 'reissue', 'self-service', 'ballot', 'begin', 'militate', 'tool', 'form', 'radiate', 'make', 'deal', 'itemize', 'coastguard', 'carte_blanche', 'max_out', 'services', 'delegating', 'engagement', 'air_force', 'break_out', 'till', 'top', 'beat', 'practice', 'seafaring', 'get_cracking', 'preform', 'dinner_service', 'flying_start', 'paper_route', 'letter', 'rack', 'inauguration', 'sell-by_date', 'inventory', 'extend_oneself', 'recycling', 'top_out', 'sanction', 'chapel_service', 'commercial_document', 'score', 'loan_approval', 'public_service', 'resolution', 'certification', 'leak', 'kickoff', 'get_at', 'resumption', 'web_page', 'socage', 'volunteer', 'swage', 'compass', 'alpha', 'puddle', 'commission', 'roll', 'specification', 'help_desk', 'carry', 'break_even', 'plug_away', 'prey', 'childcare', 'raise', 'fix', 'farm', 'clerk', 'riddle', 'church_service', 'racing_start', 'hill', 'handbuild', 'blind_date', 'manipulate', 'play', 'platform', 'empanel', 'catch_up', 'telecommuting', 'use', 'subcontract', 'opener', 'break_in', 'wangle', 'kill_oneself', 'strike', 'papyrus', 'service', 'page', 'prejudice', 'voucher', 'ground', 'record', 'ping', 'slip', 'sculpt', 'proof', 'capitulation', 'skimp', 'machine', 'confession', 'fault', 'wait', 'charter', 'sovereignty', 'fill', 'copyright', 'housing_start', 'fall', 'military_service', 'inaugurate', 'warm_up', 'threshold', 'icebreaker']
+
+meronyms_list: ['preamble', 'article', 'posseman', 'date', 'military_unit', 'invocation']
+
+holonyms_list: ['date', 'date_palm']
+
+synonyms_list: ['authority', 'cultivate', 'strain', 'mould', 'usage', 'solve', 'good', 'set_out', 'starting_line', 'day_of_the_month', 'showtime', 'starting', 'lick', 'efficient', 'process', 'set_about', 'overhaul', 'outset', 'turn', 'supply', 'make_for', 'serve', 'first', 'start', 'progress_to', 'list', 'put_to_work', 'posse', 'emerge', 'touch', 'empowerment', 'inspection_and_repair', 'scratch_line', 'date', 'act_upon', 'work', 'get_down', 'forge', 'starting_time', 'religious_service', 'publish', 'document', 'lead_off', 'utilization', 'name', 'come_forth', 'come_out', 'in_force', 'number', 'give', 'shape', 'servicing', 'run', 'hand', 'influence', 'make_out', 'startle', 'efficacious', 'posse_comitatus', 'write_out', 'attain', 'armed_service', 'operate', 'get_through', 'egress', 'effective', 'contact', 'Robert_William_Service', 'help', 'get-go', 'mold', 'release', 'put_out', 'in-migration', 'immigration', 'utilisation', 'get_hold_of', 'go', 'figure_out', 'reach', 'arrive_at', 'strive', 'ferment', 'exercise', 'serving', 'escort', 'get_to', 'in_effect', 'divine_service', 'knead', 'mandate', 'gain', 'cut', 'effectual', 'achieve', 'avail', 'dominance', 'do_work', 'begin', 'make', 'lean', 'form', 'exploit', 'employment', 'heel', 'reach_out', 'engagement', 'starting_signal', 'commencement', 'turn_over', 'commence', 'go_forth', 'sanction', 'say-so', 'start_out', 'wreak', 'kickoff', 'crop', 'issue', 'service_of_process', 'bring_out', 'get', 'Service', 'head_start', 'table_service', 'particular_date', 'extend_to', 'pass', 'appointment', 'act', 'play', 'potency', 'scratch', 'bring', 'text_file', 'use', 'puzzle_out', 'papers', 'work_out', 'pass_on', 'service', 'accomplish', 'written_document', 'jump', 'beginning', 'sour', 'authorisation', 'work_on', 'employ', 'hit', 'offset', 'military_service', 'function', 'authorization']

@@ -1,0 +1,151 @@
+Corpus Question: What if I do not have my USCIS Form I-797 (OPT receipt)?
+
+Corpus Answer:  If you do not receive a receipt (or you lose it), your receipt number will be printed on the back of the canceled check or money order you submitted to USCIS for the application fee. If you paid with a check, ask your bank for a copy of the canceled check and look on the back for your LIN number. If you paid with a money order, bring the money order receipt back to the place where you bought it. Ask for a copy of the back of the money order; it usually takes at least 24 hours. It is easier to track a canceled check than a money order.
+
+
+Sentence Tokenizer: ['What if I do not have my USCIS Form I-797 (OPT receipt)?', 'If you do not receive a receipt (or you lose it), your receipt number will be printed on the back of the canceled check or money order you submitted to USCIS for the application fee.', 'If you paid with a check, ask your bank for a copy of the canceled check and look on the back for your LIN number.', 'If you paid with a money order, bring the money order receipt back to the place where you bought it.', 'Ask for a copy of the back of the money order; it usually takes at least 24 hours.', 'It is easier to track a canceled check than a money order.']
+
+Words Tokenizer: ['What', 'if', 'I', 'do', 'not', 'have', 'my', 'USCIS', 'Form', 'I-797', '(', 'OPT', 'receipt', ')', '?', 'If', 'you', 'do', 'not', 'receive', 'a', 'receipt', '(', 'or', 'you', 'lose', 'it', ')', ',', 'your', 'receipt', 'number', 'will', 'be', 'printed', 'on', 'the', 'back', 'of', 'the', 'canceled', 'check', 'or', 'money', 'order', 'you', 'submitted', 'to', 'USCIS', 'for', 'the', 'application', 'fee', '.', 'If', 'you', 'paid', 'with', 'a', 'check', ',', 'ask', 'your', 'bank', 'for', 'a', 'copy', 'of', 'the', 'canceled', 'check', 'and', 'look', 'on', 'the', 'back', 'for', 'your', 'LIN', 'number', '.', 'If', 'you', 'paid', 'with', 'a', 'money', 'order', ',', 'bring', 'the', 'money', 'order', 'receipt', 'back', 'to', 'the', 'place', 'where', 'you', 'bought', 'it', '.', 'Ask', 'for', 'a', 'copy', 'of', 'the', 'back', 'of', 'the', 'money', 'order', ';', 'it', 'usually', 'takes', 'at', 'least', '24', 'hours', '.', 'It', 'is', 'easier', 'to', 'track', 'a', 'canceled', 'check', 'than', 'a', 'money', 'order', '.']
+
+words_without_stop_words: ['What', 'I', 'USCIS', 'Form', 'I-797', '(', 'OPT', 'receipt', ')', '?', 'If', 'receive', 'receipt', '(', 'lose', ')', ',', 'receipt', 'number', 'printed', 'back', 'canceled', 'check', 'money', 'order', 'submitted', 'USCIS', 'application', 'fee', '.', 'If', 'paid', 'check', ',', 'ask', 'bank', 'copy', 'canceled', 'check', 'look', 'back', 'LIN', 'number', '.', 'If', 'paid', 'money', 'order', ',', 'bring', 'money', 'order', 'receipt', 'back', 'place', 'bought', '.', 'Ask', 'copy', 'back', 'money', 'order', ';', 'usually', 'takes', 'least', '24', 'hours', '.', 'It', 'easier', 'track', 'canceled', 'check', 'money', 'order', '.']
+
+words_with_stemming: ['what', 'i', 'usci', 'form', 'i-797', '(', 'opt', 'receipt', ')', '?', 'if', 'receiv', 'receipt', '(', 'lose', ')', ',', 'receipt', 'number', 'print', 'back', 'cancel', 'check', 'money', 'order', 'submit', 'usci', 'applic', 'fee', '.', 'if', 'paid', 'check', ',', 'ask', 'bank', 'copi', 'cancel', 'check', 'look', 'back', 'lin', 'number', '.', 'if', 'paid', 'money', 'order', ',', 'bring', 'money', 'order', 'receipt', 'back', 'place', 'bought', '.', 'ask', 'copi', 'back', 'money', 'order', ';', 'usual', 'take', 'least', '24', 'hour', '.', 'it', 'easier', 'track', 'cancel', 'check', 'money', 'order', '.']
+
+words_with_lemmatization: ['What', 'I', 'USCIS', 'Form', 'I-797', '(', 'OPT', 'receipt', ')', '?', 'If', 'receive', 'receipt', '(', 'lose', ')', ',', 'receipt', 'number', 'print', 'back', 'cancel', 'check', 'money', 'order', 'submit', 'USCIS', 'application', 'fee', '.', 'If', 'pay', 'check', ',', 'ask', 'bank', 'copy', 'cancel', 'check', 'look', 'back', 'LIN', 'number', '.', 'If', 'pay', 'money', 'order', ',', 'bring', 'money', 'order', 'receipt', 'back', 'place', 'buy', '.', 'Ask', 'copy', 'back', 'money', 'order', ';', 'usually', 'take', 'least', '24', 'hour', '.', 'It', 'easier', 'track', 'cancel', 'check', 'money', 'order', '.']
+
+words_with_pos_tags: [('What', 'WP'), ('I', 'PRP'), ('USCIS', 'VBP'), ('Form', 'JJ'), ('I-797', 'NNP'), ('(', '('), ('OPT', 'NNP'), ('receipt', 'NN'), (')', ')'), ('?', '.'), ('If', 'IN'), ('receive', 'JJ'), ('receipt', 'NN'), ('(', '('), ('lose', 'JJ'), (')', ')'), (',', ','), ('receipt', 'JJ'), ('number', 'NN'), ('printed', 'VBN'), ('back', 'RB'), ('canceled', 'VBN'), ('check', 'NN'), ('money', 'NN'), ('order', 'NN'), ('submitted', 'VBN'), ('USCIS', 'NNP'), ('application', 'NN'), ('fee', 'NN'), ('.', '.'), ('If', 'IN'), ('paid', 'VBN'), ('check', 'NN'), (',', ','), ('ask', 'VB'), ('bank', 'NN'), ('copy', 'NN'), ('canceled', 'VBD'), ('check', 'NN'), ('look', 'NN'), ('back', 'RB'), ('LIN', 'NNP'), ('number', 'NN'), ('.', '.'), ('If', 'IN'), ('paid', 'VBN'), ('money', 'NN'), ('order', 'NN'), (',', ','), ('bring', 'VB'), ('money', 'NN'), ('order', 'NN'), ('receipt', 'NN'), ('back', 'RB'), ('place', 'NN'), ('bought', 'VBD'), ('.', '.'), ('Ask', 'NNP'), ('copy', 'NN'), ('back', 'RB'), ('money', 'NN'), ('order', 'NN'), (';', ':'), ('usually', 'RB'), ('takes', 'VBZ'), ('least', 'JJS'), ('24', 'CD'), ('hours', 'NNS'), ('.', '.'), ('It', 'PRP'), ('easier', 'JJR'), ('track', 'NN'), ('canceled', 'VBD'), ('check', 'VB'), ('money', 'NN'), ('order', 'NN'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SBAR (WP What) (IN if)
+    (S
+      (NP (PRP I))
+      (VP (VBP do) (RB not)
+        (VP (VB have)
+          (NP
+            (NP (PRP$ my) (NNP USCIS) (NN Form) (NN I-797))
+            (PRN (-LRB- -LRB-)
+              (NP (NN OPT) (NN receipt))
+              (-RRB- -RRB-))))))
+    (. ?)))(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP do) (RB not)
+          (VP (VB receive)
+            (NP (DT a) (NN receipt))))))
+    (PRN (-LRB- -LRB-)
+      (CC or)
+      (S
+        (NP (PRP you))
+        (VP (VBP lose)
+          (NP (PRP it))))
+      (-RRB- -RRB-))
+    (, ,)
+    (NP (PRP$ your) (NN receipt) (NN number))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBN printed)
+          (PP (IN on)
+            (NP
+              (NP (DT the) (NN back))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (VBN canceled) (NN check)
+                    (CC or)
+                    (NN money) (NN order))
+                  (SBAR
+                    (S
+                      (NP (PRP you))
+                      (VP (VBD submitted)
+                        (PP (TO to)
+                          (NP (NNP USCIS)))
+                        (PP (IN for)
+                          (NP (DT the) (NN application) (NN fee)))))))))))))
+    (. .)))(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBD paid)
+          (PP (IN with)
+            (NP (DT a) (NN check))))))
+    (, ,)
+    (VP
+      (VP (VB ask)
+        (NP (PRP$ your) (NN bank))
+        (PP (IN for)
+          (NP
+            (NP (DT a) (NN copy))
+            (PP (IN of)
+              (NP (DT the) (VBN canceled) (NN check))))))
+      (CC and)
+      (VP (VB look)
+        (PP (IN on)
+          (NP
+            (NP (DT the) (NN back))
+            (PP (IN for)
+              (NP (PRP$ your) (NNP LIN) (NN number)))))))
+    (. .)))(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBD paid)
+          (PP (IN with)
+            (NP (DT a) (NN money) (NN order))))))
+    (, ,)
+    (VP (VB bring)
+      (NP (DT the) (NN money) (NN order) (NN receipt))
+      (ADVP (RB back)
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN place))
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (PRP you))
+                (VP (VBD bought)
+                  (NP (PRP it)))))))))
+    (. .)))(ROOT
+  (S
+    (S
+      (VP (VB Ask)
+        (PP (IN for)
+          (NP
+            (NP (DT a) (NN copy))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NN back))
+                (PP (IN of)
+                  (NP (DT the) (NN money) (NN order)))))))))
+    (: ;)
+    (S
+      (NP (PRP it))
+      (ADVP (RB usually))
+      (VP (VBZ takes)
+        (NP-TMP
+          (QP (IN at) (JJS least) (CD 24))
+          (NNS hours))))
+    (. .)))(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADJP (JJR easier))
+      (S
+        (VP (TO to)
+          (VP (VB track)
+            (NP (DT a) (VBN canceled) (NN check))
+            (PP (IN than)
+              (NP (DT a) (NN money) (NN order)))))))
+    (. .)))
+
+hypernyms_list: ['container', 'have', 'condition', 'necessitate', 'move', 'rule', 'signal', 'declare', 'produce', 'magnitude', 'organization', 'give_voice', 'track_and_field', 'time_unit', 'depository', 'restraint', 'symbol', 'write', 'win', 'refer', 'artistic_style', 'command', 'social_station', 'definite_quantity', 'state_of_matter', 'interest', 'atmosphere', 'association', 'difficulty', 'reserve', 'distance', 'accept', 'point', 'positive_identification', 'arrangement', 'vicinity', 'residence', 'chess_move', 'work', 'receive', 'manner', 'occupation', 'document', 'interpret', 'gathering', 'position', 'slope', 'undergo', 'financial_institution', 'appearance', 'attribute', 'give', 'size', 'obstruction', 'demand', 'work_time', 'cognition', 'artifact', 'acknowledgment', 'communicate', 'word', 'passage', 'appraisal', 'line', 'periodical', 'area', 'mold', 'countenance', 'representation', 'apply', 'balance', 'array', 'sensing', 'road', 'flight_maneuver', 'suffer', 'put', 'item', 'performance', 'remove', 'traverse', 'reproduce', 'program', 'path', 'action', 'dummy', 'bar', 'blemish', 'sleep_together', 'mark', 'medium_of_exchange', 'ridge', 'amount', 'evidence', 'decide', 'taxonomic_group', 'buy', 'funds', 'head', 'ability', 'affirm', 'excerpt', 'grammatical_category', 'company', 'currency', 'written_record', 'groove', 'be', 'weave', 'course', 'commercial_document', 'score', 'become', 'bill', 'body', 'state', 'submit', 'worsen', 'clock_time', 'remedy', 'public_square', 'structure', 'category', 'situation', 'status', 'get', 'geographical_area', 'wealth', 'belt', 'yield', 'merchandise', 'spatial_property', 'propose', 'act', 'inspection', 'time_period', 'address', 'change', 'writing_style', 'use', 'fixed_charge', 'regress', 'acquiring', 'text', 'space', 'request', 'record', 'think_about', 'proof', 'sicken', 'inaction', 'manual_labor', 'draft', 'effort', 'material', 'transport', 'function', 'experience', 'sect']
+
+hyponyms_list: ['indent', 'recapture', 'overlook', 'bank_identification_number', 'transit', 'eye_bank', 'editorship', 'cinder_track', 'take_in', 'arity', 'viziership', 'carbon', 'flick', 'none', 'junction', 'forget', 'straitjacket', 'anamorphosis', 'singular', 'multiplier', 'edition', 'drop-off_charge', 'coordinate', 'residency', 'reorder', 'messiahship', 'toll', 'polls', 'drop', 'series', 'hunt', 'plant_order', 'sorority', 'baronetage', 'short_order', 'corinthian_order', 'closure', 'accept', 'plane', 'stop_order', 'riverbank', 'indentation', 'front', 'license_number', 'prefecture', 'take_off', 'vantage', 'clerkship', 'white-out', 'manner', 'dial', 'sight', 'prove', 'deanship', 'precentorship', 'tranquillity', 'impound', 'profess', 'prelacy', 'previous_question', 'pry', 'stripe', 'swing', 'welcome', 'lieutenancy', 'painting', 'nesting_place', 'straightness', 'crookedness', 'co-opt', 'misread', 'scalp', 'warm_to', 'sack', 'drug', 'juxtaposition', 'cadetship', 'anoint', 'vice-presidency', 'fatherhood', 'compound_number', 'stub', 'stare', 'holy_place', 'yacht_club', 'steps', 'overprint', 'state_bank', 'numerousness', 'acquirer', 'genome', 'praetorship', 'misapplication', 'mosaic', 'governorship', 'marching_orders', 'gut', 'decalcify', 'center', 'incumbency', 'squint', 'composite_order', 'majority', 'slate_club', 'steal', 'generalship', 'closing_time', 'lining', 'viceroyship', 'biquadrate', 'remainder', 'early-morning_hour', 'polling_place', 'tusk', 'parity_check', 'lithograph', 'thrift_institution', 'standing_order', 'counter_check', 'anomaly', 'job', 'custodianship', 'velodrome', 'disembowel', 'eat', 'commercial_bank', 'go_down', 'discharge', 'dislodge', 'govern', 'scoop', 'frame', 'print', 'flare', 'withdraw', 'train', 'unburden', 'pocket', 'vertical_bank', 'womanhood', 'technology', 'half_track', 'fixed-point_number', 'acronym', 'head', 'grid', 'legation', 'leach', 'natural_shape', 'round', 'lockage', 'plastering', 'collect', 'applet', 'cyclostyle', 'lubrication', 'zeitgeist', 'bishopry', 'lighterage', "finder's_fee", 'fee_tail', 'carve_out', 'home_loan_bank', 'presidency', 'enucleate', 'concavity', 'mail_order', 'chip_away', 'setting', 'dehorn', 'brush', 'late-night_hour', 'anointing', 'shift', 'take_the_count', 'houndstooth_check', 'seed', 'curfew', 'counteract', 'wardenship', 'waterside', 'gestalt', 'alphabetization', 'legal_fee', 'curatorship', 'twilight', 'diriment_impediment', 'dispersed_phase', 'captainship', 'beacon', 'mecca', 'rank_order', 'rabbinate', 'hit', 'resect', 'italicize', 'zone', 'associateship', 'ferry', 'minuend', 'angular_shape', 'hollywood', 'telegraph_form', 'delete', 'happy_hour', 'checksum', 'peek', 'fetch', 'description', 'admiralty', 'piggy_bank', 'excavate', 'relegate', "drop_one's_serve", 'adopt', 'bad_check', 'legislatorship', 'clean', 'distorted_shape', 'racket_club', 'premiership', 'juvenile_body', 'harmony', 'contingency_fee', 'sandbank', 'de-iodinate', 'tax_form', 'chapter', 'scour', 'cast', 'hatchery', 'misprint', 'controllership', 'turn', 'imitation', 'proconsulship', 'pool', 'poundage', 'claim_form', 'desorb', 'personal_check', 'hull', 'subject', 'reshoot', 'sidereal_hour', 'home_away_from_home', 'plum', 'modification', 'kaleidoscope', 'antitype', 'sieve_out', 'athenaeum', 'species', 'stability', 'curacy', 'countercheck', 'usher', 'zero_hour', 'take_away', 'knock_out', 'discipleship', 'public_office', 'weed', 'programma', 'extort', 'half-mast', 'factor', 'nominate', 'drink', 'unveil', 'fungus_order', 'model', 'turnverein', 'give', 'observation', 'natural_number', 'deacon', 'remit', 'pagination', 'peak', 'extract', 'doric_order', 'swallow', 'hypophysectomize', 'dominican_order', 'waxing', 'galvanization', 'relieve', 'peasanthood', 'triplicate', 'invalidate', 'boatyard', 'dekko', 'silkscreen', 'agent_bank', 'bookclub', 'flavor', 'thaneship', 'licensing_fee', 'field', 'assume', 'knockoff', 'square', 'sieve', 'country_club', 'principalship', 'credit_order', 'lector', 'margin', 'retainer', 'drill', 'land', 'managership', 'husk', 'string', 'unpack', 'blackwash', 'bedtime', 'liniment', 'third_rail', 'station', 'poke_check', 'like', 'antilogarithm', 'truckage', 'cube', 'canonical_hour', 'whisk', 'subdeacon', 'pick', 'republish', 'natural_language_processor', 'lobularity', "cashier's_check", 'stay', 'draw_off', 'point_of_order', 'chairmanship', 'excerpt', 'convexity', 'stratification', 'member_bank', 'midnight', 'dig', 'stencil', 'be', 'view', 'apgar_score', 'empty', 'site', 'fee_simple', 'pile', 'hole-in-the-wall', 'rendezvous', 'job_application', 'obstacle', 'dally', 'typeset', 'jockey_club', 'augend', 'quadruplicate', 'replica', 'feed', 'fraternity', 'giro', 'dockage', 'delouse', 'clear_off', 'lead', 'prime', 'crumb', 'witch_hazel', 'fair_copy', 'attorneyship', 'accountantship', 'degas', 'undock', 'chancellorship', 'order_form', 'fractal', 'request', 'epilate', 'winnow', 'food_bank', 'leer', 'decorticate', 'xerox', 'questionnaire', 'preposition', 'back', 'plural', 'medicare_check', 'subtrahend', 'sequester', 'decarbonize', 'male_body', 'specify', 'foliation', 'moderatorship', 'sharpness', 'clear', 'honor', 'extirpate', 'pitch', 'scrutiny', 'editor_program', 'receivership', 'cull_out', 'sample', 'strand', 'engrave', 'snap_up', 'anchorage', 'eldership', 'cry_out_for', 'production_order', 'active_application', 'post', 'shuck', 'noon', 'shell', 'application_form', 'market_order', 'birthplace', 'rowing_club', 'carmelite_order', 'secretaryship', 'quota', 'albatross', 'bail', 'audit', 'rule_of_law', 'oxidation_number', 'revoke', 'amorphous_shape', 'mayoralty', 'burl', 'genus', 'marshalship', 'layout', 'kite', 'decree_nisi', 'throne', 'catch', 'summons', 'protoctist_order', 'behalf', 'exenterate', 'defang', 'count', 'professorship', 'primateship', 'wash', 'call', 'versification', 'gazette', 'blood_bank', 'target', 'anagnost', 'mealtime', 'scavenge', 'quotient', 'judgeship', 'sightseeing', 'studentship', 'bill_of_lading', 'demineralize', 'base', 'stop_payment', 'magistracy', 'railroad_track', 'golf_club', 'ablate', 'blank_check', 'acolyte', 'augustinian_order', 'dawn', 'trusteeship', 'shed', 'smoke', 'eye-lotion', 'expectorate', 'overlordship', 'facsimile', 'legal_separation', 'skim', 'tidiness', 'sleep_off', 'landmark', 'line', 'franciscan_order', 'investors_club', 'column', 'subsidization', 'scumble', 'mastership', 'tip', 'fumigation', 'priorship', 'consent_decree', 'assign', 'spit_and_polish', 'bull', 'cannibalize', 'apostleship', 'show-stopper', 'high', 'claim', 'word_order', 'bluff', 'aspirate', 'carthusian_order', 'manhood', 'racing_circuit', 'directorship', 'papering', 'plunder', 'constant', 'question', 'roundness', 'showplace', 'interpellation', 'wharfage', 'paternity_test', 'doorkeeper', 'evil_eye', 'consult', 'write_off', 'credit_application', 'chess_club', 'figure', 'tiling', 'peace', 'brand', 'partake', 'sup', 'portage', 'take_back', 'think_of', 'fewness', 'speakership', 'filler', 'senatorship', 'recall', 'discovered_check', 'stewardship', 'small_hours', 'score', 'society_of_jesus', 'colony', 'headship', 'civil_order', 'entrance_fee', 'appropriation', 'commission', 'counselorship', 'pride_of_place', 'duplicate', 'regency', 'comptrollership', 'left', 'tear_away', 'swath', 'adult_body', 'foremanship', 'rescue', 'empanel', 'librarianship', 'cardinal_number', 'stress_test', 'use', 'detoxify', 'strike', 'loan_application', 'solid', 'seigniorage', 'speedway', 'bailiffship', 'drag', 'draw_a_bead_on', 'offset', 'pawn_ticket', 'type', 'solicit', 'boldface', 'rush_hour', 'fibonacci_number', 'composite_number', 'bind', 'academicianship', 'dullness', 'cream_off', 'stop', 'sparkle', 'ionic_order', 'ladle', 'inside_track', 'abstract', 'wear_away', 'amputate', 'right', 'hot_seat', 'satiate', 'vote_in', 'tribuneship', 'token_money', 'pastorship', 'succession', 'teachership', 'defuse', 'grave', 'floating-point_number', 'animal_order', 'social_security_number', 'mintage', 'preceptorship', 'unstring', 'collision_course', 'stand', 'commandership', 'scale', 'etymon', 'sanctuary', 'female_body', 'lookout', 'origination_fee', 'scaling', 'bring_in', 'pipage', 'art_form', 'imperial_decree', 'pull', 'man_hour', 'mislead', 'word_processor', 'postposition', 'wing', 'impart', 'sunset', 'requisition', 'preponderance', 'logjam', 'dredge', 'wipe_off', 'integer', 'color', 'federal_reserve_bank', 'baryon_number', 'etch', 'contemplate', 'emirate', 'wardership', 'lift', 'charge', 'tuition', 'kilter', 'unsaddle', 'interrogate', 'service_area', 'muck', 'deprive', 'instructorship', 'hand', 'condense', 'round_shape', 'paving', 'screen', 'bed_check', 'consulship', 'caliphate', 'pole_position', 'niche', 'addend', 'tinning', 'word', 'dividend', 'benedictine_order', 'merchant_bank', 'khanate', 'solitude', 'seize', 'shinplaster', 'patent_application', 'cost', 'tramline', 'circumcise', 'crosscheck', 'proctorship', 'lectureship', 'complex_number', 'roman_numeral', 'prohibition', 'stem', 'pit', 'linage', 'moorage', 'spot_check', 'inspectorship', 'de-ionate', 'plume', 'chieftaincy', 'end', 'protectorship', 'sainthood', 'bone', 'browser', 'treasurership', 'hiding_place', 'connection', 'take_out', 'atomic_number', 'cardinality', 'plump', 'miniature', 'ambassadorship', 'trail', 'narrowing', 'spraying', 'minority', 'bear', 'rulership', 'hold', 'level', 'bail_out', 'apprenticeship', 'credit_union', 'chaplaincy', 'genetic_code', 'tube', 'dispersing_phase', 'single_out', 'ghost_word', 'calamine_lotion', 'elect', 'sterling', 'photocopy', 'spoon', 'abbreviation', 'letter', 'lie', 'draw', 'certified_check', 'personal_identification_number', 'cellarage', 'citation_form', 'rubbing_alcohol', 'unhinge', 'eliminate', 'ream', 'seigniory', 'lead_bank', 'person', 'menthol', 'section', 'ordinal_number', 'dump', 'topography', 'glance', 'compel', 'tuscan_order', 'master_class', 'bur', 'harvest', 'multiplicand', 'paycheck', 'strip', 'exorcist', 'erase', 'cardinalship', 'rectorship', 'arabic_numeral', 'plating', 'root', 'perch', 'vote', 'angularity', 'bacteria_order', 'record', 'decimal', 'innumerableness', 'priest', 'internship', 'sinecure', 'solicitorship', 're-assume', 'councillorship', 'fund', 'test', 'style', 'return', 'triangle', 'genre', 'divisor', 'boodle', 'soil_bank', 'service_club', 'glee_club', 'circle', 'dirt_track', 'curvature']
+
+meronyms_list: ['inside_track', 'stretch', 'suborder', 'space', 'quarter', 'minute', 'quarter-hour', 'half-hour', 'club_member', 'family', 'vault']
+
+holonyms_list: ['homo', 'money_supply', 'class', 'percept', 'day', 'journalism', 'ice_hockey', 'banking_industry', 'track_meet', 'form', 'tracked_vehicle', 'species', 'railroad_track', 'tramline', 'person', 'series']
+
+synonyms_list: ['mannikin', 'delete', 'racetrack', 'have', 'diligence', 'study', 'strain', 'impress', 'necessitate', 'accede', 'drive', 'stop', 'take_in', 'call_for', 'berth', 'build', 'Order', 'time_of_day', 'easygoing', 'Maya_Lin', 'relegate', 'ordering', 'take', 'cancel', 'adopt', 'take_up', 'pattern', 'gentle', 'prosperous', 'pick_out', 'miss', 'call_off', 'post', 'hr', 'curb', 'bank_building', 'read', 'signifier', 'anatomy', 'aspect', 'cartroad', 'blank_space', 'receipt', 'running', 'drop_off', 'cast', 'coin_bank', 'manikin', 'identification_number', 'turn', 'inquire', 'lodge', 'reconcile', 'lose', 'subscribe_to', 'easy', 'give_in', 'direct', 'confirmation', 'bank_check', 'subject', 'check_mark', 'orderliness', 'fee', 'guide', 'accept', 'recede', 'banking_concern', 'kind', 'well-fixed', 'variety', 'edict', 'club', 'involve', 'rent', 'fall_behind', '60_minutes', 'racecourse', 'Lin', 'look', 'rescript', 'covering', 'depository_financial_institution', 'rail', 'take_away', 'Holy_Order', 'coating', 'contract', 'telephone_number', 'guild', 'written_matter', 'engage', 'hinderance', 'cant', 'publish', 'spot', 'rails', 'decree', 'resign', 'soma', 'position', 'hours', 'check-out_procedure', 'applications_programme', 'sort', 'tab', 'billet', 'reception', 'hitch', 'exact', 'aim', 'fiat', 'enquire', 'leisurely', 'contour', 'hour', 'number', 'numeral', 'turn_a_loss', 'shape', 'pack', 'track', 'runway', 'property', 'scrub', 'demand', 'looking_at', 'well-situated', 'smell', 'cheque', 'society', 'stoppage', 'tone', 'topographic_point', 'caterpillar_track', 'halt', 'convey', 'manakin', 'bit', 'invalidate', 'baulk', 'bridle', 'class', 'flavor', 'conduct', 'put_forward', 'require', 'cart_track', 'application', 'physique', 'savings_bank', 'hindrance', 'copy', 'substantiation', 'bank', 'assume', 'subscribe', 'get_hold_of', 'present', 'occupy', 'practical_application', 'set_off', 'conformation', 'variant', 'stead', 'sluttish', 'comfortable', 'suffer', 'well-to-do', 'rules_of_order', 'claim', 'flavour', 'raceway', 'social_club', 'remove', 'expression', 'promiscuous', 'configuration', 'path', 'frame', 'print', 'chip', 'lieu', 'withdraw', 'train', 'minute', 'station', 'human_body', 'check', 'impediment', 'money', 'trail', 'loose', 'cut', 'acquire', 'order', 'hire', 'posit', 'render', 'take_aim', 'hold', 'purchase_order', 'routine', 'home', 'form', 'deal', 'make', 'parliamentary_law', 'stay', 'gild', 'physical_body', 'figure', 'piazza', 'learn', 'film', 'consume', 'fall_back', 'take_on', 'money_box', 'camber', 'phase', 'chit', 'material_body', 'select', 'order_of_magnitude', 'bow', 'facial_expression', 'assay', 'course', 'ordination', 'word_form', 'seat', 'strike_down', 'contain', 'look_at', 'office', 'state', 'submit', 'lease', 'mislay', 'deterrent', 'put_in', 'parliamentary_procedure', 'well-heeled', 'issue', 'var.', 'need', 'data_track', 'balk', 'checkout', 'use_up', 'consider', 'well-off', 'wanton', 'bod', 'flesh', 'carry', 'get', 'feel', 'feeling', 'situation', 'admit', 'arrest', 'monastic_order', 'spirit', 'plaza', 'face', 'lotion', 'lead', 'act', 'ask', 'least', 'ingest', 'phone_number', 'scratch', 'bring', 'mannequin', 'banking_company', 'place', 'soft', 'caterpillar_tread', 'chassis', 'pass_on', 'space', 'shoot', 'strike', 'light', 'expect', 'choose', 'tick', 'verification', 'charter', 'misplace', 'offset', 'shoes', 'postulate', 'fill', 'grade', 'transcript', 'defer', 'application_program', 'descriptor', 'handicap', 'looking']

@@ -1,0 +1,71 @@
+Corpus Question: USCIS said that my application was approved over six weeks ago and I still haven't received my EAD. Is there a problem?
+
+Corpus Answer: 
+Maybe. Bring your receipt notice to an advisor at Berkeley International Office for more information.
+
+
+
+Sentence Tokenizer: ["USCIS said that my application was approved over six weeks ago and I still haven't received my EAD.", 'Is there a problem?', 'Maybe.', 'Bring your receipt notice to an advisor at Berkeley International Office for more information.']
+
+Words Tokenizer: ['USCIS', 'said', 'that', 'my', 'application', 'was', 'approved', 'over', 'six', 'weeks', 'ago', 'and', 'I', 'still', 'have', "n't", 'received', 'my', 'EAD', '.', 'Is', 'there', 'a', 'problem', '?', 'Maybe', '.', 'Bring', 'your', 'receipt', 'notice', 'to', 'an', 'advisor', 'at', 'Berkeley', 'International', 'Office', 'for', 'more', 'information', '.']
+
+words_without_stop_words: ['USCIS', 'said', 'application', 'approved', 'six', 'weeks', 'ago', 'I', 'still', "n't", 'received', 'EAD', '.', 'Is', 'problem', '?', 'Maybe', '.', 'Bring', 'receipt', 'notice', 'advisor', 'Berkeley', 'International', 'Office', 'information', '.']
+
+words_with_stemming: ['usci', 'said', 'applic', 'approv', 'six', 'week', 'ago', 'i', 'still', "n't", 'receiv', 'ead', '.', 'is', 'problem', '?', 'mayb', '.', 'bring', 'receipt', 'notic', 'advisor', 'berkeley', 'intern', 'offic', 'inform', '.']
+
+words_with_lemmatization: ['USCIS', 'say', 'application', 'approve', 'six', 'week', 'ago', 'I', 'still', "n't", 'receive', 'EAD', '.', 'Is', 'problem', '?', 'Maybe', '.', 'Bring', 'receipt', 'notice', 'advisor', 'Berkeley', 'International', 'Office', 'information', '.']
+
+words_with_pos_tags: [('USCIS', 'NNP'), ('said', 'VBD'), ('application', 'NN'), ('approved', 'VBD'), ('six', 'CD'), ('weeks', 'NNS'), ('ago', 'RB'), ('I', 'PRP'), ('still', 'RB'), ("n't", 'RB'), ('received', 'VBN'), ('EAD', 'NNP'), ('.', '.'), ('Is', 'VBZ'), ('problem', 'NN'), ('?', '.'), ('Maybe', 'RB'), ('.', '.'), ('Bring', 'NNP'), ('receipt', 'JJ'), ('notice', 'NN'), ('advisor', 'NN'), ('Berkeley', 'NNP'), ('International', 'NNP'), ('Office', 'NNP'), ('information', 'NN'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (S
+    (S
+      (NP (NNP USCIS))
+      (VP (VBD said)
+        (SBAR (IN that)
+          (S
+            (NP (PRP$ my) (NN application))
+            (VP (VBD was)
+              (VP (VBN approved)
+                (PP (IN over)
+                  (ADVP
+                    (NP (CD six) (NNS weeks))
+                    (RB ago)))))))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (ADVP (RB still))
+      (VP (VBP have) (RB n't)
+        (VP (VBN received)
+          (NP (PRP$ my) (NNP EAD)))))
+    (. .)))(ROOT
+  (SQ (VBZ Is)
+    (NP (EX there))
+    (NP (DT a) (NN problem))
+    (. ?)))(ROOT
+  (FRAG
+    (ADVP (RB Maybe))
+    (. .)))(ROOT
+  (S
+    (VP (VB Bring)
+      (NP (PRP$ your) (NN receipt))
+      (NP (NN notice))
+      (PP (TO to)
+        (NP
+          (NP (DT an) (NN advisor))
+          (PP (IN at)
+            (NP
+              (NP (NNP Berkeley) (NNP International) (NNP Office))
+              (PP (IN for)
+                (NP (JJR more) (NN information))))))))
+    (. .)))
+
+hypernyms_list: ['authority', 'attract', 'have', 'state', 'collection', 'occupation', 'attention', 'information_measure', 'remedy', 'see', 'undergo', 'program', 'induce', 'action', 'get', 'socialism', 'duty', 'perceive', 'express', 'convert', 'announcement', 'transmit', 'message', 'speculate', 'question', 'read', 'sign', 'time_period', 'recite', 'change', 'telling', 'use', 'greet', 'make', 'work_time', 'accusation', 'acquiring', 'assert', 'review', 'convey', 'request', 'cognition', 'celebrate', 'partake', 'acknowledgment', 'accept', 'manual_labor', 'rite', 'effort', 'place_of_business', 'evaluate', 'administrative_unit', 'transport', 'staff', 'authorize', 'difficulty']
+
+hyponyms_list: ['add', 'transit', 'editorship', 'take_in', 'declare', 'pons_asinorum', 'viziership', 'confirm', 'little_office', 'residency', 'messiahship', 'example', 'baronetage', 'secret', 'life_office', 'accept', 'security_consultant', 'bureau_of_justice_assistance', 'marine_corps_intelligence_activity', 'prefecture', 'department_of_energy_intelligence', 'retrieve', 'clerkship', 'readout', 'internal_revenue_service', 'deanship', 'precentorship', 'acquaintance', 'explode', 'prelacy', 'welcome', 'lieutenancy', 'race_problem', 'painting', 'office_of_naval_intelligence', 'fashion_consultant', 'cadetship', 'vice-presidency', 'fatherhood', 'stub', 'media_consultant', 'praetorship', 'misapplication', 'governorship', 'incumbency', 'generalship', 'tabulation', 'lining', 'viceroyship', 'tip-off', 'syllabize', 'rag', 'announce', 'food_and_drug_administration', 'job', 'custodianship', 'absorb', 'united_states_government_printing_office', 'frame', 'rebus', 'air_force_intelligence_surveillance_and_reconnaissance', 'federal_housing_administration', 'womanhood', 'evidence', 'technology', 'bureau_of_justice_statistics', 'casualty_care_research_center', 'naval_underwater_warfare_center', 'horripilate', 'legation', 'round', 'plastering', 'applet', 'lubrication', 'sanction', 'bishopry', 'office_of_intelligence_support', 'presidency', 'balance-of-payments_problem', 'defense_advanced_research_projects_agency', 'anointing', 'countinghouse', 'remark', 'throw_in', 'wardenship', 'curatorship', 'gen', 'puzzle', 'captainship', 'flash_card', 'counterterrorist_center', 'rabbinate', 'note', 'associateship', 'take', 'ferry', 'fetch', 'misstate', 'admiralty', 'starets', 'answer', 'legislatorship', 'flap', 'premiership', 'graduate', 'shipping_office', 'government_office', 'induct', 'controllership', 'divine_office', 'counselor', 'proconsulship', 'independent_agency', 'homework_problem', 'investment_adviser', 'plum', 'department_of_defense_laboratory_system', 'united_states_coast_guard', 'curacy', 'articulate', 'discipleship', 'public_office', 'newsroom', 'fence', 'factor', 'patent_and_trademark_office_database', 'warn', 'ballistic_missile_defense_organization', 'give', 'bureau_of_engraving_and_printing', 'defense_logistics_agency', 'naval_surface_warfare_center', 'waxing', 'galvanization', 'mind', 'peasanthood', 'thaneship', 'background', 'explain', 'hydra', 'management_consultant', 'immigration_and_naturalization_service', 'assume', 'metadata', 'present', 'circumstance', 'stead', 'organ', 'local_authority', 'principalship', 'suffer', 'land', 'managership', 'hat', 'raw_data', 'blackwash', 'liniment', 'whisk', 'bureau_of_intelligence_and_research', 'natural_language_processor', 'gordian_knot', 'national_oceanic_and_atmospheric_administration', 'fact', 'chairmanship', 'misinformation', 'shiva', 'job_application', 'roll', 'deliver', 'raise', 'can_of_worms', 'sibilate', 'defense_information_systems_agency', 'details', 'witch_hazel', 'lisp', 'attorneyship', 'dismissal', 'accountantship', 'inherit', 'chancellorship', 'back', 'united_states_air_force', 'click', 'obituary', 'material', 'foliation', 'moderatorship', 'editor_program', 'receivership', 'national_weather_service', 'eldership', 'active_application', 'ammunition', 'lilt', 'loan_office', 'command', 'intelligence', 'national_institutes_of_health', 'secretaryship', 'foreign_service', 'bureau_of_the_census', 'mayoralty', 'summarize', 'marshalship', 'national_park_service', 'financial_management_service', 'throne', 'vocalize', 'bureau_of_diplomatic_security', 'predictor', 'professorship', 'advanced_research_and_development_activity', 'palatalize', 'primateship', 'call', 'beauty_consultant', 'show_bill', 'deep_water', 'judgeship', 'studentship', 'bill_of_lading', 'naval_air_warfare_center_weapons_division', 'magistracy', 'national_guard_bureau', 'trusteeship', 'technology_administration', 'eye-lotion', 'tipster', 'overlordship', 'bureau_of_customs', 'skinny', 'precede', 'scumble', 'war_power', 'mastership', 'fumigation', 'visa', 'priorship', 'apostleship', 'aspirate', 'manhood', 'law_enforcement_agency', 'directorship', 'papering', 'nasalize', 'federal_aviation_agency', 'credit_application', 'tiling', 'national_climatic_data_center', 'united_states_army', 'speakership', 'senatorship', 'government_accounting_office', 'united_states_border_patrol', 'stewardship', 'headship', 'datum', 'counselorship', 'get_out', 'regency', 'comptrollership', 'stuff', 'foremanship', 'propaganda', 'drawl', 'county_agent', 'united_states_fish_and_wildlife_service', 'headquarters', 'librarianship', 'naval_special_warfare', 'news', 'center_for_disease_control_and_prevention', 'loan_application', 'bailiffship', 'defense_reutilization_and_marketing_service', 'pawn_ticket', 'descriptor', 'voice', 'instruct', 'academicianship', 'growing_pains', 'occupational_safety_and_health_administration', 'defense_technical_information_center', 'hot_seat', 'factoid', 'tribuneship', 'pastorship', 'teachership', 'caveat', 'hustle', 'preceptorship', 'direct', 'commandership', 'confirmation', 'holy_week', 'military_adviser', 'word_processor', 'stimulation', 'course_of_study', 'impart', 'retroflex', 'instill', 'trill', 'format', 'nonproliferation_center', 'capacity', 'emirate', 'wardership', 'office_of_the_dead', 'insider_information', 'instructorship', 'paving', 'database', 'consulship', 'caliphate', 'tinning', 'khanate', 'national_geospatial-intelligence_agency', 'united_states_public_health_service', 'stress', 'patent_application', 'proctorship', 'lectureship', 'inspectorship', 'hear', 'chieftaincy', 'protectorship', 'see', 'sainthood', 'rubberstamp', 'treasurership', 'subvocalize', 'twang', 'browser', 'mispronounce', 'tinsel', 'army_intelligence', 'ambassadorship', 'spraying', 'week_from_monday', 'rulership', 'apprenticeship', 'koan', 'chaplaincy', 'tube', 'calamine_lotion', 'backroom_boy', 'amicus_curiae', 'executive_clemency', 'report_card', 'national_institute_of_standards_and_technology', 'comptroller_of_the_currency', 'poser', 'transportation_security_administration', 'rubbing_alcohol', 'seigniory', 'menthol', 'national_technical_information_service', 'united_states_navy', 'riddle', 'devoice', 'box_office', 'accounting_data', 'matter', 'cardinalship', 'rectorship', 'plating', 'executive_agency', 'portfolio', 'plead', 'internship', 'sinecure', 'second_fiddle', 'solicitorship', 'councillorship', 'case', 'pressure_point', 'return', 'nuts_and_bolts']
+
+meronyms_list: ['midweek', 'calendar_day', 'workweek', 'weekend', 'day_of_the_week', 'internationalist', 'university_of_california_at_berkeley']
+
+holonyms_list: ['calendar_month', 'week', 'office_building', 'california']
+
+synonyms_list: ['add', 'authority', 'have', 'diligence', 'data', 'find', 'adviser', 'fetch', 'International', 'part', 'incur', 'take_in', 'berth', 'obtain', 'O.K.', 'George_Berkeley', 'card', 'poster', 'post', 'enjoin', 'read', 'week', 'agency', 'receipt', 'problem', 'make_for', 'pronounce', 'trouble', 'bring_in', 'work', 'receive', 'covering', 'articulate', 'business_office', 'coating', 'impart', 'spot', 'hebdomad', 'position', 'welcome', 'applications_programme', 'calendar_week', 'placard', 'observance', 'reception', 'billet', 'selective_information', 'observation', 'tell', 'institute', 'convey', 'sound_out', 'meet', 'posting', 'application', 'practical_application', 'job', 'aver', 'office_staff', 'contribute', 'federal_agency', 'land', 'consultant', 'bestow', 'approve', 'information', 'order', 'allege', 'encounter', 'okay', 'enounce', 'sanction', 'bill', 'office', 'state', 'wreak', 'workweek', 'power', 'get', 'situation', 'role', 'pick_up', 'suppose', 'lotion', 'enunciate', 'play', 'notice', 'Bishop_Berkeley', 'entropy', 'bring', 'place', 'Berkeley', 'say', 'government_agency', 'advisor', 'invite', 'lend', 'bureau', 'info', 'notification', 'take', 'application_program', 'function', 'experience']

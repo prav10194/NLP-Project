@@ -1,0 +1,57 @@
+Corpus Question: Does my spouse or children get a new OPT I-20 too?
+
+Corpus Answer: 
+Yes, if you did not receive OPT I-20s for your family, contact Berkeley International Office.
+
+
+Sentence Tokenizer: ['Does my spouse or children get a new OPT I-20 too?', 'Yes, if you did not receive OPT I-20s for your family, contact Berkeley International Office.']
+
+Words Tokenizer: ['Does', 'my', 'spouse', 'or', 'children', 'get', 'a', 'new', 'OPT', 'I-20', 'too', '?', 'Yes', ',', 'if', 'you', 'did', 'not', 'receive', 'OPT', 'I-20s', 'for', 'your', 'family', ',', 'contact', 'Berkeley', 'International', 'Office', '.']
+
+words_without_stop_words: ['Does', 'spouse', 'children', 'get', 'new', 'OPT', 'I-20', '?', 'Yes', ',', 'receive', 'OPT', 'I-20s', 'family', ',', 'contact', 'Berkeley', 'International', 'Office', '.']
+
+words_with_stemming: ['doe', 'spous', 'children', 'get', 'new', 'opt', 'i-20', '?', 'yes', ',', 'receiv', 'opt', 'i-20', 'famili', ',', 'contact', 'berkeley', 'intern', 'offic', '.']
+
+words_with_lemmatization: ['Does', 'spouse', 'child', 'get', 'new', 'OPT', 'I-20', '?', 'Yes', ',', 'receive', 'OPT', 'I-20s', 'family', ',', 'contact', 'Berkeley', 'International', 'Office', '.']
+
+words_with_pos_tags: [('Does', 'NNP'), ('spouse', 'VB'), ('children', 'NNS'), ('get', 'VB'), ('new', 'JJ'), ('OPT', 'NNP'), ('I-20', 'NNP'), ('?', '.'), ('Yes', 'UH'), (',', ','), ('receive', 'JJ'), ('OPT', 'NNP'), ('I-20s', 'NNP'), ('family', 'NN'), (',', ','), ('contact', 'NN'), ('Berkeley', 'NNP'), ('International', 'NNP'), ('Office', 'NNP'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (S
+    (VP (VBZ Does)
+      (SBAR
+        (S
+          (NP (PRP$ my) (NN spouse)
+            (CC or)
+            (NNS children))
+          (VP (VBP get)
+            (NP (DT a) (JJ new) (NN OPT) (NN I-20))
+            (ADVP (RB too))))))
+    (. ?)))(ROOT
+  (S
+    (S
+      (FRAG
+        (INTJ (UH Yes))
+        (, ,)
+        (ADVP (IN if)))
+      (NP (PRP you))
+      (VP (VBD did) (RB not)
+        (VP (VB receive)
+          (NP (NN OPT) (NNS I-20s))
+          (PP (IN for)
+            (NP (PRP$ your) (NN family))))))
+    (, ,)
+    (S
+      (NP (NN contact))
+      (NP (NNP Berkeley) (NNP International) (NNP Office)))
+    (. .)))
+
+hypernyms_list: ['channel', 'attract', 'collection', 'interaction', 'state', 'occupation', 'executive_department', 'hear', 'leave', 'person', 'hurt', 'undergo', 'reproduce', 'confuse', 'junction', 'duty', 'get', 'socialism', 'transmit', 'connection', 'get_even', 'kin', 'taxonomic_group', 'change', 'unit', 'buy', 'change_state', 'make', 'offspring', 'mean', 'placental', 'lens', 'lineage', 'association', 'organized_crime', 'destroy', 'communicate', 'juvenile', 'sicken', 'effect', 'happening', 'communication', 'rite', 'touch', 'domestic_partner', 'descendant', 'understand', 'relative', 'seize', 'hit', 'place_of_business', 'catch', 'annoy', 'administrative_unit', 'representative', 'staff', 'experience', 'score']
+
+hyponyms_list: ['recapture', 'editorship', 'obtain', 'viziership', 'flick', 'silly', 'pull_in', 'bigamist', 'little_office', 'residency', 'messiahship', 'toddler', 'filoviridae', 'baronetage', 'pickaninny', 'bacteria_family', 'life_office', 'husband', 'earn', 'accept', 'bureau_of_justice_assistance', 'marine_corps_intelligence_activity', 'prefecture', 'receive', 'department_of_energy_intelligence', 'retrieve', 'clerkship', 'internal_revenue_service', 'worm_family', 'deanship', 'precentorship', 'regrow', 'prelacy', 'menage_a_trois', 'crack_up', 'tread', 'lieutenancy', 'office_of_naval_intelligence', 'female_offspring', 'army_brat', 'cadetship', 'polygamist', 'vice-presidency', 'couple', 'fatherhood', 'stump', 'praetorship', 'child_prodigy', 'governorship', 'incumbency', 'fungus_family', 'kiddy', 'elude', 'generalship', 'viceroyship', 'sound_bow', 'short_circuit', 'food_and_drug_administration', 'custodianship', 'coelenterate_family', 'work_up', 'consort', 'united_states_government_printing_office', 'plump_in', 'air_force_intelligence_surveillance_and_reconnaissance', 'let', 'federal_housing_administration', 'womanhood', 'plunge', 'bureau_of_justice_statistics', 'casualty_care_research_center', 'mammal_family', 'naval_underwater_warfare_center', 'horripilate', 'engagement', 'monogamist', 'recover', 'get_cracking', 'legation', 'collect', 'bishopry', 'office_of_intelligence_support', 'presidency', 'monocot_family', 'brush', 'defense_advanced_research_projects_agency', 'countinghouse', 'wardenship', 'preempt', 'break_in', 'curatorship', 'extended_family', 'captainship', 'counterterrorist_center', 'wife', 'rabbinate', 'associateship', 'take', 'win_back', 'foster_home', 'sprout', 'admiralty', 'affine', 'enter_upon', 'legislatorship', 'premiership', 'shipping_office', 'government_office', 'controllership', 'turn', 'divine_office', 'proconsulship', 'reptile_family', 'independent_agency', 'histocompatibility_complex', 'urchin', 'plum', 'form_family', 'drive_in', 'department_of_defense_laboratory_system', 'united_states_coast_guard', 'curacy', 'cramp', 'moss_family', 'discipleship', 'public_office', 'wiper', 'leave', 'newsroom', 'patent_and_trademark_office_database', 'bittacidae', 'orphan', 'fern_family', 'ballistic_missile_defense_organization', 'mafia', 'sprog', 'pod', 'run', 'osculation', 'bureau_of_engraving_and_printing', 'stool', 'defense_logistics_agency', 'changeling', 'naval_surface_warfare_center', 'peasanthood', 'broken_home', 'thaneship', 'chordate_family', 'immigration_and_naturalization_service', 'stead', 'reach', 'organ', 'local_authority', 'principalship', 'suffer', 'auspicate', 'p-n_junction', 'endamoebidae', 'land', 'distributor_point', 'managership', 'get_to', 'hat', 'decide', 'bureau_of_intelligence_and_research', 'render', 'buy', 'rub', 'national_oceanic_and_atmospheric_administration', 'chairmanship', 'suborn', 'glom', 'grammatical_category', 'nuclear_family', 'deliver', 'defense_information_systems_agency', 'imp', 'lead', 'dicot_family', 'plant_family', 'bring', 'attorneyship', 'accountantship', 'inherit', 'chancellorship', 'united_states_air_force', 'moderatorship', 'eye_contact', 'helpmate', 'receivership', 'national_weather_service', 'eldership', 'stepchild', 'press_out', 'fledge', 'loan_office', 'national_institutes_of_health', 'come_by', 'secretaryship', 'foreign_service', 'bureau_of_the_census', 'mayoralty', 'marshalship', 'fair_ball', 'national_park_service', 'financial_management_service', 'throne', 'catch', 'work', 'recommence', 'take_effect', 'line_up', 'bureau_of_diplomatic_security', 'break_down', 'violin_family', 'professorship', 'advanced_research_and_development_activity', 'primateship', 'isolate', 'judgeship', 'studentship', 'naval_air_warfare_center_weapons_division', 'poster_child', 'magistracy', 'national_guard_bureau', 'trusteeship', 'attack', 'baby', 'technology_administration', 'substitution_class', 'overlordship', 'jump_off', 'bureau_of_customs', 'foster_family', 'war_power', 'mastership', 'buster', 'priorship', 'prompt', 'fish_family', 'brass_family', 'arthropod_family', 'apostleship', 'tangency', 'manhood', 'law_enforcement_agency', 'directorship', 'cut', 'acquire', 'settle', 'federal_aviation_agency', 'partake', 'national_climatic_data_center', 'united_states_army', 'speakership', 'senatorship', 'government_accounting_office', 'united_states_border_patrol', 'stewardship', 'lasso', 'lease', 'headship', 'conjugation', 'counselorship', 'come', 'regency', 'comptrollership', 'get', 'foremanship', 'people', 'united_states_fish_and_wildlife_service', 'headquarters', 'amphibian_family', 'teethe', 'librarianship', 'naval_special_warfare', 'woodwind_family', 'sex', 'center_for_disease_control_and_prevention', 'electrical_contact', 'laying_on', 'bailiffship', 'defense_reutilization_and_marketing_service', 'capture', 'fall', 'solicit', 'reclaim', 'embark', 'find', 'academicianship', 'come_on', 'occupational_safety_and_health_administration', 'spring', 'stamp', 'defense_technical_information_center', 'hot_seat', 'tribuneship', 'pastorship', 'homefolk', 'teachership', 'preceptorship', 'mollusk_family', 'commandership', 'collision', 'touch', 'placement', 'name', 'bairn', 'nonproliferation_center', 'capacity', 'profit', 'dynasty', 'emirate', 'wardership', 'office_of_the_dead', 'terminal', 'instructorship', 'peanut', 'flood_in', 'break', 'encourage', 'consulship', 'caliphate', 'khanate', 'persuade', 'national_geospatial-intelligence_agency', 'foster-child', 'united_states_public_health_service', 'proctorship', 'echinoderm_family', 'lectureship', 'sober_up', 'inspectorship', 'chieftaincy', 'protectorship', 'sainthood', 'treasurership', 'leaf', 'pupate', 'waif', 'gain', 'army_intelligence', 'ambassadorship', 'strike_out', 'ctenophore_family', 'rulership', 'declension', 'apprenticeship', 'chaplaincy', 'preschooler', 'protoctist_family', 'house', 'executive_clemency', 'national_institute_of_standards_and_technology', 'comptroller_of_the_currency', 'marriage', 'bird_family', 'transportation_security_administration', 'seigniory', 'male_offspring', 'koinonia', 'national_technical_information_service', 'pick_up', 'united_states_navy', 'compel', 'denomination', 'riddle', 'snick', 'box_office', 'poll', 'cardinalship', 'rectorship', 'executive_agency', 'impact', 'portfolio', 'internship', 'sinecure', 'second_fiddle', 'solicitorship', 'newlywed', 'councillorship', 'panorpidae', 'roll_up', 'borrow']
+
+meronyms_list: ['arenaviridae', 'tribe', 'flaviviridae', 'genus', "child's_body", 'reoviridae', 'togaviridae', 'parent', 'sibling', 'superphylum', 'child', 'bunyaviridae', 'internationalist', 'department_of_energy_intelligence', 'rhabdoviridae', 'university_of_california_at_berkeley', 'subfamily']
+
+holonyms_list: ['order', 'marriage', 'office_building', 'california', 'family']
+
+synonyms_list: ['authority', 'have', 'gravel', 'phratry', 'find', 'International', 'fetch', 'drive', 'part', 'incur', 'produce', 'berth', 'obtain', 'mystify', 'set_out', 'family', 'new', 'George_Berkeley', 'bring_forth', 'New', 'post', 'Energy', 'striking', 'set_about', 'agency', 'inter-group_communication', 'scram', 'beget', 'syndicate', 'start', 'spouse', 'kid', 'touch', 'baffle', 'pose', 'better_half', 'catch', 'pay_back', 'middleman', 'link', 'child', 'receive', 'vex', 'tyke', 'nipper', 'get_down', 'business_office', 'contract', 'kinsperson', 'perplex', 'physical_contact', 'spot', 'fresh', 'Energy_Department', 'Modern', 'position', 'billet', 'aim', 'sustain', 'Department_of_Energy', 'engender', 'impinging', 'DOE', 'mate', 'mob', 'sept', 'crime_syndicate', 'novel', 'baby', 'convey', 'contact', 'grow', 'family_line', 'class', 'contact_lens', 'buzz_off', 'flummox', 'folk', 'doe', 'generate', 'bugger_off', 'go', 'tangency', 'suffer', 'nonplus', 'office_staff', 'induce', 'federal_agency', 'unexampled', 'let', 'sire', 'acquire', 'household', 'pay_off', 'function', 'begin', 'make', 'stupefy', 'home', 'young', 'nestling', 'liaison', 'amaze', 'beat', 'house', 'draw', 'tiddler', 'newfangled', 'bewilder', 'commence', 'raw', 'menage', 'dumbfound', "get_under_one's_skin", 'shaver', 'become', 'develop', 'office', 'married_person', 'start_out', 'stick', 'father', 'fuck_off', 'fellowship', 'minor', 'power', 'arrive', 'come', 'tike', 'get', 'category', 'situation', 'role', 'fix', 'arrest', 'family_unit', 'kin', 'Bishop_Berkeley', 'cause', 'bring', 'place', 'Berkeley', 'government_agency', 'kinfolk', 'puzzle', 'fry', 'mother', 'stimulate', 'kinsfolk', 'partner', 'bureau', 'capture', 'take', 'small_fry', 'youngster', 'experience']

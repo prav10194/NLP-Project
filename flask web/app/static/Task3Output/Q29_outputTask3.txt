@@ -1,0 +1,66 @@
+Corpus Question: How do I get an extension of my EAD?
+
+Corpus Answer: 
+Only students who have completed certain STEM majors and have an eligible employer who is enrolled in E-Verify are eligible for the24 Month Extension OPT.
+
+
+
+Sentence Tokenizer: ['How do I get an extension of my EAD?', 'Only students who have completed certain STEM majors and have an eligible employer who is enrolled in E-Verify are eligible for the\xa024 Month Extension OPT.']
+
+Words Tokenizer: ['How', 'do', 'I', 'get', 'an', 'extension', 'of', 'my', 'EAD', '?', 'Only', 'students', 'who', 'have', 'completed', 'certain', 'STEM', 'majors', 'and', 'have', 'an', 'eligible', 'employer', 'who', 'is', 'enrolled', 'in', 'E-Verify', 'are', 'eligible', 'for', 'the', '24', 'Month', 'Extension', 'OPT', '.']
+
+words_without_stop_words: ['How', 'I', 'get', 'extension', 'EAD', '?', 'Only', 'students', 'completed', 'certain', 'STEM', 'majors', 'eligible', 'employer', 'enrolled', 'E-Verify', 'eligible', '24', 'Month', 'Extension', 'OPT', '.']
+
+words_with_stemming: ['how', 'i', 'get', 'extens', 'ead', '?', 'onli', 'student', 'complet', 'certain', 'stem', 'major', 'elig', 'employ', 'enrol', 'e-verifi', 'elig', '24', 'month', 'extens', 'opt', '.']
+
+words_with_lemmatization: ['How', 'I', 'get', 'extension', 'EAD', '?', 'Only', 'student', 'complete', 'certain', 'STEM', 'major', 'eligible', 'employer', 'enrol', 'E-Verify', 'eligible', '24', 'Month', 'Extension', 'OPT', '.']
+
+words_with_pos_tags: [('How', 'WRB'), ('I', 'PRP'), ('get', 'VBP'), ('extension', 'JJ'), ('EAD', 'NNP'), ('?', '.'), ('Only', 'RB'), ('students', 'NNS'), ('completed', 'VBD'), ('certain', 'JJ'), ('STEM', 'NNP'), ('majors', 'NNS'), ('eligible', 'JJ'), ('employer', 'NN'), ('enrolled', 'VBD'), ('E-Verify', 'NNP'), ('eligible', 'JJ'), ('24', 'CD'), ('Month', 'NNP'), ('Extension', 'NNP'), ('OPT', 'NNP'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (VBP do)
+      (NP (PRP I))
+      (VP (VB get)
+        (NP
+          (NP (DT an) (NN extension))
+          (PP (IN of)
+            (NP (PRP$ my) (NNP EAD))))))
+    (. ?)))(ROOT
+  (S
+    (NP
+      (NP (RB Only) (NNS students))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP
+            (VP (VBP have)
+              (VP (VBN completed)
+                (NP (JJ certain) (NN STEM) (NNS majors))))
+            (CC and)
+            (VP (VBP have)
+              (NP
+                (NP (DT an) (JJ eligible) (NN employer))
+                (SBAR
+                  (WHNP (WP who))
+                  (S
+                    (VP (VBZ is)
+                      (VP (VBN enrolled)
+                        (PP (IN in)
+                          (NP (NNP E-Verify)))))))))))))
+    (VP (VBP are)
+      (ADJP (JJ eligible)
+        (PP (IN for)
+          (NP (DT the) (CD 24) (NNP Month) (NNP Extension) (NNP OPT)))))
+    (. .)))
+
+hypernyms_list: ['attract', 'plant_organ', 'stretching', 'hear', 'meaning', 'addition', 'leave', 'end', 'hurt', 'undergo', 'reproduce', 'confuse', 'get', 'discipline', 'expansion', 'time_unit', 'string', 'transmit', 'get_even', 'play', 'register', 'time_period', 'property', 'carry_through', 'change', 'cylinder', 'buy', 'dissemination', 'change_state', 'make', 'form', 'turn', 'mean', 'telephone', 'tube', 'dance', 'leader', 'destroy', 'communicate', 'effect', 'sicken', 'commissioned_military_officer', 'touch', 'delay', 'education', 'understand', 'hit', 'enrollee', 'seize', 'front', 'catch', 'annoy', 'fill', 'student', 'intellectual', 'longness', 'experience', 'league', 'score']
+
+hyponyms_list: ['filament', 'win_back', 'spread', 'recapture', 'reclaim', 'embark', 'find', 'sprout', 'mistress', 'padrone', 'cutting', 'come_on', 'pedant', 'cane', 'bibliophile', 'obtain', 'academician', 'pull_in', 'auditor', 'enter_upon', 'spring', 'crammer', 'gynophore', 'withdrawer', 'nonreader', 'press_out', 'fledge', 'vedist', 'register', 'passer', 'round_out', 'come_by', 'sixth-former', 'turn', 'earn', 'accept', 'see_through', 'medical_student', 'unionize', 'islamist', 'caudex', 'shakespearian', 'goliard', 'renaissance_man', 'drive_in', 'catch', 'hyperextension', 'reader', 'art_student', 'axis', 'date', 'work', 'receive', 'recommence', 'retrieve', 'take_effect', 'line_up', 'cramp', 'bulb', 'hindu_calendar_month', 'overachiever', 'scape', 'break_down', 'regrow', 'leave', 'crack_up', 'isolate', 'profit', 'skipper', 'scholiast', 'arabist', 'humanist', 'gregorian_calendar_month', 'corm', 'trunk', 'funicle', 'pod', 'branch', 'enlist', 'run', 'flood_in', 'break', 'tuber', 'stool', 'attack', 'stump', 'stretch', 'salutatorian', 'sinologist', 'encourage', 'get_through', 'jump_off', 'culm', 'jewish_calendar_month', 'petiole', 'historian', 'persuade', 'sidereal_month', 'elude', 'solar_month', 'schoolman', 'lunar_month', 'prompt', 'cabalist', 'carpophore', 'reach', 'sober_up', 'suffer', 'work_up', 'auspicate', 'doctor', 'theologian', 'petiolule', 'collegian', 'licentiate', 'underachiever', 'land', 'get_to', 'plump_in', 'master', 'let', 'leaf', 'pupate', 'seminarian', 'gain', 'cut', 'etonian', 'scholar', 'strike_out', 'initiate', 'decide', 'stock', 'plunge', 'wykehamist', 'acquire', 'settle', 'major', 'carry_through', 'render', 'buy', 'matriculate', 'horripilate', 'islamic_calendar_month', 'top', 'recover', 'get_cracking', 'partake', 'follow_through', 'suborn', 'stipe', 'law_student', 'glom', 'valedictorian', 'collect', 'cladode', 'lasso', 'lease', 'anomalistic_month', 'masorete', 'deliver', 'come', 'philomath', 'get', 'mujtihad', 'ell', 'pick_up', 'beanstalk', 'compel', 'riddle', 'close', 'ivy_leaguer', 'haulm', 'lead', 'boss', 'poll', 'teethe', 'postdoc', 'bring', 'musicologist', 'cornstalk', 'preempt', 'break_in', 'rhizome', 'bibliographer', 'inherit', 'philosopher', 'sporangiophore', 'catechumen', 'slave_driver', 'revolutionary_calendar_month', 'capture', 'coextension', 'roll_up', 'borrow', 'fall', 'take', 'alumnus', 'solicit']
+
+meronyms_list: ['full_moon', 'receptacle', 'extension_course', 'major-league_team', 'half-moon', 'node', 'new_moon', 'week', 'internode']
+
+holonyms_list: ['year', 'vessel', 'teacher-student_relation', 'pipe', 'nail', 'filename', 'wineglass', 'building', 'handle', 'key', 'anchor', 'pin']
+
+synonyms_list: ['complete', 'have', 'gravel', 'John_R._Major', 'find', 'fetch', 'drive', 'incur', 'elongation', 'produce', 'obtain', 'mystify', 'set_out', 'extension_phone', 'inscribe', 'bring_forth', 'enroll', 'set_about', 'extension', 'John_Roy_Major', 'scram', 'beget', 'pupil', 'propagation', 'start', 'baffle', 'pose', 'month', 'catch', 'pay_back', 'receive', 'vex', 'wing', 'theme', 'get_down', 'eligible', 'contract', 'perplex', 'stalk', 'certain', 'aim', 'radical', 'sustain', 'engender', 'fill_in', 'base', 'finish', 'make_out', 'denotation', 'sealed', 'enrol', 'prolongation', 'scholarly_person', 'convey', 'bookman', 'grow', 'dispatch', 'big_league', 'buzz_off', 'root_word', 'flummox', 'lengthiness', 'generate', 'sure', 'bugger_off', 'go', 'stem', 'university_extension', 'suffer', 'nonplus', 'John_Major', 'discharge', 'induce', 'telephone_extension', 'educatee', 'prow', 'annexe', 'let', 'major_league', 'scholar', 'sire', 'acquire', 'extension_service', 'major', 'pay_off', 'begin', 'make', 'stupefy', 'amaze', 'beat', 'draw', 'nail', 'recruit', 'bewilder', 'calendar_month', 'commence', 'bow', 'dumbfound', "get_under_one's_skin", 'become', 'develop', 'fore', 'start_out', 'stick', 'father', 'fuck_off', 'Major', 'stem_turn', 'majors', 'employer', 'annex', 'come', 'arrive', 'get', 'reference', 'fix', 'arrest', 'filename_extension', 'shank', 'enter', 'cause', 'bring', 'file_name_extension', 'root', 'puzzle', 'fill_out', 'mother', 'stimulate', 'capture', 'student', 'take', 'experience']

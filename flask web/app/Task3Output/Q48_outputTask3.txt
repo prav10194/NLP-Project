@@ -1,0 +1,110 @@
+Corpus Question: What if I cannot find employment?
+
+Corpus Answer:  Unemployment is limited to no more than 90 days during the whole 12 months of OPT. You are required to work in your field of study to maintain your status on OPT. What is considered work is flexible - you may be employed, intern, volunteer, etc. As long as you are getting full-time experience related to your degree, your status is maintained.
+
+
+Sentence Tokenizer: ['What if I cannot find employment?', 'Unemployment is limited to no more than 90 days during the whole 12 months of OPT.', 'You are required to work in your field of study to maintain your status on OPT.', 'What is considered work is flexible - you may be employed, intern, volunteer, etc.', 'As long as you are getting full-time experience related to your degree, your status is maintained.']
+
+Words Tokenizer: ['What', 'if', 'I', 'can', 'not', 'find', 'employment', '?', 'Unemployment', 'is', 'limited', 'to', 'no', 'more', 'than', '90', 'days', 'during', 'the', 'whole', '12', 'months', 'of', 'OPT', '.', 'You', 'are', 'required', 'to', 'work', 'in', 'your', 'field', 'of', 'study', 'to', 'maintain', 'your', 'status', 'on', 'OPT', '.', 'What', 'is', 'considered', 'work', 'is', 'flexible', '-', 'you', 'may', 'be', 'employed', ',', 'intern', ',', 'volunteer', ',', 'etc', '.', 'As', 'long', 'as', 'you', 'are', 'getting', 'full-time', 'experience', 'related', 'to', 'your', 'degree', ',', 'your', 'status', 'is', 'maintained', '.']
+
+words_without_stop_words: ['What', 'I', 'find', 'employment', '?', 'Unemployment', 'limited', '90', 'days', 'whole', '12', 'months', 'OPT', '.', 'You', 'required', 'work', 'field', 'study', 'maintain', 'status', 'OPT', '.', 'What', 'considered', 'work', 'flexible', '-', 'may', 'employed', ',', 'intern', ',', 'volunteer', ',', 'etc', '.', 'As', 'long', 'getting', 'full-time', 'experience', 'related', 'degree', ',', 'status', 'maintained', '.']
+
+words_with_stemming: ['what', 'i', 'find', 'employ', '?', 'unemploy', 'limit', '90', 'day', 'whole', '12', 'month', 'opt', '.', 'you', 'requir', 'work', 'field', 'studi', 'maintain', 'status', 'opt', '.', 'what', 'consid', 'work', 'flexibl', '-', 'may', 'employ', ',', 'intern', ',', 'volunt', ',', 'etc', '.', 'as', 'long', 'get', 'full-tim', 'experi', 'relat', 'degre', ',', 'status', 'maintain', '.']
+
+words_with_lemmatization: ['What', 'I', 'find', 'employment', '?', 'Unemployment', 'limit', '90', 'day', 'whole', '12', 'month', 'OPT', '.', 'You', 'required', 'work', 'field', 'study', 'maintain', 'status', 'OPT', '.', 'What', 'consider', 'work', 'flexible', '-', 'may', 'employ', ',', 'intern', ',', 'volunteer', ',', 'etc', '.', 'As', 'long', 'get', 'full-time', 'experience', 'relate', 'degree', ',', 'status', 'maintain', '.']
+
+words_with_pos_tags: [('What', 'WP'), ('I', 'PRP'), ('find', 'VBP'), ('employment', 'NN'), ('?', '.'), ('Unemployment', 'NNP'), ('limited', 'VBD'), ('90', 'CD'), ('days', 'NNS'), ('whole', 'JJ'), ('12', 'CD'), ('months', 'NNS'), ('OPT', 'NNP'), ('.', '.'), ('You', 'PRP'), ('required', 'JJ'), ('work', 'NN'), ('field', 'NN'), ('study', 'NN'), ('maintain', 'VBP'), ('status', 'NN'), ('OPT', 'NNP'), ('.', '.'), ('What', 'WP'), ('considered', 'VBD'), ('work', 'NN'), ('flexible', 'JJ'), ('-', ':'), ('may', 'MD'), ('employed', 'VB'), (',', ','), ('intern', 'JJ'), (',', ','), ('volunteer', 'NN'), (',', ','), ('etc', 'FW'), ('.', '.'), ('As', 'IN'), ('long', 'JJ'), ('getting', 'VBG'), ('full-time', 'JJ'), ('experience', 'NN'), ('related', 'VBN'), ('degree', 'NN'), (',', ','), ('status', 'NN'), ('maintained', 'VBD'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SBAR (WP What) (IN if)
+    (S
+      (NP (PRP I))
+      (VP (MD can) (RB not)
+        (VP (VB find)
+          (NP (NN employment)))))
+    (. ?)))(ROOT
+  (S
+    (NP (NN Unemployment))
+    (VP (VBZ is)
+      (VP (VBN limited)
+        (PP (TO to)
+          (NP
+            (QP (DT no) (JJR more) (IN than) (CD 90))
+            (NNS days)))
+        (PP (IN during)
+          (NP
+            (NP (DT the) (JJ whole) (CD 12) (NNS months))
+            (PP (IN of)
+              (NP (NNP OPT)))))))
+    (. .)))(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP are)
+      (VP (VBN required)
+        (S
+          (VP (TO to)
+            (VP (VB work)
+              (PP (IN in)
+                (NP
+                  (NP (PRP$ your) (NN field))
+                  (PP (IN of)
+                    (NP (NN study)))))
+              (S
+                (VP (TO to)
+                  (VP (VB maintain)
+                    (NP (PRP$ your) (NN status))
+                    (PP (IN on)
+                      (NP (NNP OPT)))))))))))
+    (. .)))(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBZ is)
+      (VP (VBN considered)
+        (NP
+          (NP
+            (NP (NN work))
+            (SBAR
+              (S
+                (VP (VBZ is)
+                  (ADJP (JJ flexible))))))
+          (PRN (: -)
+            (S
+              (NP (PRP you))
+              (VP (MD may)
+                (VP (VB be)
+                  (VP (VBN employed)))))
+            (, ,)
+            (NP
+              (NP (NN intern))
+              (, ,)
+              (NP (NN volunteer))
+              (, ,)
+              (NP (FW etc.)))))))
+    (. .)))(ROOT
+  (S
+    (ADVP (RB As) (RB long)
+      (SBAR (IN as)
+        (S
+          (NP (PRP you))
+          (VP (VBP are)
+            (VP (VBG getting)
+              (NP
+                (NP (JJ full-time) (NN experience))
+                (ADJP (JJ related)
+                  (PP (TO to)
+                    (NP (PRP$ your) (NN degree))))))))))
+    (, ,)
+    (NP (PRP$ your) (NN status))
+    (VP (VBZ is)
+      (VP (VBN maintained)))
+    (. .)))
+
+hypernyms_list: ['have', 'set', 'environment', 'content', 'magnitude', 'sidereal_time', 'perceive', 'time_unit', 'confirm', 'era', 'energy', 'room', 'mean', 'life', 'temperature_unit', 'pronounce', 'touch', 'catch', 'region', 'look', 'facility', 'time', 'attract', 'occupation', 'product', 'opportunity', 'document', 'drawing', 'leave', 'concentration', 'undergo', 'hurt', 'transmit', 'property', 'demand', 'change_state', 'work_time', 'musical_composition', 'communicate', 'knowledge_domain', 'seize', 'american', 'exponent', 'reach', 'gestate', 'activity', 'hear', 'doctor', 'see', 'reproduce', 'action', 'keep', 'insist', 'land', 'get_even', 'hash_out', 'order', 'buy', 'make', 'learn', 'award', 'examination', 'destroy', 'affirm', 'happening', 'contemplation', 'understand', 'spy', 'evaluate', 'annoy', 'visual_percept', 'be', 'score', 'state', 'mature', 'reason', 'think', 'commercial_enterprise', 'analyze', 'memorizer', 'confuse', 'get', 'geographical_area', 'physical_phenomenon', 'chew_over', 'serviceman', 'geographic_point', 'end_product', 'time_period', 'change', 'record', 'think_about', 'learning', 'effect', 'sicken', 'calendar_day', 'angular_unit', 'worker', 'education', 'hit', 'tract', 'experience']
+
+hyponyms_list: ['conserve', 'recapture', 'woodwork', 'vignette', 'celibacy', 'immunity', 'obtain', 'case_study', 'afternoon', 'noise_conditions', "jefferson_davis'_birthday", 'high_ground', 'tundra', 'mutism', 'woodcraft', 'pull_in', 'honorary_degree', 'locate', 'facilitation', 'relativize', 'bibliotics', 'lacework', 'publication', 'colliery', 'halloween', 'bakery', "mother's_day", 'respect', 'diversification', 'first_degree', 'leap_day', 'earn', 'hospitalization', 'accept', 'plane', 'economic_condition', 'legal_status', 'front', 'bastardy', 'date', 'white_book', 'receive', 'workday', 'armed_forces_day', 'retrieve', 'nobility', 'dishabille', 'decline', 'futurology', 'paddy', 'regrow', 'bit_field', 'saturation', 'regularization', 'pull_out_all_the_stops', 'crack_up', 'roundhouse', 'wetness', 'coursework', 'depth', "april_fools'", 'low', 'warm_to', 'oyster_bed', 'field_day', 'holy_order', 'find_out', 'trace', 'stump', 'admission_day', 'tannery', 'ropewalk', 'metalwork', 'call-back', 'piecework', 'cry', 'application', 'elude', 'workshop', 'toehold', 'flash', 'american_indian_day', 'trip', 'lunar_month', 'labor', 'polychrome', 'ball_field', 'vigilante', 'arena', 'operative_field', 'job', 'world', 'architecture', 'eye_condition', 'auxiliary_airfield', 'work_up', 'action', 'govern', 'plump_in', 'let', 'emptiness', 'sign', 'plunge', 'dominance', 'improvement', 'motivation', 'allege', 'horripilate', 'ides', 'compare', 'engagement', 'recover', 'rag_day', 'get_cracking', 'state_of_the_art', 'ladder', 'paper_route', 'allometry', 'collect', "st_patrick's_day", 'lubrication', 'moor', 'fishery', 'public_service', 'electric_field', 'province', 'tomorrow', 'theogony', 'astigmatism', 'rustication', 'carry', 'continue', 'redetermine', 'kingdom', 'waste', 'judgment_day', 'mechanization', 'payday', 'predicate', 'refract', 'rat', 'preempt', 'recycle', 'break_in', 'nakedness', 'light', 'laundry', 'reinstatement', 'translate', 'ship', 'acme', 'shipyard', 'draft', 'proving_ground', 'take', 'win_back', 'sprout', 'exploitation', 'ski_conditions', 'fish_farm', 'coaching', 'progress_report', 'enter_upon', 'reliving', 'unsusceptibility', 'gravitational_field', 'steppe', 'hopefulness', 'flat', 'waterworks', 'brokerage_house', 'turn', 'impaction', 'life', 'ology', 'atmosphere', 'masterpiece', 'leadership', 'mummification', 'microscopic_field', "saint's_day", 'orderliness', 'caste', 'housewifery', 'situate', 'fullness', 'washday', 'drive_in', 'vindicate', 'brutalization', 'anniversary', "robert_e_lee's_birthday", 'normality', 'united_nations_day', 'ironwork', 'cramp', 'time', 'forge', 'texas_independence_day', 'leave', 'factor', "bachelor's_degree", 'distaff', 'design', 'subbing', 'give', 'pan_american_day', 'humanistic_discipline', 'pod', 'run', 'stool', 'market_day', 'may_day', 'silverwork', 'theology', 'sidereal_month', 'wicker', 'way', 'solar_month', 'rank', 'silence', 'circumstance', 'evening', 'reach', 'high_status', 'yard', 'spadework', 'soundness', 'prize', 'put', 'suffer', 'llano', 'peneplain', 'auspicate', 'danger', 'undertaking', 'reify', 'land', 'out-of-body_experience', 'get_to', 'scandalization', 'unsoundness', 'like', 'decide', 'avail', 'bowling_green', 'render', 'buy', 'vacuolization', 'red-letter_day', 'virginity', 'reminder', 'nightwork', 'fall_back', 'ionization', 'suborn', 'heavy_lifting', 'glom', 'preservation', 'extent', 'assay', 'plastinate', 'airstrip', 'writing', 'operation', 'comfort', 'exoneration', 'glassworks', 'embalm', 'science', 'dally', 'deliver', 'coalfield', 'intensity', 'situation', 'overuse', 'face', 'law_degree', 'rectify', 'equality', 'walpurgis_night', 'lead', 'play', 'bring', 'fruition', 'inherit', 'loose_end', 'automation', 'citizenship_day', 'revolutionary_calendar_month', 'think_twice', 'loss', 'good_time', 'blue_book', 'resurvey', 'near-death_experience', 'grainfield', 'quickening', 'difficulty', 'standing', 'strain', 'frizz', 'graphology', 'protuberance', 'gauge', 'ennoblement', 'follow-up', 'pledge_taker', 'care', 'financial_condition', 'holiday', 'highness', 'midsummer_eve', 'anchorage', 'repair', 'cry_out_for', 'ministry', 'press_out', 'stigmatism', 'fledge', 'shape-up', 'command', 'health', 'rake_up', "master's_degree", "patriot's_day", 'come_by', 'school_day', 'mode', 'oilfield', 'encapsulation', 'groak', 'rustiness', 'lap', 'off-day', 'moderation', 'catch', 'creamery', 'work', 'absolution', 'recommence', 'take_effect', 'line_up', 'v-day', 'count', 'debate', 'misuse', 'identify', 'engage', 'break_down', 'november_5', 'openwork', 'wash', 'call', 'isolate', 'flag_day', 'retirement', 'climax', 'familiarization', 'gregorian_calendar_month', 'leakiness', 'polarization', 'capitalize', 'hold_over', 'patronage', 'iniquity', 'dignity', 'attack', 'physical_condition', 'rethink', 'jewish_calendar_month', 'jump_off', 'degree_centigrade', 'hairlessness', 'polling_day', 'diversity', 'sense', 'candy_striper', 'shining', 'participation', 'purity', 'prompt', 'serration', 'cannibalize', 'workpiece', 'laxness', 'busywork', 'inauguration_day', 'atonicity', 'high', 'claim', 'fall_upon', 'eve', 'lowness', 'slot', 'idealize', 'ply', 'pedestal', 'exert', 'ultimacy', 'cut', "lincoln's_birthday", 'test_bed', 'floodplain', 'tilth', 'acquire', 'settle', 'make', 'exchange', 'environmental_condition', 'enjoy', 'prognathism', 'quality', 'deem', 'practice', 'justify', 'seafaring', 'partake', 'arbor_day', 'think_of', 'degree_fahrenheit', 'recycling', 'left-handedness', 'guilt', 'lab', 'ordination', 'urbanization', 'degree_of_a_polynomial', 'degree_of_a_term', 'psychological_state', 'today', 'lasso', 'lease', 'think', 'honours', 'political_arena', 'protology', 'anomalistic_month', 'shop_floor', 'nationality', 'magnetic_field', 'gasworks', 'radiation_field', 'come', 'get', 'timework', 'feel', 'deification', 'reseed', "father's_day", 'subservience', 'airport', 'teethe', 'telecommuting', 'address', 'amplitude_level', 'morrow', 'preserve', 'handicraft', 'taste', 'sequence', 'include', 'communications', 'expect', 'ironing', 'groundhog_day', 'wrestle', 'frontier', 'capture', 'genealogy', 'sanitary_condition', 'fill', 'fall', 'solicit', 'football_field', 'reclaim', 'embark', 'find', 'central', 'instantiate', 'midafternoon', 'drill_site', 'condemnation', 'come_on', 'hold_the_line', 'featherbed', 'appalling', 'spring', 'standard_of_living', 'workload', 'abstract', 'yesterday', 'homelessness', 'position_paper', 'social_station', 'wedding_day', 'impurity', 'booking', 'prepossession', 'distance', 'welfare_work', 'dryness', 'court', 'ferret_out', 'escapology', 'gasfield', 'hindu_calendar_month', 'work_in_progress', 'tension', 'requisition', 'discomfort', 'snowfield', 'logging', 'location', 'access', 'contemplate', 'campus', 'implement', 'profit', 'reconsider', 'military_science', 'charge', 'favor', 'flood_in', 'break', 'lawn', 'beehive', 'nomination', 'rout_up', 'encourage', 'election', 'susceptibility', 'commencement_day', 'hyalinization', 'resultant', 'low_status', 'mission', 'niche', 'lucubration', 'irradiation', 'disrespect', 'persuade', 'footing', "washington's_birthday", 'cost', 'housework', "new_year's_eve", 'ironworks', 'medical_report', 'augury', 'high_profile', 'impropriety', 'lumberyard', 'sober_up', 'forbid', 'valentine_day', 'studio', 'see', 'grind', 'palestra', 'green_paper', 'leaf', 'pupate', 'gain', 'speech_day', 'strike_out', 'identification', 'malady', 'housekeep', 'firebreak', 'major', 'disorderliness', 'misapply', 'ordeal', 'safety', 'hold', 'innocence', 'exploit', 'islamic_calendar_month', 'services', 'draw', 'engineering', 'lacquerware', 'lunar_day', 'tet', 'leatherwork', 'standardization', "doctor's_degree", 'scalar_field', 'need', 'consider', 'climate', 'duty', 'pressurize', 'sun_protection_factor', 'lactosuria', 'extreme', 'pick_up', 'cinco_de_mayo', 'farm', 'compel', 'riddle', 'premeditate', 'poll', 'investigation', 'place', 'submission', 'subcontract', 'service', 'immoderation', 'numerology', 'vision', 'associate_degree', 'share', 'admeasure', 'despair', 'roll_up', 'borrow', 'occultism', 'paperwork', 'curvature']
+
+meronyms_list: ['full_moon', 'high_point', 'battlefront', 'day', 'taxiway', 'combat_zone', 'locker_room', 'hour', 'apron', 'flight_line', 'sector', 'night', 'minute', 'runway', 'noon', 'midfield', 'half-moon', 'new_moon', 'week', 'morning']
+
+holonyms_list: ['year', 'day', 'oxtant', 'stadium', 'transportation_system', 'sextant', 'theater_of_war', 'house']
+
+synonyms_list: ['conserve', 'whippy', '24-hour_interval', 'have', 'condition', 'study', 'gravel', 'find', 'necessitate', 'fetch', 'drive', 'rule', 'usage', 'incur', 'report', 'call_for', 'produce', 'obtain', 'unharmed', 'interne', 'mystify', 'determine', 'set_out', 'take', 'flexile', 'bring_forth', 'modified', 'unemployment', 'weigh', 'sketch', 'command', 'theatre_of_operations', 'field_of_operations', 'set_about', 'theater_of_operations', 'years', 'scram', 'beget', 'orbit', 'start', 'subject', 'daytime', 'point', 'baffle', 'pose', 'want', 'month', 'involve', 'catch', 'deliberate', 'pay_back', 'work', 'receive', 'vex', 'retrieve', 'line_up', 'get_down', 'houseman', 'domain', 'count', 'debate', 'contract', 'witness', 'perplex', 'engage', 'uphold', 'intern', 'utilization', 'plain', 'come_up', 'position', 'battleground', 'field_of_operation', 'aim', 'Day', 'conciliatory', 'playing_field', 'sustain', 'engender', 'subject_area', 'keep_up', 'find_out', 'whole', 'demand', 'utilise', 'cogitation', 'unanimous', 'convey', 'unhurt', 'grow', 'Clarence_Day', 'field_of_study', 'require', 'pliable', 'special', 'bump', 'field', 'area', 'athletic_field', 'theatre', 'buzz_off', 'pliant', 'apply', 'utilisation', 'flummox', 'generate', 'bugger_off', 'playing_area', 'military_volunteer', 'theater', 'day', 'moot', 'go', 'asseverate', 'arena', 'suffer', 'nonplus', 'related', 'degree', 'field_of_battle', 'see', 'twenty-four_hour_period', 'champaign', 'induce', 'get_hold', 'exercise', 'keep', 'discipline', 'detect', 'compromising', 'limited', 'let', 'exert', 'twenty-four_hours', 'ascertain', 'sire', 'mean_solar_day', 'defend', 'acquire', 'hire', 'conceive', 'unpaid_worker', 'pay_off', 'hold', 'begin', 'encounter', 'deal', 'make', 'stupefy', 'level', 'employment', 'Volunteer', 'amaze', 'engagement', 'related_to', 'line_of_business', 'recover', 'beat', 'field_of_view', 'hale', 'discover', 'sphere', 'regain', 'landing_field', 'draw', 'force_field', 'survey', 'daylight', 'turn_over', 'chance', 'bewilder', 'calendar_month', 'unscathed', 'commence', 'stage', 'arcdegree', 'dumbfound', "get_under_one's_skin", 'oeuvre', 'view', 'become', 'develop', 'look_at', 'workplace', 'start_out', 'academic_degree', 'stick', 'father', 'think', 'fuck_off', 'flying_field', 'need', 'volunteer', 'written_report', 'consider', 'maintain', 'arrive', 'come', 'happen', 'sidereal_day', 'body_of_work', 'get', 'battlefield', 'feel', 'medical_intern', 'status', 'fix', 'elastic', 'utilize', 'arrest', 'find_oneself', 'ask', 'days', 'notice', 'cause', 'voluntary', 'piece_of_work', 'bring', 'use', 'bailiwick', 'airfield', 'subject_field', 'preserve', 'assert', 'regard', 'wield', 'solid', 'expect', 'believe', 'puzzle', 'Clarence_Shepard_Day_Jr.', 'solar_day', 'field_of_honor', 'mother', 'stimulate', 'observe', 'reckon', 'employ', 'postulate', 'capture', 'flexible', 'grade', 'Tennessean', 'circumscribed', 'field_of_force', 'experience']

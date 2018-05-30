@@ -1,0 +1,63 @@
+Corpus Question: What status do I have between my degree completion date and the start of my OPT?
+
+Corpus Answer:  If you have chosen a start date after your degree completion date, you will remain in F-1 status while the OPT is pending.
+
+
+Sentence Tokenizer: ['What status do I have between my degree completion date and the start of my OPT?', 'If you have chosen a start date after your degree completion date, you will remain in F-1 status while the OPT is pending.']
+
+Words Tokenizer: ['What', 'status', 'do', 'I', 'have', 'between', 'my', 'degree', 'completion', 'date', 'and', 'the', 'start', 'of', 'my', 'OPT', '?', 'If', 'you', 'have', 'chosen', 'a', 'start', 'date', 'after', 'your', 'degree', 'completion', 'date', ',', 'you', 'will', 'remain', 'in', 'F-1', 'status', 'while', 'the', 'OPT', 'is', 'pending', '.']
+
+words_without_stop_words: ['What', 'status', 'I', 'degree', 'completion', 'date', 'start', 'OPT', '?', 'If', 'chosen', 'start', 'date', 'degree', 'completion', 'date', ',', 'remain', 'F-1', 'status', 'OPT', 'pending', '.']
+
+words_with_stemming: ['what', 'status', 'i', 'degre', 'complet', 'date', 'start', 'opt', '?', 'if', 'chosen', 'start', 'date', 'degre', 'complet', 'date', ',', 'remain', 'f-1', 'status', 'opt', 'pend', '.']
+
+words_with_lemmatization: ['What', 'status', 'I', 'degree', 'completion', 'date', 'start', 'OPT', '?', 'If', 'choose', 'start', 'date', 'degree', 'completion', 'date', ',', 'remain', 'F-1', 'status', 'OPT', 'pending', '.']
+
+words_with_pos_tags: [('What', 'WP'), ('status', 'NN'), ('I', 'PRP'), ('degree', 'VBP'), ('completion', 'NN'), ('date', 'NN'), ('start', 'NN'), ('OPT', 'NNP'), ('?', '.'), ('If', 'IN'), ('chosen', 'VBN'), ('start', 'NN'), ('date', 'NN'), ('degree', 'JJ'), ('completion', 'NN'), ('date', 'NN'), (',', ','), ('remain', 'VBP'), ('F-1', 'JJ'), ('status', 'NN'), ('OPT', 'NNP'), ('pending', 'NN'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SBARQ
+    (WHNP (WDT What) (NN status))
+    (SQ (VBP do)
+      (NP (PRP I))
+      (VP (VBP have)
+        (PP (IN between)
+          (NP
+            (NP (PRP$ my) (NN degree) (NN completion) (NN date))
+            (CC and)
+            (NP
+              (NP (DT the) (NN start))
+              (PP (IN of)
+                (NP (PRP$ my) (NN OPT))))))))
+    (. ?)))(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP have)
+          (VP (VBN chosen)
+            (NP (DT a) (NN start) (NN date))
+            (PP (IN after)
+              (NP (PRP$ your) (NN degree) (NN completion) (NN date)))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD will)
+      (VP (VB remain)
+        (PP (IN in)
+          (NP (NN F-1) (NN status)))
+        (SBAR (IN while)
+          (S
+            (NP (DT the) (NNP OPT))
+            (VP (VBZ is)
+              (ADJP (VBG pending)))))))
+    (. .)))
+
+hypernyms_list: ['elite', 'state', 'day', 'signal', 'reflex', 'magnitude', 'companion', 'darling', 'property', 'edible_fruit', 'termination', 'turn', 'temperature_unit', 'beginning', 'award', 'calendar_year', 'calendar_day', 'angular_unit', 'point', 'advantage', 'line', 'meeting', 'maneuver', 'change_of_state', 'calendar_month', 'exponent', 'present']
+
+hyponyms_list: ['standing', 'double_date', 'frizz', 'celibacy', 'protuberance', 'condemnation', 'ski_conditions', 'ennoblement', 'first_step', 'immunity', 'onset', 'maturity', 'financial_condition', 'noise_conditions', 'mutism', 'high_ground', 'future_date', 'honorary_degree', 'standard_of_living', 'constitution', 'highness', 'anchorage', 'repair', 'unsusceptibility', 'incipiency', 'facilitation', 'stigmatism', 'homelessness', 'hopefulness', 'command', 'health', 'social_station', 'installation', 'startup', 'impurity', "master's_degree", 'mode', 'impaction', 'diversification', 'encapsulation', 'scrum', 'atmosphere', 'leadership', 'mummification', 'first_degree', 'groundbreaking', 'prepossession', 'orderliness', 'caste', 'hospitalization', 'rustiness', 'plane', 'dryness', 'fullness', 'economic_condition', 'legal_status', 'moderation', 'bastardy', 'startle_response', 'brutalization', 'absolution', 'normality', 'birthday', 'nobility', 'introduction', 'dishabille', 'tension', 'adrenarche', 'decline', 'discomfort', 'springboard', 'rain_date', 'saturation', 'regularization', 'wetness', "bachelor's_degree", 'climax', 'retirement', 'depth', 'low', 'leakiness', 'polarization', 'holy_order', 'curvature', 'finish', 'iniquity', 'dawn', 'epoch', 'dignity', 'attack', 'tryst', 'physical_condition', 'nomination', 'wince', 'election', 'susceptibility', 'hyalinization', 'resultant', 'low_status', 'startle_reflex', 'niche', 'irradiation', 'degree_centigrade', 'hairlessness', 'footing', 'diversity', 'thelarche', 'way', 'toehold', 'rank', 'participation', 'purity', 'silence', 'circumstance', 'serration', 'high_profile', 'high_status', 'impropriety', 'laxness', 'atonicity', 'soundness', 'high', 'jump_ball', 'birth', 'eye_condition', 'finalization', 'menarche', 'danger', 'opening', 'lowness', 'grind', 'slot', 'scandalization', 'unsoundness', 'initiation', 'pedestal', 'ultimacy', 'terminus_a_quo', 'activation', 'emptiness', 'graduation', 'identification', 'malady', 'tilth', 'disorderliness', 'face-off', 'dominance', 'improvement', 'motivation', 'safety', 'vacuolization', 'innocence', 'consummation', 'environmental_condition', 'virginity', 'prognathism', 'quality', 'state_of_the_art', 'ladder', 'flying_start', 'ionization', 'inauguration', 'sell-by_date', 'degree_fahrenheit', 'left-handedness', 'preservation', 'guilt', 'follow-through', 'lubrication', 'extent', 'ordination', 'urbanization', 'degree_of_a_polynomial', 'degree_of_a_term', 'psychological_state', 'standardization', "doctor's_degree", 'honours', 'kickoff', 'resumption', 'comfort', 'exoneration', 'need', 'nationality', 'astigmatism', 'alpha', 'climate', 'rustication', 'intensity', 'situation', 'deification', 'lactosuria', 'extreme', 'sun_protection_factor', 'face', 'law_degree', 'mechanization', 'racing_start', 'equality', 'blind_date', 'subservience', 'place', 'submission', 'amplitude_level', 'opener', 'fruition', 'nakedness', 'light', 'immoderation', 'icebreaker', 'automation', 'reinstatement', 'acme', 'associate_degree', 'despair', 'sanitary_condition', 'housing_start', 'quickening', 'threshold', 'difficulty']
+
+meronyms_list: ['minute', 'date']
+
+holonyms_list: ['sextant', 'oxtant', 'date', 'date_palm']
+
+synonyms_list: ['academic_degree', 'condition', 'mop_up', 'starting_time', 'kickoff', 'degree', 'Chosen', 'position', 'starting_line', 'day_of_the_month', 'completion', 'showtime', 'windup', 'culmination', 'status', 'starting', 'escort', 'particular_date', 'head_start', 'closing', 'appointment', 'scratch', 'outset', 'startle', 'level', 'first', 'jump', 'engagement', 'beginning', 'starting_signal', 'start', 'elect', 'commencement', 'point', 'chosen', 'get-go', 'scratch_line', 'arcdegree', 'offset', 'date', 'grade', 'stage', 'pass_completion']

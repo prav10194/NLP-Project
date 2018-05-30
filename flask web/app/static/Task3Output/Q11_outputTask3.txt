@@ -1,0 +1,90 @@
+Corpus Question: How can I tell if my employer is signed up for E-Verify?
+
+Corpus Answer: 
+You may ask your employer if they are signed up for E-Verify. In addition, note that some U.S. States have begun mandating employer participation in E-Verify. At the same time, some other States have declared E-Verify illegal. You can find more information on E-Verify 
+
+Sentence Tokenizer: ['How can I tell if my employer is signed up for E-Verify?', 'You may ask your employer if they are signed up for E-Verify.', 'In addition, note that some U.S. States have begun mandating employer participation in E-Verify.', 'At the same time, some other States have declared E-Verify illegal.', 'You can find more information on E-Verify']
+
+Words Tokenizer: ['How', 'can', 'I', 'tell', 'if', 'my', 'employer', 'is', 'signed', 'up', 'for', 'E-Verify', '?', 'You', 'may', 'ask', 'your', 'employer', 'if', 'they', 'are', 'signed', 'up', 'for', 'E-Verify', '.', 'In', 'addition', ',', 'note', 'that', 'some', 'U.S.', 'States', 'have', 'begun', 'mandating', 'employer', 'participation', 'in', 'E-Verify', '.', 'At', 'the', 'same', 'time', ',', 'some', 'other', 'States', 'have', 'declared', 'E-Verify', 'illegal', '.', 'You', 'can', 'find', 'more', 'information', 'on', 'E-Verify']
+
+words_without_stop_words: ['How', 'I', 'tell', 'employer', 'signed', 'E-Verify', '?', 'You', 'may', 'ask', 'employer', 'signed', 'E-Verify', '.', 'In', 'addition', ',', 'note', 'U.S.', 'States', 'begun', 'mandating', 'employer', 'participation', 'E-Verify', '.', 'At', 'time', ',', 'States', 'declared', 'E-Verify', 'illegal', '.', 'You', 'find', 'information', 'E-Verify']
+
+words_with_stemming: ['how', 'i', 'tell', 'employ', 'sign', 'e-verifi', '?', 'you', 'may', 'ask', 'employ', 'sign', 'e-verifi', '.', 'in', 'addit', ',', 'note', 'u.s.', 'state', 'begun', 'mandat', 'employ', 'particip', 'e-verifi', '.', 'at', 'time', ',', 'state', 'declar', 'e-verifi', 'illeg', '.', 'you', 'find', 'inform', 'e-verifi']
+
+words_with_lemmatization: ['How', 'I', 'tell', 'employer', 'sign', 'E-Verify', '?', 'You', 'may', 'ask', 'employer', 'sign', 'E-Verify', '.', 'In', 'addition', ',', 'note', 'U.S.', 'States', 'begin', 'mandate', 'employer', 'participation', 'E-Verify', '.', 'At', 'time', ',', 'States', 'declare', 'E-Verify', 'illegal', '.', 'You', 'find', 'information', 'E-Verify']
+
+words_with_pos_tags: [('How', 'WRB'), ('I', 'PRP'), ('tell', 'VBP'), ('employer', 'RB'), ('signed', 'VBN'), ('E-Verify', 'NNP'), ('?', '.'), ('You', 'PRP'), ('may', 'MD'), ('ask', 'VB'), ('employer', 'NN'), ('signed', 'VBN'), ('E-Verify', 'NNP'), ('.', '.'), ('In', 'IN'), ('addition', 'NN'), (',', ','), ('note', 'VBP'), ('U.S.', 'NNP'), ('States', 'NNPS'), ('begun', 'VBN'), ('mandating', 'VBG'), ('employer', 'JJ'), ('participation', 'NN'), ('E-Verify', 'NNP'), ('.', '.'), ('At', 'IN'), ('time', 'NN'), (',', ','), ('States', 'NNS'), ('declared', 'VBD'), ('E-Verify', 'NNP'), ('illegal', 'NN'), ('.', '.'), ('You', 'PRP'), ('find', 'VBP'), ('information', 'NN'), ('E-Verify', 'NN')]
+
+parse_tree_string: (ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (MD can)
+      (NP (PRP I))
+      (VP (VB tell)
+        (SBAR (IN if)
+          (S
+            (NP (PRP$ my) (NN employer))
+            (VP (VBZ is)
+              (VP (VBN signed)
+                (PRT (RP up))
+                (PP (IN for)
+                  (NP (NNP E-Verify)))))))))
+    (. ?)))(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD may)
+      (VP (VB ask)
+        (NP (PRP$ your) (NN employer))
+        (SBAR (IN if)
+          (S
+            (NP (PRP they))
+            (VP (VBP are)
+              (VP (VBN signed)
+                (PRT (RP up))
+                (PP (IN for)
+                  (NP (NNP E-Verify)))))))))
+    (. .)))(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN addition)))
+    (, ,)
+    (NP
+      (NP (NN note))
+      (PP (IN that)
+        (NP (DT some) (NNP U.S.) (NNPS States))))
+    (VP (VBP have)
+      (VP (VBN begun)
+        (S
+          (VP (VBG mandating)
+            (NP (NN employer) (NN participation))
+            (PP (IN in)
+              (NP (NNP E-Verify)))))))
+    (. .)))(ROOT
+  (S
+    (PP (IN At)
+      (NP (DT the) (JJ same) (NN time)))
+    (, ,)
+    (NP (DT some) (JJ other) (NNPS States))
+    (VP (VBP have)
+      (VP (VBN declared)
+        (S
+          (NP (NNP E-Verify))
+          (ADJP (JJ illegal)))))
+    (. .)))(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB find)
+        (NP (JJR more) (NN information))
+        (PP (IN on)
+          (NP (NN E-Verify)))))))
+
+hypernyms_list: ['reach', 'contract', 'political_unit', 'condition', 'comment', 'moment', 'air', 'high_status', 'executive_department', 'paper_money', 'state', 'put', 'arithmetic_operation', 'chemical_phenomenon', 'reason', 'administrative_district', 'gestate', 'information_measure', 'increase', 'validate', 'personal_letter', 'term', 'get', 'perceive', 'government', 'rhythmicity', 'message', 'attribute', 'suburb', 'write', 'musical_notation', 'act', 'achieve', 'talk', 'play', 'time_period', 'hire', 'order', 'component', 'indefinite_quantity', 'proclaim', 'change', 'acquisition', 'dimension', 'accusation', 'tone', 'reading', 'group_action', 'federal_government', 'learn', 'gesticulate', 'leader', 'emotional_state', 'cognition', 'communicate', 'delegate', 'case', 'affirm', 'pronounce', 'collection', 'debt_instrument', 'written_record', 'evaluate', 'spy', 'mature', 'be', 'experience', 'authorize']
+
+hyponyms_list: ['quarter_note', 'canadian_province', 'musical_time', 'consecrate', 'condition', 'demand_note', 'embark', 'mistress', 'imperfection', 'padrone', 'instantiate', 'gauge', 'sentence', 'elongation', 'australian_state', 'kalemia', 'come_on', 'intervention', 'maturity', 'citation', 'receivership', 'integrity', 'undersign', 'damnation', 'cancel', 'locate', 'chord', 'ephemera', 'incarnation', 'separation', 'city_state', 'high_time', 'account', 'union', 'unemployment', 'ammunition', 'endorse', 'freedom', 'bud', 'factoid', 'life_sentence', 'iou', 'intelligence', 'rake_up', 'example', 'medium', 'afterthought', 'wild', 'secret', 'ally', 'asian_country', 'neotony', 'promulgate', 'middle_c', 'rogue_state', 'start', 'hard_time', 'prime_time', 'bastardize', 'confirmation', 'pronounce', 'situate', 'utopia', 'omniscience', 'ferret_out', 'buffer_state', 'enlargement', 'foggy_bottom', 'geological_time', 'cleavage', 'catch', 'stuff', 'recommence', 'readout', 'motionlessness', 'course_of_study', 'tax_haven', 'predictor', 'foreign_country', 'stimulation', 'conditionality', 'perfection', 'moment', 'count', 'nota_bene', 'count_out', 'footnote', 'turgor', 'utilization', 'decree', 'opine', 'profess', 'initial', 'trill', 'twenty_dollar_bill', 'execute', 'blue_note', 'eternity', 'call', 'format', 'descriptor', 'fluoridation', 'access', 'acquaintance', 'banana_republic', 'nuts_and_bolts', 'south_american_country', 'grace_note', 'hour', 'subdominant', 'subtonic', 'tenner', 'insider_information', 'disorder', 'find_out', 'trace', 'relationship', 'dawn', 'two_dollar_bill', 'dystopia', 'italian_region', 'attack', 'time_note', 'set_in', 'rout_up', 'superannuate', 'imminence', 'jumpstart', 'submediant', 'condemn', 'autograph', 'jump_off', 'gas', 'developing_country', 'dominant', 'civil_time', 'rubricate', 'database', 'postscript', 'eparchy', 'north_american_country', 'background', 'revocation', 'skinny', 'sixty-fourth_note', 'sea_power', 'omnipotence', 'representation', 'isomerism', 'sense', 'tabulation', 'metadata', 'present', 'soviets', 'dominion', 'circumstance', 'set_off', 'tip-off', 'day', 'nonbeing', 'european_country', 'dependence', 'degree', 'plurality', 'hard_times', 'death', 'originate', 'hostility', 'auspicate', 'continuum', 'memo', 'flag', 'semaphore', 'end', 'commonwealth_country', 'excuse', 'see', 'dollar', 'fall_upon', 'duration', 'action', 'erupt', 'poste_restante', 'get_to', 'master', 'raw_data', 'fifty_dollar_bill', 'minute', 'readiness', 'slave_driver', 'world_power', 'strike_out', 'evidence', 'plunge', 'supertonic', 'african_country', 'order', 'plasma', 'obligation', 'dead', 'half_note', 'daylight-saving_time', 'cosmic_time', 'testify', 'redetermine', 'fiver', 'note_payable', 'employment', 'attachment', 'break_out', 'tonic', 'whole_note', 'take_the_fifth', 'soviet_socialist_republic', 'get_cracking', 'fact', 'affirm', 'past', 'while', 'misinformation', 'hundred_dollar_bill', 'greenwich_mean_time', 'swear', 'formalize', 'inaugurate', 'report_card', 'phase', 'additive', 'conflict', 'commitment', 'heterozygosity', 'office', 'jotting', 'promise', 'temporary_state', 'canonize', 'pedal_point', 'ownership', 'retrofit', 'homozygosity', 'wee', 'datum', 'news', 'annex', 'tribalism', 'fatherland', 'feel', 'feeling', 'situation', 'silver_certificate', 'accretion', 'eighth_note', 'mediant', 'status', 'kingdom', 'space_age', 'spacecraft_clock_time', 'admit', 'propaganda', 'ink', 'dead_letter', 'propose', 'rectify', 'boss', 'nationhood', 'grace', 'skillfulness', 'biological_time', 'accounting_data', 'ground_state', 'liquid', 'details', 'refract', 'being', 'sixteenth_note', 'sultanate', 'future', 'thirty-second_note', 'illumination', 'countersign', 'merchantability', 'heliograph', 'flux', 'motion', 'reich', 'break_in', 'beatify', 'immaturity', 'plead', 'sequence', 'gen', 'solid', 'contract_out', 'welfare_state', 'marginalia', 'inaction', 'occasion', 'translate', 'king', 'monotone', 'certify', 'american_state', 'note_receivable', 'admeasure', 'commonwealth', 'passing_note', 'suzerain', 'proclaim', 'wigwag', 'fall', 'material', 'take', 'polyvalence', 'group_participation', 'municipal_note', 'whistle', 'ornamentation', 'paternity']
+
+meronyms_list: ['minnesota', 'louisiana', 'south_carolina', 'niagara', 'arkansas', 'ohio', 'yukon', 'midwest', 'massachusetts', 'montana', 'georgia', 'east', 'foreign_service', 'oklahoma', 'california', 'washington', 'new_hampshire', 'legislative_branch', 'south_dakota', 'maine', 'new_river', 'illinois', 'michigan', 'arizona', 'bureau_of_diplomatic_security', 'judicial_branch', 'domain', 'alaska', 'rio_grande', 'executive_branch', 'kentucky', 'idaho', 'utah', 'dakota', 'twin', 'north_carolina', 'delaware', 'south', 'missouri', 'florida', 'tennessee', 'american', 'wisconsin', 'new_mexico', 'estate_of_the_realm', 'rhode_island', 'new_england', 'mid-atlantic_states', 'virginia', 'district_of_columbia', 'maryland', 'kansas', 'sunbelt', 'north_dakota', 'north', 'bureau_of_intelligence_and_research', 'iowa', 'new_york', 'pennsylvania', 'alabama', 'mississippi', 'yosemite', 'nebraska', 'state', 'pacific_northwest', 'colony', 'west_virginia', 'oregon', 'nevada', 'wyoming', 'midland', 'hawaii', 'vermont', 'indiana', 'colorado', 'west', 'connecticut', 'department', 'louisiana_purchase', 'niobrara', 'great_lakes', 'new_jersey', 'american_state', 'saint_lawrence', 'texas']
+
+holonyms_list: ['north_america', 'north_atlantic_treaty_organization', 'organization_of_american_states', 'country', 'scale']
+
+synonyms_list: ['data', 'find', 'rule', 'sentence', 'incur', 'signal', 'declare', 'increase', 'obtain', 'set_out', 'ratify', 'determine', 'body_politic', "banker's_bill", 'illegal', 'metre', 'U.S._government', 'preeminence', 'banknote', 'set_about', 'signalize', 'state_of_matter', 'nation', 'start', 'musical_note', 'bless', 'receive', 'retrieve', 'line_up', 'get_down', 'time', 'contract', 'witness', 'lead_off', 'clip', 'come_up', 'billet', 'selective_information', 'State_Department', 'plus', 'prison_term', 'find_out', 'promissory_note', 'United_States_of_America', 'meter', 'notation', 'tone', 'United_States', 'bank_note', 'line', 'bump', 'State', 'DoS', 'Federal_Reserve_note', 'distinction', 'greenback', 'subscribe', 'participation', 'res_publica', 'sign_up', 'announce', 'short_letter', 'the_States', 'accession', 'addition', 'see', 'United_States_government', 'get_hold', 'Department_of_State', 'land', 'detect', 'mandate', 'gain', 'U.S.', 'ascertain', 'information', 'sign', 'Tell', 'hold', 'begin', 'encounter', 'engagement', 'country', 'recover', 'discover', 'regain', 'eminence', 'annotation', 'chance', 'commence', 'US', 'bill', 'William_Tell', 'state', 'province', 'sign_on', 'start_out', 'clock_time', 'adjudge', 'U.S.A.', 'America', 'employer', 'note_of_hand', 'involvement', 'happen', 'get', 'feel', 'US_Government', 'improver', 'summation', 'find_oneself', 'bank_bill', 'notice', 'entropy', 'signalise', 'add-on', 'United_States_Department_of_State', 'observe', 'info', 'involution', 'government_note', 'commonwealth', 'fourth_dimension', 'note', 'USA']

@@ -1,0 +1,55 @@
+Corpus Question: What if I am not able to complete my degree program by the completion date on the OPT I-20 after submitting my OPT application?
+
+Corpus Answer:  Speak to an advisor at BIO.
+
+
+Sentence Tokenizer: ['What if I am not able to complete my degree program by the completion date on the OPT I-20 after submitting my OPT application?', 'Speak to an advisor at BIO.']
+
+Words Tokenizer: ['What', 'if', 'I', 'am', 'not', 'able', 'to', 'complete', 'my', 'degree', 'program', 'by', 'the', 'completion', 'date', 'on', 'the', 'OPT', 'I-20', 'after', 'submitting', 'my', 'OPT', 'application', '?', 'Speak', 'to', 'an', 'advisor', 'at', 'BIO', '.']
+
+words_without_stop_words: ['What', 'I', 'able', 'complete', 'degree', 'program', 'completion', 'date', 'OPT', 'I-20', 'submitting', 'OPT', 'application', '?', 'Speak', 'advisor', 'BIO', '.']
+
+words_with_stemming: ['what', 'i', 'abl', 'complet', 'degre', 'program', 'complet', 'date', 'opt', 'i-20', 'submit', 'opt', 'applic', '?', 'speak', 'advisor', 'bio', '.']
+
+words_with_lemmatization: ['What', 'I', 'able', 'complete', 'degree', 'program', 'completion', 'date', 'OPT', 'I-20', 'submit', 'OPT', 'application', '?', 'Speak', 'advisor', 'BIO', '.']
+
+words_with_pos_tags: [('What', 'WP'), ('I', 'PRP'), ('able', 'JJ'), ('complete', 'JJ'), ('degree', 'NN'), ('program', 'NN'), ('completion', 'NN'), ('date', 'NN'), ('OPT', 'NNP'), ('I-20', 'NNP'), ('submitting', 'VBG'), ('OPT', 'NNP'), ('application', 'NN'), ('?', '.'), ('Speak', 'NNP'), ('advisor', 'NN'), ('BIO', 'NNP'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SBAR (WP What) (IN if)
+    (S
+      (NP (PRP I))
+      (VP (VBP am) (RB not)
+        (ADJP (JJ able)
+          (S
+            (VP (TO to)
+              (VP (VB complete)
+                (NP (PRP$ my) (NN degree) (NN program))
+                (PP (IN by)
+                  (NP
+                    (NP (DT the) (NN completion) (NN date))
+                    (PP (IN on)
+                      (NP (DT the) (NNP OPT) (NN I-20)))))
+                (PP (IN after)
+                  (S
+                    (VP (VBG submitting)
+                      (NP (PRP$ my) (NN OPT) (NN application)))))))))))
+    (. ?)))(ROOT
+  (S
+    (VP (VB Speak)
+      (PP (TO to)
+        (NP
+          (NP (DT an) (NN advisor))
+          (PP (IN at)
+            (NP (NNP BIO))))))
+    (. .)))
+
+hypernyms_list: ['authority', 'state', 'submit', 'day', 'document', 'performance', 'system', 'remedy', 'magnitude', 'undergo', 'program', 'companion', 'action', 'announcement', 'yield', 'give', 'idea', 'propose', 'show', 'refer', 'information', 'software', 'property', 'edible_fruit', 'use', 'termination', 'temperature_unit', 'request', 'award', 'calendar_year', 'accept', 'calendar_day', 'angular_unit', 'point', 'manual_labor', 'meeting', 'effort', 'maneuver', 'calendar_month', 'apply', 'exponent', 'present']
+
+hyponyms_list: ['television_program', 'double_date', 'maturity', 'editor_program', 'text-matching', 'racecard', 'future_date', 'honorary_degree', 'standard_of_living', 'relegate', 'highness', 'starets', 'library_program', 'active_application', 'assembler', 'road_map', 'audit_program', 'spreadsheet', "master's_degree", 'patch', 'defense_program', 'supervisory_program', 'counselor', 'game_show', 'first_degree', 'playbill', 'subject', 'fortran_program', 'superfund_program', 'plane', 'project', 'security_consultant', 'lisp_program', 'investment_adviser', 'moderation', 'bring_in', 'educational_program', 'talk_show', 'debugger', 'military_adviser', 'word_processor', 'birthday', 'plan_of_action', 'rain_date', 'translator', 'beauty_consultant', 'monitor_program', 'space_program', "bachelor's_degree", 'sustaining_program', 'climax', 'news_program', 'depth', 'painting', 'fashion_consultant', 'low', 'give', 'tax_program', 'finish', 'epoch', 'pension_plan', 'paving', 'tryst', 'system_program', 'serial', 'waxing', 'galvanization', 'eye-lotion', 'media_consultant', 'tipster', 'misapplication', 'resultant', 'tinning', 'degree_centigrade', 'syntax_checker', 'application', 'patent_application', 'blueprint', 'scumble', 'management_consultant', 'lining', 'fumigation', 'relocatable_program', 'binary', 'anti-virus_program', 'high', 'job', 'degree_program', 'tagger', 'finalization', 'source_program', 'malevolent_program', 'stored_program', 'lowness', 'browser', 'grind', 'frame', 'blackwash', 'papering', 'liniment', 'ultimacy', 'graduation', 'technology', 'spraying', 'loop', 'employee_savings_plan', 'compiler', 'reusable_program', 'consummation', 'credit_application', 'natural_language_processor', 'quality', 'tiling', 'calamine_lotion', 'state_of_the_art', 'ladder', 'amicus_curiae', 'backroom_boy', 'parser', 'sell-by_date', 'degree_fahrenheit', 'crash_course', 'plastering', 'reading_program', 'applet', 'follow-through', 'lubrication', 'extent', 'spider', 'degree_of_a_polynomial', 'degree_of_a_term', 'bill', 'search_engine', 'master_plan', "doctor's_degree", 'honours', 'rubbing_alcohol', 'job_application', 'budget', 'web_map_service', 'outline', 'menthol', 'episode', 'intensity', 'sun_protection_factor', 'extreme', 'self-adapting_program', 'rerun', 'law_degree', 'works_program', 'anointing', 'county_agent', 'c_program', 'blind_date', 'agenda', 'interface', 'witch_hazel', 'amplitude_level', 'plating', 'regimen', 'interpreter', 'loan_application', 'immoderation', 'test', 'utility_program', 'acme', 'checking_program', 'associate_degree', 'stock_purchase_plan', 'rehabilitation_program', 'job_control', 'object_program', 'return', 'foliation', 'quickening']
+
+meronyms_list: ['plank', 'routine', 'minute', 'date', 'course_of_lectures', 'instruction']
+
+holonyms_list: ['sextant', 'oxtant', 'date', 'date_palm']
+
+synonyms_list: ['practical_application', 'complete', 'able-bodied', 'arrant', 'academic_degree', 'mop_up', 'submit', 'state', 'present', 'defer', 'accede', 'put_in', 'diligence', 'degree', 'adviser', 'pure', 'resign', 'terminated', 'ended', 'programme', 'day_of_the_month', 'program', 'completion', 'relegate', 'take', 'applications_programme', 'windup', 'culmination', 'utter', 'double-dyed', 'escort', 'sodding', 'particular_date', 'computer_programme', 'consultant', 'syllabus', 'closing', 'appointment', 'bow', 'lotion', 'platform', 'perfect', 'accomplished', 'posit', 'capable', 'plan', 'render', 'political_platform', 'all_over', 'level', 'computer_program', 'pass_on', 'application_program', 'political_program', 'reconcile', 'everlasting', 'engagement', 'give_in', 'able', 'staring', 'coating', 'covering', 'subject', 'advisor', 'unadulterated', 'stark', 'concluded', 'point', 'over', 'course_of_study', 'put_forward', 'arcdegree', 'application', 'thoroughgoing', 'grade', 'date', 'consummate', 'stage', 'gross', 'pass_completion', 'curriculum', 'broadcast']

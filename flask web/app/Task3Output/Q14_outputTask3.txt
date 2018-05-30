@@ -1,0 +1,113 @@
+Corpus Question: May I cancel my OPT application once I have applied?
+
+Corpus Answer: 
+Yes, you may request that the OPT application be withdrawn and the recommendation in SEVIS be cancelled, but only if you have recently mailed it to the government. Contact your advisor as soon as possible, if you need to cancel the OPT application. Once your OPT application has been adjudicated (approved) by the immigration service, it can not be cancelled or revoked.
+
+
+Sentence Tokenizer: ['May I cancel my OPT application once I have applied?', 'Yes, you may request that the OPT application be withdrawn and the recommendation in SEVIS be cancelled, but only if you have recently mailed it to the government.', 'Contact your advisor as soon as possible, if you need to cancel the OPT application.', 'Once your OPT application has been adjudicated (approved) by the immigration service, it can not be cancelled or revoked.']
+
+Words Tokenizer: ['May', 'I', 'cancel', 'my', 'OPT', 'application', 'once', 'I', 'have', 'applied', '?', 'Yes', ',', 'you', 'may', 'request', 'that', 'the', 'OPT', 'application', 'be', 'withdrawn', 'and', 'the', 'recommendation', 'in', 'SEVIS', 'be', 'cancelled', ',', 'but', 'only', 'if', 'you', 'have', 'recently', 'mailed', 'it', 'to', 'the', 'government', '.', 'Contact', 'your', 'advisor', 'as', 'soon', 'as', 'possible', ',', 'if', 'you', 'need', 'to', 'cancel', 'the', 'OPT', 'application', '.', 'Once', 'your', 'OPT', 'application', 'has', 'been', 'adjudicated', '(', 'approved', ')', 'by', 'the', 'immigration', 'service', ',', 'it', 'can', 'not', 'be', 'cancelled', 'or', 'revoked', '.']
+
+words_without_stop_words: ['May', 'I', 'cancel', 'OPT', 'application', 'I', 'applied', '?', 'Yes', ',', 'may', 'request', 'OPT', 'application', 'withdrawn', 'recommendation', 'SEVIS', 'cancelled', ',', 'recently', 'mailed', 'government', '.', 'Contact', 'advisor', 'soon', 'possible', ',', 'need', 'cancel', 'OPT', 'application', '.', 'Once', 'OPT', 'application', 'adjudicated', '(', 'approved', ')', 'immigration', 'service', ',', 'cancelled', 'revoked', '.']
+
+words_with_stemming: ['may', 'i', 'cancel', 'opt', 'applic', 'i', 'appli', '?', 'yes', ',', 'may', 'request', 'opt', 'applic', 'withdrawn', 'recommend', 'sevi', 'cancel', ',', 'recent', 'mail', 'govern', '.', 'contact', 'advisor', 'soon', 'possibl', ',', 'need', 'cancel', 'opt', 'applic', '.', 'onc', 'opt', 'applic', 'adjud', '(', 'approv', ')', 'immigr', 'servic', ',', 'cancel', 'revok', '.']
+
+words_with_lemmatization: ['May', 'I', 'cancel', 'OPT', 'application', 'I', 'apply', '?', 'Yes', ',', 'may', 'request', 'OPT', 'application', 'withdrawn', 'recommendation', 'SEVIS', 'cancel', ',', 'recently', 'mail', 'government', '.', 'Contact', 'advisor', 'soon', 'possible', ',', 'need', 'cancel', 'OPT', 'application', '.', 'Once', 'OPT', 'application', 'adjudicate', '(', 'approve', ')', 'immigration', 'service', ',', 'cancel', 'revoke', '.']
+
+words_with_pos_tags: [('May', 'NNP'), ('I', 'PRP'), ('cancel', 'VBP'), ('OPT', 'JJ'), ('application', 'NN'), ('I', 'PRP'), ('applied', 'VBD'), ('?', '.'), ('Yes', 'UH'), (',', ','), ('may', 'MD'), ('request', 'VB'), ('OPT', 'NNP'), ('application', 'NN'), ('withdrawn', 'NN'), ('recommendation', 'NN'), ('SEVIS', 'NNP'), ('cancelled', 'VBD'), (',', ','), ('recently', 'RB'), ('mailed', 'VBD'), ('government', 'NN'), ('.', '.'), ('Contact', 'NNP'), ('advisor', 'RB'), ('soon', 'RB'), ('possible', 'JJ'), (',', ','), ('need', 'JJ'), ('cancel', 'NN'), ('OPT', 'NNP'), ('application', 'NN'), ('.', '.'), ('Once', 'RB'), ('OPT', 'JJ'), ('application', 'NN'), ('adjudicated', 'VBN'), ('(', '('), ('approved', 'VBN'), (')', ')'), ('immigration', 'NN'), ('service', 'NN'), (',', ','), ('cancelled', 'VBD'), ('revoked', 'VBN'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (S
+    (NP-TMP (NNP May))
+    (NP (PRP I))
+    (VP (VBP cancel)
+      (NP (PRP$ my) (NN OPT) (NN application))
+      (SBAR (IN once)
+        (S
+          (NP (PRP I))
+          (VP (VBP have)
+            (VP (VBN applied))))))
+    (. ?)))(ROOT
+  (S
+    (INTJ (UH Yes))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD may)
+      (VP (VB request)
+        (SBAR
+          (SBAR (IN that)
+            (S
+              (S
+                (NP (DT the) (NNP OPT) (NN application))
+                (VP (VB be)
+                  (VP (VBN withdrawn))))
+              (CC and)
+              (S
+                (NP
+                  (NP (DT the) (NN recommendation))
+                  (PP (IN in)
+                    (NP (NNP SEVIS))))
+                (VP (VB be)
+                  (VP (VBN cancelled))))))
+          (, ,)
+          (CONJP (CC but)
+            (RB only))
+          (SBAR (IN if)
+            (S
+              (NP (PRP you))
+              (VP (VBP have)
+                (ADVP (RB recently))
+                (VP (VBN mailed)
+                  (NP (PRP it))
+                  (PP (TO to)
+                    (NP (DT the) (NN government))))))))))
+    (. .)))(ROOT
+  (S
+    (VP (NN Contact)
+      (NP
+        (NP (PRP$ your) (NN advisor))
+        (ADVP
+          (ADVP
+            (ADVP (RB as) (RB soon))
+            (PP (IN as)
+              (ADJP (JJ possible))))
+          (, ,)
+          (SBAR (IN if)
+            (S
+              (NP (PRP you))
+              (VP (VBP need)
+                (S
+                  (VP (TO to)
+                    (VP (VB cancel)
+                      (NP (DT the) (NNP OPT) (NN application)))))))))))
+    (. .)))(ROOT
+  (S
+    (SBAR (RB Once)
+      (S
+        (NP (PRP$ your) (NN OPT) (NN application))
+        (VP (VBZ has)
+          (VP (VBN been)
+            (VP (VBN adjudicated)
+              (PRN (-LRB- -LRB-)
+                (VP (VBN approved))
+                (-RRB- -RRB-))
+              (PP (IN by)
+                (NP (DT the) (NN immigration) (NN service))))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (MD can) (RB not)
+      (VP (VB be)
+        (VP (VBN cancelled)
+          (CC or)
+          (VBN revoked))))
+    (. .)))
+
+hypernyms_list: ['channel', 'authority', 'body', 'interaction', 'speech_act', 'condition', 'send', 'activity', 'declare', 'care', 'necessity', 'remedy', 'remove', 'system', 'end', 'psychological_feature', 'program', 'junction', 'action', 'helpfulness', 'cancel', 'message', 'compel', 'connection', 'give', 'advice', 'poverty', 'musical_notation', 'gregorian_calendar_month', 'migration', 'hawthorn', 'refer', 'play', 'decide', 'accommodation', 'tennis_stroke', 'polity', 'aid', 'coupling', 'use', 'social_science', 'characteristic', 'cover', 'force', 'delivery', 'employment', 'transfer', 'tableware', 'request', 'lens', 'praise', 'communication', 'happening', 'distribute', 'manual_labor', 'denote', 'score', 'touch', 'social_control', 'effort', 'religious_ceremony', 'evaluate', 'company', 'representative', 'work', 'authorize', 'balance']
+
+hyponyms_list: ['palace', 'strain', 'ancien_regime', 'puff', 'solicitation', 'editor_program', 'none', 'flick', 'vesper', 'starets', 'dab', 'committal_service', 'dress', 'confirm', 'active_application', 'military_government', 'bureaucracy', 'putty', 'trick_or_treat', 'character', 'register', 'prayer', 'geopolitics', 'prayer_meeting', 'trust_busting', 'downing_street', 'empire', 'referral', 'life', 'counselor', 'papacy', 'federal_government', 'revoke', 'wish', 'collision', 'security_consultant', 'cream', 'touch', 'court', 'fair_ball', 'investment_adviser', 'government-in-exile', 'puppet_government', 'administer', 'military_adviser', 'work', 'ethical_motive', 'facility', 'word_processor', 'local_government', 'placement', 'authoritarian_state', 'pull_out_all_the_stops', 'call', 'wiper', 'execute', 'beauty_consultant', 'watch_night', 'rational_motive', 'tread', 'psychic_energy', 'implement', 'painting', 'invitation', 'charge', 'fashion_consultant', 'give', 'terminal', 'valet_parking', 'national_service', 'remit', 'run', 'osculation', 'paving', 'demand', 'aliyah', 'marines', 'media_consultant', 'devotional', 'waxing', 'galvanization', 'eye-lotion', 'entreaty', 'tipster', 'navy', 'misapplication', 'invalidate', 'interim_overhaul', 'beggary', 'tinning', 'misgovernment', 'utility', 'place_setting', 'community_service', 'application', 'patent_application', 'management_consultant', 'scumble', 'lining', 'fumigation', 'sound_bow', 'visa', 'pouch', 'curb_service', 'short_circuit', 'cannibalize', 'tangency', 'put', 'follow', 'job', "knight's_service", 'necessity', 'p-n_junction', 'state_government', 'court-martial', 'rubberstamp', 'browser', 'distributor_point', 'frame', 'express', 'legislation', 'blackwash', 'papering', 'liniment', 'ply', 'consulting_service', 'exert', 'let', 'army', 'urge', 'technology', 'spraying', 'slap_on', 'seating', 'avail', 'ace', 'order', 'daub', 'misapply', 'judge', 'self-service', 'write_off', 'exploit', 'credit_application', 'natural_language_processor', 'enjoy', 'coastguard', 'renege', 'rub', 'engagement', 'tiling', 'irrational_motive', 'air_force', 'calamine_lotion', 'fall_back', 'amicus_curiae', 'backroom_boy', 'dinner_service', 'sponge_on', 'totalitarian_state', 'realpolitik', 'recall', 'plastering', 'applet', 'lubrication', 'sanction', 'chapel_service', 'adjust', 'cold-cream', 'express-mail', 'state', 'put_in', 'rubbing_alcohol', 'socage', 'job_application', 'menthol', 'help_desk', 'childcare', 'waste', 'overuse', 'brush', 'church_service', 'anointing', 'questioning', 'county_agent', 'snick', 'airmail', 'play', 'witch_hazel', 'address', 'counteract', 'erase', 'plating', 'recycle', 'strike', 'loan_application', 'gum', 'impact', 'electrical_contact', 'laying_on', 'back', 'fault', 'share', 'notification', 'lack', 'military_service', 'take', 'foliation', 'eye_contact']
+
+meronyms_list: ['invocation', 'government_department', 'mid-may', 'government_officials', "mother's_day", 'administration', 'may_day', 'memorial_day', 'judiciary', 'legislature', 'military_unit', 'commonwealth_day', 'division', 'armed_forces_day', 'executive']
+
+holonyms_list: ['gregorian_calendar', 'crataegus']
+
+synonyms_list: ['delete', 'diligence', 'adviser', 'authorities', 'good_word', 'possible', 'resolve', 'O.K.', 'cancel', 'call_off', 'post', 'political_science', 'striking', 'whitethorn', 'overhaul', 'inter-group_communication', 'petition', 'pauperism', 'serve', 'Crataegus_laevigata', 'revoke', 'touch', 'annul', 'want', 'inspection_and_repair', 'middleman', 'link', 'covering', 'vacate', 'coating', 'countermand', 'physical_contact', 'religious_service', 'motive', 'politics', 'applications_programme', 'implement', 'lift', 'impinging', 'governance', 'give', 'passport', 'servicing', 'May', 'scrub', 'may', 'utilise', 'demand', 'rescind', 'reverse', 'asking', 'armed_service', 'invalidate', 'contact', 'try', 'Robert_William_Service', 'contact_lens', 'help', 'application', 'natural', 'apply', 'in-migration', 'pauperization', 'immigration', 'practical_application', 'set_off', 'repeal', 'put_on', 'send', 'tangency', 'go_for', 'English_hawthorn', 'postulation', 'government_activity', 'serving', 'testimonial', 'consultant', 'divine_service', 'administration', 'approve', 'decide', 'avail', 'settle', 'adjudicate', 'motivation', 'judge', 'hold', 'lend_oneself', 'liaison', 'okay', 'overturn', 'practice', 'governing', 'indigence', 'sanction', 'strike_down', 'enforce', 'get_off', 'need', 'service_of_process', 'Crataegus_oxycantha', 'recommendation', 'Service', 'government', 'table_service', 'utilize', 'mail', 'regime', 'potential', 'lotion', 'scratch', 'use', 'application_program', 'service', 'request', 'advisor', 'employ', 'offset', 'military_service', 'penury']

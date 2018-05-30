@@ -1,0 +1,100 @@
+Corpus Question: What is the average processing time at the USCIS to get my Employment Authorization Document (EAD)? Is there a way to expedite it?
+
+Corpus Answer: 
+The average USCIS processing time to issue the Employment Authorization Document (EAD) is 90 days. However, please visit the USCIS Processing Times (link is external) website for the most up to date processing times. There is no way to expedite an application.
+
+
+Sentence Tokenizer: ['What is the average processing time at the USCIS to get my Employment Authorization Document (EAD)?', 'Is there a way to expedite it?', 'The average USCIS processing time to issue the Employment Authorization Document (EAD) is 90 days.', 'However, please visit the USCIS Processing Times (link is external) website for the most up to date processing times.', 'There is no way to expedite an application.']
+
+Words Tokenizer: ['What', 'is', 'the', 'average', 'processing', 'time', 'at', 'the', 'USCIS', 'to', 'get', 'my', 'Employment', 'Authorization', 'Document', '(', 'EAD', ')', '?', 'Is', 'there', 'a', 'way', 'to', 'expedite', 'it', '?', 'The', 'average', 'USCIS', 'processing', 'time', 'to', 'issue', 'the', 'Employment', 'Authorization', 'Document', '(', 'EAD', ')', 'is', '90', 'days', '.', 'However', ',', 'please', 'visit', 'the', 'USCIS', 'Processing', 'Times', '(', 'link', 'is', 'external', ')', 'website', 'for', 'the', 'most', 'up', 'to', 'date', 'processing', 'times', '.', 'There', 'is', 'no', 'way', 'to', 'expedite', 'an', 'application', '.']
+
+words_without_stop_words: ['What', 'average', 'processing', 'time', 'USCIS', 'get', 'Employment', 'Authorization', 'Document', '(', 'EAD', ')', '?', 'Is', 'way', 'expedite', '?', 'The', 'average', 'USCIS', 'processing', 'time', 'issue', 'Employment', 'Authorization', 'Document', '(', 'EAD', ')', '90', 'days', '.', 'However', ',', 'please', 'visit', 'USCIS', 'Processing', 'Times', '(', 'link', 'external', ')', 'website', 'date', 'processing', 'times', '.', 'There', 'way', 'expedite', 'application', '.']
+
+words_with_stemming: ['what', 'averag', 'process', 'time', 'usci', 'get', 'employ', 'author', 'document', '(', 'ead', ')', '?', 'is', 'way', 'expedit', '?', 'the', 'averag', 'usci', 'process', 'time', 'issu', 'employ', 'author', 'document', '(', 'ead', ')', '90', 'day', '.', 'howev', ',', 'pleas', 'visit', 'usci', 'process', 'time', '(', 'link', 'extern', ')', 'websit', 'date', 'process', 'time', '.', 'there', 'way', 'expedit', 'applic', '.']
+
+words_with_lemmatization: ['What', 'average', 'processing', 'time', 'USCIS', 'get', 'Employment', 'Authorization', 'Document', '(', 'EAD', ')', '?', 'Is', 'way', 'expedite', '?', 'The', 'average', 'USCIS', 'processing', 'time', 'issue', 'Employment', 'Authorization', 'Document', '(', 'EAD', ')', '90', 'day', '.', 'However', ',', 'please', 'visit', 'USCIS', 'Processing', 'Times', '(', 'link', 'external', ')', 'website', 'date', 'processing', 'time', '.', 'There', 'way', 'expedite', 'application', '.']
+
+words_with_pos_tags: [('What', 'WP'), ('average', 'NN'), ('processing', 'NN'), ('time', 'NN'), ('USCIS', 'NNP'), ('get', 'VB'), ('Employment', 'NNP'), ('Authorization', 'NNP'), ('Document', 'NNP'), ('(', '('), ('EAD', 'NNP'), (')', ')'), ('?', '.'), ('Is', 'VBZ'), ('way', 'NN'), ('expedite', 'RB'), ('?', '.'), ('The', 'DT'), ('average', 'JJ'), ('USCIS', 'NNP'), ('processing', 'NN'), ('time', 'NN'), ('issue', 'NN'), ('Employment', 'NNP'), ('Authorization', 'NNP'), ('Document', 'NNP'), ('(', '('), ('EAD', 'NNP'), (')', ')'), ('90', 'CD'), ('days', 'NNS'), ('.', '.'), ('However', 'RB'), (',', ','), ('please', 'VB'), ('visit', 'FW'), ('USCIS', 'NNP'), ('Processing', 'NNP'), ('Times', 'NNP'), ('(', '('), ('link', 'VBP'), ('external', 'NN'), (')', ')'), ('website', 'NN'), ('date', 'NN'), ('processing', 'NN'), ('times', 'NNS'), ('.', '.'), ('There', 'EX'), ('way', 'NN'), ('expedite', 'JJ'), ('application', 'NN'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBZ is)
+      (NP
+        (NP (DT the) (JJ average) (NN processing) (NN time))
+        (PP (IN at)
+          (NP (DT the) (NNP USCIS)))
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (NP
+                (NP (PRP$ my) (NNP Employment) (NNP Authorization) (NNP Document))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP EAD))
+                  (-RRB- -RRB-))))))))
+    (. ?)))(ROOT
+  (SQ (VBZ Is)
+    (NP (EX there))
+    (NP
+      (NP (DT a) (NN way))
+      (S
+        (VP (TO to)
+          (VP (VB expedite)
+            (NP (PRP it))))))
+    (. ?)))(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ average) (NN USCIS) (NN processing) (NN time))
+      (SBAR
+        (S
+          (VP (TO to)
+            (VP (VB issue)
+              (NP (DT the) (NNP Employment) (NNP Authorization) (NNP Document))))))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP EAD))
+        (-RRB- -RRB-)))
+    (VP (VBZ is)
+      (NP (CD 90) (NNS days)))
+    (. .)))(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (VP (VB please)
+      (S
+        (VP (VB visit)
+          (NP
+            (NP (DT the) (NNP USCIS) (NNP Processing) (NNP Times))
+            (PRN (-LRB- -LRB-)
+              (S
+                (NP (NN link))
+                (VP (VBZ is)
+                  (ADJP (JJ external))))
+              (-RRB- -RRB-))))
+        (NP
+          (NP (NN website))
+          (PP (IN for)
+            (NP
+              (NP (DT the) (RBS most))
+              (ADVP (RB up)
+                (PP (TO to)
+                  (NP (NN date) (NN processing) (NNS times)))))))))
+    (. .)))(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ is)
+      (NP (DT no) (NN way)
+        (S
+          (VP (TO to)
+            (VP (VB expedite)
+              (NP (DT an) (NN application)))))))
+    (. .)))
+
+hypernyms_list: ['condition', 'arithmetic_operation', 'content', 'printing', 'communication_system', 'companion', 'sidereal_time', 'time_unit', 'union', 'management', 'era', 'process', 'mean', 'reading', 'life', 'legal_document', 'distance', 'manage', 'point', 'touch', 'catch', 'affect', 'attract', 'moment', 'time', 'occupation', 'choice', 'opportunity', 'leave', 'position', 'hurt', 'undergo', 'term', 'computer_file', 'attribute', 'transmit', 'shape', 'property', 'edible_fruit', 'control', 'dimension', 'change_state', 'work_time', 'phenomenon', 'artifact', 'calendar_year', 'communicate', 'journey', 'periodical', 'seize', 'relative', 'income', 'permission', 'computer', 'representation', 'present', 'day', 'implementation', 'activity', 'hear', 'linkage', 'reproduce', 'path', 'opening', 'action', 'program', 'challenge', 'fastener', 'get_even', 'transform', 'instruction', 'buy', 'make', 'stay', 'destroy', 'circuit', 'understand', 'annoy', 'calendar_month', 'course', 'score', 'channel', 'state', 'writing', 'walk', 'calculate', 'store', 'remedy', 'deliver', 'confuse', 'get', 'category', 'rhythmicity', 'linear_unit', 'time_period', 'change', 'use', 'request', 'beginning', 'effect', 'sicken', 'case', 'communication', 'calendar_day', 'manual_labor', 'share', 'hit', 'meeting', 'effort', 'provision', 'experience']
+
+hyponyms_list: ['vulcanize', 'recapture', 'report', 'maturity', 'obtain', 'afternoon', "jefferson_davis'_birthday", 'pull_in', 'edition', 'quodlibet', 'fluoridate', 'gut_issue', 'halloween', "mother's_day", 'mercerize', 'leap_day', 'earn', 'accept', 'carboxylate', 'date', 'receive', 'retrieve', 'armed_forces_day', 'workday', 'outfall', 'regrow', 'rain_date', 'eternity', 'crack_up', 'qibla', 'instrument', 'painting', "april_fools'", 'field_day', 'life_style', 'dissilience', 'nitrify', 'license', 'influence', 'stump', 'tryst', 'admission_day', 'misapplication', 'fit', 'tendency', 'overwork', 'call-back', 'articulation', 'passage', 'piecework', 'application', 'elude', 'imperium', 'straight_and_narrow', 'patent', 'lining', 'lordship', 'american_indian_day', 'job', 'work_up', 'duration', 'visiting', 'eruption', 'frame', 'plump_in', 'north-south_direction', 'warpath', 'let', 'technology', 'plunge', 'horripilate', 'ides', 'engagement', 'node', 'recover', 'get_cracking', 'rag_day', 'paper_route', 'fumigate', 'while', 'collect', 'plastering', 'applet', 'fast_track', 'sanction', "st_patrick's_day", 'lubrication', 'loan_approval', 'public_service', 'interconnection', 'web_page', 'by-product', 'sea_room', 'tomorrow', 'chrome', 'response', 'spacecraft_clock_time', 'judgment_day', 'anointing', 'curry', 'payday', 'seed', 'change', 'preempt', 'break_in', 'offspring', 'papyrus', 'sovereignty', 'charter', 'dint', 'stock_issue', 'copyright', 'sulphur', 'take', 'wise', 'musical_time', 'win_back', 'blind_spot', 'sprout', 'exploitation', 'coaching', 'future_date', 'enter_upon', 'irradiate', 'ephemera', 'incarnation', 'grandchild', 'high_time', 'bandwagon_effect', 'debouch', 'life_sentence', 'artistic_style', 'turn', 'domino_effect', 'creosote', 'legal_document', 'position_effect', 'hard_time', 'ascii_text_file', "saint's_day", 'brevet', 'washday', 'drive_in', 'geological_time', 'anniversary', "robert_e_lee's_birthday", 'united_nations_day', 'cramp', 'placebo_effect', 'tank', 'economic_rent', 'east-west_direction', 'texas_independence_day', 'leave', 'resignation', 'blowing', 'power_of_appointment', 'pocketbook_issue', 'pan_american_day', 'pod', 'remit', 'chlorinate', 'run', 'coldwork', 'epoch', 'stool', 'waxing', 'market_day', 'may_day', 'galvanization', 'camphorate', 'area', 'bastard', 'present', 'evening', 'reach', 'certificate', 'suffer', 'continuum', 'auspicate', 'reverberate', 'land', 'get_to', 'blackwash', 'liniment', 'living_space', 'decide', 'render', 'buy', 'ballot', 'red-letter_day', 'natural_language_processor', 'carte_blanche', 'till', 'iodize', 'suborn', 'dose', 'wings', 'glom', 'certification', 'parade', 'job_application', 'knock-on_effect', 'deliver', 'space_age', 'beneficiate', 'lead', 'walpurgis_night', 'play', 'platform', 'witch_hazel', 'bring', 'air-condition', 'voucher', 'inherit', 'capitulation', 'expedient', 'citizenship_day', 'occasion', 'confession', 'side_effect', 'foliation', 'tooth', 'watercourse', 'editor_program', 'holiday', 'primrose_path', 'midsummer_eve', 'ministry', 'active_application', 'press_out', 'fledge', 'shape-up', 'command', 'walkie-talkie', 'come_by', "patriot's_day", 'school_day', 'coriolis_effect', 'development', 'off-day', 'catch', 'work', 'coherence', 'recommence', 'take_effect', 'line_up', 'expedite', 'birthday', 'propagate', 'v-day', 'break_down', 'misuse', 'outgrowth', 'november_5', 'nitrate', 'wash', 'call', 'isolate', 'flag_day', 'stairway', 'drape', 'muscle', 'lane', 'attack', 'baby', 'eye-lotion', 'jump_off', 'stepping_stone', 'polling_day', 'scumble', 'fumigation', 'prompt', 'day', 'inauguration_day', 'rework', 'path', 'eve', 'papering', 'butterfly_effect', 'cut', "lincoln's_birthday", 'acquire', 'settle', 'carbonate', 'malt', 'credit_application', 'tiling', 'practice', 'partake', 'seafaring', 'past', 'arbor_day', 'salvation', 'recycling', 'brisance', 'commercial_document', 'lasso', 'resolution', 'sunnah', 'today', 'lease', 'roman_times', 'res_judicata', 'commission', 'come', 'get', 'refining', "father's_day", 'teethe', 'telecommuting', 'future', 'desperate_measure', 'morrow', 'countermarch', 'loan_application', 'paramount_issue', 'ambages', 'spillover', 'file', 'subpoena', 'groundhog_day', 'site_visit', 'capture', 'fall', 'solicit', 'repercussion', 'reclaim', 'embark', 'voice', 'find', 'double_date', 'breathing_room', 'midafternoon', 'data_processing', 'rubber_stamp', 'come_on', 'quittance', 'hot-work', 'setup', 'parking', 'coattails_effect', 'spring', 'workload', 'scald', 'yesterday', 'wedding_day', 'bridge', 'booking', 'prime_time', 'touch', 'debt_instrument', 'child', 'word_processor', 'escape', 'moment', 'digest', 'product', 'successor', 'profit', 'access', 'visitation', 'hour', 'flood_in', 'break', 'paving', 'aftereffect', 'encourage', 'commencement_day', 'source', 'contact', 'civil_time', 'tinning', 'chat_room', 'persuade', 'letter_of_credit', "washington's_birthday", 'patent_application', "new_year's_eve", 'aftermath', 'dent', 'modern_times', 'road', 'sober_up', 'hard_times', 'valentine_day', 'ammoniate', 'browser', 'flying_visit', 'leaf', 'pupate', 'open_sesame', 'gain', 'portal_site', 'speech_day', 'strike_out', 'spraying', 'seating', 'enclosure', 'dead', 'agenize', 'daylight-saving_time', 'cosmic_time', 'tool', 'form', 'services', 'delegating', 'calamine_lotion', 'refine', 'letter', 'rack', 'greenwich_mean_time', 'sell-by_date', 'firstborn', 'course', 'hyperlink', 'lunar_day', 'tet', 'rubbing_alcohol', 'wee', 'standing_room', 'bromate', 'payback', 'menthol', 'specification', 'vulcanization', 'oxygenate', 'pick_up', 'cinco_de_mayo', 'compel', 'riddle', 'goose_step', 'harvest', 'biological_time', 'blind_date', 'poll', 'bearing', 'plating', 'impact', 'service', 'concatenation', 'record', 'bituminize', 'headroom', 'houseroom', 'roll_up', 'borrow']
+
+meronyms_list: ['preamble', 'article', 'day', 'hour', 'night', 'date', 'noon', 'wayside', 'morning']
+
+holonyms_list: ['chain', 'day', 'transportation_system', 'date', 'date_palm', 'series']
+
+synonyms_list: ['litigate', 'authority', '24-hour_interval', 'have', 'gravel', 'diligence', 'find', 'fetch', 'drive', 'usage', 'sentence', 'incur', 'produce', 'obtain', 'mystify', 'set_out', 'day_of_the_month', 'average', 'result', 'bring_forth', 'metre', 'publication', 'topic', 'process', 'set_about', 'agency', 'room', 'treat', 'inter-group_communication', 'medium', 'years', 'intermediate', 'mean', 'scram', 'beget', 'mode', 'issuance', 'serve', 'means', 'nexus', 'processing', 'sue', 'tie-in', 'start', 'subject', 'swear_out', 'daytime', 'baffle', 'pose', 'empowerment', 'takings', 'web_site', 'catch', 'pay_back', 'date', 'link', 'receive', 'vex', 'work', 'connectedness', 'covering', 'manner', 'get_down', 'time', 'contract', 'middling', 'payoff', 'perplex', 'coating', 'document', 'clip', 'utilization', 'way_of_life', 'military_issue', 'outside', 'median', 'applications_programme', 'aim', 'sojourn', 'data_link', 'Day', 'multiplication', 'sustain', 'engender', 'outlet', 'number', 'prison_term', 'meter', 'upshot', 'way_out', 'tie', 'convey', 'egress', 'contact', 'grow', 'Clarence_Day', 'event', 'connexion', 'buzz_off', 'direction', 'application', 'way', 'visit', 'flummox', 'utilisation', 'generate', 'practical_application', 'bugger_off', 'go', 'day', 'government_issue', 'suffer', 'nonplus', 'twenty-four_hour_period', 'path', 'induce', 'exercise', 'action', 'escort', 'connection', 'let', 'mandate', 'international', 'twenty-four_hours', 'sire', 'mean_solar_day', 'acquire', 'dominance', 'external', 'pay_off', 'begin', 'make', 'stupefy', 'proceeds', 'employment', 'liaison', 'amaze', 'engagement', 'beat', 'draw', 'elbow_room', 'extraneous', 'daylight', 'bewilder', 'commence', 'sanction', 'dumbfound', "get_under_one's_skin", 'internet_site', 'become', 'develop', 'ordinary', 'start_out', 'say-so', 'mediocre', 'stick', 'father', 'site', 'clock_time', 'fuck_off', 'issue', 'progeny', 'modal', 'arrive', 'come', 'sidereal_day', 'get', 'fix', 'particular_date', 'arrest', 'yield', 'appointment', 'issuing', 'lotion', 'exit', 'days', 'potency', 'matter', 'cause', 'bring', 'text_file', 'fair', 'use', 'papers', 'offspring', 'application_program', 'written_document', 'website', 'puzzle', 'fashion', 'authorisation', 'Clarence_Shepard_Day_Jr.', 'march', 'solar_day', 'effect', 'mother', 'outcome', 'stimulate', 'work_on', 'consequence', 'style', 'emergence', 'return', 'employ', 'capture', 'fourth_dimension', 'times', 'take', 'linkup', 'radio_link', 'experience', 'authorization']

@@ -1,0 +1,69 @@
+Corpus Question: My employer is not signed up for E Verify. How can my employer sign up for this program?
+
+Corpus Answer:  The E Verify program imposes significant obligations on an employer. Employers can find out more about the program and obligations on thiswebsite
+
+
+Sentence Tokenizer: ['My employer is not signed up for E Verify.', 'How can my employer sign up for this program?', 'The E Verify program imposes significant obligations on an employer.', 'Employers can find out more about the program and obligations on this\xa0website']
+
+Words Tokenizer: ['My', 'employer', 'is', 'not', 'signed', 'up', 'for', 'E', 'Verify', '.', 'How', 'can', 'my', 'employer', 'sign', 'up', 'for', 'this', 'program', '?', 'The', 'E', 'Verify', 'program', 'imposes', 'significant', 'obligations', 'on', 'an', 'employer', '.', 'Employers', 'can', 'find', 'out', 'more', 'about', 'the', 'program', 'and', 'obligations', 'on', 'this', 'website']
+
+words_without_stop_words: ['My', 'employer', 'signed', 'E', 'Verify', '.', 'How', 'employer', 'sign', 'program', '?', 'The', 'E', 'Verify', 'program', 'imposes', 'significant', 'obligations', 'employer', '.', 'Employers', 'find', 'program', 'obligations', 'website']
+
+words_with_stemming: ['my', 'employ', 'sign', 'e', 'verifi', '.', 'how', 'employ', 'sign', 'program', '?', 'the', 'e', 'verifi', 'program', 'impos', 'signific', 'oblig', 'employ', '.', 'employ', 'find', 'program', 'oblig', 'websit']
+
+words_with_lemmatization: ['My', 'employer', 'sign', 'E', 'Verify', '.', 'How', 'employer', 'sign', 'program', '?', 'The', 'E', 'Verify', 'program', 'imposes', 'significant', 'obligation', 'employer', '.', 'Employers', 'find', 'program', 'obligation', 'website']
+
+words_with_pos_tags: [('My', 'PRP$'), ('employer', 'NN'), ('signed', 'VBD'), ('E', 'NNP'), ('Verify', 'NNP'), ('.', '.'), ('How', 'NNP'), ('employer', 'JJ'), ('sign', 'NN'), ('program', 'NN'), ('?', '.'), ('The', 'DT'), ('E', 'NNP'), ('Verify', 'NNP'), ('program', 'NN'), ('imposes', 'NNS'), ('significant', 'JJ'), ('obligations', 'NNS'), ('employer', 'NN'), ('.', '.'), ('Employers', 'NNS'), ('find', 'VBP'), ('program', 'NN'), ('obligations', 'NNS'), ('website', 'VBP')]
+
+parse_tree_string: (ROOT
+  (S
+    (NP (PRP$ My) (NN employer))
+    (VP (VBZ is) (RB not)
+      (VP (VBN signed)
+        (PRT (RP up))
+        (PP (IN for)
+          (NP (NN E) (NN Verify)))))
+    (. .)))(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (MD can)
+      (NP (PRP$ my) (NN employer))
+      (VP (VB sign)
+        (PRT (RP up))
+        (PP (IN for)
+          (NP (DT this) (NN program)))))
+    (. ?)))(ROOT
+  (S
+    (NP (DT The) (NN E)
+      (S
+        (VP (VB Verify)
+          (NP (NN program)))))
+    (VP (VBZ imposes)
+      (NP (JJ significant) (NNS obligations))
+      (PP (IN on)
+        (NP (DT an) (NN employer))))
+    (. .)))(ROOT
+  (S
+    (NP (NNS Employers))
+    (VP (MD can)
+      (VP (VB find)
+        (PRT (RP out))
+        (NP
+          (NP (JJR more))
+          (PP (IN about)
+            (NP
+              (NP (DT the) (NN program))
+              (CC and)
+              (NP (NNS obligations)))))
+        (PP (IN on)
+          (NP (DT this) (NN website)))))))
+
+hypernyms_list: ['gesture', 'contract', 'state', 'mature', 'reason', 'reach', 'gestate', 'put', 'document', 'performance', 'declare', 'validate', 'system', 'cardinal_compass_point', 'transcendental_number', 'get', 'structure', 'perceive', 'written_agreement', 'announcement', 'confirm', 'idea', 'clue', 'write', 'antioxidant', 'evidence', 'show', 'language_unit', 'opposition', 'information', 'software', 'hire', 'change', 'fat-soluble_vitamin', 'mathematical_notation', 'personal_relation', 'learn', 'gesticulate', 'leader', 'communicate', 'test', 'communication', 'letter', 'pronounce', 'social_control', 'spy', 'computer', 'metallic_element', 'region', 'experience']
+
+hyponyms_list: ['television_program', 'mistress', 'padrone', 'instantiate', 'electronic_signal', 'minus_sign', 'gauge', 'declare', 'omen', 'input_signal', 'war_cloud', 'text-matching', 'racecard', 'undersign', 'locate', 'symbol', 'library_program', 'poster', 'assembler', 'endorse', 'road_map', 'audit_program', 'floater', 'spreadsheet', 'bond', 'rake_up', 'patch', 'time_signal', 'defense_program', 'supervisory_program', 'animal_communication', 'indebtedness', 'game_show', 'radio_beacon', 'playbill', 'fortran_program', 'superfund_program', 'project', 'situate', 'ticktack', 'lisp_program', 'certificate_of_deposit', 'ferret_out', 'signpost', 'educational_program', 'talk_show', 'legal_duty', 'catch', 'equal_sign', 'debugger', 'alpha-tocopheral', 'token', 'plan_of_action', 'count', 'imperative', 'translator', 'initial', 'execute', 'monitor_program', 'civic_duty', 'space_program', 'sustaining_program', 'access', 'news_program', 'billboard', 'radical_sign', 'distress_signal', 'high_sign', 'requirement', 'find_out', 'trace', 'tax_program', 'filial_duty', 'pension_plan', 'rout_up', 'system_program', 'serial', 'noblesse_oblige', 'autograph', 'vital_sign', 'rubricate', 'bugle_call', 'incumbency', 'dog-ear', 'chat_room', 'syntax_checker', 'application', 'blueprint', 'attest', 'line_of_duty', 'sense', 'relocatable_program', 'visual_signal', 'sandwich_board', 'protest', 'binary', 'street_sign', 'anti-virus_program', 'job', 'claim', 'indicator', 'degree_program', 'tagger', 'source_program', 'flag', 'semaphore', 'malevolent_program', 'fall_upon', 'see', 'stored_program', 'guardianship', 'moral_obligation', 'all_clear', 'master', 'check', 'portal_site', 'slave_driver', 'loop', 'employee_savings_plan', 'compiler', 'hold', 'reusable_program', 'debt', 'starting_signal', 'cash_equivalent', 'parser', 'crash_course', 'reading_program', 'output_signal', 'spider', 'alarm', 'retreat', 'bill', 'telegraphic_signal', 'scoreboard', 'search_engine', 'master_plan', 'budget', 'web_map_service', 'outline', 'episode', 'positivity', 'prerequisite', 'feel', 'negativity', 'self-adapting_program', 'redetermine', 'rerun', 'recording', 'ink', 'radio_beam', 'works_program', 'drumbeat', 'boss', 'c_program', 'rectify', 'agenda', 'interface', 'phone_number', 'curfew', 'refract', 'countersign', 'heliograph', 'regimen', 'interpreter', 'sequence', 'contract_out', 'burden_of_proof', 'storm_signal', 'plus_sign', 'utility_program', 'translate', 'checking_program', 'job_control', 'stock_purchase_plan', 'rehabilitation_program', 'object_program', "white_man's_burden", 'assure', 'admeasure', 'shingle', 'wigwag', 'note', 'take', 'whistle']
+
+meronyms_list: ['instruction', 'routine', 'course_of_lectures', 'plank']
+
+holonyms_list: ['disease', 'roman_alphabet', 'zodiac', 'sign_language']
+
+synonyms_list: ['find', 'vitamin_E', 'rule', 'Es', 'incur', 'signal', 'meaning', 'obtain', 'e', 'ratify', 'determine', 'signboard', 'political_platform', 'signalize', 'east', 'certificate_of_indebtedness', 'indebtedness', 'swan', 'verify', 'E', 'debt_instrument', 'web_site', 'bless', 'receive', 'retrieve', 'line_up', 'course_of_study', 'contract', 'witness', 'come_up', 'atomic_number_99', 'programme', 'pregnant', 'find_out', 'tocopherol', 'control', 'computer_program', 'polarity', 'bump', 'curriculum', 'subscribe', 'sign_of_the_zodiac', 'augury', 'sign_up', 'due_east', 'foretoken', 'aver', 'see', 'program', 'get_hold', 'detect', 'preindication', 'syllabus', 'mark', 'einsteinium', 'ascertain', 'sign', 'obligation', 'plan', 'significant', 'encounter', 'political_program', 'star_sign', 'recover', 'house', 'affirm', 'discover', 'regain', 'swear', 'eastward', 'chance', 'internet_site', 'broadcast', 'sign_on', 'important', 'site', 'employer', 'duty', 'happen', 'get', 'feel', 'computer_programme', 'mansion', 'planetary_house', 'find_oneself', 'platform', 'notice', 'signaling', 'signalise', 'assert', 'website', 'substantial', 'observe', 'responsibility', 'avow']

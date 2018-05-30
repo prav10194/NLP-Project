@@ -1,0 +1,94 @@
+Corpus Question: My EAD says "not valid for re-entry" on it. Does that mean I cannot travel abroad and re-enter on OPT?
+
+Corpus Answer: 
+It simply means that you must carry other documents to show proof of your eligibility to re-enter the U.S. such as your I-20 and valid F-1 visa stamp. The EAD alone is not enough to re-enter the U.S.
+
+
+Sentence Tokenizer: ['My EAD says "not valid for re-entry" on it.', 'Does that mean I cannot travel abroad and re-enter on OPT?', 'It simply means that you must carry other documents to show proof of your eligibility to re-enter the U.S. such as your I-20 and valid F-1 visa stamp.', 'The EAD alone is not enough to re-enter the U.S.']
+
+Words Tokenizer: ['My', 'EAD', 'says', '``', 'not', 'valid', 'for', 're-entry', "''", 'on', 'it', '.', 'Does', 'that', 'mean', 'I', 'can', 'not', 'travel', 'abroad', 'and', 're-enter', 'on', 'OPT', '?', 'It', 'simply', 'means', 'that', 'you', 'must', 'carry', 'other', 'documents', 'to', 'show', 'proof', 'of', 'your', 'eligibility', 'to', 're-enter', 'the', 'U.S.', 'such', 'as', 'your', 'I-20', 'and', 'valid', 'F-1', 'visa', 'stamp', '.', 'The', 'EAD', 'alone', 'is', 'not', 'enough', 'to', 're-enter', 'the', 'U.S', '.']
+
+words_without_stop_words: ['My', 'EAD', 'says', '``', 'valid', 're-entry', "''", '.', 'Does', 'mean', 'I', 'travel', 'abroad', 're-enter', 'OPT', '?', 'It', 'simply', 'means', 'must', 'carry', 'documents', 'show', 'proof', 'eligibility', 're-enter', 'U.S.', 'I-20', 'valid', 'F-1', 'visa', 'stamp', '.', 'The', 'EAD', 'alone', 'enough', 're-enter', 'U.S', '.']
+
+words_with_stemming: ['my', 'ead', 'say', '``', 'valid', 're-entri', "''", '.', 'doe', 'mean', 'i', 'travel', 'abroad', 're-ent', 'opt', '?', 'it', 'simpli', 'mean', 'must', 'carri', 'document', 'show', 'proof', 'elig', 're-ent', 'u.s.', 'i-20', 'valid', 'f-1', 'visa', 'stamp', '.', 'the', 'ead', 'alon', 'enough', 're-ent', 'u.', '.']
+
+words_with_lemmatization: ['My', 'EAD', 'say', '``', 'valid', 're-entry', "''", '.', 'Does', 'mean', 'I', 'travel', 'abroad', 're-enter', 'OPT', '?', 'It', 'simply', 'mean', 'must', 'carry', 'document', 'show', 'proof', 'eligibility', 're-enter', 'U.S.', 'I-20', 'valid', 'F-1', 'visa', 'stamp', '.', 'The', 'EAD', 'alone', 'enough', 're-enter', 'U.S', '.']
+
+words_with_pos_tags: [('My', 'PRP$'), ('EAD', 'NNP'), ('says', 'VBZ'), ('``', '``'), ('valid', 'JJ'), ('re-entry', 'NN'), ("''", "''"), ('.', '.'), ('Does', 'NNP'), ('mean', 'VB'), ('I', 'PRP'), ('travel', 'VBP'), ('abroad', 'RB'), ('re-enter', 'JJ'), ('OPT', 'NNP'), ('?', '.'), ('It', 'PRP'), ('simply', 'RB'), ('means', 'VBZ'), ('must', 'MD'), ('carry', 'VB'), ('documents', 'NNS'), ('show', 'VBP'), ('proof', 'JJ'), ('eligibility', 'NN'), ('re-enter', 'JJ'), ('U.S.', 'NNP'), ('I-20', 'NNP'), ('valid', 'JJ'), ('F-1', 'NNP'), ('visa', 'NN'), ('stamp', 'NN'), ('.', '.'), ('The', 'DT'), ('EAD', 'NNP'), ('alone', 'RB'), ('enough', 'RB'), ('re-enter', 'JJ'), ('U.S', 'NNP'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (S
+    (NP (PRP$ My) (NN EAD))
+    (VP (VBZ says)
+      (ADJP (`` ``)
+        (ADJP (RB not) (JJ valid)
+          (PP (IN for)
+            (NP (NN re-entry))))
+        ('' '')
+        (PP (IN on)
+          (NP (PRP it)))))
+    (. .)))(ROOT
+  (S
+    (VP (VBZ Does)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (NN mean))
+            (NP (PRP I)))
+          (VP (MD can) (RB not)
+            (VP
+              (VP (VB travel)
+                (ADVP (RB abroad)))
+              (CC and)
+              (VP (VB re-enter)
+                (PP (IN on)
+                  (NP (NNP OPT)))))))))
+    (. ?)))(ROOT
+  (S
+    (NP (PRP It))
+    (ADVP (RB simply))
+    (VP (VBZ means)
+      (SBAR (IN that)
+        (S
+          (NP (PRP you))
+          (VP (MD must)
+            (VP (VB carry)
+              (NP (JJ other) (NNS documents))
+              (S
+                (VP (TO to)
+                  (VP (VB show)
+                    (NP
+                      (NP (NN proof))
+                      (PP (IN of)
+                        (NP (PRP$ your) (NN eligibility)
+                          (S
+                            (VP (TO to)
+                              (VP (VB re-enter)
+                                (NP
+                                  (NP (DT the) (NNP U.S.))
+                                  (PP (JJ such) (IN as)
+                                    (NP
+                                      (NP (PRP$ your) (NN I-20))
+                                      (CC and)
+                                      (NP (JJ valid) (NN F-1) (NN visa) (NN stamp)))))))))))))))))))
+    (. .)))(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN EAD))
+      (ADVP (RB alone)))
+    (VP (VBZ is) (RB not)
+      (ADJP (JJ enough)
+        (S
+          (VP (TO to)
+            (VP (VB re-enter)
+              (NP (DT the) (NNP U.S.)))))))))
+
+hypernyms_list: ['social_event', 'token', 'have', 'writing', 'pretense', 'executive_department', 'implementation', 'determination', 'die', 'movement', 'average', 'express', 'computer_file', 'symbol', 'entertainment', 'speculate', 'medium_of_exchange', 'read', 'evidence', 'qualification', 'transportation', 'capital', 'recite', 'device', 'instrumentality', 'motion', 'demonstration', 'assert', 'convey', 'request', 'impression', 'solid', 'placental', 'federal_government', 'argument', 'sheet', 'communication', 'class', 'machine', 'photographic_print', 'representation', 'measure', 'sanction']
+
+hyponyms_list: ['add', 'spread', 'voice', 'instruct', 'pocketbook', 'horseshow', 'quittance', 'report', 'misstate', 'authentication', 'declare', 'circus', 'burlesque', 'peregrination', 'answer', 'imprint', 'stampede', 'flap', 'lilt', 'insurability', 'air_travel', 'on_the_road', 'command', 'translation', 'marriageability', 'traversal', 'legal_document', 'wild_west_show', 'direct', 'arithmetic_mean', 'gravitation', 'rise', 'gait', 'ascii_text_file', 'confirmation', 'summarize', 'flow', 'lap', 'brevet', 'presentation', 'stage_dancing', 'debt_instrument', 'progress', 'vocalize', 'escape', 'wherewithal', 'articulate', 'stroke', 'dance_step', 'interlude', 'mathematical_proof', 'step', 'retroflex', 'palatalize', 'explode', 'trill', 'call', 'ice_show', 'resignation', 'display', "fireman's_carry", 'instrument', 'warn', 'geometric_mean', 'signet', 'give', 'wayfaring', 'crawl', 'jog', 'run', 'descent', 'demonstration', 'foundry_proof', 'great_seal', 'source', 'stepping_stone', 'dog_show', 'journey', 'letter_of_credit', 'explain', 'precede', 'stress', 'road_show', 'patent', 'riding', 'present', 'ascension', 'water_travel', 'syllabize', 'big_stick', 'certificate', 'road', 'announce', 'brachiation', 'piggyback', 'performance', 'food_stamp', 'aspirate', 'harmonic_mean', 'porterage', 'subvocalize', 'twang', 'mispronounce', 'open_sesame', 'gaudery', 'documentation', 'nasalize', 'enclosure', 'creep', 'ballot', 'form', 'attraction', 'wandering', 'portage', 'letter', 'round', 'salvation', 'wings', 'raree-show', 'establishment', 'sideshow', 'bulla', 'stage', 'fast_track', 'monetization', 'handstamp', 'broadcast', 'commercial_document', 'cabaret', 'packing', 'resolution', 'circumnavigation', 'carnival', 'walk', 'web_page', 'roll', 'commutation', 'cachet', 'circulation', 'get_out', 'specification', 'raise', 'sibilate', 'entrance', 'drawl', 'junketing', 'devoice', 'variety_show', 'platform', 'play', 'seal', 'lisp', 'driving', 'desperate_measure', 'galley_proof', 'voucher', 'papyrus', 'plead', 'staging', 'levitation', 'record', 'probate', 'expedient', 'capitulation', 'galanty_show', 'click', 'crossing', 'confession', 'puppet_show', 'movie', 'dint', 'charter', 'copyright', 'note', 'fall', 'logical_proof', 'tooth']
+
+meronyms_list: ['nebraska', 'new_england', 'article', 'mid-atlantic_states', 'pacific_northwest', 'district_of_columbia', 'colony', 'minnesota', 'virginia', 'texas', 'alaska', 'louisiana', 'west_virginia', 'oregon', 'maryland', 'rio_grande', 'south_carolina', 'washington', 'nevada', 'executive_branch', 'kansas', 'kentucky', 'idaho', 'niagara', 'department_of_energy_intelligence', 'preamble', 'arkansas', 'ohio', 'rhode_island', 'sunbelt', 'utah', 'yukon', 'wyoming', 'north_dakota', 'dakota', 'hawaii', 'midwest', 'vermont', 'indiana', 'colorado', 'massachusetts', 'north', 'west', 'montana', 'twin', 'georgia', 'north_carolina', 'connecticut', 'delaware', 'east', 'iowa', 'oklahoma', 'louisiana_purchase', 'california', 'new_york', 'niobrara', 'great_lakes', 'legislative_branch', 'new_hampshire', 'pennsylvania', 'south', 'south_dakota', 'maine', 'missouri', 'new_river', 'florida', 'illinois', 'new_jersey', 'american_state', 'michigan', 'tennessee', 'wisconsin', 'american', 'alabama', 'mississippi', 'new_mexico', 'saint_lawrence', 'arizona', 'yosemite', 'judicial_branch']
+
+holonyms_list: ['north_america', 'north_atlantic_treaty_organization', 'organization_of_american_states', 'battery', 'passport']
+
+synonyms_list: ['articulate', 'doe', 'state', 'mould', 'document', 'the_States', 'America', 'U.S.A.', 'Energy_Department', 'aver', 'display', 'carry', 'eligibility', 'United_States_government', 'postage_stamp', 'stamp', 'suppose', 'appearance', 'US_Government', 'Department_of_Energy', 'revenue_stamp', 'enjoin', 'tell', 'postage', 'Energy', 'read', 'show', 'U.S._government', 'enunciate', 'U.S.', 'United_States_of_America', 'seal', 'order', 'DOE', 'travel', 'agency', 'text_file', 'validation', 'pestle', 'cast', 'mean_value', 'allege', 'say', 'tender', 'papers', 'mean', 'written_document', 'means', 'travelling', 'impression', 'change_of_location', 'United_States', 'sound_out', 'proof', 'pronounce', 'locomotion', 'legal_tender', 'enounce', 'substance', 'way', 'cogent_evidence', 'mold', 'traveling', 'USA', 'valid', 'substantiation', 'US', 'test_copy', 'trial_impression', 'visa']

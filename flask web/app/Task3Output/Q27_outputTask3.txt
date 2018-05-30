@@ -1,0 +1,76 @@
+Corpus Question: USCIS said that my EAD was approved, but I have not received it yet - can I start working?
+
+Corpus Answer: 
+No. You must be able to show the employer the EAD when you begin employment.
+
+
+Sentence Tokenizer: ['USCIS said that my EAD was approved, but I have not received it yet - can I start working?', 'No.', 'You must be able to show the employer the EAD when you begin employment.']
+
+Words Tokenizer: ['USCIS', 'said', 'that', 'my', 'EAD', 'was', 'approved', ',', 'but', 'I', 'have', 'not', 'received', 'it', 'yet', '-', 'can', 'I', 'start', 'working', '?', 'No', '.', 'You', 'must', 'be', 'able', 'to', 'show', 'the', 'employer', 'the', 'EAD', 'when', 'you', 'begin', 'employment', '.']
+
+words_without_stop_words: ['USCIS', 'said', 'EAD', 'approved', ',', 'I', 'received', 'yet', '-', 'I', 'start', 'working', '?', 'No', '.', 'You', 'must', 'able', 'show', 'employer', 'EAD', 'begin', 'employment', '.']
+
+words_with_stemming: ['usci', 'said', 'ead', 'approv', ',', 'i', 'receiv', 'yet', '-', 'i', 'start', 'work', '?', 'no', '.', 'you', 'must', 'abl', 'show', 'employ', 'ead', 'begin', 'employ', '.']
+
+words_with_lemmatization: ['USCIS', 'say', 'EAD', 'approve', ',', 'I', 'receive', 'yet', '-', 'I', 'start', 'work', '?', 'No', '.', 'You', 'must', 'able', 'show', 'employer', 'EAD', 'begin', 'employment', '.']
+
+words_with_pos_tags: [('USCIS', 'NNP'), ('said', 'VBD'), ('EAD', 'NNP'), ('approved', 'VBD'), (',', ','), ('I', 'PRP'), ('received', 'VBD'), ('yet', 'RB'), ('-', ':'), ('I', 'PRP'), ('start', 'VBP'), ('working', 'VBG'), ('?', '.'), ('No', 'UH'), ('.', '.'), ('You', 'PRP'), ('must', 'MD'), ('able', 'JJ'), ('show', 'NN'), ('employer', 'NN'), ('EAD', 'NNP'), ('begin', 'VB'), ('employment', 'NN'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (S
+    (S
+      (S
+        (NP (NNP USCIS))
+        (VP (VBD said)
+          (SBAR (IN that)
+            (S
+              (NP (PRP$ my) (NNP EAD))
+              (VP (VBD was)
+                (VP (VBN approved)))))))
+      (, ,)
+      (CC but)
+      (S
+        (NP (PRP I))
+        (VP (VBP have) (RB not)
+          (VP (VBN received)
+            (S
+              (NP (PRP it))
+              (ADVP (RB yet)))))))
+    (: -)
+    (SQ (MD can)
+      (NP (PRP I))
+      (VP (VB start)
+        (S
+          (VP (VBG working)))))
+    (. ?)))(ROOT
+  (FRAG
+    (NP (DT No))
+    (. .)))(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD must)
+      (VP (VB be)
+        (ADJP (JJ able)
+          (S
+            (VP (TO to)
+              (VP (VB show)
+                (NP (DT the) (NN employer))
+                (NP
+                  (NP (DT the) (NNP EAD))
+                  (SBAR
+                    (WHADVP (WRB when))
+                    (S
+                      (NP (PRP you))
+                      (VP (VBP begin)
+                        (NP (NN employment))))))))))))
+    (. .)))
+
+hypernyms_list: ['become', 'social_event', 'have', 'state', 'pretense', 'succeed', 'go', 'occupation', 'move', 'activity', 'signal', 'reflex', 'see', 'undergo', 'action', 'get', 'perceive', 'create_from_raw_material', 'express', 'convert', 'fix', 'entertainment', 'pass', 'speculate', 'read', 'transform', 'manipulate', 'recite', 'change', 'use', 'greet', 'change_state', 'make', 'turn', 'demonstration', 'assert', 'convey', 'request', 'operate', 'beginning', 'leader', 'partake', 'celebrate', 'accept', 'manage', 'stimulate', 'point', 'advantage', 'line', 'understand', 'capture', 'change_of_state', 'evaluate', 'affect', 'work', 'be', 'authorize']
+
+hyponyms_list: ['add', 'reshape', 'voice', 'instruct', 'fink', 'overcrop', 'drive', 'mistress', 'padrone', 'exploitation', 'first_step', 'horseshow', 'misstate', 'take_in', 'declare', 'onset', 'hot-work', 'circus', 'burlesque', 'masticate', 'coaching', 'answer', 'constitution', 'moonlight', 'slave', 'imprint', 'workload', 'stamp', 'roughcast', 'flap', 'confirm', 'incipiency', 'ministry', 'assist', 'lilt', 'graduate', 'shape-up', 'freelance', 'command', 'installation', 'startup', 'induct', 'claw', 'cast', 'make_hay', 'mound', 'booking', 'hustle', 'scrum', 'serve', 'carve', 'wild_west_show', 'direct', 'groundbreaking', 'accept', 'summarize', 'cybernate', 'presentation', 'carpenter', 'stage_dancing', 'bushwhack', 'startle_response', 'whore', 'man', 'vocalize', 'work', 'articulate', 'interlude', 'introduction', 'stir', 'tinker', 'adrenarche', 'retroflex', 'misuse', 'springboard', 'palatalize', 'intern', 'explode', 'trill', 'call', 'color', 'vinify', 'ice_show', 'swing', 'fence', 'welcome', 'display', 'minister', 'work_through', 'blackmail', 'skipper', 'jostle', 'warn', 'specialize', 'model', 'give', 'putter', 'turn_a_trick', 'dawn', 'run', 'coldwork', 'break', 'attack', 'electioneer', 'work_at', 'wince', 'demonstration', 'guess', 'startle_reflex', 'overwork', 'call-back', 'layer', 'dog_show', 'piecework', 'explain', 'precede', 'thelarche', 'dominate', 'stress', 'cut_out', 'road_show', 'application', 'bank', 'assume', 'present', 'visa', 'labor', 'syllabize', 'big_stick', 'beaver', 'collaborate', 'boondoggle', "pull_one's_weight", 'announce', 'suffer', 'jump_ball', 'job', 'birth', 'double', 'hear', 'performance', 'menarche', 'sinter', 'aspirate', 'absorb', 'rework', 'see', 'opening', 'exercise', 'rubberstamp', 'subvocalize', 'twang', 'grind', 'busy', 'chip', 'mispronounce', 'master', 'initiation', 'terminus_a_quo', 'throw', 'activation', 'cut', 'gaudery', 'slave_driver', 'nasalize', 'avail', 'face-off', 'militate', 'tool', 'horripilate', 'services', 'attraction', 'engagement', 'till', 'beat', 'practice', 'seafaring', 'preform', 'flying_start', 'paper_route', 'rack', 'inauguration', 'round', 'raree-show', 'recycling', 'sideshow', 'sanction', 'broadcast', 'cabaret', 'public_service', 'carnival', 'kickoff', 'get_at', 'resumption', 'volunteer', 'swage', 'alpha', 'puddle', 'roll', 'get_out', 'carry', 'plug_away', 'prey', 'raise', 'fix', 'sibilate', 'farm', 'clerk', 'riddle', 'racing_start', 'drawl', 'hill', 'devoice', 'handbuild', 'variety_show', 'manipulate', 'play', 'boss', 'telecommuting', 'lisp', 'use', 'subcontract', 'opener', 'strike', 'service', 'plead', 'page', 'prejudice', 'inherit', 'sculpt', 'proof', 'galanty_show', 'skimp', 'back', 'machine', 'click', 'puppet_show', 'wait', 'movie', 'fill', 'note', 'housing_start', 'take', 'warm_up', 'threshold', 'icebreaker']
+
+meronyms_list: []
+
+holonyms_list: []
+
+synonyms_list: ['have', 'cultivate', 'find', 'mould', 'usage', 'incur', 'take_in', 'solve', 'obtain', 'starting_line', 'O.K.', 'showtime', 'starting', 'lick', 'enjoin', 'read', 'process', 'outset', 'turn', 'make_for', 'first', 'start', 'put_to_work', 'pronounce', 'scratch_line', 'act_upon', 'work', 'receive', 'articulate', 'able-bodied', 'forge', 'starting_time', 'utilization', 'display', 'welcome', 'appearance', 'tell', 'shape', 'run', 'influence', 'startle', 'operate', 'sound_out', 'meet', 'get-go', 'mold', 'utilisation', 'Begin', 'go', 'figure_out', 'ferment', 'aver', 'exercise', 'knead', 'show', 'approve', 'Menachem_Begin', 'order', 'capable', 'do_work', 'allege', 'encounter', 'make', 'form', 'exploit', 'employment', 'okay', 'engagement', 'starting_signal', 'commencement', 'enounce', 'sanction', 'state', 'wreak', 'kickoff', 'crop', 'employer', 'get', 'pick_up', 'suppose', 'head_start', 'act', 'enunciate', 'play', 'scratch', 'bring', 'use', 'puzzle_out', 'say', 'work_out', 'jump', 'beginning', 'sour', 'able', 'invite', 'work_on', 'employ', 'offset', 'function', 'experience']

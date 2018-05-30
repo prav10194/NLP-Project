@@ -1,0 +1,77 @@
+Corpus Question: Can I start working without pay while waiting for my EAD?
+
+Corpus Answer:  No. Work that is normally paid requires employment authorization. You must have the card in hand and the start date must have arrived to begin working.
+
+
+Sentence Tokenizer: ['Can I start working without pay while waiting for my EAD?', 'No.', 'Work that is normally paid requires employment authorization.', 'You must have the card in hand and the start date must have arrived to begin working.']
+
+Words Tokenizer: ['Can', 'I', 'start', 'working', 'without', 'pay', 'while', 'waiting', 'for', 'my', 'EAD', '?', 'No', '.', 'Work', 'that', 'is', 'normally', 'paid', 'requires', 'employment', 'authorization', '.', 'You', 'must', 'have', 'the', 'card', 'in', 'hand', 'and', 'the', 'start', 'date', 'must', 'have', 'arrived', 'to', 'begin', 'working', '.']
+
+words_without_stop_words: ['Can', 'I', 'start', 'working', 'without', 'pay', 'waiting', 'EAD', '?', 'No', '.', 'Work', 'normally', 'paid', 'requires', 'employment', 'authorization', '.', 'You', 'must', 'card', 'hand', 'start', 'date', 'must', 'arrived', 'begin', 'working', '.']
+
+words_with_stemming: ['can', 'i', 'start', 'work', 'without', 'pay', 'wait', 'ead', '?', 'no', '.', 'work', 'normal', 'paid', 'requir', 'employ', 'author', '.', 'you', 'must', 'card', 'hand', 'start', 'date', 'must', 'arriv', 'begin', 'work', '.']
+
+words_with_lemmatization: ['Can', 'I', 'start', 'work', 'without', 'pay', 'wait', 'EAD', '?', 'No', '.', 'Work', 'normally', 'pay', 'require', 'employment', 'authorization', '.', 'You', 'must', 'card', 'hand', 'start', 'date', 'must', 'arrive', 'begin', 'work', '.']
+
+words_with_pos_tags: [('Can', 'MD'), ('I', 'PRP'), ('start', 'VB'), ('working', 'VBG'), ('without', 'IN'), ('pay', 'NN'), ('waiting', 'VBG'), ('EAD', 'NNP'), ('?', '.'), ('No', 'NNP'), ('.', '.'), ('Work', 'VB'), ('normally', 'RB'), ('paid', 'VBN'), ('requires', 'VBZ'), ('employment', 'NN'), ('authorization', 'NN'), ('.', '.'), ('You', 'PRP'), ('must', 'MD'), ('card', 'VB'), ('hand', 'NN'), ('start', 'NN'), ('date', 'NN'), ('must', 'MD'), ('arrived', 'VB'), ('begin', 'VB'), ('working', 'VBG'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SQ (MD Can)
+    (NP (PRP I))
+    (VP (VB start)
+      (S
+        (VP (VBG working)
+          (PP (IN without)
+            (NP (NN pay)))
+          (PP (IN while)
+            (S
+              (VP (VBG waiting)
+                (PP (IN for)
+                  (NP (PRP$ my) (NNP EAD)))))))))
+    (. ?)))(ROOT
+  (FRAG
+    (NP (DT No))
+    (. .)))(ROOT
+  (S
+    (NP
+      (NP (NN Work))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (VP (VBZ is)
+            (ADVP (RB normally))
+            (VP (VBN paid))))))
+    (VP (VBZ requires)
+      (NP (NN employment) (NN authorization)))
+    (. .)))(ROOT
+  (S
+    (S
+      (NP (PRP You))
+      (VP (MD must)
+        (VP (VB have)
+          (NP
+            (NP (DT the) (NN card))
+            (PP (IN in)
+              (NP (NN hand)))))))
+    (CC and)
+    (S
+      (NP (DT the) (NN start) (NN date))
+      (VP (MD must)
+        (VP (VB have)
+          (VP (VBN arrived)
+            (S
+              (VP (TO to)
+                (VP (VB begin)
+                  (S
+                    (VP (VBG working))))))))))
+    (. .)))
+
+hypernyms_list: ['become', 'correspondence', 'bill', 'handbreadth', 'state', 'collection', 'writing', 'succeed', 'go', 'product', 'occupation', 'move', 'day', 'present', 'activity', 'signal', 'reflex', 'roll', 'card_player', 'side', 'action', 'companion', 'humorist', 'create_from_raw_material', 'convert', 'fix', 'paper', 'pass', 'transform', 'act', 'geographic_point', 'manipulate', 'management', 'end_product', 'sign', 'edible_fruit', 'order', 'aid', 'greeting', 'energy', 'use', 'demand', 'control', 'change_state', 'make', 'applause', 'forepaw', 'turn', 'record', 'legal_document', 'operate', 'beginning', 'learning', 'ability', 'pointer', 'calendar_year', 'laborer', 'manage', 'stimulate', 'point', 'calendar_day', 'advantage', 'positive_identification', 'line', 'understand', 'printed_circuit', 'capture', 'change_of_state', 'meeting', 'permission', 'calendar_month', 'affect', 'cardboard', 'work', 'sailor', 'extremity', 'be', 'regular_payment']
+
+hyponyms_list: ['reshape', 'greeting_card', 'minute_hand', 'woodwork', 'fink', 'get-well_card', 'double_date', 'overcrop', 'drive', 'central', 'drill_site', 'exploitation', 'first_step', 'fish_farm', 'rubber_stamp', 'follow-up', 'business_card', 'onset', 'hot-work', 'care', 'coaching', 'masticate', 'longhand', 'bidder', 'maturity', 'future_date', 'answer', 'constitution', 'moonlight', 'slave', 'imprint', 'workload', 'scribble', 'stamp', 'bridge_partner', 'roughcast', 'pull_in', 'incipiency', 'cry_out_for', 'ministry', 'right', 'contractor', 'assist', 'sympathy_card', 'lacework', 'shape-up', 'publication', 'freelance', 'installation', 'startup', 'colliery', 'command', 'booking', 'claw', 'cast', 'make_hay', 'mound', 'bakery', 'waterworks', 'brokerage_house', 'scrum', 'serve', 'carve', 'playing_card', 'masterpiece', 'groundbreaking', 'epoch', 'welfare_work', 'forbid', 'pc_board', 'housewifery', 'delay', 'cybernate', 'carpenter', 'drive_in', 'bushwhack', 'startle_response', 'whore', 'stand_by', 'man', 'creamery', 'work', 'calligraphy', 'hang_on', 'a_la_carte', 'ironwork', 'birthday', 'introduction', 'work_in_progress', 'forge', 'stir', 'tinker', 'adrenarche', 'found', 'ambush', 'requisition', 'springboard', 'intern', 'misuse', 'rain_date', 'openwork', 'wash', 'vinify', 'call', 'color', 'prix_fixe', 'living_wage', 'swing', 'roundhouse', 'donor_card', 'show_bill', 'logging', 'minister', 'work_through', 'blackmail', 'sick_pay', 'coursework', 'location', 'skipper', 'jostle', 'charge', 'specialize', 'model', 'look_to', 'subbing', 'oyster_bed', 'muscle', 'power_of_appointment', 'timecard', 'putter', 'turn_a_trick', 'dawn', 'run', 'coldwork', 'break', 'ranch_hand', 'license', 'attack', 'electioneer', 'look_forward', 'work_at', 'beehive', 'wince', 'tannery', 'tryst', 'ropewalk', 'postcard', 'guess', 'startle_reflex', 'overwork', 'mission', 'metalwork', 'silverwork', 'call-back', 'layer', 'piecework', 'membership_card', 'wicker', 'cry', 'application', 'thelarche', 'dominate', 'cut_out', 'anticipate', 'workshop', 'imperium', 'cost', 'shining', 'bank', 'lordship', 'housework', 'flood_in', 'labor', 'trading_card', 'polychrome', 'ironworks', 'reach', 'beaver', 'collaborate', 'boondoggle', "pull_one's_weight", 'busywork', 'spadework', 'workpiece', 'jump_ball', 'job', 'birth', 'double', 'strike_pay', 'hold_out', 'claim', 'menarche', 'sinter', 'rework', 'studio', 'undertaking', 'double_time', 'poker_hand', 'opening', 'hour_hand', 'take-home_pay', 'exercise', 'action', 'govern', 'land', 'grind', 'busy', 'chip', 'minimum_wage', "kick_one's_heels", 'plump_in', 'herder', 'combat_pay', 'initiation', 'second_hand', 'terminus_a_quo', 'throw', 'activation', 'cut', 'hooks', 'test_bed', 'avail', 'face-off', 'merit_pay', 'tarot_card', 'militate', 'tool', 'exchange', 'carte_blanche', 'services', 'delegating', 'engagement', 'till', 'beat', 'practice', 'seafaring', 'shorthand', 'preform', 'nightwork', 'flying_start', 'paper_route', 'cpu_board', 'rack', 'draw', 'inauguration', 'sell-by_date', 'fist', 'heavy_lifting', 'lacquerware', 'recycling', 'sanction', 'lab', 'fishery', 'loan_approval', 'half-pay', 'public_service', 'leatherwork', 'certification', 'writing', 'punched_card', 'kickoff', 'get_at', 'resumption', 'operation', 'library_card', 'volunteer', "table_d'hote", 'swage', 'glassworks', 'shop_floor', 'keycard', 'alpha', 'puddle', 'commission', 'roll', 'farmhand', 'gasworks', 'come', 'carry', 'duty', 'plug_away', 'prey', 'timework', 'left', 'stableman', 'fix', 'farm', 'compel', 'clerk', 'riddle', 'racing_start', 'hill', 'handbuild', 'blind_date', 'manipulate', 'play', 'investigation', 'telecommuting', 'use', 'subcontract', 'opener', 'bridge_hand', 'handicraft', 'strike', 'service', 'page', 'prejudice', 'expect', 'laundry', 'loose_end', 'sculpt', 'proof', 'flash_card', 'skimp', 'machine', 'ironing', 'shipyard', 'wait', 'sovereignty', 'ration_card', 'fill', 'pay_envelope', 'housing_start', 'lumberyard', 'roll_up', 'proving_ground', 'paperwork', 'warm_up', 'threshold', 'icebreaker']
+
+meronyms_list: ['digital_arteries', 'metacarpal_artery', 'finger', 'locker_room', 'ball', 'palm', 'long_suit', 'date', 'cleanup', 'metacarpus', 'metacarpal_vein', 'intercapitular_vein']
+
+holonyms_list: ['homo', 'timepiece', 'date', 'date_palm', 'payroll', 'arm']
+
+synonyms_list: ['authority', 'study', 'cultivate', 'necessitate', 'mould', 'usage', 'solve', 'call_for', 'go_far', 'starting_line', 'day_of_the_month', 'showtime', 'starting', 'card', 'scorecard', 'lick', 'script', 'earnings', 'poster', 'menu', 'command', 'process', 'outset', 'turn', 'make_for', 'first', 'mitt', 'start', 'batting_order', 'put_to_work', 'empowerment', 'want', 'scratch_line', 'involve', 'date', 'act_upon', 'look', 'work', 'forge', 'starting_time', 'bill_of_fare', 'hired_hand', 'plug-in', 'utilization', 'make_it', 'identity_card', 'waitress', 'placard', 'circuit_card', 'add-in', 'shape', 'bridge_player', 'helping_hand', 'run', 'manus', 'hand', 'influence', 'demand', 'startle', 'carte_du_jour', 'operate', 'calling_card', 'posting', 'require', 'get-go', 'carte', 'mold', 'utilisation', 'salary', 'Begin', 'go', 'figure_out', 'board', 'visiting_card', 'ferment', 'exercise', 'pay', 'escort', 'lineup', 'knead', 'mandate', 'remuneration', 'Menachem_Begin', 'get_in', 'dominance', 'hold_back', 'do_work', 'make', 'handwriting', 'form', 'exploit', 'deal', 'employment', 'await', 'engagement', 'starting_signal', 'commencement', 'hired_man', 'sanction', 'hold_off', 'oeuvre', 'bill', 'workplace', 'say-so', 'wreak', 'kickoff', 'crop', 'need', 'arrive', 'wage', 'come', 'body_of_work', 'get', 'head_start', 'particular_date', 'appointment', 'act', 'ask', 'play', 'potency', 'notice', 'scratch', 'bring', 'piece_of_work', 'wit', 'use', 'puzzle_out', 'work_out', 'paw', 'jump', 'expect', 'beginning', 'sour', 'authorisation', 'circuit_board', 'work_on', 'employ', 'wait', 'postulate', 'offset', 'wag', 'take', 'function', 'authorization']

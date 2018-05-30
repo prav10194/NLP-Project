@@ -1,0 +1,68 @@
+Corpus Question: Can I work on campus while waiting for my EAD?
+
+Corpus Answer: 
+Once you complete your degree, you cannot work on-campus or off-campus until you have the EAD in your possession and your selected start date has arrived.
+
+
+Sentence Tokenizer: ['Can I work on campus while waiting for my EAD?', 'Once you complete your degree, you cannot work on-campus or off-campus until you have the EAD in your possession and your selected start date has arrived.']
+
+Words Tokenizer: ['Can', 'I', 'work', 'on', 'campus', 'while', 'waiting', 'for', 'my', 'EAD', '?', 'Once', 'you', 'complete', 'your', 'degree', ',', 'you', 'can', 'not', 'work', 'on-campus', 'or', 'off-campus', 'until', 'you', 'have', 'the', 'EAD', 'in', 'your', 'possession', 'and', 'your', 'selected', 'start', 'date', 'has', 'arrived', '.']
+
+words_without_stop_words: ['Can', 'I', 'work', 'campus', 'waiting', 'EAD', '?', 'Once', 'complete', 'degree', ',', 'work', 'on-campus', 'off-campus', 'EAD', 'possession', 'selected', 'start', 'date', 'arrived', '.']
+
+words_with_stemming: ['can', 'i', 'work', 'campus', 'wait', 'ead', '?', 'onc', 'complet', 'degre', ',', 'work', 'on-campus', 'off-campus', 'ead', 'possess', 'select', 'start', 'date', 'arriv', '.']
+
+words_with_lemmatization: ['Can', 'I', 'work', 'campus', 'wait', 'EAD', '?', 'Once', 'complete', 'degree', ',', 'work', 'on-campus', 'off-campus', 'EAD', 'possession', 'select', 'start', 'date', 'arrive', '.']
+
+words_with_pos_tags: [('Can', 'MD'), ('I', 'PRP'), ('work', 'VB'), ('campus', 'NN'), ('waiting', 'VBG'), ('EAD', 'NNP'), ('?', '.'), ('Once', 'NNP'), ('complete', 'JJ'), ('degree', 'NN'), (',', ','), ('work', 'NN'), ('on-campus', 'JJ'), ('off-campus', 'JJ'), ('EAD', 'NNP'), ('possession', 'NN'), ('selected', 'VBD'), ('start', 'JJ'), ('date', 'NN'), ('arrived', 'VBD'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SQ (MD Can)
+    (NP (PRP I))
+    (VP (VB work)
+      (PP (IN on)
+        (NP (NN campus)))
+      (SBAR (IN while)
+        (S
+          (VP (VBG waiting)
+            (PP (IN for)
+              (NP (PRP$ my) (NNP EAD)))))))
+    (. ?)))(ROOT
+  (S
+    (SBAR (RB Once)
+      (S
+        (NP (PRP you))
+        (VP (VB complete)
+          (NP (PRP$ your) (NN degree)))))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD can) (RB not)
+      (VP (VB work)
+        (ADJP (JJ on-campus)
+          (CC or)
+          (JJ off-campus))
+        (SBAR (IN until)
+          (S
+            (S
+              (NP (PRP you))
+              (VP (VBP have)
+                (NP
+                  (NP (DT the) (NNP EAD))
+                  (PP (IN in)
+                    (NP (PRP$ your) (NN possession))))))
+            (CC and)
+            (S
+              (NP (PRP$ your) (VBN selected) (NN start) (NN date))
+              (VP (VBZ has)
+                (VP (VBN arrived))))))))
+    (. .)))
+
+hypernyms_list: ['state', 'day', 'product', 'occupation', 'resoluteness', 'succeed', 'activity', 'signal', 'reflex', 'relation', 'magnitude', 'companion', 'mania', 'enchantment', 'geographic_point', 'act', 'decide', 'end_product', 'property', 'edible_fruit', 'energy', 'control', 'turn', 'temperature_unit', 'learning', 'award', 'beginning', 'calendar_year', 'district', 'calendar_day', 'angular_unit', 'point', 'advantage', 'line', 'meeting', 'field', 'change_of_state', 'calendar_month', 'work', 'exponent', 'present']
+
+hyponyms_list: ['woodwork', 'double_date', 'central', 'drill_site', 'cream_off', 'fish_farm', 'first_step', 'follow-up', 'onset', 'care', 'coaching', 'maturity', 'cull_out', 'future_date', 'honorary_degree', 'standard_of_living', 'constitution', 'highness', 'adopt', 'workload', 'pull_in', 'incipiency', 'ministry', 'vote_in', 'lacework', 'publication', 'constructive_possession', 'colliery', 'installation', 'startup', 'transferred_property', "master's_degree", 'bakery', 'waterworks', 'brokerage_house', 'scrum', 'presence_of_mind', 'masterpiece', 'first_degree', 'groundbreaking', 'welfare_work', 'plane', 'housewifery', 'delay', 'sieve_out', 'moderation', 'drive_in', 'creamery', 'actual_possession', 'stand_by', 'startle_response', 'nerves', 'hang_on', 'birthday', 'ironwork', 'dial', 'forge', 'work_in_progress', 'introduction', 'adrenarche', 'ambush', 'springboard', 'rain_date', 'openwork', 'wash', 'roundhouse', "bachelor's_degree", 'logging', 'location', 'climax', 'coursework', 'nominate', 'depth', 'look_to', 'low', 'subbing', 'oyster_bed', 'anoint', 'property', 'dawn', 'epoch', 'flood_in', 'attack', 'screen', 'look_forward', 'beehive', 'tryst', 'wince', 'tannery', 'ropewalk', 'resultant', 'startle_reflex', 'mission', 'metalwork', 'silverwork', 'white_elephant', 'degree_centigrade', 'piecework', 'wicker', 'field', 'thelarche', 'workshop', 'anticipate', 'retention', 'shining', 'housework', 'labor', 'polychrome', 'ironworks', 'assign', 'sieve', 'workpiece', 'reach', 'busywork', 'spadework', 'lumberyard', 'job', 'high', 'birth', 'jump_ball', 'hold_out', 'menarche', 'studio', 'undertaking', 'opening', 'action', 'lowness', 'land', 'grind', "kick_one's_heels", 'plump_in', 'initiation', 'ultimacy', 'plump', 'terminus_a_quo', 'activation', 'test_bed', 'face-off', 'pick', 'exchange', 'quality', 'services', 'engagement', 'single_out', 'elect', 'seafaring', 'state_of_the_art', 'nightwork', 'paper_route', 'ladder', 'flying_start', 'draw', 'think_of', 'excerpt', 'inauguration', 'sell-by_date', 'heavy_lifting', 'lacquerware', 'degree_fahrenheit', 'lab', 'extent', 'degree_of_a_polynomial', 'criminal_possession', 'fishery', 'degree_of_a_term', 'public_service', 'leatherwork', 'writing', 'kickoff', "doctor's_degree", 'honours', 'operation', 'resumption', 'glassworks', 'circumstances', 'shop_floor', 'alpha', 'gasworks', 'assets', 'come', 'duty', 'timework', 'intensity', 'sun_protection_factor', 'extreme', 'farm', 'law_degree', 'racing_start', 'blind_date', 'investigation', 'empanel', 'telecommuting', 'amplitude_level', 'opener', 'handicraft', 'service', 'vote', 'immoderation', 'expect', 'laundry', 'loose_end', 'liabilities', 'acme', 'associate_degree', 'treasure', 'ironing', 'shipyard', 'specify', 'housing_start', 'roll_up', 'proving_ground', 'paperwork', 'quickening', 'threshold', 'icebreaker']
+
+meronyms_list: ['minute', 'date', 'locker_room', 'student_union']
+
+holonyms_list: ['sextant', 'oxtant', 'date', 'date_palm']
+
+synonyms_list: ['complete', 'study', 'terminated', 'go_far', 'starting_line', 'day_of_the_month', 'showtime', 'starting', 'pick_out', 'monomania', 'outset', 'first', 'start', 'unadulterated', 'stark', 'point', 'over', 'scratch_line', 'thoroughgoing', 'date', 'look', 'work', 'starting_time', 'make_it', 'ended', 'waitress', 'campus', 'sodding', 'perfect', 'accomplished', 'startle', 'self-possession', 'everlasting', 'concluded', 'self-will', 'get-go', 'consummate', 'will_power', 'degree', 'pure', 'double-dyed', 'escort', 'gross', 'willpower', 'get_in', 'hold_back', 'all_over', 'level', 'employment', 'await', 'engagement', 'staring', 'starting_signal', 'commencement', 'arcdegree', 'select', 'stage', 'self-control', 'hold_off', 'oeuvre', 'workplace', 'arrant', 'academic_degree', 'kickoff', 'ownership', 'self-command', 'come', 'arrive', 'body_of_work', 'get', 'utter', 'head_start', 'particular_date', 'appointment', 'scratch', 'piece_of_work', 'expect', 'choose', 'beginning', 'jump', 'wait', 'offset', 'grade', 'take', 'possession']

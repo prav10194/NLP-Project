@@ -1,0 +1,79 @@
+Corpus Question: I lost my EAD. How can I get it replaced?
+
+Corpus Answer: 
+The only way to receive a new EAD is by submitting a new I-765 and supporting documents (fee, photos, forms, etc.). It is impossible to replace an EAD if you are outside the U.S.
+
+
+Sentence Tokenizer: ['I lost my EAD.', 'How can I get it replaced?', 'The only way to receive a new EAD is by submitting a new I-765 and supporting documents (fee, photos, forms, etc.).', 'It is impossible to replace an EAD if you are outside the U.S.']
+
+Words Tokenizer: ['I', 'lost', 'my', 'EAD', '.', 'How', 'can', 'I', 'get', 'it', 'replaced', '?', 'The', 'only', 'way', 'to', 'receive', 'a', 'new', 'EAD', 'is', 'by', 'submitting', 'a', 'new', 'I-765', 'and', 'supporting', 'documents', '(', 'fee', ',', 'photos', ',', 'forms', ',', 'etc.', ')', '.', 'It', 'is', 'impossible', 'to', 'replace', 'an', 'EAD', 'if', 'you', 'are', 'outside', 'the', 'U.S', '.']
+
+words_without_stop_words: ['I', 'lost', 'EAD', '.', 'How', 'I', 'get', 'replaced', '?', 'The', 'way', 'receive', 'new', 'EAD', 'submitting', 'new', 'I-765', 'supporting', 'documents', '(', 'fee', ',', 'photos', ',', 'forms', ',', 'etc.', ')', '.', 'It', 'impossible', 'replace', 'EAD', 'outside', 'U.S', '.']
+
+words_with_stemming: ['i', 'lost', 'ead', '.', 'how', 'i', 'get', 'replac', '?', 'the', 'way', 'receiv', 'new', 'ead', 'submit', 'new', 'i-765', 'support', 'document', '(', 'fee', ',', 'photo', ',', 'form', ',', 'etc.', ')', '.', 'it', 'imposs', 'replac', 'ead', 'outsid', 'u.', '.']
+
+words_with_lemmatization: ['I', 'lose', 'EAD', '.', 'How', 'I', 'get', 'replace', '?', 'The', 'way', 'receive', 'new', 'EAD', 'submit', 'new', 'I-765', 'supporting', 'document', '(', 'fee', ',', 'photo', ',', 'form', ',', 'etc.', ')', '.', 'It', 'impossible', 'replace', 'EAD', 'outside', 'U.S', '.']
+
+words_with_pos_tags: [('I', 'PRP'), ('lost', 'VBD'), ('EAD', 'NNP'), ('.', '.'), ('How', 'WRB'), ('I', 'PRP'), ('get', 'VBP'), ('replaced', 'VBN'), ('?', '.'), ('The', 'DT'), ('way', 'NN'), ('receive', 'JJ'), ('new', 'JJ'), ('EAD', 'NNP'), ('submitting', 'VBG'), ('new', 'JJ'), ('I-765', 'JJ'), ('supporting', 'NN'), ('documents', 'NNS'), ('(', '('), ('fee', 'NN'), (',', ','), ('photos', 'NNS'), (',', ','), ('forms', 'NNS'), (',', ','), ('etc.', 'NN'), (')', ')'), ('.', '.'), ('It', 'PRP'), ('impossible', 'JJ'), ('replace', 'VB'), ('EAD', 'NNP'), ('outside', 'IN'), ('U.S', 'NNP'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD lost)
+      (NP (PRP$ my) (NNP EAD)))
+    (. .)))(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (MD can)
+      (NP (PRP I))
+      (VP (VB get)
+        (S
+          (NP (PRP it))
+          (VP (VBN replaced)))))
+    (. ?)))(ROOT
+  (S
+    (NP (DT The) (JJ only) (NN way)
+      (S
+        (VP (TO to)
+          (VP (VB receive)
+            (NP (DT a) (JJ new) (NNP EAD))))))
+    (VP (VBZ is)
+      (PP (IN by)
+        (S
+          (VP
+            (VP (VBG submitting)
+              (NP (DT a) (JJ new) (NN I-765)))
+            (CC and)
+            (VP (VBG supporting)
+              (NP
+                (NP (NNS documents))
+                (PRN (-LRB- -LRB-)
+                  (NP (NN fee))
+                  (, ,)
+                  (NP (NNS photos) (, ,) (NNS forms) (, ,) (FW etc.))
+                  (-RRB- -RRB-))))))))
+    (. .)))(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADJP (JJ impossible)
+        (S
+          (VP (TO to)
+            (VP (VB replace)
+              (NP (DT an) (NNP EAD))
+              (SBAR (IN if)
+                (S
+                  (NP (PRP you))
+                  (VP (VBP are)
+                    (PP (IN outside)
+                      (NP (DT the) (NNP U.S.)))))))))))))
+
+hypernyms_list: ['attract', 'body', 'condition', 'submit', 'succeed', 'writing', 'worsen', 'implementation', 'suffer', 'put', 'choice', 'document', 'permit', 'hear', 'foster', 'leave', 'position', 'gathering', 'hurt', 'undergo', 'reproduce', 'confuse', 'path', 'argue', 'get', 'structure', 'category', 'dummy', 'computer_file', 'appearance', 'transmit', 'attribute', 'yield', 'get_even', 'give', 'propose', 'spatial_property', 'approve', 'refer', 'act', 'regenerate', 'match', 'taxonomic_group', 'manner', 'property', 'change', 'buy', 'fixed_charge', 'writing_style', 'change_state', 'make', 'regress', 'mean', 'state_of_matter', 'interest', 'artifact', 'ability', 'destroy', 'communicate', 'effect', 'sicken', 'distance', 'journey', 'accept', 'communication', 'word', 'touch', 'share', 'understand', 'hit', 'agree', 'seize', 'mold', 'catch', 'annoy', 'representation', 'apply', 'course', 'experience', 'score']
+
+hyponyms_list: ['recapture', 'overlook', 'vignette', 'report', 'radiogram', 'obtain', 'pull_in', 'forget', 'singular', 'drop-off_charge', 'toll', 'drop', 'substitute', 'earn', 'accept', 'plane', 'enlargement', 'receive', 'retrieve', 'white-out', 'manner', 'prove', 'regrow', 'crack_up', 'stripe', 'qibla', 'instrument', 'straightness', 'telephotograph', 'crookedness', 'stand_up', 'life_style', 'stump', 'microdot', 'underpin', 'fit', 'tendency', 'mosaic', 'passage', 'usurp', 'elude', 'straight_and_narrow', 'patent', 'truncate', 'snapshot', 'work_up', 'go_down', 'frame', 'flare', 'plump_in', 'north-south_direction', 'warpath', 'let', 'plunge', 'horripilate', 'acronym', 'grid', 'recover', 'get_cracking', 'natural_shape', 'lockage', 'collect', 'fast_track', 'pole', 'reduce', 'lighterage', "finder's_fee", 'fee_tail', 'headshot', 'web_page', 'novate', 'sea_room', 'response', 'concavity', 'carry', 'shift', 'take_the_count', 'wedding_picture', 'change', 'preempt', 'legal_fee', 'break_in', 'gestalt', 'papyrus', 'champion', 'dispersed_phase', 'dint', 'charter', 'copyright', 'take', 'angular_shape', 'wise', 'telegraph_form', 'win_back', 'sprout', 'description', 'stand_for', 'relegate', "drop_one's_serve", 'enter_upon', 'distorted_shape', 'contingency_fee', 'juvenile_body', 'artistic_style', 'promote', 'tax_form', 'turn', 'legal_document', 'poundage', 'claim_form', 'take_lying_down', 'subject', 'ascii_text_file', 'brevet', 'provide', 'kaleidoscope', 'antitype', 'drive_in', 'species', 'cramp', 'document', 'east-west_direction', 'leave', 'resignation', 'model', 'give', 'daguerreotype', 'pod', 'run', 'stool', 'truss', 'longshot', 'flavor', 'licensing_fee', 'photographic_print', 'blueprint', 'square', 'reach', 'certificate', 'suffer', 'auspicate', 'retainer', 'pay', 'land', 'get_to', 'living_space', 'like', 'decide', 'truckage', 'second', 'render', 'buy', 'ballot', 'lobularity', 'vouch', 'suborn', 'convexity', 'wings', 'stratification', 'glom', 'fee_simple', 'stereo', 'scene', 'time_exposure', 'deliver', 'patronize', 'dockage', 'lead', 'sit_out', 'platform', 'bring', 'voucher', 'inherit', 'order_form', 'fractal', 'expedient', 'capitulation', 'questionnaire', 'back', 'confession', 'plural', 'male_body', 'mug_shot', 'sponsor', 'subrogate', 'tooth', 'sharpness', 'closeup', 'watercourse', 'cheesecake', 'strand', 'glossy', 'primrose_path', 'anchorage', 'press_out', 'fledge', 'application_form', 'come_by', 'amorphous_shape', 'see_through', 'genus', 'catch', 'work', 'recommence', 'take_effect', 'line_up', 'hologram', 'break_down', 'uphold', 'versification', 'isolate', 'stairway', 'drape', 'take_a_joke', 'lane', 'attack', 'jump_off', 'stepping_stone', 'sleep_off', 'line', 'column', 'prompt', 'undergird', 'path', 'chock', 'cut', 'roundness', 'photomicrograph', 'subsidize', 'acquire', 'settle', 'wharfage', 'figure', 'brand', 'partake', 'bracket', 'salvation', 'prop_up', 'commercial_document', 'lasso', 'resolution', 'sunnah', 'lease', 'entrance_fee', 'validate', 'commission', 'come', 'get', 'adult_body', 'bear_up', 'buoy', 'still', 'teethe', 'desperate_measure', 'solid', 'seigniorage', 'ambages', 'capture', 'fall', 'type', 'solicit', 'reclaim', 'embark', 'voice', 'find', 'breathing_room', 'dullness', 'quittance', 'come_on', 'setup', 'parking', 'spring', 'retool', 'brace', 'mintage', 'verify', 'etymon', 'female_body', 'touch', 'origination_fee', 'bring_in', 'debt_instrument', 'pipage', 'art_form', 'escape', 'requisition', 'spectrogram', 'color', 'profit', 'access', 'black_and_white', 'tuition', 'flood_in', 'break', 'round_shape', 'encourage', 'apologize', 'source', 'help', 'persuade', 'letter_of_credit', 'block', 'road', 'sober_up', 'moorage', 'plume', 'oust', 'connection', 'leaf', 'pupate', 'open_sesame', 'gain', 'strike_out', 'narrowing', 'seating', 'enclosure', 'beefcake', 'form', 'dispersing_phase', 'ghost_word', 'photocopy', 'abbreviation', 'letter', 'course', 'cellarage', 'citation_form', 'standing_room', 'person', 'specification', 'section', 'pick_up', 'topography', 'compel', 'riddle', 'master_class', 'poll', 'guarantee', 'hang_up', 'bearing', 'scaffold', 'root', 'angularity', 'record', 'fund', 'test', 'style', 'return', 'headroom', 'triangle', 'genre', 'houseroom', 'roll_up', 'borrow', 'circle', 'curvature']
+
+meronyms_list: ['preamble', 'article', 'space', 'wayside']
+
+holonyms_list: ['homo', 'percept', 'transportation_system', 'species', 'person']
+
+synonyms_list: ['interchange', 'mannikin', 'have', 'gravel', 'plump_for', 'keep_going', 'strain', 'find', 'accede', 'fetch', 'drive', 'incur', 'produce', 'stomach', 'exposure', 'obtain', 'build', 'mystify', 'set_out', 'inconceivable', 'relegate', 'out_of_the_question', 'new', 'pattern', 'bring_forth', 'New', 'miss', 'confirm', 'endorse', 'signifier', 'unacceptable', 'anatomy', 'set_about', 'agency', 'drop_off', 'room', 'cast', 'manikin', 'scram', 'beget', 'mode', 'reconcile', 'lose', 'means', 'substitute', 'give_in', 'stand', 'start', 'subject', 'hold_up', 'fee', 'recede', 'kind', 'baffle', 'pose', 'variety', 'fall_behind', 'catch', 'pay_back', 'picture', 'receive', 'vex', 'manner', 'get_down', 'contract', 'digest', 'perplex', 'document', 'plunk_for', 'way_of_life', 'fresh', 'resign', 'soma', 'Modern', 'sort', 'aim', 'sustain', 'engender', 'endure', 'contour', 'turn_a_loss', 'shape', 'patronage', 'novel', 'pic', 'underpin', 'convey', 'stick_out', 'manakin', 'photograph', 'grow', 'class', 'put_forward', 'buzz_off', 'supercede', 'direction', 'way', 'physique', 'subscribe', 'flummox', 'present', 'generate', 'bugger_off', 'conformation', 'variant', 'go', 'suffer', 'nonplus', 'fend_for', 'path', 'configuration', 'induce', 'substantiate', 'frame', 'unexampled', 'let', 'supervene_upon', 'human_body', 'corroborate', 'sire', 'photo', 'defend', 'acquire', 'bear', 'posit', 'render', 'pay_off', 'hold', 'begin', 'make', 'stupefy', 'exchange', 'form', 'young', 'amaze', 'put_up', 'impossible', 'physical_body', 'figure', 'beat', 'affirm', 'fall_back', 'draw', 'elbow_room', 'brook', 'replace', 'unsufferable', 'newfangled', 'phase', 'bewilder', 'material_body', 'commence', 'raw', 'bow', 'dumbfound', "get_under_one's_skin", 'course', 'word_form', 'become', 'develop', 'supplant', 'start_out', 'submit', 'stick', 'put_back', 'father', 'mislay', 'state', 'defer', 'fuck_off', 'put_in', 'tolerate', 'var.', 'bear_out', 'arrive', 'come', 'bod', 'patronize', 'flesh', 'get', 'back_up', 'fix', 'arrest', 'patronise', 'insufferable', 'cause', 'bring', 'text_file', 'mannequin', 'pass_on', 'papers', 'chassis', 'supersede', 'written_document', 'support', 'puzzle', 'fashion', 'mother', 'stimulate', 'unimaginable', 'back', 'indorse', 'style', 'abide', 'misplace', 'capture', 'grade', 'take', 'descriptor', 'experience']

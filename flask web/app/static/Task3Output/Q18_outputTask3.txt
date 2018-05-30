@@ -1,0 +1,119 @@
+Corpus Question: Can I be unemployed while approved for OPT, and still legally remain in the U.S.?
+
+Corpus Answer: 
+The new regulations published on April 8th, 2008, limit periods of unemployment during post-completion OPT. F-1 status is now dependent upon employment, within the following parameters:
+Students may not accrue an aggregate of more than 90 days of unemployment during any post-completion OPT carried out under the initial 12-month post-completion OPT authorization.
+Students granted a 17-month OPT extension may not accrue an aggregate of more than 120 days of unemployment.
+
+
+
+Sentence Tokenizer: ['Can I be unemployed while approved for OPT, and still legally remain in the U.S.?', 'The new regulations published on April 8th, 2008, limit periods of unemployment during post-completion OPT.', 'F-1 status is now dependent upon employment, within the following parameters:\nStudents may not accrue an aggregate of more than 90 days of unemployment during any post-completion OPT carried out under the initial 12-month post-completion OPT authorization.', 'Students granted a 17-month OPT extension may not accrue an aggregate of more than 120 days of unemployment.']
+
+Words Tokenizer: ['Can', 'I', 'be', 'unemployed', 'while', 'approved', 'for', 'OPT', ',', 'and', 'still', 'legally', 'remain', 'in', 'the', 'U.S.', '?', 'The', 'new', 'regulations', 'published', 'on', 'April', '8th', ',', '2008', ',', 'limit', 'periods', 'of', 'unemployment', 'during', 'post-completion', 'OPT', '.', 'F-1', 'status', 'is', 'now', 'dependent', 'upon', 'employment', ',', 'within', 'the', 'following', 'parameters', ':', 'Students', 'may', 'not', 'accrue', 'an', 'aggregate', 'of', 'more', 'than', '90', 'days', 'of', 'unemployment', 'during', 'any', 'post-completion', 'OPT', 'carried', 'out', 'under', 'the', 'initial', '12-month', 'post-completion', 'OPT', 'authorization', '.', 'Students', 'granted', 'a', '17-month', 'OPT', 'extension', 'may', 'not', 'accrue', 'an', 'aggregate', 'of', 'more', 'than', '120', 'days', 'of', 'unemployment', '.']
+
+words_without_stop_words: ['Can', 'I', 'unemployed', 'approved', 'OPT', ',', 'still', 'legally', 'remain', 'U.S.', '?', 'The', 'new', 'regulations', 'published', 'April', '8th', ',', '2008', ',', 'limit', 'periods', 'unemployment', 'post-completion', 'OPT', '.', 'F-1', 'status', 'dependent', 'upon', 'employment', ',', 'within', 'following', 'parameters', ':', 'Students', 'may', 'accrue', 'aggregate', '90', 'days', 'unemployment', 'post-completion', 'OPT', 'carried', 'initial', '12-month', 'post-completion', 'OPT', 'authorization', '.', 'Students', 'granted', '17-month', 'OPT', 'extension', 'may', 'accrue', 'aggregate', '120', 'days', 'unemployment', '.']
+
+words_with_stemming: ['can', 'i', 'unemploy', 'approv', 'opt', ',', 'still', 'legal', 'remain', 'u.s.', '?', 'the', 'new', 'regul', 'publish', 'april', '8th', ',', '2008', ',', 'limit', 'period', 'unemploy', 'post-complet', 'opt', '.', 'f-1', 'status', 'depend', 'upon', 'employ', ',', 'within', 'follow', 'paramet', ':', 'student', 'may', 'accru', 'aggreg', '90', 'day', 'unemploy', 'post-complet', 'opt', 'carri', 'initi', '12-month', 'post-complet', 'opt', 'author', '.', 'student', 'grant', '17-month', 'opt', 'extens', 'may', 'accru', 'aggreg', '120', 'day', 'unemploy', '.']
+
+words_with_lemmatization: ['Can', 'I', 'unemployed', 'approve', 'OPT', ',', 'still', 'legally', 'remain', 'U.S.', '?', 'The', 'new', 'regulation', 'publish', 'April', '8th', ',', '2008', ',', 'limit', 'period', 'unemployment', 'post-completion', 'OPT', '.', 'F-1', 'status', 'dependent', 'upon', 'employment', ',', 'within', 'follow', 'parameter', ':', 'Students', 'may', 'accrue', 'aggregate', '90', 'day', 'unemployment', 'post-completion', 'OPT', 'carry', 'initial', '12-month', 'post-completion', 'OPT', 'authorization', '.', 'Students', 'grant', '17-month', 'OPT', 'extension', 'may', 'accrue', 'aggregate', '120', 'day', 'unemployment', '.']
+
+words_with_pos_tags: [('Can', 'MD'), ('I', 'PRP'), ('unemployed', 'JJ'), ('approved', 'VBD'), ('OPT', 'NNP'), (',', ','), ('still', 'RB'), ('legally', 'RB'), ('remain', 'VBP'), ('U.S.', 'NNP'), ('?', '.'), ('The', 'DT'), ('new', 'JJ'), ('regulations', 'NNS'), ('published', 'VBN'), ('April', 'NNP'), ('8th', 'CD'), (',', ','), ('2008', 'CD'), (',', ','), ('limit', 'NN'), ('periods', 'NNS'), ('unemployment', 'NN'), ('post-completion', 'NN'), ('OPT', 'NNP'), ('.', '.'), ('F-1', 'NNP'), ('status', 'NN'), ('dependent', 'NN'), ('upon', 'IN'), ('employment', 'NN'), (',', ','), ('within', 'IN'), ('following', 'VBG'), ('parameters', 'NNS'), (':', ':'), ('Students', 'NNS'), ('may', 'MD'), ('accrue', 'VB'), ('aggregate', 'VB'), ('90', 'CD'), ('days', 'NNS'), ('unemployment', 'NN'), ('post-completion', 'NN'), ('OPT', 'NNP'), ('carried', 'VBD'), ('initial', 'JJ'), ('12-month', 'JJ'), ('post-completion', 'NN'), ('OPT', 'NNP'), ('authorization', 'NN'), ('.', '.'), ('Students', 'NNS'), ('granted', 'VBD'), ('17-month', 'JJ'), ('OPT', 'NNP'), ('extension', 'NN'), ('may', 'MD'), ('accrue', 'VB'), ('aggregate', 'VB'), ('120', 'CD'), ('days', 'NNS'), ('unemployment', 'NN'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SQ (MD Can)
+    (NP (PRP I))
+    (VP
+      (VP (VB be)
+        (ADJP (JJ unemployed))
+        (SBAR (IN while)
+          (S
+            (VP (VBN approved)
+              (PP (IN for)
+                (NP (NNP OPT)))))))
+      (, ,)
+      (CC and)
+      (ADVP (RB still))
+      (VP
+        (ADVP (RB legally))
+        (VB remain)
+        (PP (IN in)
+          (NP (DT the) (NNP U.S.)))))
+    (. ?)))(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ new) (NNS regulations))
+      (VP (VBN published)
+        (PP (IN on)
+          (NP (NNP April) (JJ 8th))))
+      (, ,)
+      (NP (CD 2008))
+      (, ,))
+    (VP (NN limit)
+      (NP
+        (NP (NNS periods))
+        (PP (IN of)
+          (NP (NN unemployment))))
+      (PP (IN during)
+        (NP (JJ post-completion) (NN OPT))))
+    (. .)))(ROOT
+  (S
+    (S
+      (NP (NN F-1) (NN status))
+      (VP (VBZ is)
+        (ADVP (RB now))
+        (ADJP (JJ dependent)
+          (PP (IN upon)
+            (NP (NN employment))))
+        (, ,)
+        (PP (IN within)
+          (NP (DT the) (VBG following) (NNS parameters)))))
+    (: :)
+    (S
+      (NP (NNS Students))
+      (VP (MD may) (RB not)
+        (VP (VB accrue)
+          (NP
+            (NP (DT an) (NN aggregate))
+            (PP (IN of)
+              (NP
+                (NP
+                  (QP (JJR more) (IN than) (CD 90))
+                  (NNS days))
+                (PP (IN of)
+                  (NP (NN unemployment))))))
+          (PP (IN during)
+            (NP
+              (NP (DT any) (JJ post-completion) (NN OPT))
+              (VP (VBD carried)
+                (PRT (RP out))
+                (PP (IN under)
+                  (NP (DT the) (JJ initial) (JJ 12-month) (JJ post-completion) (NN OPT) (NN authorization)))))))))
+    (. .)))(ROOT
+  (S
+    (NP (NNS Students))
+    (VP (VBD granted)
+      (SBAR
+        (S
+          (NP (DT a) (JJ 17-month) (NNP OPT) (NN extension))
+          (VP (MD may) (RB not)
+            (VP (VB accrue)
+              (NP
+                (NP (DT an) (NN aggregate))
+                (PP (IN of)
+                  (NP
+                    (NP
+                      (QP (JJR more) (IN than) (CD 120))
+                      (NNS days))
+                    (PP (IN of)
+                      (NP (NN unemployment)))))))))))
+    (. .)))
+
+hypernyms_list: ['range', 'have', 'move', 'rule', 'part', 'produce', 'meaning', 'obtain', 'fundamental_quantity', 'sidereal_time', 'time_unit', 'result', 'compensate', 'win', 'management', 'era', 'promote', 'life', 'legal_document', 'federal_government', 'dance', 'quantity', 'recipient', 'delay', 'agree', 'geological_time', 'intellectual', 'longness', 'time', 'occupation', 'opportunity', 'concept', 'publicize', 'factor', 'value', 'drink', 'time_interval', 'sum', 'sustain', 'give', 'gregorian_calendar_month', 'nourish', 'property', 'whole', 'indefinite_quantity', 'influence', 'control', 'work_time', 'telephone', 'transfer', 'grow', 'communicate', 'create_verbally', 'permission', 'punctuation', 'follow', 'activity', 'originate', 'addition', 'propel', 'end', 'discharge', 'action', 'imply', 'string', 'constant', 'perform', 'check', 'organic_process', 'bear', 'dominance', 'dissemination', 'hold', 'practice', 'understand', 'imitate', 'evaluate', 'extent', 'be', 'authorize', 'state', 'obey', 'stretching', 'analyze', 'appropriate', 'continue', 'expansion', 'circulate', 'act', 'play', 'time_period', 'address', 'travel', 'bring', 'give_birth', 'include', 'choose', 'persevere', 'effect', 'calendar_day', 'boundary', 'education', 'enrollee', 'hit', 'material', 'extremity']
+
+hyponyms_list: ['celibacy', 'immunity', 'time_frame', 'afternoon', 'devaluation', 'mutism', 'high_ground', 'noise_conditions', 'academician', 'bout', "jefferson_davis'_birthday", 'confirm', 'mid-september', 'facilitation', 'nonreader', 'shoulder', 'halloween', 'honeymoon', "mother's_day", 'diversification', 'guard', 'leap_day', 'hospitalization', 'islamist', 'reign', 'goliard', 'economic_condition', 'legal_status', 'renaissance_man', 'bastardy', 'date', 'workday', 'armed_forces_day', 'nobility', 'dishabille', 'stalk', 'occupation', 'decline', 'quarter', 'saturation', 'regularization', 'hours', 'wetness', 'knife-edge', 'stoop', "april_fools'", 'field_day', 'holy_order', 'mid-january', 'travel_time', 'license', 'admission_day', 'call-back', 'piecework', 'toe_the_line', 'application', 'imperium', 'half-century', 'toehold', 'american_indian_day', 'lordship', 'bucket', 'piggyback', 'eye_condition', 'collegian', 'duration', 'master', 'port', 'air_alert', 'iron_age', 'seminarian', 'restriction', 'scholar', 'initiate', 'emptiness', 'dominance', 'improvement', 'motivation', 'season', 'ides', 'regulation_time', 'engagement', 'rag_day', 'paper_route', 'mid-june', 'shelf_life', 'law_student', 'valedictorian', "st_patrick's_day", 'sanction', 'lubrication', 'loan_approval', 'public_service', 'lower_limit', 'maximum', 'tomorrow', 'astigmatism', 'oblige', 'masorete', 'rustication', 'carry', 'mid-july', 'school', 'judgment_day', 'mechanization', 'payday', 'usance', 'musicologist', 'mid-may', 'nakedness', 'light', 'philosopher', 'reinstatement', 'catechumen', 'sovereignty', 'cart', 'times', 'exploitation', 'ski_conditions', 'real_time', 'prehistory', 'bibliophile', 'coaching', 'unsusceptibility', 'retain', 'guidepost', 'hopefulness', 'great_year', 'wash_up', 'impaction', 'indexation', 'life', 'atmosphere', 'leadership', 'mummification', 'dog_days', 'study_hall', "saint's_day", 'year', 'caste', 'orderliness', 'fullness', 'washday', 'reader', 'brutalization', 'phase_of_the_moon', 'anniversary', 'normality', "robert_e_lee's_birthday", 'united_nations_day', 'time', 'haul', 'bimester', 'multistage', 'fortnight', 'texas_independence_day', 'half_life', 'fly', 'scholiast', 'give', 'power_of_appointment', 'window', 'pack', 'pan_american_day', 'overtime', 'run', 'tailgate', 'cy_pres', 'trial_period', 'stretch', 'walk_around', 'mid-august', 'market_day', 'may_day', 'gun_control', 'shadow', 'adhere', 'historian', 'way', 'three-mile_limit', 'rank', 'silence', 'circumstance', 'cabalist', 'evening', 'high_status', 'soundness', 'doctor', 'danger', 'theologian', 'novitiate', 'long_run', 'edge', 'underachiever', 'fluster', 'scandalization', 'unsoundness', 'cutoff', 'verge', 'vacuolization', 'deal', 'red-letter_day', 'virginity', 'republish', 'carte_blanche', 'invigilate', 'ionization', 'preservation', 'minimum', 'mid-december', 'chase', 'supplant', 'certification', 'timing', 'comfort', 'exoneration', 'running_time', 'ice_age', 'mujtihad', 'situation', 'ell', 'decade', 'face', 'equality', 'walpurgis_night', 'play', 'bring', 'fruition', 'time_of_life', 'automation', 'generation', 'calendar_day', 'citizenship_day', 'back', 'coextension', 'weekend', 'difficulty', 'quadrennium', 'standing', 'pipe_in', 'spread', 'frizz', 'protuberance', 'ennoblement', 'lag', 'pedant', 'financial_condition', 'drought', 'holiday', 'crammer', 'anchorage', 'midsummer_eve', 'repair', 'ministry', 'withdrawer', 'upper_limit', 'stigmatism', 'era', 'game_law', 'sleep', 'shape-up', 'command', 'health', 'vedist', 'passer', 'midwinter', 'watch', 'mid-november', 'sixth-former', "patriot's_day", 'school_day', 'mode', 'lactation', 'encapsulation', 'century', 'rustiness', 'medical_student', 'shakespearian', 'off-day', 'night', 'vouchsafe', 'art_student', 'quinquennium', 'absolution', 'conform_to', 'vet', 'v-day', 'overachiever', 'speed_limit', 'misuse', 'november_5', 'youth', 'gazette', 'flag_day', 'retirement', 'term', 'skipper', 'arabist', 'muscle', 'leakiness', 'polarization', 'dawn', 'iniquity', 'dignity', 'physical_condition', 'rainy_day', 'salutatorian', 'work_time', 'enfranchise', 'oligomenorrhea', 'indiction', 'keep_tabs_on', 'hairlessness', 'polling_day', 'diversity', 'participation', 'morning', 'visa', 'purity', 'serration', 'day', 'laxness', 'behave', 'inauguration_day', 'atonicity', 'assize', 'poise', 'licentiate', 'eve', 'slot', 'long_time', 'pedestal', 'etonian', 'flower', "lincoln's_birthday", 'festival', 'wykehamist', 'tilth', 'environmental_condition', 'enclose', 'prognathism', 'golden_age', 'lustrum', 'practice', 'seafaring', 'past', 'arbor_day', 'semester', 'allowance', 'peacetime', 'recycling', 'left-handedness', 'calendar_month', 'uptime', 'cox', 'menorrhagia', 'guilt', 'ordination', 'urbanization', 'psychological_state', 'today', 'lease', 'nationality', 'commission', 'olympiad', 'quantify', 'philomath', 'utmost', 'deification', 'ivy_leaguer', "father's_day", 'subservience', 'telecommuting', 'question_time', 'morrow', 'orbit_period', 'assert', 'bibliographer', 'suspension_point', 'thermal_barrier', 'quarter-century', 'groundhog_day', 'elapsed_time', 'retransmit', 'sanitary_condition', 'range', 'accede', 'condemnation', 'millennium', 'midafternoon', 'rubber_stamp', 'working_principle', 'degree_of_freedom', 'auditor', 'workload', 'homelessness', 'yesterday', 'silver_age', 'week', 'silly_season', 'social_station', 'wedding_day', 'go_by', 'incubation_period', 'mid-march', 'impurity', 'booking', 'age_limit', 'extremum', 'prepossession', 'edit', 'haunt', 'dryness', 'pension', 'pose', 'bring_in', 'wartime', 'hyperextension', 'enlistment', 'tension', 'discomfort', 'porter', 'indian_summer', 'bronze_age', 'limitation', 'charge', 'hour', 'puerperium', 'bimillennium', 'humanist', 'nomination', 'sinologist', 'forgive', 'election', 'susceptibility', 'commencement_day', 'hyalinization', 'city_limit', 'low_status', 'niche', 'irradiation', 'sling', 'footing', "washington's_birthday", 'schoolman', "new_year's_eve", 'prohibition', 'high_profile', 'impropriety', 'lug', 'valentine_day', 'mid-february', 'time_limit', 'rubberstamp', 'minion', 'ascend', 'downtime', 'speech_day', 'identification', 'malady', 'mid-october', 'disorderliness', 'major', 'midweek', 'bear', 'safety', 'innocence', 'heel', 'services', 'delegating', 'mid-april', 'phase', 'starkness', 'lunar_day', 'tet', 'clotting_time', 'trimester', 'standardization', 'need', 'climate', 'time_off', 'lactosuria', 'cinco_de_mayo', 'postdoc', 'place', 'tide', 'submission', 'service', 'chariot', 'return', 'despair', 'alumnus', 'curvature']
+
+meronyms_list: ['plankton', 'minnesota', 'louisiana', 'south_carolina', 'niagara', 'arkansas', 'ohio', 'yukon', 'midwest', 'noon', 'massachusetts', 'montana', 'georgia', "patriot's_day", 'east', 'oklahoma', 'california', 'washington', 'new_hampshire', 'legislative_branch', 'south_dakota', 'maine', 'new_river', 'illinois', 'michigan', 'night', 'arizona', 'judicial_branch', 'alaska', 'rio_grande', 'executive_branch', 'kentucky', 'idaho', 'utah', 'extension_course', 'hour', 'dakota', "april_fools'", 'pan_american_day', 'epoch', 'twin', 'north_carolina', 'delaware', 'south', 'missouri', 'florida', 'tennessee', 'american', 'wisconsin', 'new_mexico', 'rhode_island', 'morning', 'new_england', 'mid-atlantic_states', 'virginia', 'district_of_columbia', 'day', 'maryland', 'nekton', 'kansas', 'sunbelt', 'north_dakota', 'north', 'iowa', 'new_york', 'pennsylvania', 'mid-april', 'alabama', 'mississippi', 'yosemite', 'nebraska', 'pacific_northwest', 'colony', 'west_virginia', 'oregon', 'nevada', 'wyoming', 'hawaii', 'vermont', 'indiana', 'colorado', 'west', 'connecticut', 'louisiana_purchase', 'niobrara', 'great_lakes', 'new_jersey', 'american_state', 'saint_lawrence', 'texas']
+
+holonyms_list: ['north_america', 'teacher-student_relation', 'day', 'filename', 'gregorian_calendar', 'north_atlantic_treaty_organization', 'building', 'organization_of_american_states', 'era', 'playing_period']
+
+synonyms_list: ['authority', '24-hour_interval', 'condition', 'usage', 'rule', 'stop', 'elongation', 'regulating', 'allot', 'parameter', 'O.K.', 'deport', 'regulation', 'take_after', 'new', 'adopt', 'ordinance', 'menses', 'extension_phone', 'New', 'post', 'unemployment', 'write', 'U.S._government', 'April', 'totality', 'abide_by', 'watch', 'extension', 'years', 'unemployed', 'pupil', 'propagation', 'daytime', 'point', 'flow', 'empowerment', 'menstruum', 'work', 'full_stop', 'conform_to', 'wing', 'impart', 'postdate', 'publish', 'pursue', 'utilization', 'limit', 'fresh', 'regularization', 'initial', 'concede', 'position', 'Modern', 'surveil', 'period', 'deed_over', 'limitation', 'geological_period', 'sum', 'extend', 'Day', 'keep_abreast', 'transmit', 'allow', 'limit_point', 'come_after', 'give', 'pack', 'keep_up', 'trace', 'United_States_of_America', 'run', 'stick_with', 'denotation', 'novel', 'keep_an_eye_on', 'prolongation', 'scholarly_person', 'convey', 'United_States', 'bookman', 'Clarence_Day', 'demarcation', 'play_along', 'conglomeration', 'conduct', 'persuade', 'accompany', 'travel_along', 'release', 'put_out', 'utilisation', 'accord', 'stockpile', 'lengthiness', 'dependant', 'day', 'congeries', 'behave', 'gestate', 'university_extension', 'follow', 'the_States', 'aggregate', 'dependent', 'twenty-four_hour_period', 'United_States_government', 'bound', 'exercise', 'educatee', 'telephone_extension', 'express', 'print', 'unexampled', 'annexe', 'comply', 'mandate', 'terminus_ad_quem', 'U.S.', 'approve', 'scholar', 'twenty-four_hours', 'stock', 'mean_solar_day', 'comport', 'bear', 'extension_service', 'dominance', 'hold', 'Apr', 'young', 'employment', 'okay', 'engagement', 'award', 'acquit', 'survey', 'newfangled', 'daylight', 'regularisation', 'raw', 'sanction', 'US', 'contain', 'be', 'channel', 'espouse', 'say-so', 'sway', 'cede', 'succeed', 'issue', 'U.S.A.', 'America', 'dribble', 'stick_to', 'annex', 'have_a_bun_in_the_oven', 'terminal_point', 'bring_out', 'come', 'parametric_quantity', 'sidereal_day', 'carry', 'reference', 'status', 'US_Government', 'catamenia', 'filename_extension', 'yield', 'full_point', 'grant', 'days', 'potency', 'time_period', 'point_of_accumulation', 'use', 'file_name_extension', 'menstruation', 'total', 'expect', 'argument', 'fall_out', 'Clarence_Shepard_Day_Jr.', 'solar_day', 'authorisation', 'observe', 'boundary', 'employ', 'demarcation_line', 'period_of_time', 'student', 'USA', 'take', 'transport', 'watch_over', 'authorization']

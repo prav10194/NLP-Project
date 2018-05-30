@@ -1,0 +1,96 @@
+Corpus Question: Do I need a job to be eligible to apply for OPT?
+
+Corpus Answer:  No, you do not need a job offer prior to applying for OPT, and your job may be anywhere in the United States. You may also change jobs during the course of your OPT period, but you must notify our office of any interruption or change to your employment.
+
+
+Sentence Tokenizer: ['Do I need a job to be eligible to apply for OPT?', 'No, you do not need a job offer prior to applying for OPT, and your job may be anywhere in the United States.', 'You may also change jobs during the course of your OPT period, but you must notify our office of any interruption or change to your employment.']
+
+Words Tokenizer: ['Do', 'I', 'need', 'a', 'job', 'to', 'be', 'eligible', 'to', 'apply', 'for', 'OPT', '?', 'No', ',', 'you', 'do', 'not', 'need', 'a', 'job', 'offer', 'prior', 'to', 'applying', 'for', 'OPT', ',', 'and', 'your', 'job', 'may', 'be', 'anywhere', 'in', 'the', 'United', 'States', '.', 'You', 'may', 'also', 'change', 'jobs', 'during', 'the', 'course', 'of', 'your', 'OPT', 'period', ',', 'but', 'you', 'must', 'notify', 'our', 'office', 'of', 'any', 'interruption', 'or', 'change', 'to', 'your', 'employment', '.']
+
+words_without_stop_words: ['Do', 'I', 'need', 'job', 'eligible', 'apply', 'OPT', '?', 'No', ',', 'need', 'job', 'offer', 'prior', 'applying', 'OPT', ',', 'job', 'may', 'anywhere', 'United', 'States', '.', 'You', 'may', 'also', 'change', 'jobs', 'course', 'OPT', 'period', ',', 'must', 'notify', 'office', 'interruption', 'change', 'employment', '.']
+
+words_with_stemming: ['do', 'i', 'need', 'job', 'elig', 'appli', 'opt', '?', 'no', ',', 'need', 'job', 'offer', 'prior', 'appli', 'opt', ',', 'job', 'may', 'anywher', 'unit', 'state', '.', 'you', 'may', 'also', 'chang', 'job', 'cours', 'opt', 'period', ',', 'must', 'notifi', 'offic', 'interrupt', 'chang', 'employ', '.']
+
+words_with_lemmatization: ['Do', 'I', 'need', 'job', 'eligible', 'apply', 'OPT', '?', 'No', ',', 'need', 'job', 'offer', 'prior', 'apply', 'OPT', ',', 'job', 'may', 'anywhere', 'United', 'States', '.', 'You', 'may', 'also', 'change', 'job', 'course', 'OPT', 'period', ',', 'must', 'notify', 'office', 'interruption', 'change', 'employment', '.']
+
+words_with_pos_tags: [('Do', 'VBP'), ('I', 'PRP'), ('need', 'VBP'), ('job', 'NN'), ('eligible', 'JJ'), ('apply', 'NN'), ('OPT', 'NNP'), ('?', '.'), ('No', 'UH'), (',', ','), ('need', 'VB'), ('job', 'NN'), ('offer', 'VBP'), ('prior', 'RB'), ('applying', 'VBG'), ('OPT', 'NNP'), (',', ','), ('job', 'NN'), ('may', 'MD'), ('anywhere', 'RB'), ('United', 'NNP'), ('States', 'NNPS'), ('.', '.'), ('You', 'PRP'), ('may', 'MD'), ('also', 'RB'), ('change', 'VB'), ('jobs', 'NNS'), ('course', 'NN'), ('OPT', 'NNP'), ('period', 'NN'), (',', ','), ('must', 'MD'), ('notify', 'VB'), ('office', 'NN'), ('interruption', 'NN'), ('change', 'NN'), ('employment', 'NN'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SQ
+    (VP (VB Do)
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP need)
+            (S
+              (NP (DT a) (NN job))
+              (VP (TO to)
+                (VP (VB be)
+                  (ADJP (JJ eligible)
+                    (S
+                      (VP (TO to)
+                        (VP (VB apply)
+                          (PP (IN for)
+                            (NP (NNP OPT))))))))))))))
+    (. ?)))(ROOT
+  (S
+    (S
+      (NP (DT No))
+      (, ,)
+      (NP (PRP you))
+      (VP (VBP do) (RB not)
+        (VP (VB need)
+          (NP (DT a) (NN job) (NN offer))
+          (ADVP (RB prior)
+            (PP (TO to)
+              (S
+                (VP (VBG applying)
+                  (PP (IN for)
+                    (NP (NNP OPT))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP$ your) (NN job))
+      (VP (MD may)
+        (VP (VB be)
+          (ADVP (RB anywhere))
+          (PP (IN in)
+            (NP (DT the) (NNP United) (NNPS States))))))
+    (. .)))(ROOT
+  (S
+    (S
+      (NP (PRP You))
+      (VP (MD may)
+        (ADVP (RB also))
+        (VP (VB change)
+          (NP (NNS jobs))
+          (PP (IN during)
+            (NP
+              (NP (DT the) (NN course))
+              (PP (IN of)
+                (NP (PRP$ your) (NN OPT) (NN period))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP you))
+      (VP (MD must)
+        (VP (VB notify)
+          (NP
+            (NP (PRP$ our) (NN office))
+            (PP (IN of)
+              (NP (DT any) (NN interruption)
+                (CC or)
+                (NN change))))
+          (PP (TO to)
+            (NP (PRP$ your) (NN employment))))))
+    (. .)))
+
+hypernyms_list: ['punctuation', 'workplace', 'political_unit', 'condition', 'speech_act', 'attempt', 'product', 'executive_department', 'state', 'occupation', 'chemical_phenomenon', 'groom', 'activity', 'administrative_district', 'part', 'necessity', 'gathering', 'end', 'relation', 'discharge', 'psychological_feature', 'duty', 'fundamental_quantity', 'spend', 'action', 'time_interval', 'satisfy', 'government', 'message', 'attribute', 'create', 'compel', 'give', 'poverty', 'refer', 'series', 'carry_through', 'travel', 'robbery', 'cover', 'make', 'coin', 'proceed', 'clothing', 'unfortunate', 'request', 'emotional_state', 'cash', 'difference', 'layer', 'happening', 'distribute', 'rite', 'thing', 'denote', 'consequence', 'nutriment', 'education', 'line', 'delay', 'direction', 'application', 'place_of_business', 'administrative_unit', 'geological_time', 'work', 'facility', 'staff', 'difficulty']
+
+hyponyms_list: ['interjection', 'condition', 'imperfection', 'editorship', 'australian_state', 'time_frame', 'churn_out', 'maturity', 'viziership', 'bout', 'separation', 'little_office', 'mid-september', 'residency', 'union', 'putty', 'messiahship', 'go_around', 'baronetage', 'honeymoon', 'bob', 'diversification', 'letup', 'life_office', 'adulteration', 'hospitalization', 'reign', 'omniscience', 'bureau_of_justice_assistance', 'marine_corps_intelligence_activity', 'buffer_state', 'enlargement', 'prefecture', 'department_of_energy_intelligence', 'clerkship', 'motionlessness', 'tax_haven', 'internal_revenue_service', 'occupation', 'deanship', 'vulgarize', 'quarter', 'precentorship', 'interpret', 'pull_out_all_the_stops', 'prelacy', 'impel', 'hours', 'tread', 'revolution', 'lieutenancy', 'confectionery', 'race_problem', 'office_of_naval_intelligence', 'field_day', 'cadetship', 'mid-january', 'travel_time', 'vice-presidency', 'fatherhood', 'steps', 'industrial_arts', 'demotion', 'praetorship', 'shop_class', 'governorship', 'call-back', 'incumbency', 'entree', 'piecework', 'application', 'workshop', 'generalship', 'omnipotence', 'half-century', 'viceroyship', 'dominion', 'row_of_bricks', 'nonbeing', 'dependence', 'follow', 'food_and_drug_administration', 'custodianship', 'twofer', 'commonwealth_country', 'duration', 'united_states_government_printing_office', 'action', 'air_force_intelligence_surveillance_and_reconnaissance', 'air_alert', 'iron_age', 'vagary', 'initiate', 'federal_housing_administration', 'womanhood', 'world_power', 'cut-in', 'bureau_of_justice_statistics', 'african_country', 'order', 'obligation', 'casualty_care_research_center', 'naval_underwater_warfare_center', 'employment', 'bid', 'season', 'regulation_time', 'engagement', 'difference', 'legation', 'paper_route', 'treadmill', 'mid-june', 'shelf_life', 'refresher_course', 'round', 'sponge_on', 'deceleration', 'sublimation', 'heterozygosity', 'bishopry', 'public_service', 'premier', 'office_of_intelligence_support', 'presidency', 'sentimentalise', 'scut_work', 'career', 'carry', 'balance-of-payments_problem', 'mid-july', 'school', 'status', 'waste', 'kingdom', 'defense_advanced_research_projects_agency', 'reward', 'skillfulness', 'countinghouse', 'make_as_if', 'caesura', 'being', 'sultanate', 'usance', 'wardenship', 'mid-may', 'recycle', 'flux', 'curatorship', 'welfare_state', 'captainship', 'downshift', 'profession', 'counterterrorist_center', 'rabbinate', 'change_of_direction', 'times', 'associateship', 'take', 'hugger_mugger', 'dessert', 'ornamentation', 'paternity', 'canadian_province', 'racetrack', 'secularization', 'exploitation', 'counteroffer', 'deformation', 'real_time', 'updating', 'admiralty', 'prehistory', 'coaching', 'metier', 'stooge', 'blind_alley', 'stunt', 'legislatorship', 'nationalization', 'premiership', 'respite', 'shipping_office', 'overachieve', 'government_office', 'great_year', 'shimmer', 'controllership', 'turn', 'divine_office', 'wild', 'life', 'proconsulship', 'asian_country', 'independent_agency', 'neotony', 'dog_days', 'study_hall', 'shamanize', 'year', 'golf_course', 'freeze', 'utopia', 'plum', 'department_of_defense_laboratory_system', 'phase_of_the_moon', 'propaedeutic', 'united_states_coast_guard', 'curacy', 'acceleration', 'perfection', 'time', 'peace_offering', 'bimester', 'multistage', 'discipleship', 'turgor', 'utilization', 'fortnight', 'public_office', 'half_life', 'newsroom', 'patent_and_trademark_office_database', 'ballistic_missile_defense_organization', 'give', 'promotion', 'window', 'menace', 'decrease', 'overtime', 'run', 'seminar', 'dystopia', 'trial_period', 'bureau_of_engraving_and_printing', 'defense_logistics_agency', 'naval_surface_warfare_center', 'mid-august', 'peasanthood', 'developing_country', 'thaneship', 'revocation', 'tide_over', 'footle', 'sea_power', 'way', 'immigration_and_naturalization_service', 'act_involuntarily', 'stead', 'evening', 'presume', 'organ', 'european_country', 'local_authority', 'put', 'principalship', 'birth', 'novitiate', 'long_run', 'managership', 'hat', 'improvise', 'avail', 'plasma', 'bureau_of_intelligence_and_research', 'switch', 'irrational_motive', 'national_oceanic_and_atmospheric_administration', 'fall_back', 'chairmanship', 'motivate', 'appear', 'photography', 'contract_offer', 'mid-december', 'ball-buster', 'temporary_state', 'ownership', 'sex_change', 'dally', 'running_time', 'ice_age', 'movement', 'tribalism', 'situation', 'defense_information_systems_agency', 'overuse', 'decade', 'nationhood', 'serenade', 'play', 'grace', 'satisfaction', 'ground_state', 'liquid', 'destabilization', 'motion', 'attorneyship', 'accountantship', 'romanticize', 'loss_of_consciousness', 'click_off', 'chancellorship', 'time_of_life', 'effect', 'generation', 'calendar_day', 'inaction', 'occasion', 'united_states_air_force', 'suzerain', 'weekend', 'moderatorship', 'quadrennium', 'strain', 'childbirth-preparation_class', 'increase', 'blaze_away', 'receivership', 'integrity', 'drought', 'damnation', 'national_weather_service', 'dress', 'eldership', 'ministry', 'unemployment', 'provoke', 'decimalization', 'damp-proof_course', 'era', 'sleep', 'loan_office', 'shape-up', 'national_institutes_of_health', 'midwinter', 'watch', 'filtration', 'mid-november', 'medium', 'secretaryship', 'directed_study', 'sport', 'serve', 'lactation', 'foreign_service', 'century', 'change_of_shape', 'quack', 'facilitate', 'bureau_of_the_census', 'mayoralty', 'development', 'cream', 'marshalship', 'delay', 'national_park_service', 'financial_management_service', 'underachieve', 'joke', 'administer', 'correspondence_course', 'night', 'throne', 'work', 'ethical_motive', 'quinquennium', 'bureau_of_diplomatic_security', 'suspension', 'declaim', 'foreign_country', 'conditionality', 'tender_offer', 'damage', 'break_down', 'frivol', 'professorship', 'misuse', 'elective_course', 'rehearse', 'depolarization', 'youth', 'advanced_research_and_development_activity', 'primateship', 'position', 'psychic_energy', 'catering', 'term', 'eclipse', 'judgeship', 'studentship', 'naval_air_warfare_center_weapons_division', 'pipe_up', 'magistracy', 'national_guard_bureau', 'reduction', 'disorder', 'dawn', 'fall_over_backwards', 'italian_region', 'trusteeship', 'rainy_day', 'work_time', 'technology_administration', 'oligomenorrhea', 'indiction', 'appetizer', 'overlordship', 'beggary', 'bureau_of_customs', 'conduct', 'metrification', 'special', 'dead_air', 'representation', 'war_power', 'mastership', 'morning', 'scamp', 'priorship', 'punctuation', 'cannibalize', 'day', 'apostleship', 'degree', 'plurality', 'blackout', 'alteration', 'necessity', 'eve', 'manhood', 'mutation', 'law_enforcement_agency', 'long_time', 'directorship', 'prospectus', 'ply', 'exert', 'cut', 'urge', 'readiness', 'conversion', 'festival', 'flower', 'slap_on', 'federal_aviation_agency', 'make', 'trade', 'enjoy', 'go_all_out', 'golden_age', 'lustrum', 'sauce', 'practice', 'seafaring', 'past', 'semester', 'national_climatic_data_center', 'united_states_army', 'backslap', 'speakership', 'peacetime', 'piffle', 'senatorship', 'recycling', 'calendar_month', 'uptime', 'menorrhagia', 'government_accounting_office', 'conflict', 'united_states_border_patrol', 'stewardship', 'cold-cream', 'required_course', 'office', 'lease', 'put_in', 'headship', 'heckling', 'overdo', 'wanton', 'counselorship', 'olympiad', 'regency', 'comptrollership', 'entail', 'relax', 'feeling', 'admit', 'swath', 'change_of_integrity', 'foremanship', 'dislocation', 'appointment', 'time-out', 'united_states_fish_and_wildlife_service', 'swagger', 'headquarters', 'librarianship', 'address', 'telecommuting', 'naval_special_warfare', 'rights_offering', 'illumination', 'variation', 'question_time', 'merchantability', 'orbit_period', 'star', 'center_for_disease_control_and_prevention', 'gum', 'optimize', 'solid', 'suspension_point', 'art_class', 'quarter-century', 'bailiffship', 'defense_reutilization_and_marketing_service', 'american_state', 'elapsed_time', 'lack', 'commonwealth', 'move', 'academicianship', 'millennium', 'kalemia', 'change_of_magnitude', 'occupational_safety_and_health_administration', 'determine', 'dab', 'inside_track', 'workload', 'turning', 'city_state', 'defense_technical_information_center', 'hot_seat', 'freedom', 'bungle', 'silver_age', 'week', 'tribuneship', 'silly_season', 'pastorship', 'incubation_period', 'mid-march', 'booking', 'teachership', 'collision_course', 'ally', 'preceptorship', 'rogue_state', 'commandership', 'communization', 'qualify', 'farming', 'transition', 'foggy_bottom', 'change_of_state', 'wartime', 'cleavage', 'accountancy', 'rollover', 'proposition', 'enlistment', 'lapse', 'execute', 'rational_motive', 'nonproliferation_center', 'indian_summer', 'capacity', 'implement', 'bronze_age', 'home_study', 'banana_republic', 'extension_course', 'emirate', 'south_american_country', 'wardership', 'hour', 'engender', 'office_of_the_dead', 'puerperium', 'bimillennium', 'easing', 'relationship', 'stream', 'instructorship', 'break', 'imminence', 'consulship', 'gas', 'caliphate', 'eparchy', 'misdo', 'north_american_country', 'national_geospatial-intelligence_agency', 'united_states_public_health_service', 'khanate', 'breaking_off', 'isomerism', 'gradient', 'soviets', 'proctorship', 'halftime', 'lectureship', 'prohibition', 'inspectorship', 'death', 'hostility', 'mid-february', 'end', 'chieftaincy', 'protectorship', 'time_limit', 'sainthood', 'treasurership', 'transformation', 'substitution', 'army_intelligence', 'ambassadorship', 'downtime', 'trail', 'go_a_long_way', 'mid-october', 'daub', 'misapply', 'midweek', 'rulership', 'exploit', 'apprenticeship', 'chaplaincy', 'services', 'ramp', 'twinkle', 'soviet_socialist_republic', 'adult_education', 'mid-april', 'executive_clemency', 'cut_corners', 'national_institute_of_standards_and_technology', 'phase', 'comptroller_of_the_currency', 'clotting_time', 'marriage_proposal', 'transportation_security_administration', 'trimester', 'homozygosity', 'seigniory', 'section', 'fatherland', 'orientation_course', 'time_off', 'national_technical_information_service', 'united_states_navy', 'master_class', 'dead_letter', 'game', 'act', 'box_office', 'avulsion', 'cardinalship', 'rectorship', 'tide', 'reich', 'executive_agency', 'portfolio', 'immaturity', 'stint', 'service', 'course_of_lectures', 'internship', 'sinecure', 'second_fiddle', 'about-face', 'solicitorship', 'councillorship', 'swell', 'share', 'surprise', 'wave', 'polyvalence', 'transmutation']
+
+meronyms_list: ['course_session', 'bureau_of_intelligence_and_research', 'coursework', 'domain', 'state', 'epoch', 'lesson', 'midland', 'department', 'foreign_service', 'estate_of_the_realm', 'lecture', 'bureau_of_diplomatic_security']
+
+holonyms_list: ['wall', 'meal', 'hagiographa', 'office_building', 'era', 'country', 'old_testament', 'playing_period']
+
+synonyms_list: ['authority', 'set', 'usage', 'part', 'stop', 'coiffure', 'berth', 'answer', 'offer', 'body_politic', 'menses', 'dress', 'post', 'Book_of_Job', 'agency', 'problem', 'state_of_matter', 'serve', 'pauperism', 'nation', 'manage', 'point', 'do', 'flow', 'variety', 'want', 'modification', 'row', 'menstruum', 'work', 'full_stop', 'trend', 'suspension', 'pause', 'course_of_study', 'eligible', 'business_office', 'occupation', 'spot', 'utilization', 'motive', 'execute', 'position', 'practise', 'period', 'implement', 'billet', 'interruption', 'intermission', 'geological_period', 'State_Department', 'give', 'track', 'break', 'make_out', 'demand', 'utilise', 'coiffe', 'course_of_action', 'class', 'line', 'fare', 'whirl', 'task', 'State', 'DoS', 'apply', 'pauperization', 'utilisation', 'res_publica', 'go', 'put_on', 'behave', 'go_for', 'job', 'alteration', 'coif', 'office_staff', 'path', 'exercise', 'federal_agency', 'Department_of_State', 'land', 'perform', 'Job', 'motivation', 'hold', 'make', 'lend_oneself', 'form', 'employment', 'disruption', 'engagement', 'country', 'offering', 'practice', 'arrange', 'get_along', 'indigence', 'course', 'enforce', 'state', 'office', 'province', 'gap', 'need', 'power', 'course_of_instruction', 'come', 'situation', 'role', 'line_of_work', 'utilize', 'catamenia', 'pass', 'full_point', 'act', 'crack', 'time_period', 'cause', 'change', 'place', 'use', 'government_agency', 'caper', 'menstruation', 'business', 'chore', 'United_States_Department_of_State', 'bureau', 'employ', 'period_of_time', 'fling', 'commonwealth', 'grade', 'penury', 'function', 'suffice']

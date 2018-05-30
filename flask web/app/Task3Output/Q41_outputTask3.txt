@@ -1,0 +1,94 @@
+Corpus Question: Can I go to school while on OPT?
+
+Corpus Answer:  Time spent going to school should only be an incidental part of your stay in the U.S. If you decide to go back to school full-time, you must speak to an advisor at BIO about transferring your I-20 to the new institution or updating your I-20 if your degree program is at Berkeley.
+
+
+Sentence Tokenizer: ['Can I go to school while on OPT?', 'Time spent going to school should only be an incidental part of your stay in the U.S.', 'If you decide to go back to school full-time, you must speak to an advisor at BIO about transferring your I-20 to the new institution or updating your I-20 if your degree program is at Berkeley.']
+
+Words Tokenizer: ['Can', 'I', 'go', 'to', 'school', 'while', 'on', 'OPT', '?', 'Time', 'spent', 'going', 'to', 'school', 'should', 'only', 'be', 'an', 'incidental', 'part', 'of', 'your', 'stay', 'in', 'the', 'U.S', '.', 'If', 'you', 'decide', 'to', 'go', 'back', 'to', 'school', 'full-time', ',', 'you', 'must', 'speak', 'to', 'an', 'advisor', 'at', 'BIO', 'about', 'transferring', 'your', 'I-20', 'to', 'the', 'new', 'institution', 'or', 'updating', 'your', 'I-20', 'if', 'your', 'degree', 'program', 'is', 'at', 'Berkeley', '.']
+
+words_without_stop_words: ['Can', 'I', 'go', 'school', 'OPT', '?', 'Time', 'spent', 'going', 'school', 'incidental', 'part', 'stay', 'U.S', '.', 'If', 'decide', 'go', 'back', 'school', 'full-time', ',', 'must', 'speak', 'advisor', 'BIO', 'transferring', 'I-20', 'new', 'institution', 'updating', 'I-20', 'degree', 'program', 'Berkeley', '.']
+
+words_with_stemming: ['can', 'i', 'go', 'school', 'opt', '?', 'time', 'spent', 'go', 'school', 'incident', 'part', 'stay', 'u.', '.', 'if', 'decid', 'go', 'back', 'school', 'full-tim', ',', 'must', 'speak', 'advisor', 'bio', 'transfer', 'i-20', 'new', 'institut', 'updat', 'i-20', 'degre', 'program', 'berkeley', '.']
+
+words_with_lemmatization: ['Can', 'I', 'go', 'school', 'OPT', '?', 'Time', 'spend', 'go', 'school', 'incidental', 'part', 'stay', 'U.S', '.', 'If', 'decide', 'go', 'back', 'school', 'full-time', ',', 'must', 'speak', 'advisor', 'BIO', 'transfer', 'I-20', 'new', 'institution', 'update', 'I-20', 'degree', 'program', 'Berkeley', '.']
+
+words_with_pos_tags: [('Can', 'MD'), ('I', 'PRP'), ('go', 'VB'), ('school', 'NN'), ('OPT', 'NNP'), ('?', '.'), ('Time', 'NNP'), ('spent', 'VBD'), ('going', 'VBG'), ('school', 'NN'), ('incidental', 'JJ'), ('part', 'NN'), ('stay', 'NN'), ('U.S', 'NNP'), ('.', '.'), ('If', 'IN'), ('decide', 'JJ'), ('go', 'VBP'), ('back', 'RB'), ('school', 'NN'), ('full-time', 'NN'), (',', ','), ('must', 'MD'), ('speak', 'VB'), ('advisor', 'NN'), ('BIO', 'NNP'), ('transferring', 'VBG'), ('I-20', 'NNP'), ('new', 'JJ'), ('institution', 'NN'), ('updating', 'VBG'), ('I-20', 'JJ'), ('degree', 'JJ'), ('program', 'NN'), ('Berkeley', 'NNP'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SQ (MD Can)
+    (NP (PRP I))
+    (VP (VB go)
+      (PP (TO to)
+        (NP (NN school)))
+      (SBAR (IN while)
+        (FRAG
+          (PP (IN on)
+            (NP (NNP OPT))))))
+    (. ?)))(ROOT
+  (S
+    (NP (NNP Time))
+    (VP (VBD spent)
+      (SBAR
+        (S
+          (S
+            (VP (VBG going)
+              (PP (TO to)
+                (NP (NN school)))))
+          (VP (MD should)
+            (ADVP (RB only))
+            (VP (VB be)
+              (NP
+                (NP (DT an) (JJ incidental) (NN part))
+                (PP (IN of)
+                  (NP
+                    (NP (PRP$ your) (NN stay))
+                    (PP (IN in)
+                      (NP (DT the) (NNP U.S.)))))))))))))(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP decide)
+          (S
+            (VP (TO to)
+              (VP (VB go)
+                (ADVP (RB back))
+                (PP (TO to)
+                  (NP (NN school) (JJ full-time)))))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD must)
+      (VP (VB speak)
+        (PP (TO to)
+          (NP
+            (NP (DT an) (NN advisor))
+            (PP (IN at)
+              (NP (NNP BIO)))))
+        (PP (IN about)
+          (S
+            (VP
+              (VP (VBG transferring)
+                (NP (PRP$ your) (NN I-20))
+                (PP (TO to)
+                  (NP (DT the) (JJ new) (NN institution))))
+              (CC or)
+              (VP (VBG updating)
+                (NP (PRP$ your) (NN I-20))
+                (SBAR (IN if)
+                  (S
+                    (NP (PRP$ your) (NN degree) (NN program))
+                    (VP (VBZ is)
+                      (PP (IN at)
+                        (NP (NNP Berkeley))))))))))))
+    (. .)))
+
+hypernyms_list: ['authority', 'portrayal', 'body', 'moment', 'object', 'attempt', 'inform', 'state', 'move', 'document', 'disappear', 'item', 'decree', 'concept', 'performance', 'system', 'end', 'relation', 'concern', 'assets', 'organization', 'location', 'happen', 'duty', 'magnitude', 'term', 'displace', 'harmonize', 'rhythmicity', 'announcement', 'attribute', 'idea', 'show', 'act', 'exit', 'brace', 'shift', 'expense', 'strip', 'time_period', 'cause_to_be_perceived', 'property', 'change', 'travel', 'information', 'educational_institution', 'software', 'change_state', 'dimension', 'reading', 'transfer', 'custom', 'animal_group', 'temperature_unit', 'compare', 'choose', 'fit', 'beginning', 'award', 'modify', 'delegate', 'case', 'inaction', 'angular_unit', 'thing', 'education', 'line', 'establishment', 'building', 'search', 'hospital', 'tune', 'be', 'exponent', 'experience']
+
+hyponyms_list: ['download', 'television_program', 'whizz', 'clangor', 'vicariate', 'travel_purposefully', 'clang', 'ration', 'member', 'primo', 'honorary_degree', 'demise', 'library_program', 'assembler', 'audit_program', 'whish', 'go_around', 'vacuum', 'spreadsheet', 'fragment', 'upload', 'drum', 'first_degree', 'interplanetary_space', 'crash', 'security_consultant', 'plane', 'lurch', 'over', 'lisp_program', 'educational_program', 'raft', 'bedlam', 'detail', 'peen', 'ionosphere', 'quarter', 'pursue', 'transpose', 'eternity', 'ghost', 'swing', 'outside', 'depth', 'fashion_consultant', 'stand_up', 'aerospace', 'low', 'betake_oneself', 'resound', 'breeze', 'caravan', 'bottleneck', 'zoom', 'media_consultant', 'bit', 'training_school', 'upstage', 'substance', 'accompany', 'application', 'language_school', 'offload', 'carry_over', 'backstay', 'title_role', 'remainder', 'sign_of_the_zodiac', 'send', 'wend', 'follow', 'world', 'dole', 'succumb', 'duration', 'voice_part', 'glug', 'withdraw', 'frame', 'resonate', 'clank', 'heavy', 'component', 'ride', 'swash', 'radiate', 'chatter', 'shuttle', 'angle', 'hurtle', 'lance', 'state_of_the_art', 'ladder', 'dancing_school', 'while', 'round', 'island_hop', 'crash_course', 'reading_program', 'acicula', 'historical_school', 'retreat', 'bill', 'foible', 'shunt', 'air', 'blow_out', 'get_off_the_ground', 'intergalactic_space', 'career', 'carry', 'seek', 'stalemate', 'spacecraft_clock_time', 'boom', 'circulate', 'interface', 'bleep', 'ping', 'automobile', 'utility_program', 'acme', 'translate', 'checking_program', 'job_control', 'object_program', 'chime', 'zone', 'take', 'ferry', 'musical_time', 'lake_poets', 'patter', 'heliosphere', 'go_far', 'toe', 'text-matching', 'scramble', 'starets', 'public_school', 'ephemera', 'incarnation', 'bit_part', 'high_time', 'piece', 'road_map', 'life_sentence', 'educational_institution', 'slither', 'dance_school', 'manoeuver', 'turn', 'interest', 'outflank', 'counselor', 'finishing_school', 'atmosphere', 'ashcan_school', 'gurgle', 'driving_school', 'hard_time', 'graduate_school', 'investment_adviser', 'medical_institution', 'taxi', 'geological_time', 'predecease', 'second_period', 'countercheck', 'swap', 'jetsam', 'bulb', 'forge', 'high_point', 'pointillism', 'pace', 'zigzag', 'papua', 'fly', "bachelor's_degree", 'first_period', 'academy', 'give', 'conservatory', 'tax_program', 'run', 'guggle', 'tinkle', 'zodiac', 'push', 'tram', 'derail', 'way', 'honk', 'management_consultant', 'blueprint', 'tessellate', 'present', 'venture', 'stead', 'buy_it', 'ting', 'continuum', 'travel_rapidly', 'remove', 'swim', 'hat', 'export', 'travel_by', 'live_out', 'butt', 'second', 'whisk', 'middle', 'employee_savings_plan', 'compiler', 'segment', 'home', 'correspondence_school', 'top', 'descend', 'circuit', 'basis', 'religion', 'extent', 'seat', 'tranche', 'appendage', 'budget', 'roll', 'outline', 'pressing', 'intensity', 'space_age', 'charity', 'belt', 'law_degree', 'crack', 'play', 'levirate', 'bring', 'regimen', 'beginning', 'snowshoe', 'pop', 'occasion', 'back', 'ripple', 'click', 'tick', 'night_school', 'stock_purchase_plan', 'rehabilitation_program', 'limb', 'open', 'ski', 'hum', 'quickening', 'drive', 'cutting', 'hell', 'neck', 'mare', 'racecard', 'pink', 'crammer', 'highness', 'hunk', 'repair', 'suffocate', 'import', 'stay_of_execution', 'subpart', 'post', 'transship', 'rattle', 'secession', 'language_unit', "master's_degree", 'patch', 'defense_program', 'supervisory_program', 'serve', 'allotment', 'playbill', 'rise', 'superfund_program', 'lap', 'moderation', 'talk_show', 'fraction', 'religious_school', 'deep_space', 'work', 'shove_off', 'take_effect', 'eden', 'plan_of_action', 'propagate', 'get_around', 'riding_school', 'deconstructivism', 'bass', 'beauty_consultant', 'monitor_program', 'space_program', 'sustaining_program', 'climax', 'financial_institution', 'nursing_school', 'base', 'precess', 'spine', 'unit', 'craton', 'profit_sharing', 'proceed', 'system_program', 'secondary_school', 'tipster', 'convey', 'degree_centigrade', 'snap', 'plow', 'precede', 'joint', 'day_school', 'cutout', 'buzz', 'day', 'assign', 'secondo', 'bang', 'nub', 'corpus', 'bounce', 'anti-virus_program', 'high', 'tagger', 'wheel', 'starve', 'bluff', 'source_program', 'lowness', 'ease', 'malfunction', 'final_period', 'county', 'ultimacy', 'check', 'cut', 'billow', 'castle', 'settle', 'loop', 'exchange', 'reusable_program', 'drown', 'pan', 'quality', 'turnout', 'inning', 'issuer', 'past', 'drone', 'allowance', 'blow', 'corner', 'degree_fahrenheit', 'company', 'degree_of_a_polynomial', 'degree_of_a_term', 'search_engine', 'honours', 'abort', 'steamer', 'come', 'commit', 'episode', 'bottom', 'body_part', 'self-adapting_program', 'mail', 'shank', 'county_agent', 'advance', 'bunker', 'travel', 'future', 'amplitude_level', 'misfire', 'art_nouveau', 'secretarial_school', 'spool', 'drag', 'offset', 'fall', 'wreckage', 'whistle', 'load', 'glide', 'trump', 'stop', 'grade_school', 'tweet', 'inside', 'heroine', 'standard_of_living', 'veterinary_school', 'splash', 'kuiper_belt', 'perennate', 'chug', 'black_hole', 'split', 'radius', 'game_show', 'prime_time', 'distance', 'fortran_program', 'sift', 'project', 'do', 'thud', 'shuffle', 'ingenue', 'squelch', 'military_adviser', 'debugger', 'hiss', 'forte', 'moment', 'make_noise', 'orphanage', 'step', 'logjam', 'ring', 'translator', 'capacity', 'period', 'side', 'sojourn', 'news_program', 'hour', 'crawl', 'forestay', 'fore_edge', 'ftp', 'whine', 'break', 'accompaniment', 'pension_plan', 'private_school', 'speed', 'skirl', 'serial', 'transfer', 'resultant', 'civil_time', 'direct-grant_school', 'layer', 'distribute', 'syntax_checker', 'desacralize', 'chukker', 'cruise', 'slice', 'relocatable_program', 'binary', 'pass_over', 'sunday_school', 'sober_up', 'hard_times', 'item', 'rustle', 'double', 'flying_school', 'retrograde', 'clop', 'degree_program', 'malevolent_program', 'end', 'negociate', 'stored_program', 'twang', 'hub', 'grind', 'sind', 'villain', 'ascend', 'half', 'slice_into', 'alma_mater', 'trail', 'dead', 'daylight-saving_time', 'cosmic_time', 'heel', 'snarl', 'backroom_boy', 'amicus_curiae', 'draw', 'trundle', 'rush', 'greenwich_mean_time', 'interstellar_space', 'authorship', 'parser', 'translocate', 'stray', 'weave', 'spider', 'splat', 'tap', 'steamroller', 'float', 'master_plan', "doctor's_degree", 'walk', 'wee', 'upstairs', 'penal_institution', 'flock', 'web_map_service', 'section', 'sun_protection_factor', 'extreme', 'rerun', 'pass', 'game', 'works_program', 'hero', 'biological_time', 'c_program', 'agenda', 'strip', 'portfolio', 'prance', 'service', 'interpreter', 'immoderation', 'beetle', 'biosphere', 'alien', 'second_fiddle', 'associate_degree', 'rumble', 'go_on', 'return', 'technical_school', 'extremity', 'circle', 'dispensation']
+
+meronyms_list: ['instruction', 'plank', 'classroom', 'routine', 'fish', 'minute', 'schoolteacher', 'course_of_lectures', 'staff', 'study_hall', 'university_of_california_at_berkeley']
+
+holonyms_list: ['whole', 'unit', 'oxtant', 'meronymy', 'hair', 'net_income', 'california', 'sextant', 'school_system']
+
+synonyms_list: ['voice', 'adviser', 'move', 'part', 'sentence', 'stop', 'incidental_expense', 'new', 'George_Berkeley', 'perish', 'buy_the_farm', 'New', 'mental_institution', 'metre', 'piece', 'portion', 'character', 'locomote', 'live_on', 'give_way', 'origination', 'political_platform', 'sound', 'incidental', 'school_day', 'start', 'hold_up', 'expire', 'point', 'fail', 'update', 'region', 'work', 'institution', 'course_of_study', 'time', 'introduction', 'break_down', 'conk', 'transpose', 'clip', 'run_short', 'fresh', 'Modern', 'programme', 'go_bad', 'blend', 'hitch', 'extend', 'schooling', 'transmit', 'endure', 'prison_term', 'theatrical_role', 'reassign', 'constituent', 'give-up_the_ghost', 'run', 'innovation', 'minor_expense', 'break', 'psychiatric_hospital', 'meter', 'parting', 'novel', 'computer_program', 'percentage', 'proceed', 'stoppage', 'channelise', 'transfer', 'choke', 'halt', 'fit', 'operate', 'curriculum', 'go', 'contribution', 'degree', 'hold_out', 'die', 'remove', 'component_part', 'program', 'founding', 'get_going', 'blend_in', 'kick_the_bucket', 'shoal', 'unexampled', 'consultant', 'give_out', 'initiation', 'plump', 'syllabus', 'check', 'schooltime', 'division', 'component', 'plan', 'level', 'young', 'political_program', 'stay', 'insane_asylum', 'transplant', 'conk_out', 'establishment', 'arcdegree', 'newfangled', 'decease', 'raw', 'stage', 'broadcast', 'become', 'channel', 'office', 'academic_degree', 'rifle', 'clock_time', 'creation', 'go_away', 'pop_off', 'section', 'get', 'school', 'instauration', 'asylum', 'role', 'arrest', 'computer_programme', 'pass', 'lead', 'exit', 'persona', 'shift', 'platform', 'Bishop_Berkeley', 'schoolhouse', 'travel', 'last', 'change', 'Berkeley', 'drop_dead', 'depart', 'survive', 'foundation', 'pass_away', 'channelize', 'advisor', 'belong', 'mental_hospital', 'mental_home', 'share', 'fourth_dimension', 'run_low', 'live', 'grade', 'croak', 'transport', 'snuff_it', 'function', "cash_in_one's_chips"]

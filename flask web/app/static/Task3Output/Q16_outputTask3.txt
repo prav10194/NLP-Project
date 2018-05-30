@@ -1,0 +1,97 @@
+Corpus Question: Am I eligible for more OPT if I progress to another degree program?
+
+Corpus Answer: 
+Yes. If you begin a new degree program at a higher level (i.e. Bachelor to Masters or Masters to Ph.D.) program, you will become eligible for an addition block of 12-months of OPT as outlined above. You are, however, only eligible for one period of 17 month OPT-extension
+
+
+
+Sentence Tokenizer: ['Am I eligible for more OPT if I progress to another degree program?', 'Yes.', 'If you begin a new degree program at a higher level (i.e.', 'Bachelor to Masters or Masters to Ph.D.) program, you will become eligible for an addition block of 12-months of OPT as outlined above.', 'You are, however, only eligible for one period of 17 month OPT-extension']
+
+Words Tokenizer: ['Am', 'I', 'eligible', 'for', 'more', 'OPT', 'if', 'I', 'progress', 'to', 'another', 'degree', 'program', '?', 'Yes', '.', 'If', 'you', 'begin', 'a', 'new', 'degree', 'program', 'at', 'a', 'higher', 'level', '(', 'i.e', '.', 'Bachelor', 'to', 'Masters', 'or', 'Masters', 'to', 'Ph.D.', ')', 'program', ',', 'you', 'will', 'become', 'eligible', 'for', 'an', 'addition', 'block', 'of', '12-months', 'of', 'OPT', 'as', 'outlined', 'above', '.', 'You', 'are', ',', 'however', ',', 'only', 'eligible', 'for', 'one', 'period', 'of', '17', 'month', 'OPT-extension']
+
+words_without_stop_words: ['Am', 'I', 'eligible', 'OPT', 'I', 'progress', 'another', 'degree', 'program', '?', 'Yes', '.', 'If', 'begin', 'new', 'degree', 'program', 'higher', 'level', '(', 'i.e', '.', 'Bachelor', 'Masters', 'Masters', 'Ph.D.', ')', 'program', ',', 'become', 'eligible', 'addition', 'block', '12-months', 'OPT', 'outlined', '.', 'You', ',', 'however', ',', 'eligible', 'one', 'period', '17', 'month', 'OPT-extension']
+
+words_with_stemming: ['am', 'i', 'elig', 'opt', 'i', 'progress', 'anoth', 'degre', 'program', '?', 'yes', '.', 'if', 'begin', 'new', 'degre', 'program', 'higher', 'level', '(', 'i.e', '.', 'bachelor', 'master', 'master', 'ph.d.', ')', 'program', ',', 'becom', 'elig', 'addit', 'block', '12-month', 'opt', 'outlin', '.', 'you', ',', 'howev', ',', 'elig', 'one', 'period', '17', 'month', 'opt-extens']
+
+words_with_lemmatization: ['Am', 'I', 'eligible', 'OPT', 'I', 'progress', 'another', 'degree', 'program', '?', 'Yes', '.', 'If', 'begin', 'new', 'degree', 'program', 'higher', 'level', '(', 'i.e', '.', 'Bachelor', 'Masters', 'Masters', 'Ph.D.', ')', 'program', ',', 'become', 'eligible', 'addition', 'block', '12-months', 'OPT', 'outline', '.', 'You', ',', 'however', ',', 'eligible', 'one', 'period', '17', 'month', 'OPT-extension']
+
+words_with_pos_tags: [('Am', 'NNP'), ('I', 'PRP'), ('eligible', 'JJ'), ('OPT', 'NNP'), ('I', 'PRP'), ('progress', 'VBP'), ('another', 'DT'), ('degree', 'NN'), ('program', 'NN'), ('?', '.'), ('Yes', 'UH'), ('.', '.'), ('If', 'IN'), ('begin', 'JJ'), ('new', 'JJ'), ('degree', 'NN'), ('program', 'NN'), ('higher', 'JJR'), ('level', 'NN'), ('(', '('), ('i.e', 'JJ'), ('.', '.'), ('Bachelor', 'NNP'), ('Masters', 'NNPS'), ('Masters', 'NNP'), ('Ph.D.', 'NNP'), (')', ')'), ('program', 'NN'), (',', ','), ('become', 'VBP'), ('eligible', 'JJ'), ('addition', 'NN'), ('block', 'NN'), ('12-months', 'JJ'), ('OPT', 'NNP'), ('outlined', 'VBD'), ('.', '.'), ('You', 'PRP'), (',', ','), ('however', 'RB'), (',', ','), ('eligible', 'JJ'), ('one', 'CD'), ('period', 'NN'), ('17', 'CD'), ('month', 'NN'), ('OPT-extension', 'NN')]
+
+parse_tree_string: (ROOT
+  (SQ (VBP Am)
+    (NP (PRP I))
+    (ADJP (JJ eligible)
+      (PP (IN for)
+        (NP
+          (NP (JJR more) (NN OPT))
+          (SBAR (IN if)
+            (S
+              (NP (PRP I))
+              (VP (VBP progress)
+                (PP (TO to)
+                  (NP (DT another) (NN degree) (NN program)))))))))
+    (. ?)))(ROOT
+  (INTJ (UH Yes) (. .)))(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP begin)
+        (NP (DT a) (JJ new) (NN degree) (NN program))
+        (PP (IN at)
+          (NP
+            (NP (DT a) (JJR higher) (NN level))
+            (PP (-LRB- -LRB-)
+              (NP (FW i.e.)))))))))(ROOT
+  (S
+    (S
+      (NP
+        (NP
+          (NP (NN Bachelor))
+          (PP (TO to)
+            (NP
+              (NP (NN Masters)
+                (CC or)
+                (NN Masters))
+              (PP (TO to)
+                (NP (NNP Ph.D.)))
+              (-RRB- -RRB-))))
+        (NP (NN program))))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD will)
+      (VP (VB become)
+        (ADJP (JJ eligible)
+          (PP (IN for)
+            (NP
+              (NP (DT an) (NN addition) (NN block))
+              (PP (IN of)
+                (NP
+                  (NP (NNS 12-months))
+                  (PP (IN of)
+                    (NP (NN OPT))))))))
+        (SBAR (IN as)
+          (S
+            (VP (VBN outlined)
+              (PP (IN above)))))))
+    (. .)))(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP are) (, ,)
+      (ADVP (RB however))
+      (, ,)
+      (ADJP (RB only) (JJ eligible)
+        (PP (IN for)
+          (NP
+            (NP (CD one) (NN period))
+            (PP (IN of)
+              (NP (CD 17) (NN month) (NN OPT-extension)))))))))
+
+hypernyms_list: ['knight', 'authority', 'punctuation', 'altitude', 'state', 'collection', 'surface', 'inability', 'doctor_of_philosophy', 'document', 'creation', 'arithmetic_operation', 'part', 'performance', 'indicator', 'housing', 'increase', 'system', 'employer', 'magnitude', 'end', 'combatant', 'discharge', 'modulation', 'fundamental_quantity', 'ruler', 'structure', 'officer', 'time_interval', 'time_unit', 'announcement', 'suburb', 'describe', 'idea', 'show', 'scholar', 'write', 'platform', 'information', 'software', 'time_period', 'property', 'principal', 'obstruction', 'place', 'component', 'indefinite_quantity', 'motion', "master's_degree", 'acquisition', 'computer_memory_unit', 'cast', 'temperature_unit', 'solid', 'artifact', 'award', 'change_of_location', 'development', 'angular_unit', 'artist', 'machine', 'draw', 'area', 'key', 'geological_time', 'metallic_element', 'man', 'rank', 'exponent']
+
+hyponyms_list: ['television_program', 'quadrennium', 'pad', 'millennium', 'real_time', 'elongation', 'time_frame', 'prehistory', 'text-matching', 'ward', 'racecard', 'bout', 'honorary_degree', 'standard_of_living', 'drought', 'highness', 'library_program', 'mid-september', 'nog', 'assembler', 'road_map', 'audit_program', 'era', 'great_year', 'silver_age', 'sleep', 'spreadsheet', 'silly_season', 'week', 'briquette', 'incubation_period', 'mid-march', 'midwinter', "master's_degree", 'patch', 'defense_program', 'supervisory_program', 'honeymoon', 'mid-november', 'afterthought', 'watch', 'lactation', 'life', 'mezzanine', 'lipstick', 'game_show', 'forwarding', 'century', 'first_degree', 'playbill', 'dog_days', 'study_hall', 'fortran_program', 'superfund_program', 'biosafety_level', 'hospitalization', 'plane', 'project', 'year', 'lisp_program', 'reign', 'moderation', 'headway', 'educational_program', 'talk_show', 'night', 'vapor_lock', 'phase_of_the_moon', 'wartime', 'debugger', 'quinquennium', 'date', 'leapfrog', 'stationmaster', 'housemaster', 'nut', 'ingot', 'enlistment', 'plan_of_action', 'time', 'hindu_calendar_month', 'indian_summer', 'occupation', 'step', 'bimester', 'generation', 'multistage', 'quarter', 'basement', 'youth', 'fortnight', 'translator', 'old_master', 'half_life', 'monitor_program', 'space_program', "bachelor's_degree", 'sustaining_program', 'feudal_lord', 'climax', 'fluoridation', 'bollock', 'interference', 'bronze_age', 'hours', 'news_program', 'term', 'depth', 'trap_block', 'contour', 'a_level', 'hour', 'work_flow', 'low', 'puerperium', 'window', 'bimillennium', 'field_day', 'gregorian_calendar_month', 'mid-january', 'overtime', 'tax_program', 'travel_time', 'run', 'dawn', 'trial_period', 'pension_plan', 'rainy_day', 'work_time', 'mid-august', 'system_program', 'serial', 'block_out', 'oligomenorrhea', 'indiction', 'stride', 'resultant', 'push', 'jewish_calendar_month', "writer's_block", 'degree_centigrade', 'syntax_checker', 'sidereal_month', 'application', 'blueprint', 'solar_month', 'half-century', 'morning', 'lunar_month', 'relocatable_program', 'breechblock', 'idle_pulley', 'day', 'binary', 'evening', 'prohibition', 'anti-virus_program', 'high', 'degree_program', 'tagger', 'anvil', 'source_program', 'malevolent_program', 'mid-february', 'fairlead', 'general_certificate_of_secondary_education', 'novitiate', 'long_run', 'time_limit', 'duration', 'stored_program', 'eve', 'college_level', 'lowness', 'grind', 'plain_sailing', 'air_alert', 'long_time', 'iron_age', 'ultimacy', 'chock', 'flower', 'downtime', 'festival', 'mid-october', 'cube', 'loop', 'midweek', 'employee_savings_plan', 'compiler', 'reusable_program', 'conqueror', 'domino', 'attachment', 'season', 'quality', 'islamic_calendar_month', 'golden_age', 'lustrum', 'regulation_time', 'swage_block', 'state_of_the_art', 'ladder', "mason's_level", 'past', 'mid-april', 'mid-june', 'semester', 'slab', 'past_master', 'parser', 'shelf_life', 'degree_fahrenheit', 'crash_course', 'additive', 'peacetime', 'calendar_month', 'reading_program', 'phase', 'uptime', 'menorrhagia', 'extent', 'mid-december', 'spider', 'degree_of_a_polynomial', 'cellblock', 'degree_of_a_term', 'bill', 'crosshead', 'chopping_block', 'spymaster', 'clotting_time', 'lease', 'search_engine', 'master_plan', "doctor's_degree", 'honours', 'trimester', 'retrofit', 'anomalistic_month', 'budget', 'web_map_service', 'annex', 'outline', 'running_time', 'olympiad', 'episode', 'career', 'ice_age', 'mid-july', 'intensity', 'school', 'sun_protection_factor', 'extreme', 'self-adapting_program', 'accretion', 'parry', 'time_off', 'skeleton_key', 'rerun', 'decade', 'law_degree', 'works_program', 'c_program', 'agenda', 'platform', 'interface', 'starting_block', 'tide', 'usance', 'mid-may', 'amplitude_level', 'ground_floor', 'cake', 'question_time', 'regimen', 'orbit_period', 'interpreter', 'goldbrick', 'immoderation', 'suspension_point', 'march', 'time_of_life', 'postmaster', 'quarter-century', 'utility_program', 'acme', 'floor', 'checking_program', 'associate_degree', 'stock_purchase_plan', 'rehabilitation_program', 'job_control', 'object_program', 'loft', 'calendar_day', 'elapsed_time', 'revolutionary_calendar_month', 'paved_surface', 'times', 'plug', 'type', 'weekend', 'quickening', 'bad_block']
+
+meronyms_list: ['full_moon', 'cylinder', 'epoch', 'plank', 'routine', 'sector', 'minute', 'course_of_lectures', 'half-moon', 'new_moon', 'week', 'instruction']
+
+holonyms_list: ['internal-combustion_engine', 'year', 'oxtant', 'building', "carpenter's_level", "surveyor's_level", 'block_and_tackle', 'sextant', 'era', 'reciprocating_engine', 'playing_period']
+
+synonyms_list: ['passkey', 'passe-partout', 'Masters', 'stop', 'pulley_block', 'increase', 'stratum', 'new', 'menses', 'New', 'lord', 'sketch', 'Master_of_Arts', 'headmaster', 'knight_bachelor', 'political_platform', 'Edgar_Lee_Masters', 'unmarried_man', 'bachelor', 'high-pitched', 'closure', 'sea_captain', 'point', 'flow', 'month', 'progress', 'story', 'menstruum', 'full_stop', 'course_of_study', 'tier', 'victor', 'eligible', 'schoolmaster', 'fresh', 'horizontal_surface', 'Modern', 'programme', 'period', 'geological_period', 'skipper', 'advancement', 'storey', 'plus', 'engine_block', 'gamy', 'Ph.D.', 'novel', 'blockage', 'computer_program', 'atomic_number_95', 'auction_block', 'stoppage', 'delineate', 'amplitude_modulation', 'city_block', 'layer', 'master_copy', 'block', 'procession', 'limn', 'mellow', 'curriculum', 'Begin', 'master_key', 'degree', 'high', 'accession', 'addition', 'program', 'eminent', 'mental_block', 'professional', 'higher', 'unexampled', 'master', 'syllabus', 'gain', 'Menachem_Begin', 'overlord', 'cube', 'pulley', 'plan', 'Artium_Magister', 'gamey', 'level', 'original', 'young', 'political_program', 'superior', 'captain', 'arcdegree', 'newfangled', 'MA', 'calendar_month', 'stage', 'raw', 'bachelor-at-arms', 'maestro', 'broadcast', 'academic_degree', 'pulley-block', 'PhD', 'outline', 'Am', 'computer_programme', 'AM', 'catamenia', 'full_point', 'improver', 'forward_motion', 'summation', 'advance', 'platform', 'time_period', 'americium', 'adumbrate', 'spirit_level', 'progression', 'menstruation', 'onward_motion', 'blocking', 'add-on', 'cylinder_block', 'occlusion', 'floor', 'draft', 'in_high_spirits', 'period_of_time', 'grade']

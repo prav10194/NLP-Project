@@ -1,0 +1,57 @@
+Corpus Question: Do I need to complete any forms with my employer to begin working?
+
+Corpus Answer:  Yes. Speak with your employer about timelines and specific paperwork.
+
+
+Sentence Tokenizer: ['Do I need to complete any forms with my employer to begin working?', 'Yes.', 'Speak with your employer about timelines and specific paperwork.']
+
+Words Tokenizer: ['Do', 'I', 'need', 'to', 'complete', 'any', 'forms', 'with', 'my', 'employer', 'to', 'begin', 'working', '?', 'Yes', '.', 'Speak', 'with', 'your', 'employer', 'about', 'timelines', 'and', 'specific', 'paperwork', '.']
+
+words_without_stop_words: ['Do', 'I', 'need', 'complete', 'forms', 'employer', 'begin', 'working', '?', 'Yes', '.', 'Speak', 'employer', 'timelines', 'specific', 'paperwork', '.']
+
+words_with_stemming: ['do', 'i', 'need', 'complet', 'form', 'employ', 'begin', 'work', '?', 'yes', '.', 'speak', 'employ', 'timelin', 'specif', 'paperwork', '.']
+
+words_with_lemmatization: ['Do', 'I', 'need', 'complete', 'form', 'employer', 'begin', 'work', '?', 'Yes', '.', 'Speak', 'employer', 'timeline', 'specific', 'paperwork', '.']
+
+words_with_pos_tags: [('Do', 'VBP'), ('I', 'PRP'), ('need', 'VBP'), ('complete', 'JJ'), ('forms', 'NNS'), ('employer', 'VBP'), ('begin', 'VB'), ('working', 'VBG'), ('?', '.'), ('Yes', 'UH'), ('.', '.'), ('Speak', 'NNP'), ('employer', 'NN'), ('timelines', 'NNS'), ('specific', 'JJ'), ('paperwork', 'NN'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SQ
+    (VP (VB Do)
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP need)
+            (S
+              (VP (TO to)
+                (VP (VB complete)
+                  (NP (DT any) (NNS forms))
+                  (PP (IN with)
+                    (NP (PRP$ my) (NN employer)
+                      (S
+                        (VP (TO to)
+                          (VP (VB begin)
+                            (S
+                              (VP (VBG working)))))))))))))))
+    (. ?)))(ROOT
+  (INTJ (UH Yes) (. .)))(ROOT
+  (S
+    (VP (VB Speak)
+      (PP (IN with)
+        (NP (PRP$ your) (NN employer)))
+      (PP (IN about)
+        (NP
+          (NP (NNS timelines))
+          (CC and)
+          (NP (JJ specific) (NN paperwork)))))
+    (. .)))
+
+hypernyms_list: ['become', 'body', 'condition', 'succeed', 'go', 'move', 'document', 'groom', 'necessity', 'gathering', 'psychological_feature', 'spend', 'structure', 'category', 'dummy', 'create_from_raw_material', 'satisfy', 'appearance', 'fix', 'attribute', 'create', 'convert', 'pass', 'poverty', 'spatial_property', 'transform', 'manipulate', 'taxonomic_group', 'carry_through', 'travel', 'writing_style', 'use', 'change_state', 'make', 'proceed', 'state_of_matter', 'operate', 'leader', 'chronology', 'ability', 'manage', 'stimulate', 'word', 'understand', 'capture', 'mold', 'affect', 'work', 'be', 'manner']
+
+hyponyms_list: ['reshape', 'telegraph_form', 'fink', 'mistress', 'drive', 'padrone', 'dullness', 'overcrop', 'description', 'churn_out', 'hot-work', 'blaze_away', 'masticate', 'stooge', 'determine', 'strand', 'stunt', 'moonlight', 'slave', 'answer', 'imprint', 'singular', 'stamp', 'roughcast', 'distorted_shape', 'juvenile_body', 'assist', 'provoke', 'bungle', 'overachieve', 'freelance', 'go_around', 'application_form', 'tax_form', 'claw', 'cast', 'make_hay', 'mound', 'turn', 'bob', 'serve', 'life', 'carve', 'claim_form', 'quack', 'facilitate', 'shamanize', 'amorphous_shape', 'etymon', 'plane', 'freeze', 'female_body', 'genus', 'cybernate', 'qualify', 'carpenter', 'kaleidoscope', 'antitype', 'underachieve', 'joke', 'species', 'art_form', 'whore', 'man', 'bushwhack', 'work', 'ethical_motive', 'declaim', 'manner', 'break_down', 'frivol', 'requisition', 'tinker', 'vulgarize', 'rehearse', 'stir', 'intern', 'interpret', 'vinify', 'color', 'versification', 'stripe', 'impel', 'rational_motive', 'swing', 'psychic_energy', 'minister', 'work_through', 'blackmail', 'skipper', 'jostle', 'straightness', 'engender', 'model', 'crookedness', 'specialize', 'pipe_up', 'menace', 'putter', 'turn_a_trick', 'run', 'fall_over_backwards', 'coldwork', 'warm_up', 'break', 'round_shape', 'electioneer', 'work_at', 'guess', 'overwork', 'mosaic', 'beggary', 'layer', 'flavor', 'conduct', 'misdo', 'line', 'column', 'cut_out', 'tide_over', 'footle', 'dominate', 'bank', 'act_involuntarily', 'scamp', 'labor', 'square', 'presume', 'beaver', 'collaborate', 'boondoggle', "pull_one's_weight", 'follow', 'job', 'double', 'plume', 'necessity', 'rework', 'sinter', 'exercise', 'grind', 'busy', 'chip', 'flare', 'master', 'connection', 'ply', 'throw', 'cut', 'initiate', 'urge', 'like', 'roundness', 'go_a_long_way', 'narrowing', 'slave_driver', 'improvise', 'avail', 'make', 'tool', 'militate', 'lobularity', 'acronym', 'figure', 'go_all_out', 'irrational_motive', 'grid', 'ramp', 'dispersing_phase', 'ghost_word', 'sauce', 'brand', 'till', 'beat', 'preform', 'abbreviation', 'motivate', 'appear', 'natural_shape', 'rack', 'convexity', 'cut_corners', 'backslap', 'stratification', 'piffle', 'citation_form', 'premier', 'get_at', 'volunteer', 'swage', 'overdo', 'wanton', 'puddle', 'sentimentalise', 'dally', 'concavity', 'person', 'roll', 'carry', 'section', 'plug_away', 'prey', 'relax', 'circle', 'admit', 'fix', 'adult_body', 'topography', 'farm', 'clerk', 'master_class', 'riddle', 'hill', 'boss', 'act', 'serenade', 'play', 'swagger', 'manipulate', 'handbuild', 'make_as_if', 'use', 'subcontract', 'gestalt', 'romanticize', 'star', 'strike', 'root', 'page', 'service', 'angularity', 'click_off', 'optimize', 'fractal', 'solid', 'order_form', 'dispersed_phase', 'prejudice', 'effect', 'questionnaire', 'sculpt', 'proof', 'occasion', 'skimp', 'machine', 'swell', 'plural', 'style', 'wait', 'wave', 'lack', 'genre', 'male_body', 'triangle', 'fill', 'type', 'hugger_mugger', 'sharpness', 'angular_shape', 'curvature']
+
+meronyms_list: ['space']
+
+holonyms_list: ['homo', 'person', 'percept', 'species']
+
+synonyms_list: ['mannikin', 'complete', 'set', 'strain', 'cultivate', 'mould', 'coiffure', 'solve', 'terminated', 'build', 'answer', 'dress', 'pattern', 'lick', 'signifier', 'anatomy', 'process', 'cast', 'manikin', 'turn', 'make_for', 'serve', 'pauperism', 'unadulterated', 'stark', 'manage', 'put_to_work', 'over', 'do', 'kind', 'variety', 'want', 'thoroughgoing', 'act_upon', 'work', 'forge', 'motive', 'soma', 'execute', 'ended', 'practise', 'sort', 'sodding', 'contour', 'shape', 'perfect', 'accomplished', 'run', 'make_out', 'demand', 'influence', 'specific', 'coiffe', 'everlasting', 'manakin', 'operate', 'concluded', 'class', 'fare', 'physique', 'mold', 'timeline', 'consummate', 'pauperization', 'conformation', 'variant', 'Begin', 'go', 'figure_out', 'behave', 'ferment', 'pure', 'coif', 'configuration', 'exercise', 'double-dyed', 'frame', 'perform', 'knead', 'human_body', 'Menachem_Begin', 'motivation', 'do_work', 'function', 'make', 'all_over', 'form', 'exploit', 'physical_body', 'figure', 'staring', 'practice', 'arrange', 'phase', 'material_body', 'get_along', 'indigence', 'course', 'word_form', 'arrant', 'wreak', 'crop', 'var.', 'need', 'employer', 'come', 'bod', 'flesh', 'utter', 'act', 'play', 'cause', 'bring', 'mannequin', 'puzzle_out', 'chassis', 'work_out', 'sour', 'work_on', 'grade', 'gross', 'penury', 'paperwork', 'descriptor', 'suffice']

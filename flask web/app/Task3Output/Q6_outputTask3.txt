@@ -1,0 +1,97 @@
+Corpus Question: What does the immigration service consider "completion of studies?
+
+Corpus Answer: "
+Completion of studies is the actual date that you complete all requirements for a program of study (i.e. the date of your final exams, or submission of your thesis or dissertation)."Completion of studies" is NOT automatically considered to be the date of graduation ceremonies.
+
+
+Sentence Tokenizer: ['What does the immigration service consider "completion of studies?"', 'Completion of studies is the actual date that you complete all requirements for a program of study (i.e.', 'the date of your final exams, or submission of your thesis or dissertation).', '"Completion of studies" is NOT automatically considered to be the date of graduation ceremonies.']
+
+Words Tokenizer: ['What', 'does', 'the', 'immigration', 'service', 'consider', '``', 'completion', 'of', 'studies', '?', "''", 'Completion', 'of', 'studies', 'is', 'the', 'actual', 'date', 'that', 'you', 'complete', 'all', 'requirements', 'for', 'a', 'program', 'of', 'study', '(', 'i.e', '.', 'the', 'date', 'of', 'your', 'final', 'exams', ',', 'or', 'submission', 'of', 'your', 'thesis', 'or', 'dissertation', ')', '.', '``', 'Completion', 'of', 'studies', "''", 'is', 'NOT', 'automatically', 'considered', 'to', 'be', 'the', 'date', 'of', 'graduation', 'ceremonies', '.']
+
+words_without_stop_words: ['What', 'immigration', 'service', 'consider', '``', 'completion', 'studies', '?', "''", 'Completion', 'studies', 'actual', 'date', 'complete', 'requirements', 'program', 'study', '(', 'i.e', '.', 'date', 'final', 'exams', ',', 'submission', 'thesis', 'dissertation', ')', '.', '``', 'Completion', 'studies', "''", 'NOT', 'automatically', 'considered', 'date', 'graduation', 'ceremonies', '.']
+
+words_with_stemming: ['what', 'immigr', 'servic', 'consid', '``', 'complet', 'studi', '?', "''", 'complet', 'studi', 'actual', 'date', 'complet', 'requir', 'program', 'studi', '(', 'i.e', '.', 'date', 'final', 'exam', ',', 'submiss', 'thesi', 'dissert', ')', '.', '``', 'complet', 'studi', "''", 'not', 'automat', 'consid', 'date', 'graduat', 'ceremoni', '.']
+
+words_with_lemmatization: ['What', 'immigration', 'service', 'consider', '``', 'completion', 'study', '?', "''", 'Completion', 'study', 'actual', 'date', 'complete', 'requirement', 'program', 'study', '(', 'i.e', '.', 'date', 'final', 'exam', ',', 'submission', 'thesis', 'dissertation', ')', '.', '``', 'Completion', 'study', "''", 'NOT', 'automatically', 'consider', 'date', 'graduation', 'ceremony', '.']
+
+words_with_pos_tags: [('What', 'WP'), ('immigration', 'NN'), ('service', 'NN'), ('consider', 'VB'), ('``', '``'), ('completion', 'NN'), ('studies', 'NNS'), ('?', '.'), ("''", "''"), ('Completion', 'NN'), ('studies', 'NNS'), ('actual', 'JJ'), ('date', 'NN'), ('complete', 'JJ'), ('requirements', 'NNS'), ('program', 'NN'), ('study', 'NN'), ('(', '('), ('i.e', 'NN'), ('.', '.'), ('date', 'NN'), ('final', 'JJ'), ('exams', 'NN'), (',', ','), ('submission', 'NN'), ('thesis', 'NN'), ('dissertation', 'NN'), (')', ')'), ('.', '.'), ('``', '``'), ('Completion', 'NN'), ('studies', 'NNS'), ("''", "''"), ('NOT', 'NNP'), ('automatically', 'RB'), ('considered', 'VBD'), ('date', 'NN'), ('graduation', 'NN'), ('ceremonies', 'NNS'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ
+      (VP (VBZ does)
+        (SBAR
+          (S
+            (NP (DT the) (NN immigration) (NN service))
+            (VP (VBP consider) (`` ``)
+              (NP
+                (NP (NN completion))
+                (PP (IN of)
+                  (NP (NNS studies)))))))))
+    (. ?) ('' '')))(ROOT
+  (S
+    (NP
+      (NP (NN Completion))
+      (PP (IN of)
+        (NP (NNS studies))))
+    (VP (VBZ is)
+      (NP (DT the) (JJ actual) (NN date))
+      (SBAR (IN that)
+        (S
+          (NP (PRP you))
+          (VP (VB complete)
+            (NP (DT all) (NNS requirements))
+            (PP (IN for)
+              (NP
+                (NP (DT a) (NN program))
+                (PP (IN of)
+                  (NP
+                    (NP (NN study))
+                    (PP (-LRB- -LRB-)
+                      (NP (FW i.e.)))))))))))))(ROOT
+  (NP
+    (NP (DT the) (NN date))
+    (PP (IN of)
+      (NP
+        (NP (PRP$ your) (JJ final) (NNS exams))
+        (, ,)
+        (CC or)
+        (NP
+          (NP (NN submission))
+          (PP (IN of)
+            (NP (PRP$ your) (NN thesis)
+              (CC or)
+              (NN dissertation))))
+        (-RRB- -RRB-)))
+    (. .)))(ROOT
+  (S (`` ``)
+    (NP
+      (NP (NN Completion))
+      (PP (IN of)
+        (NP (NNS studies))))
+    ('' '')
+    (VP (VBZ is)
+      (SBAR
+        (S
+          (NP (NNP NOT))
+          (ADVP (RB automatically))
+          (VP (VBD considered)
+            (S
+              (VP (TO to)
+                (VP (VB be)
+                  (NP
+                    (NP (DT the) (NN date))
+                    (PP (IN of)
+                      (NP (NN graduation) (NNS ceremonies)))))))))))
+    (. .)))
+
+hypernyms_list: ['body', 'condition', 'day', 'humility', 'think', 'document', 'drawing', 'activity', 'performance', 'analyze', 'memorizer', 'care', 'system', 'see', 'concentration', 'quantification', 'duty', 'companion', 'completion', 'helpfulness', 'exercise', 'written_agreement', 'announcement', 'message', 'chew_over', 'idea', 'premise', 'migration', 'show', 'accommodation', 'information', 'hash_out', 'tennis_stroke', 'edible_fruit', 'aid', 'coupling', 'software', 'contention', 'termination', 'room', 'force', 'delivery', 'treatise', 'employment', 'tableware', 'musical_composition', 'affair', 'think_about', 'learning', 'group_action', 'examination', 'calendar_year', 'communication', 'calendar_day', 'agreement', 'point', 'thing', 'knowledge_domain', 'contemplation', 'meeting', 'line', 'maneuver', 'religious_ceremony', 'company', 'evaluate', 'calendar_month', 'look', 'work', 'present']
+
+hyponyms_list: ['television_program', 'entrance_examination', 'double_date', 'vignette', 'graphology', 'maundy', 'quiz', 'maturity', 'progress_report', 'case_study', 'fire_walking', 'none', 'desideratum', 'text-matching', 'vesper', 'racecard', 'future_date', 'tea_ceremony', 'committal_service', 'abstract', 'essential_condition', 'potlatch', 'library_program', 'relativize', 'bibliotics', 'assembler', 'position_paper', 'road_map', 'audit_program', 'commemoration', 'spreadsheet', 'military_ceremony', 'prayer_meeting', 'patch', 'supervisory_program', 'defense_program', 'respect', 'ology', 'game_show', 'groak', 'playbill', 'oral', 'groundbreaking', 'must', 'superfund_program', 'fortran_program', 'project', 'prostration', 'preliminary_examination', 'lisp_program', 'presentation', 'educational_program', 'talk_show', 'escapology', 'debugger', 'white_book', 'receive', 'facility', 'birthday', 'plan_of_action', 'debate', 'dedication', 'identify', 'futurology', 'pageant', 'rain_date', 'translator', 'call', 'watch_night', 'monitor_program', 'space_program', 'factor', 'sustaining_program', 'obedience', 'contemplate', 'filing', 'news_program', 'reconsider', 'military_science', 'favor', 'design', 'warm_to', 'valet_parking', 'capitalize', 'humanistic_discipline', 'national_service', 'tax_program', 'finish', 'epoch', 'pension_plan', 'tryst', 'aliyah', 'marines', 'system_program', 'devotional', 'navy', 'rethink', 'serial', 'interim_overhaul', 'test_paper', 'formality', 'theology', 'lucubration', 'place_setting', 'utility', 'disrespect', 'syntax_checker', 'community_service', 'application', 'blueprint', 'circumstance', 'relocatable_program', 'curb_service', 'medical_report', 'binary', 'wedding', 'prize', 'anti-virus_program', 'architecture', 'degree_program', 'finalization', "knight's_service", 'source_program', 'malevolent_program', 'tagger', 'see', 'comprehensive_examination', 'bar_examination', 'reify', 'stored_program', 'midterm_examination', 'exercise', 'opening', 'purification', 'idealize', 'consulting_service', 'let', 'green_paper', 'initiation', 'army', 'like', 'graduation', 'seating', 'ace', 'major', 'loop', 'employee_savings_plan', 'compiler', 'self-service', 'hold', 'make', 'consummation', 'reusable_program', 'precondition', 'coastguard', 'compare', 'air_force', 'lustrum', 'deem', 'shading', 'dinner_service', 'think_of', 'allometry', 'litmus_test', 'engineering', 'sell-by_date', 'parser', 'crash_course', 'reading_program', 'follow-through', 'chapel_service', 'assay', 'spider', 'bill', 'think', 'master_plan', 'search_engine', 'socage', 'need', 'protology', 'theogony', 'budget', 'consider', 'web_map_service', 'dally', 'science', 'outline', 'help_desk', 'episode', 'feel', 'childcare', 'self-adapting_program', 'academic_requirement', 'tripos', 'rerun', 'church_service', 'works_program', 'premeditate', 'blind_date', 'agenda', 'c_program', 'interface', 'funeral', 'regimen', 'interpreter', 'include', 'communications', 'expect', 'final_examination', 'numerology', 'utility_program', 'checking_program', 'job_control', 'stock_purchase_plan', 'fault', 'draft', 'wrestle', 'think_twice', 'rehabilitation_program', 'object_program', 'frontier', 'blue_book', 'genealogy', 'religious_ceremony', 'resurvey', 'military_service', 'occultism']
+
+meronyms_list: ['plank', 'routine', 'military_unit', 'date', 'course_of_lectures', 'invocation', 'instruction', 'baccalaureate']
+
+holonyms_list: ['date', 'date_palm', 'house']
+
+synonyms_list: ['complete', 'necessary', 'study', 'report', 'meekness', 'terminated', 'day_of_the_month', 'ceremonial_occasion', 'completion', 'windup', 'culmination', 'ceremony', 'weigh', 'concluding', 'existent', 'sketch', 'overhaul', 'political_platform', 'serve', 'factual', 'requisite', 'subject', 'unadulterated', 'stark', 'over', 'inspection_and_repair', 'deliberate', 'date', 'thoroughgoing', 'work', 'pass_completion', 'thesis', 'commencement_exercise', 'course_of_study', 'debate', 'count', 'religious_service', 'ended', 'programme', 'observance', 'graduation_exercise', 'sodding', 'subject_area', 'terminal', 'requirement', 'servicing', 'perfect', 'accomplished', 'demand', 'computer_program', 'cogitation', 'armed_service', 'everlasting', 'real', 'ceremonial', 'concluded', 'Robert_William_Service', 'field_of_study', 'help', 'field', 'consummate', 'in-migration', 'curriculum', 'immigration', 'mop_up', 'moot', 'actual', 'pure', 'necessity', 'see', 'program', 'serving', 'dissertation', 'discipline', 'double-dyed', 'escort', 'divine_service', 'syllabus', 'gross', 'essential', 'graduation', 'commencement_ceremony', 'avail', 'net', 'conceive', 'plan', 'deal', 'all_over', 'exam', 'political_program', 'engagement', 'staring', 'examination', 'commencement', 'survey', 'turn_over', 'broadcast', 'view', 'look_at', 'arrant', 'think', 'written_report', 'service_of_process', 'consider', 'literal', 'prerequisite', 'compliance', 'Service', 'utter', 'gradation', 'table_service', 'particular_date', 'computer_programme', 'closing', 'appointment', 'platform', 'last', 'submission', 'bailiwick', 'subject_field', 'entry', 'service', 'regard', 'believe', 'final', 'test', 'reckon', 'military_service', 'take', 'genuine']

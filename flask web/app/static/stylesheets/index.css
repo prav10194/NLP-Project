@@ -1,0 +1,30 @@
+#headtitle {
+  font-size: 34px;
+  text-align: center;
+  margin-top: 20%;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+#search {
+
+  margin-top: 20%;
+  height: 20px;
+  font-family: 'IBM Plex serif', serif;
+  font-weight: 700;
+}
+
+#container {
+  margin: 0% 25% 0% 25%
+}
+
+.btn {
+  border-style: solid;
+  border-color: #8080805e;
+}
+
+#displayresults {
+  cursor: pointer;
+  margin-top: 10%;
+  font-family: 'IBM Plex serif', serif;
+  font-weight: 700;
+}

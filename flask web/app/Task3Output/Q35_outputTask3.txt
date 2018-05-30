@@ -1,0 +1,53 @@
+Corpus Question: Do I need a Social Security Number to work in the U.S.?
+
+Corpus Answer:  Yes. Please see How to Apply for a Social Security Number.
+
+
+Sentence Tokenizer: ['Do I need a Social Security Number to work in the U.S.?', 'Yes.', 'Please see How to Apply for a Social Security Number.']
+
+Words Tokenizer: ['Do', 'I', 'need', 'a', 'Social', 'Security', 'Number', 'to', 'work', 'in', 'the', 'U.S.', '?', 'Yes', '.', 'Please', 'see', 'How', 'to', 'Apply', 'for', 'a', 'Social', 'Security', 'Number', '.']
+
+words_without_stop_words: ['Do', 'I', 'need', 'Social', 'Security', 'Number', 'work', 'U.S.', '?', 'Yes', '.', 'Please', 'see', 'How', 'Apply', 'Social', 'Security', 'Number', '.']
+
+words_with_stemming: ['do', 'i', 'need', 'social', 'secur', 'number', 'work', 'u.s.', '?', 'yes', '.', 'pleas', 'see', 'how', 'appli', 'social', 'secur', 'number', '.']
+
+words_with_lemmatization: ['Do', 'I', 'need', 'Social', 'Security', 'Number', 'work', 'U.S.', '?', 'Yes', '.', 'Please', 'see', 'How', 'Apply', 'Social', 'Security', 'Number', '.']
+
+words_with_pos_tags: [('Do', 'VBP'), ('I', 'PRP'), ('need', 'VBP'), ('Social', 'JJ'), ('Security', 'NNP'), ('Number', 'NNP'), ('work', 'VB'), ('U.S.', 'NNP'), ('?', '.'), ('Yes', 'UH'), ('.', '.'), ('Please', 'NNP'), ('see', 'VB'), ('How', 'NNP'), ('Apply', 'NNP'), ('Social', 'NNP'), ('Security', 'NNP'), ('Number', 'NNP'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SQ
+    (VP (VB Do)
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP need)
+            (S
+              (NP (DT a) (NNP Social) (NNP Security) (NNP Number))
+              (VP (TO to)
+                (VP (VB work)
+                  (PP (IN in)
+                    (NP (DT the) (NNP U.S.))))))))))
+    (. ?)))(ROOT
+  (INTJ (UH Yes) (. .)))(ROOT
+  (S
+    (VP (VB Please)
+      (VP (VB see)
+        (SBAR
+          (WHADVP (WRB How))
+          (S
+            (VP (TO to)
+              (VP (VB Apply)
+                (PP (IN for)
+                  (NP (DT a) (NNP Social) (NNP Security) (NNP Number)))))))))
+    (. .)))
+
+hypernyms_list: ['condition', 'product', 'occupation', 'think', 'precaution', 'groom', 'activity', 'performance', 'signal', 'care', 'necessity', 'consider', 'see', 'assets', 'undergo', 'psychological_feature', 'consort', 'spend', 'perceive', 'electrical_device', 'satisfy', 'detect', 'create', 'symbol', 'compel', 'give', 'poverty', 'merchandise', 'amount', 'size', 'geographic_point', 'refer', 'end_product', 'guarantee', 'carry_through', 'travel', 'transferred_property', 'energy', 'safety', 'bet', 'definite_quantity', 'make', 'watch', 'cover', 'proceed', 'department', 'request', 'legal_document', 'learning', 'federal_government', 'fearlessness', 'imagine', 'verify', 'tour', 'wish', 'distribute', 'party', 'positive_identification', 'denote', 'understand', 'periodical', 'accompany', 'grammatical_category', 'company', 'visit', 'receive', 'experience']
+
+hyponyms_list: ['inspect', 'woodwork', 'bank_identification_number', 'take_in', 'deposit', 'churn_out', 'arity', 'multiplier', 'edition', 'coordinate', 'relativize', 'lacework', 'putty', 'size_up', 'publication', 'go_around', 'colliery', 'tend', 'bakery', 'respect', 'bob', 'license_number', 'receive', 'unlisted_security', 'confidence', 'vulgarize', 'interpret', 'auscultate', 'pull_out_all_the_stops', 'impel', 'roundhouse', 'tread', 'coursework', 'oyster_bed', 'compound_number', 'educe', 'tannery', 'ropewalk', 'numerousness', 'metalwork', 'endear', 'piecework', 'majority', 'workshop', 'spot-check', 'labor', 'biquadrate', 'remainder', 'polychrome', 'proprietorship_certificate', 'follow', 'job', 'peruse', 'action', 'initiate', 'ascertain', 'fixed-point_number', 'engagement', 'paper_route', 'discover', 'sponge_on', 'fishery', 'public_service', 'premier', 'sentimentalise', 'carry', 'protection', 'waste', 'make_as_if', 'recycle', 'proofread', 'laundry', 'stock_certificate', 'enchant', 'shipyard', 'cinch', 'take', 'proving_ground', 'hugger_mugger', 'minuend', 'recognizance', 'fish_farm', 'coaching', 'stooge', 'stunt', 'perceive', 'card', 'overachieve', 'waterworks', 'brokerage_house', 'turn', 'life', 'masterpiece', 'shamanize', 'listed_security', 'freeze', 'housewifery', 'cross-check', 'ironwork', 'forge', 'factor', 'mortgage-backed_security', 'partnership_certificate', 'give', 'subbing', 'natural_number', 'menace', 'pagination', 'run', 'literalize', 'control', 'silverwork', 'behold', 'wicker', 'search', 'tide_over', 'footle', 'act_involuntarily', 'spiritualize', 'square', 'presume', 'spadework', 'prize', 'suffer', 'put', 'earnest', 'undertaking', 'reify', 'wise_up', 'like', 'antilogarithm', 'improvise', 'cube', 'avail', 'cover', 'irrational_motive', 'tax-exempt_security', 'catch_sight', 'nightwork', 'fall_back', 'motivate', 'appear', 'heavy_lifting', 'survey', 'writing', 'operation', 'glassworks', 'appreciate', 'dally', 'warrant', 'candle', 'augend', 'zero-coupon_security', 'overuse', 'government_security', 'serenade', 'play', 'prime', 'romanticize', 'reinterpret', 'click_off', 'loose_end', 'effect', 'occasion', 'trip_up', 'subtrahend', 'strain', 'follow-up', 'spectate', 'care', 'blaze_away', 'dress', 'ministry', 'provoke', 'bond', 'quota', 'serve', 'oxidation_number', 'quack', 'facilitate', 'cream', 'intersect', 'underachieve', 'joke', 'creamery', 'catch', 'letter_security', 'administer', 'work', 'ethical_motive', 'declaim', 'mythicize', 'count', 'break_down', 'frivol', 'identify', 'rehearse', 'openwork', 'wash', 'call', 'psychic_energy', 'quotient', 'visualize', 'pipe_up', 'base', 'capitalize', 'fall_over_backwards', 'beggary', 'conduct', 'shining', 'scamp', 'cannibalize', 'workpiece', 'busywork', 'show-stopper', 'necessity', 'glimpse', 'scan', 'idealize', 'ply', 'constant', 'exert', 'check', 'cut', 'urge', 'roundness', 'slap_on', 'test_bed', 'insurance', 'misconstrue', 'make', 'exchange', 'enjoy', 'go_all_out', 'deem', 'sauce', 'peace', 'seafaring', 'backslap', 'fewness', 'piffle', 'lab', 'cold-cream', 'score', 'put_in', 'shop_floor', 'overdo', 'wanton', 'gasworks', 'come', 'timework', 'feel', 'relax', 'admit', 'swagger', 'telecommuting', 'address', 'cardinal_number', 'handicraft', 'star', 'gum', 'include', 'optimize', 'expect', 'allegorize', 'ironing', 'lack', 'fibonacci_number', 'composite_number', 'convertible', 'central', 'drill_site', 'determine', 'dab', 'workload', 'abstract', 'x-ray', 'read', 'bungle', 'preview', 'floating-point_number', 'social_security_number', 'read_between_the_lines', 'welfare_work', 'qualify', 'work_in_progress', 'witness', 'preponderance', 'double-check', 'scrip', 'easy_street', 'integer', 'execute', 'rational_motive', 'baryon_number', 'logging', 'location', 'minister', 'implement', 'reconsider', 'favor', 'engender', 'beehive', 'mission', 'addend', 'misdo', 'dividend', 'disrespect', 'housework', 'ironworks', 'complex_number', 'roman_numeral', 'lumberyard', 'linage', 'know', 'registered_security', 'studio', 'see', 'get_the_goods', 'autopsy', 'atomic_number', 'cardinality', 'go_a_long_way', 'hedge', 'minority', 'daub', 'misapply', 'exploit', 'services', 'ramp', 'cut_corners', 'lacquerware', 'personal_identification_number', 'leatherwork', 'consider', 'duty', 'ordinal_number', 'farm', 'act', 'multiplicand', 'investigation', 'arabic_numeral', 'root', 'service', 'record', 'decimal', 'innumerableness', 'secureness', 'test', 'swell', 'share', 'wave', 'divisor', 'paperwork']
+
+meronyms_list: ['nebraska', 'new_england', 'mid-atlantic_states', 'pacific_northwest', 'district_of_columbia', 'colony', 'minnesota', 'virginia', 'locker_room', 'texas', 'alaska', 'louisiana', 'west_virginia', 'oregon', 'maryland', 'rio_grande', 'south_carolina', 'washington', 'nevada', 'executive_branch', 'kansas', 'kentucky', 'idaho', 'niagara', 'arkansas', 'ohio', 'rhode_island', 'sunbelt', 'utah', 'yukon', 'wyoming', 'north_dakota', 'dakota', 'hawaii', 'midwest', 'vermont', 'indiana', 'colorado', 'massachusetts', 'north', 'west', 'montana', 'twin', 'georgia', 'north_carolina', 'connecticut', 'delaware', 'east', 'iowa', 'oklahoma', 'louisiana_purchase', 'california', 'new_york', 'niobrara', 'great_lakes', 'legislative_branch', 'new_hampshire', 'pennsylvania', 'south', 'south_dakota', 'maine', 'missouri', 'new_river', 'florida', 'illinois', 'new_jersey', 'american_state', 'michigan', 'tennessee', 'wisconsin', 'american', 'alabama', 'mississippi', 'new_mexico', 'saint_lawrence', 'arizona', 'yosemite', 'judicial_branch']
+
+holonyms_list: ['organization_of_american_states', 'north_atlantic_treaty_organization', 'north_america', 'series']
+
+synonyms_list: ['set', 'study', 'find', 'coiffure', 'take_in', 'determine', 'answer', 'dress', 'examine', 'U.S._government', 'experience', 'go_steady', 'watch', 'identification_number', 'turn', 'serve', 'pauperism', 'ensure', 'manage', 'project', 'do', 'image', 'want', 'catch', 'date', 'picture', 'look', 'work', 'please', 'get_word', 'telephone_number', 'witness', 'delight', 'mixer', 'motive', 'interpret', 'execute', 'visualise', 'practise', 'surety', 'implement', 'number', 'numeral', 'visualize', 'give', 'find_out', 'United_States_of_America', 'make_out', 'demand', 'control', 'utilise', 'coiffe', 'go_through', 'bit', 'fancy', 'United_States', 'security', 'meet', 'fare', 'visit', 'take_care', 'apply', 'pauperization', 'put_on', 'certificate', 'behave', 'realise', 'go_for', 'the_States', 'hear', 'coif', 'see', 'United_States_government', 'exercise', 'security_measure', 'escort', 'security_department', 'insure', 'perform', 'check', 'U.S.', 'run_across', 'ascertain', 'security_measures', 'motivation', 'hold', 'make', 'routine', 'encounter', 'lend_oneself', 'employment', 'sociable', 'figure', 'learn', 'see_to_it', 'practice', 'discover', 'arrange', 'understand', 'realize', 'get_along', 'indigence', 'US', 'oeuvre', 'view', 'construe', 'workplace', 'enforce', 'come_across', 'envision', 'issue', 'need', 'U.S.A.', 'America', 'consider', 'security_system', 'come', 'body_of_work', 'protection', 'pick_up', 'US_Government', 'utilize', 'get_wind', 'go_out', 'act', 'cause', 'phone_number', 'piece_of_work', 'use', 'social', 'regard', 'run_into', 'get_a_line', 'reckon', 'employ', 'assure', 'attend', 'USA', 'penury', 'suffice']

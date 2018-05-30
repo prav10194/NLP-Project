@@ -1,0 +1,107 @@
+Corpus Question: When can I apply for OPT?
+
+Corpus Answer:  The earliest you may apply for OPT is 90 days (3-months) prior to the completion of studies*, and the latest you may apply for OPT is 60 days following program completion. It can take several months to receive the OPT work card, so we recommend that you apply at least 90 days prior to the beginning of your intended job opportunity.
+
+
+Sentence Tokenizer: ['When can I apply for OPT?', 'The earliest you may apply for OPT is 90 days (3-months) prior to the completion of studies*, and the latest you may apply for OPT is 60 days following program completion.', 'It can take several months to receive the OPT work card, so we recommend that you apply at least 90 days prior to the beginning of your intended job opportunity.']
+
+Words Tokenizer: ['When', 'can', 'I', 'apply', 'for', 'OPT', '?', 'The', 'earliest', 'you', 'may', 'apply', 'for', 'OPT', 'is', '90', 'days', '(', '3-months', ')', 'prior', 'to', 'the', 'completion', 'of', 'studies*', ',', 'and', 'the', 'latest', 'you', 'may', 'apply', 'for', 'OPT', 'is', '60', 'days', 'following', 'program', 'completion', '.', 'It', 'can', 'take', 'several', 'months', 'to', 'receive', 'the', 'OPT', 'work', 'card', ',', 'so', 'we', 'recommend', 'that', 'you', 'apply', 'at', 'least', '90', 'days', 'prior', 'to', 'the', 'beginning', 'of', 'your', 'intended', 'job', 'opportunity', '.']
+
+words_without_stop_words: ['When', 'I', 'apply', 'OPT', '?', 'The', 'earliest', 'may', 'apply', 'OPT', '90', 'days', '(', '3-months', ')', 'prior', 'completion', 'studies*', ',', 'latest', 'may', 'apply', 'OPT', '60', 'days', 'following', 'program', 'completion', '.', 'It', 'take', 'several', 'months', 'receive', 'OPT', 'work', 'card', ',', 'recommend', 'apply', 'least', '90', 'days', 'prior', 'beginning', 'intended', 'job', 'opportunity', '.']
+
+words_with_stemming: ['when', 'i', 'appli', 'opt', '?', 'the', 'earliest', 'may', 'appli', 'opt', '90', 'day', '(', '3-month', ')', 'prior', 'complet', 'studies*', ',', 'latest', 'may', 'appli', 'opt', '60', 'day', 'follow', 'program', 'complet', '.', 'it', 'take', 'sever', 'month', 'receiv', 'opt', 'work', 'card', ',', 'recommend', 'appli', 'least', '90', 'day', 'prior', 'begin', 'intend', 'job', 'opportun', '.']
+
+words_with_lemmatization: ['When', 'I', 'apply', 'OPT', '?', 'The', 'earliest', 'may', 'apply', 'OPT', '90', 'day', '(', '3-months', ')', 'prior', 'completion', 'studies*', ',', 'latest', 'may', 'apply', 'OPT', '60', 'day', 'follow', 'program', 'completion', '.', 'It', 'take', 'several', 'month', 'receive', 'OPT', 'work', 'card', ',', 'recommend', 'apply', 'least', '90', 'day', 'prior', 'begin', 'intend', 'job', 'opportunity', '.']
+
+words_with_pos_tags: [('When', 'WRB'), ('I', 'PRP'), ('apply', 'VBP'), ('OPT', 'NNP'), ('?', '.'), ('The', 'DT'), ('earliest', 'JJS'), ('may', 'MD'), ('apply', 'VB'), ('OPT', 'NNP'), ('90', 'CD'), ('days', 'NNS'), ('(', '('), ('3-months', 'JJ'), (')', ')'), ('prior', 'JJ'), ('completion', 'NN'), ('studies*', 'NN'), (',', ','), ('latest', 'JJS'), ('may', 'MD'), ('apply', 'VB'), ('OPT', 'NNP'), ('60', 'CD'), ('days', 'NNS'), ('following', 'VBG'), ('program', 'NN'), ('completion', 'NN'), ('.', '.'), ('It', 'PRP'), ('take', 'VB'), ('several', 'JJ'), ('months', 'NNS'), ('receive', 'VBP'), ('OPT', 'NNP'), ('work', 'NN'), ('card', 'NN'), (',', ','), ('recommend', 'VBP'), ('apply', 'RB'), ('least', 'JJS'), ('90', 'CD'), ('days', 'NNS'), ('prior', 'RB'), ('beginning', 'VBG'), ('intended', 'VBN'), ('job', 'NN'), ('opportunity', 'NN'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SBARQ
+    (WHADVP (WRB When))
+    (SQ (MD can)
+      (NP (PRP I))
+      (VP (VB apply)
+        (PP (IN for)
+          (NP (NNP OPT)))))
+    (. ?)))(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (JJS earliest))
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (MD may)
+              (VP (VB apply)
+                (PP (IN for)
+                  (NP (NNP OPT))))))))
+      (VP (VBZ is)
+        (NP
+          (NP
+            (NP (CD 90) (NNS days)
+              (PRN (-LRB- -LRB-)
+                (NP (NNS 3-months))
+                (-RRB- -RRB-)))
+            (ADVP (RB prior)
+              (PP (TO to)
+                (NP (DT the) (NN completion)))))
+          (PP (IN of)
+            (NP (NNS studies)))
+          (X (SYM *)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP
+        (NP (DT the) (JJS latest))
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (MD may)
+              (VP (VB apply)
+                (PP (IN for)
+                  (NP (NNP OPT))))))))
+      (VP (VBZ is)
+        (NP
+          (NP (CD 60) (NNS days))
+          (PP (VBG following)
+            (NP (NN program) (NN completion))))))
+    (. .)))(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (MD can)
+        (VP (VB take)
+          (NP (JJ several) (NNS months))
+          (S
+            (VP (TO to)
+              (VP (VB receive)
+                (NP (DT the) (NN OPT) (NN work) (NN card))))))))
+    (, ,) (IN so)
+    (S
+      (NP (PRP we))
+      (VP (VBP recommend)
+        (SBAR (IN that)
+          (S
+            (NP (PRP you))
+            (VP (VBP apply)
+              (ADVP
+                (NP
+                  (QP (IN at) (JJS least) (CD 90))
+                  (NNS days))
+                (RB prior))
+              (PP (TO to)
+                (NP
+                  (NP (DT the) (NN beginning))
+                  (PP (IN of)
+                    (NP (PRP$ your) (JJ intended) (NN job) (NN opportunity))))))))))
+    (. .)))
+
+hypernyms_list: ['have', 'necessitate', 'move', 'sidereal_time', 'time_unit', 'result', 'idea', 'win', 'refer', 'era', 'energy', 'termination', 'possibility', 'life', 'accept', 'denote', 'positive_identification', 'cardboard', 'receive', 'work', 'time', 'product', 'occupation', 'opportunity', 'document', 'interpret', 'position', 'undergo', 'humorist', 'paper', 'give', 'greeting', 'work_time', 'convey', 'distribute', 'printed_circuit', 'application', 'activity', 'originate', 'performance', 'traverse', 'announcement', 'sleep_together', 'check', 'show', 'achieve', 'talk', 'decide', 'information', 'software', 'sign', 'plan', 'robbery', 'buy', 'cover', 'head', 'practice', 'affirm', 'understand', 'imitate', 'maneuver', 'be', 'become', 'correspondence', 'bill', 'workplace', 'obey', 'analyze', 'system', 'roll', 'duty', 'get', 'compel', 'act', 'geographic_point', 'play', 'end_product', 'time_period', 'travel', 'change', 'use', 'unfortunate', 'request', 'record', 'think_about', 'choose', 'learning', 'persevere', 'sicken', 'calendar_day', 'transport', 'experience', 'difficulty']
+
+hyponyms_list: ['television_program', 'recapture', 'woodwork', 'transit', 'business_card', 'take_in', 'afternoon', "jefferson_davis'_birthday", 'flick', 'library_program', 'sympathy_card', 'assembler', 'lacework', 'putty', 'audit_program', 'publication', 'spreadsheet', 'colliery', 'halloween', 'bakery', "mother's_day", 'playing_card', 'guard', 'leap_day', 'accept', 'denote', 'lisp_program', 'educational_program', 'take_off', 'signify', 'date', 'workday', 'armed_forces_day', 'dial', 'sight', 'stalk', 'impound', 'profess', 'pull_out_all_the_stops', 'swing', 'roundhouse', 'welcome', 'tread', 'donor_card', 'aim', 'coursework', 'confectionery', 'race_problem', 'co-opt', "april_fools'", 'misread', 'scalp', 'warm_to', 'sack', 'oyster_bed', 'field_day', 'anoint', 'drug', 'admission_day', 'tannery', 'ropewalk', 'metalwork', 'gut', 'decalcify', 'piecework', 'toe_the_line', 'application', 'steal', 'workshop', 'american_indian_day', 'lunar_month', 'labor', 'trading_card', 'polychrome', 'tusk', 'hearing', 'follow', 'job', 'disembowel', 'finalization', 'eat', 'discharge', 'dislodge', 'action', 'govern', 'scoop', 'withdraw', 'erupt', 'train', 'unburden', 'pocket', 'throw', 'plunge', 'consummation', 'employment', 'ides', 'head', 'break_out', 'engagement', 'rag_day', 'get_cracking', 'paper_route', 'treadmill', 'leach', 'sponge_on', 'crash_course', 'collect', 'reading_program', "st_patrick's_day", 'fishery', 'bill', 'public_service', 'carve_out', "table_d'hote", 'tomorrow', 'oblige', 'enucleate', 'scut_work', 'chip_away', 'carry', 'career', 'balance-of-payments_problem', 'dehorn', 'waste', 'judgment_day', 'brush', 'interface', 'payday', 'seed', 'recycle', 'break_in', 'beacon', 'laundry', 'utility_program', 'flash_card', 'checking_program', 'job_control', 'profession', 'object_program', 'shipyard', 'hit', 'resect', 'take', 'proving_ground', 'ferry', 'delete', 'fetch', 'fish_farm', 'excavate', 'coaching', 'metier', 'text-matching', 'adopt', 'clean', 'road_map', 'de-iodinate', 'room', 'waterworks', 'brokerage_house', 'turn', 'mean', 'desorb', 'masterpiece', 'hull', 'start', "saint's_day", 'reshoot', 'pc_board', 'housewifery', 'sieve_out', 'washday', 'anniversary', "robert_e_lee's_birthday", 'usher', 'a_la_carte', 'united_nations_day', 'ironwork', 'take_away', 'forge', 'knock_out', 'weed', 'texas_independence_day', 'extort', 'nominate', 'drink', 'unveil', 'give', 'subbing', 'design', 'timecard', 'pan_american_day', 'tax_program', 'run', 'extract', 'tailgate', 'swallow', 'hypophysectomize', 'set_in', 'market_day', 'may_day', 'relieve', 'shadow', 'silverwork', 'adhere', 'membership_card', 'sidereal_month', 'wicker', 'field', 'blueprint', 'solar_month', 'typify', 'assume', 'evening', 'sieve', 'spadework', 'put', 'originate', 'auspicate', 'undertaking', 'drill', 'opening', 'land', 'husk', 'get_to', 'string', 'unpack', 'avail', 'whisk', 'plan', 'employee_savings_plan', 'compiler', 'pick', 'red-letter_day', 'draw_off', 'fall_back', 'invigilate', 'nightwork', 'excerpt', 'photography', 'heavy_lifting', 'follow-through', 'dig', 'be', 'chase', 'supplant', 'empty', 'writing', 'punched_card', 'ball-buster', 'operation', 'glassworks', 'calculate', 'keycard', 'budget', 'outline', 'dally', 'overuse', 'feed', 'delouse', 'clear_off', 'walpurgis_night', 'play', 'crumb', 'say', 'regimen', 'degas', 'undock', 'winnow', 'epilate', 'decorticate', 'loose_end', 'citizenship_day', 'occasion', 'stock_purchase_plan', 'rehabilitation_program', 'revolutionary_calendar_month', 'sequester', 'decarbonize', 'specify', 'greeting_card', 'clear', 'strain', 'get-well_card', 'drive', 'honor', 'extirpate', 'follow-up', 'lag', 'care', 'cull_out', 'sample', 'holiday', 'racecard', 'snap_up', 'midsummer_eve', 'dress', 'cry_out_for', 'ministry', 'shuck', 'shell', 'bud', 'patch', 'supervisory_program', "patriot's_day", 'defense_program', 'school_day', 'sport', 'bail', 'audit', 'playbill', 'superfund_program', 'burl', 'cream', 'off-day', 'talk_show', 'administer', 'catch', 'creamery', 'work', 'vet', 'conform_to', 'exenterate', 'recommence', 'plan_of_action', 'defang', 'v-day', 'november_5', 'openwork', 'wash', 'target', 'prix_fixe', 'monitor_program', 'position', 'space_program', 'sustaining_program', 'show_bill', 'catering', 'scavenge', 'flag_day', 'demineralize', 'gregorian_calendar_month', 'ablate', 'dawn', 'attack', 'shed', 'system_program', 'smoke', 'postcard', 'jumpstart', 'expectorate', 'jewish_calendar_month', 'jump_off', 'keep_tabs_on', 'skim', 'polling_day', 'shining', 'tip', 'cannibalize', 'assign', 'workpiece', 'day', 'busywork', 'inauguration_day', 'anti-virus_program', 'claim', 'tagger', 'source_program', 'aspirate', 'eve', 'ply', 'plunder', 'exert', "lincoln's_birthday", 'slap_on', 'test_bed', 'loop', 'trade', 'reusable_program', 'exchange', 'enjoy', 'fresh_start', 'partake', 'sup', 'seafaring', 'take_back', 'arbor_day', 'think_of', 'recall', 'cox', 'lab', 'cold-cream', 'today', 'hunting_ground', 'put_in', 'search_engine', 'library_card', 'anomalistic_month', 'shop_floor', 'gasworks', 'episode', 'slate', 'tear_away', 'timework', 'self-adapting_program', 'rescue', 'appointment', "father's_day", 'empanel', 'address', 'telecommuting', 'use', 'detoxify', 'morrow', 'handicraft', 'gum', 'ironing', 'groundhog_day', 'draw_a_bead_on', 'ration_card', 'fall', 'embark', 'accede', 'central', 'drill_site', 'midafternoon', 'cream_off', 'come_on', 'brass_ring', 'ladle', 'dab', 'workload', 'abstract', 'wear_away', 'amputate', 'satiate', 'yesterday', 'vote_in', 'wedding_day', 'go_by', 'defuse', 'unstring', 'game_show', 'scale', 'fortran_program', 'welfare_work', 'project', 'haunt', 'farming', 'pull', 'debugger', 'mislead', 'accountancy', 'impart', 'hindu_calendar_month', 'work_in_progress', 'dredge', 'wipe_off', 'translator', 'shot', 'execute', 'logging', 'location', 'implement', 'contemplate', 'street', 'news_program', 'lift', 'charge', 'unsaddle', 'muck', 'deprive', 'finish', 'hand', 'condense', 'pension_plan', 'screen', 'beehive', 'serial', 'commencement_day', 'mission', 'syntax_checker', "washington's_birthday", 'seize', 'cost', 'circumcise', 'housework', "new_year's_eve", 'relocatable_program', 'ironworks', 'set_off', 'stem', 'binary', 'lumberyard', 'pit', 'de-ionate', 'degree_program', 'valentine_day', 'malevolent_program', 'studio', 'stored_program', 'bone', 'ascend', 'take_out', 'plump', 'speech_day', 'strike_out', 'graduation', 'bear', 'tarot_card', 'daub', 'misapply', 'hold', 'level', 'bail_out', 'exploit', 'heel', 'islamic_calendar_month', 'tube', 'services', 'single_out', 'spoon', 'elect', 'cpu_board', 'draw', 'parser', 'lacquerware', 'spider', 'lunar_day', 'tet', 'leatherwork', 'master_plan', 'unhinge', 'eliminate', 'ream', 'web_map_service', 'duty', 'cinco_de_mayo', 'farm', 'compel', 'spell', 'rerun', 'bur', 'works_program', 'game', 'harvest', 'c_program', 'agenda', 'investigation', 'strip', 'interpreter', 'service', 'vote', 'stint', 're-assume', 'test', 'share', 'return', 'paperwork', 'inaugurate']
+
+meronyms_list: ['full_moon', 'plank', 'day', 'routine', 'locker_room', 'hour', 'night', 'noon', 'course_of_lectures', 'half-moon', 'cleanup', 'new_moon', 'week', 'morning', 'instruction']
+
+holonyms_list: ['year', 'old_testament', 'hagiographa', 'day']
+
+synonyms_list: ['24-hour_interval', 'have', 'study', 'tardy', 'necessitate', 'other', 'drive', 'take_in', 'call_for', 'set_out', 'stand_for', 'completion', 'take_after', 'windup', 'culmination', 'adopt', 'take_up', 'card', 'scorecard', 'earlier', 'pick_out', 'latest', 'poster', 'menu', 'read', 'Book_of_Job', 'set_about', 'abide_by', 'problem', 'watch', 'political_platform', 'years', 'mean', 'subscribe_to', 'direct', 'early', 'start', 'batting_order', 'daytime', 'guide', 'accept', 'rent', 'involve', 'month', 'signify', 'work', 'pass_completion', 'conform_to', 'course_of_study', 'take_away', 'get_down', 'former', 'contract', 'postdate', 'occupation', 'engage', 'bill_of_fare', 'destine', 'plug-in', 'pursue', 'lead_off', 'opportunity', 'belated', 'identity_card', 'surveil', 'programme', 'exact', 'implement', 'aim', 'placard', 'circuit_card', 'Day', 'add-in', 'keep_abreast', 'come_after', 'give', 'several', 'pack', 'in_vogue', 'keep_up', 'trace', 'later', 'stick_with', 'demand', 'utilise', 'keep_an_eye_on', 'computer_program', 'carte_du_jour', 'convey', 'recent', 'late', 'Clarence_Day', 'play_along', 'calling_card', 'conduct', 'respective', 'posting', 'require', 'line', 'carte', 'accompany', 'travel_along', 'task', 'apply', 'curriculum', 'assume', 'subscribe', 'get_hold_of', 'occupy', 'mop_up', 'previous', 'day', 'put_on', 'board', 'go_for', 'follow', 'claim', 'visiting_card', 'job', 'remove', 'twenty-four_hour_period', 'program', 'withdraw', 'train', 'lineup', 'syllabus', 'comply', 'twenty-four_hours', 'Job', 'mean_solar_day', 'modish', 'acquire', 'hire', 'plan', 'take_aim', 'hold', 'begin', 'deal', 'make', 'lend_oneself', 'employment', 'political_program', 'learn', 'practice', 'film', 'consume', 'intend', 'take_on', 'survey', 'daylight', 'chance', 'calendar_month', 'select', 'commence', 'contain', 'be', 'oeuvre', 'broadcast', 'bill', 'look_at', 'enforce', 'espouse', 'submit', 'workplace', 'succeed', 'lease', 'start_out', 'think', 'need', 'use_up', 'consider', 'stick_to', 'come', 'carry', 'sidereal_day', 'body_of_work', 'get', 'admit', 'line_of_work', 'utilize', 'computer_programme', 'closing', 'lead', 'least', 'ask', 'days', 'platform', 'notice', 'ingest', 'bring', 'piece_of_work', 'wit', 'use', 'designate', 'a_la_mode', 'caper', 'strike', 'shoot', 'business', 'chore', 'choose', 'circuit_board', 'Clarence_Shepard_Day_Jr.', 'fall_out', 'solar_day', 'in_style', 'observe', 'earliest', 'employ', 'charter', 'postulate', 'specify', 'fill', 'various', 'wag', 'take', 'watch_over', 'up-to-the-minute']

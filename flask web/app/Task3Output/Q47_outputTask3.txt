@@ -1,0 +1,97 @@
+Corpus Question: Can I register for graduate examination credit while on OPT?
+
+Corpus Answer:  You may be eligible if you are past the academic program end date on your I-20 and you already applied for post-completion OPT. Before registering, please contact an international student adviser. If you have not passed the program end date on your I-20 and are applying for pre-completion OPT, you must enroll in research credit until you reach your program end date.
+
+
+Sentence Tokenizer: ['Can I register for graduate examination credit while on OPT?', 'You may be eligible if you are past the academic program end date on your I-20 and you already applied for post-completion OPT.', 'Before registering, please contact an international student adviser.', 'If you have not passed the program end date on your I-20 and are applying for pre-completion OPT, you must enroll in research credit until you reach your program end date.']
+
+Words Tokenizer: ['Can', 'I', 'register', 'for', 'graduate', 'examination', 'credit', 'while', 'on', 'OPT', '?', 'You', 'may', 'be', 'eligible', 'if', 'you', 'are', 'past', 'the', 'academic', 'program', 'end', 'date', 'on', 'your', 'I-20', 'and', 'you', 'already', 'applied', 'for', 'post-completion', 'OPT', '.', 'Before', 'registering', ',', 'please', 'contact', 'an', 'international', 'student', 'adviser', '.', 'If', 'you', 'have', 'not', 'passed', 'the', 'program', 'end', 'date', 'on', 'your', 'I-20', 'and', 'are', 'applying', 'for', 'pre-completion', 'OPT', ',', 'you', 'must', 'enroll', 'in', 'research', 'credit', 'until', 'you', 'reach', 'your', 'program', 'end', 'date', '.']
+
+words_without_stop_words: ['Can', 'I', 'register', 'graduate', 'examination', 'credit', 'OPT', '?', 'You', 'may', 'eligible', 'past', 'academic', 'program', 'end', 'date', 'I-20', 'already', 'applied', 'post-completion', 'OPT', '.', 'Before', 'registering', ',', 'please', 'contact', 'international', 'student', 'adviser', '.', 'If', 'passed', 'program', 'end', 'date', 'I-20', 'applying', 'pre-completion', 'OPT', ',', 'must', 'enroll', 'research', 'credit', 'reach', 'program', 'end', 'date', '.']
+
+words_with_stemming: ['can', 'i', 'regist', 'graduat', 'examin', 'credit', 'opt', '?', 'you', 'may', 'elig', 'past', 'academ', 'program', 'end', 'date', 'i-20', 'alreadi', 'appli', 'post-complet', 'opt', '.', 'befor', 'regist', ',', 'pleas', 'contact', 'intern', 'student', 'advis', '.', 'if', 'pass', 'program', 'end', 'date', 'i-20', 'appli', 'pre-complet', 'opt', ',', 'must', 'enrol', 'research', 'credit', 'reach', 'program', 'end', 'date', '.']
+
+words_with_lemmatization: ['Can', 'I', 'register', 'graduate', 'examination', 'credit', 'OPT', '?', 'You', 'may', 'eligible', 'past', 'academic', 'program', 'end', 'date', 'I-20', 'already', 'apply', 'post-completion', 'OPT', '.', 'Before', 'register', ',', 'please', 'contact', 'international', 'student', 'adviser', '.', 'If', 'pass', 'program', 'end', 'date', 'I-20', 'apply', 'pre-completion', 'OPT', ',', 'must', 'enroll', 'research', 'credit', 'reach', 'program', 'end', 'date', '.']
+
+words_with_pos_tags: [('Can', 'MD'), ('I', 'PRP'), ('register', 'VB'), ('graduate', 'NN'), ('examination', 'NN'), ('credit', 'NN'), ('OPT', 'NNP'), ('?', '.'), ('You', 'PRP'), ('may', 'MD'), ('eligible', 'VB'), ('past', 'JJ'), ('academic', 'JJ'), ('program', 'NN'), ('end', 'NN'), ('date', 'NN'), ('I-20', 'NNP'), ('already', 'RB'), ('applied', 'VBD'), ('post-completion', 'NN'), ('OPT', 'NNP'), ('.', '.'), ('Before', 'IN'), ('registering', 'VBG'), (',', ','), ('please', 'VB'), ('contact', 'JJ'), ('international', 'JJ'), ('student', 'NN'), ('adviser', 'NN'), ('.', '.'), ('If', 'IN'), ('passed', 'VBN'), ('program', 'NN'), ('end', 'NN'), ('date', 'NN'), ('I-20', 'NNP'), ('applying', 'VBG'), ('pre-completion', 'NN'), ('OPT', 'NNP'), (',', ','), ('must', 'MD'), ('enroll', 'VB'), ('research', 'NN'), ('credit', 'NN'), ('reach', 'NN'), ('program', 'NN'), ('end', 'NN'), ('date', 'NN'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SQ (MD Can)
+    (NP (PRP I))
+    (VP (VB register)
+      (PP (IN for)
+        (NP (JJ graduate) (NN examination) (NN credit)))
+      (SBAR (IN while)
+        (FRAG
+          (PP (IN on)
+            (NP (NNP OPT))))))
+    (. ?)))(ROOT
+  (S
+    (S
+      (NP (PRP You))
+      (VP (MD may)
+        (VP (VB be)
+          (ADJP (JJ eligible))
+          (SBAR (IN if)
+            (S
+              (NP (PRP you))
+              (VP (VBP are)
+                (PP (IN past)
+                  (NP
+                    (NP (DT the) (JJ academic) (NN program) (NN end) (NN date))
+                    (PP (IN on)
+                      (NP (PRP$ your) (NN I-20)))))))))))
+    (CC and)
+    (S
+      (NP (PRP you))
+      (ADVP (RB already))
+      (VP (VBD applied)
+        (PP (IN for)
+          (NP (JJ post-completion) (NN OPT)))))
+    (. .)))(ROOT
+  (S
+    (PP (IN Before)
+      (S
+        (VP (VBG registering))))
+    (, ,)
+    (VP (VB please)
+      (VP (VB contact)
+        (NP (DT an) (JJ international) (NN student) (NN adviser))))
+    (. .)))(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP
+          (VP (VBP have) (RB not)
+            (VP (VBN passed)
+              (NP (DT the) (NN program) (NN end) (NN date))
+              (PP (IN on)
+                (NP (PRP$ your) (NN I-20)))))
+          (CC and)
+          (VP (VBP are)
+            (VP (VBG applying)
+              (PP (IN for)
+                (NP (JJ pre-completion) (NN OPT))))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD must)
+      (VP (VB enroll)
+        (PP (IN in)
+          (NP (NN research) (NN credit)))
+        (SBAR (IN until)
+          (S
+            (NP (PRP you))
+            (VP (VBP reach)
+              (NP (PRP$ your) (NN program) (NN end) (NN date)))))))
+    (. .)))
+
+hypernyms_list: ['authority', 'interaction', 'move', 'part', 'content', 'junction', 'companion', 'timbre', 'payment', 'idea', 'refer', 'register', 'enroll', 'piece_of_cloth', 'memory_device', 'point', 'denote', 'touch', 'affect', 'intellectual', 'tense', 'ending', 'air_passage', 'measuring_instrument', 'time', 'ordain', 'document', 'approval', 'disappear', 'limit', 'give', 'regulator', 'edible_fruit', 'change_state', 'topographic_point', 'transfer', 'convey', 'calendar_year', 'title', 'distribute', 'present', 'day', 'contribution', 'performance', 'exhaust', 'problem_solving', 'announcement', 'connection', 'let', 'throw', 'capability', 'show', 'scholar', 'information', 'software', 'estimate', 'cover', 'indicate', 'lens', 'happening', 'written_record', 'evaluate', 'calendar_month', 'extent', 'be', 'channel', 'state', 'surface', 'succeed', 'permit', 'system', 'assets', 'section', 'attainment', 'campaign', 'mail', 'compel', 'questioning', 'play', 'advance', 'accomplishment', 'investigation', 'time_period', 'travel', 'change', 'motion', 'change_hands', 'entry', 'request', 'record', 'excel', 'lineman', 'cashbox', 'communication', 'calendar_day', 'boundary', 'meeting', 'enrollee', 'introspection', 'note', 'representative', 'extremity']
+
+hyponyms_list: ['television_program', 'transit', 'declare', 'maturity', 'once-over', 'academician', 'flick', 'skirt', 'thread', 'backfire', 'library_program', 'nonreader', 'assembler', 'while_away', 'putty', 'audit_program', 'contrast', 'enroll', 'spreadsheet', 'no-goal', 'oral', 'cross-reference', 'list', 'crash', 'security_consultant', 'islamist', 'lisp_program', 'goliard', 'renaissance_man', 'educational_program', 'palette', 'sight', 'rain_date', 'pull_out_all_the_stops', 'telomere', 'tread', 'aim', 'gamut', 'fashion_consultant', 'microscopy', 'checkup', 'license', 'tryst', 'media_consultant', 'go_off', 'application', 'patent', 'sound_bow', 'short_circuit', 'sweat', 'endoscopy', 'follow', 'entrust', 'endgame', 'traverse', 'succumb', 'collegian', 'deposition', 'studbook', 'import_credit', 'master', 'seminarian', 'show', 'scholar', 'initiate', 'pass_through', 'radiate', 'peroration', 'engagement', 'rent-roll', 'law_student', 'sponge_on', 'crash_course', 'valedictorian', 'reading_program', 'pole', 'exude', 'bill', 'marketing_research', 'sweep', 'counter', 'masorete', 'squeak_by', 'carry', 'comparison', 'outreach', 'waste', 'brush', 'concur', 'zip_by', 'interface', 'musicologist', 'recycle', 'philosopher', 'befall', 'utility_program', 'checking_program', 'job_control', 'object_program', 'catechumen', 'old', 'take', 'vomit', 'horizon', 'third_degree', 'evacuate', 'bibliophile', 'go_far', 'text-matching', 'starets', 'future_date', 'arise', 'stopping_point', 'pass_off', 'road_map', 'plant', 'infiltrate', 'railhead', 'accounting', 'counselor', 'investment_adviser', 'bourn', 'reader', 'predecease', 'catechism', 'wiper', 'fly', 'cross-examination', 'semester_hour', 'scholiast', 'give', 'bygone', 'tax_program', 'run', 'epoch', 'osculation', 'terminus', 'stool', 'get_across', 'historian', 'summer', 'search', 'get_by', 'testing', 'blueprint', 'management_consultant', 'shift_register', 'cabalist', 'buy_it', 'certificate', 'put', 'cheap_money', 'doctor', 'theologian', 'bitthead', 'p-n_junction', 'bar_examination', 'underachiever', 'distributor_point', 'hand_over', 'avail', 'render', 'employee_savings_plan', 'compiler', 'trademark', 'deal', 'head_register', 'rub', 'come_around', 'fall_back', 'inventory', 'survey', 'chance', 'winter', 'experiment', 'view', 'empirical_research', 'budget', 'export_credit', 'outline', 'confines', 'bitter_end', 'mujtihad', 'overuse', 'tripos', 'play', 'say', 'regimen', 'preterit', 'request', 'old_boy', 'stock_purchase_plan', 'rehabilitation_program', 'weekend', 'eye_contact', 'clear', 'passing', 'entrance_examination', 'strain', 'follow-up', 'supervene', 'pedant', 'quiz', 'nature_study', 'send_a_message', 'racecard', 'book', 'crammer', 'keratoscopy', 'dress', 'split_end', 'suffocate', 'withdrawer', 'synchronize', 'breeze_through', 'vedist', 'passer', 'termination', 'patch', 'supervisory_program', 'defense_program', 'sixth-former', 'serve', 'audit', 'playbill', 'soldier', 'superfund_program', 'medical_student', 'cream', 'shakespearian', 'fair_ball', 'talk_show', 'administer', 'art_student', 'work', 'ophthalmoscopy', 'birthday', 'approbate', 'plan_of_action', 'overachiever', 'turn_out', 'beauty_consultant', 'monitor_program', 'space_program', 'sustaining_program', 'skipper', 'homestretch', 'chest_register', 'arabist', 'muscle', 'salutatorian', 'system_program', 'proceed', 'tipster', 'rhinoscopy', 'test_paper', 'operations_research', 'auld_langsyne', 'approximate_range', 'release', 'tip', 'cannibalize', 'tangency', 'anti-virus_program', 'salute', 'time_immemorial', 'palpation', 'tagger', 'starve', 'source_program', 'comprehensive_examination', 'licentiate', 'internationality', 'scan', 'acknowledge', 'vacation', 'ply', 'exert', 'eleven-plus', 'terminus_ad_quem', 'etonian', 'cut', 'earshot', 'slap_on', 'wykehamist', 'loop', 'year-end', 'make', 'check_register', 'reusable_program', 'enjoy', 'drown', 'fly_by', 'litmus_test', 'nerve_ending', 'relay', 'interview', 'yore', 'redirect_examination', 'payroll', 'cold-cream', 'develop', 'put_in', 'search_engine', 'validate', 'finale', 'commission', 'abort', 'episode', 'slate', 'philomath', 'come', 'self-adapting_program', 'message', 'ivy_leaguer', 'county_agent', 'urinate', 'address', 'cycle', 'strike', 'gum', 'electrical_contact', 'bibliographer', 'slip', 'file', 'laying_on', 'photo_credit', 'fall', 'yardarm', 'end_point', 'debriefing', 'double_date', 'recur', 'auditor', 'intention', 'negotiate', 'dab', 'memorial', 'inquisition', 'result', 'fumble', 'yesterday', 'gonioscopy', 'history', 'slum', 'run_by', 'game_show', 'fortran_program', 'collision', 'project', 'point', 'touch', 'preliminary_examination', 'debugger', 'military_adviser', 'placement', 'graduated_cylinder', 'bank_examination', 'heraldry', 'translator', 'fag_end', 'execute', 'last_gasp', 'period', 'implement', 'going-over', 'sojourn', 'news_program', 'tight_end', 'terminal', 'cadaster', 'direct_examination', 'humanist', 'anticlimax', 'finish', 'break', 'pension_plan', 'transpire', 'sinologist', 'destination', 'rifle_range', 'serial', 'operate', 'syntax_checker', 'letter_of_credit', 'cease', 'anticipate', 'schoolman', 'relocatable_program', 'binary', 'death', 'degree_program', 'malevolent_program', 'commercial_credit', 'midterm_examination', 'stored_program', 'ovation', 'autopsy', 'approve', 'major', 'daub', 'misapply', 'exploit', 'transgress', 'fine-tooth_comb', 'heel', 'field_work', 'backroom_boy', 'amicus_curiae', 'lock', 'parser', 'sell-by_date', 'time_and_motion_study', 'spider', 'end-all', 'purpose', 'master_plan', 'accumulator', 'web_map_service', 'epilogue', 'happen', 'probe', 'credit_line', 'index_register', 'rerun', 'works_program', 'snick', 'c_program', 'blind_date', 'agenda', 'poll', 'inspection', 'postdoc', 'scientific_research', 'interpreter', 'impact', 'final_examination', 'break_through', 'intervene', 'share', 'latitude', 'alumnus', 'spectrum']
+
+meronyms_list: ['plank', 'routine', 'date', 'course_of_lectures', 'adding_machine', 'instruction']
+
+holonyms_list: ['furnace', 'plan_of_action', 'address', 'teacher-student_relation', 'memory', 'movie', 'football_team', 'date', 'life', 'date_palm', 'narration']
+
+synonyms_list: ['range', 'clear', 'go_across', 'past_times', 'adviser', 'scrutiny', 'citation', 'recognition', 'day_of_the_month', 'inquiry', 'credit_rating', 'perish', 'come_about', 'buy_the_farm', 'hap', 'graduate', 'read', 'pass_off', 'pedantic', 'register', 'striking', 'go_by', 'overhaul', 'inter-group_communication', 'political_platform', 'pupil', 'glide_by', 'registry', 'orbit', 'evanesce', 'guide', 'expire', 'touch', 'date', 'destruction', 'middleman', 'link', 'ending', 'examen', 'course_of_study', 'yesteryear', 'deferred_payment', 'eligible', 'lapse', 'physical_contact', 'conk', 'make_it', 'go_along', 'outside', 'overstep', 'transcend', 'programme', 'implement', 'overtake', 'extend', 'impinging', 'research', 'go_past', 'give', 'terminal', 'exceed', 'course_credit', 'enquiry', 'give-up_the_ghost', 'run', 'hand', 'past_tense', 'utilise', 'stretch', 'cite', 'computer_program', 'surpass', 'goal', 'go_through', 'choke', 'scholarly_person', 'ambit', 'slip_by', 'credit_entry', 'interrogation', 'contact', 'acknowledgment', 'bookman', 'communicate', 'contact_lens', 'mention', 'testing', 'apply', 'curriculum', 'remnant', 'remainder', 'reaching', 'go', 'put_on', 'reach', 'pass_along', 'make_pass', 'tangency', 'go_for', 'death', 'end', 'die', 'quotation', 'put_across', 'program', 'educatee', 'occur', 'spend', 'kick_the_bucket', 'escort', 'consultant', 'syllabus', 'travel_by', 'show', 'international', 'scholar', 'blow_over', 'plan', 'external', 'slip_away', 'hold', 'lend_oneself', 'exam', 'academic', 'political_program', 'liaison', 'donnish', 'engagement', 'top', 'examination', 'practice', 'past', 'draw', 'grad', 'scope', 'turn_over', 'decease', 'devolve', 'broadcast', 'authorize', 'cross-file', 'legislate', 'enforce', 'oddment', 'eliminate', 'pass_by', 'compass', 'pop_off', 'happen', 'interrogatory', 'slide_by', 'reference', 'alum', 'cash_register', 'particular_date', 'computer_programme', 'utilize', 'fade', 'sink', 'closing', 'appointment', 'close', 'pass', 'authorise', 'excrete', 'lead', 'exit', 'platform', 'last', 'use', 'alumna', 'take_place', 'pass_on', 'drop_dead', 'pass_away', 'fleet', 'record', 'advisor', 'final_stage', 'credit', 'file', 'fall_out', 'test', 'go_on', 'elapse', 'return', 'employ', 'grasp', 'student', 'alumnus', 'conclusion', 'fall', 'croak', 'snuff_it', 'egest', "cash_in_one's_chips"]

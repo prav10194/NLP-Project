@@ -1,0 +1,131 @@
+Corpus Question: What is the duration of OPT employment authorization?
+
+Corpus Answer:  the initial post-completion period for which students can apply is 12 months, less any OPT time used pre-completion. The requested employment start date must be between the end of program date, and 60 days later. The employment authorization will begin on the date requested or the date the employment authorization is adjudicated, whichever is later. Exception: The employment authorization period for the 17-month OPT extension begins on the day after the expiration of the initial post-completion OPT employment authorization, and ends 17 months later, regardless of the date the actual extension is approved.
+
+
+Sentence Tokenizer: ['What is the duration of OPT employment authorization?', 'the initial post-completion period for which students can apply is 12 months, less any OPT time used pre-completion.', 'The requested employment start date must be between the end of program date, and 60 days later.', 'The employment authorization will begin on the date requested or the date the employment authorization is adjudicated, whichever is later.', 'Exception: The employment authorization period for the 17-month OPT extension begins on the day after the expiration of the initial post-completion OPT employment authorization, and ends 17 months later, regardless of the date the actual extension is approved.']
+
+Words Tokenizer: ['What', 'is', 'the', 'duration', 'of', 'OPT', 'employment', 'authorization', '?', 'the', 'initial', 'post-completion', 'period', 'for', 'which', 'students', 'can', 'apply', 'is', '12', 'months', ',', 'less', 'any', 'OPT', 'time', 'used', 'pre-completion', '.', 'The', 'requested', 'employment', 'start', 'date', 'must', 'be', 'between', 'the', 'end', 'of', 'program', 'date', ',', 'and', '60', 'days', 'later', '.', 'The', 'employment', 'authorization', 'will', 'begin', 'on', 'the', 'date', 'requested', 'or', 'the', 'date', 'the', 'employment', 'authorization', 'is', 'adjudicated', ',', 'whichever', 'is', 'later', '.', 'Exception', ':', 'The', 'employment', 'authorization', 'period', 'for', 'the', '17-month', 'OPT', 'extension', 'begins', 'on', 'the', 'day', 'after', 'the', 'expiration', 'of', 'the', 'initial', 'post-completion', 'OPT', 'employment', 'authorization', ',', 'and', 'ends', '17', 'months', 'later', ',', 'regardless', 'of', 'the', 'date', 'the', 'actual', 'extension', 'is', 'approved', '.']
+
+words_without_stop_words: ['What', 'duration', 'OPT', 'employment', 'authorization', '?', 'initial', 'post-completion', 'period', 'students', 'apply', '12', 'months', ',', 'less', 'OPT', 'time', 'used', 'pre-completion', '.', 'The', 'requested', 'employment', 'start', 'date', 'must', 'end', 'program', 'date', ',', '60', 'days', 'later', '.', 'The', 'employment', 'authorization', 'begin', 'date', 'requested', 'date', 'employment', 'authorization', 'adjudicated', ',', 'whichever', 'later', '.', 'Exception', ':', 'The', 'employment', 'authorization', 'period', '17-month', 'OPT', 'extension', 'begins', 'day', 'expiration', 'initial', 'post-completion', 'OPT', 'employment', 'authorization', ',', 'ends', '17', 'months', 'later', ',', 'regardless', 'date', 'actual', 'extension', 'approved', '.']
+
+words_with_stemming: ['what', 'durat', 'opt', 'employ', 'author', '?', 'initi', 'post-complet', 'period', 'student', 'appli', '12', 'month', ',', 'less', 'opt', 'time', 'use', 'pre-complet', '.', 'the', 'request', 'employ', 'start', 'date', 'must', 'end', 'program', 'date', ',', '60', 'day', 'later', '.', 'the', 'employ', 'author', 'begin', 'date', 'request', 'date', 'employ', 'author', 'adjud', ',', 'whichev', 'later', '.', 'except', ':', 'the', 'employ', 'author', 'period', '17-month', 'opt', 'extens', 'begin', 'day', 'expir', 'initi', 'post-complet', 'opt', 'employ', 'author', ',', 'end', '17', 'month', 'later', ',', 'regardless', 'date', 'actual', 'extens', 'approv', '.']
+
+words_with_lemmatization: ['What', 'duration', 'OPT', 'employment', 'authorization', '?', 'initial', 'post-completion', 'period', 'student', 'apply', '12', 'month', ',', 'le', 'OPT', 'time', 'use', 'pre-completion', '.', 'The', 'requested', 'employment', 'start', 'date', 'must', 'end', 'program', 'date', ',', '60', 'day', 'later', '.', 'The', 'employment', 'authorization', 'begin', 'date', 'request', 'date', 'employment', 'authorization', 'adjudicate', ',', 'whichever', 'later', '.', 'Exception', ':', 'The', 'employment', 'authorization', 'period', '17-month', 'OPT', 'extension', 'begin', 'day', 'expiration', 'initial', 'post-completion', 'OPT', 'employment', 'authorization', ',', 'end', '17', 'month', 'later', ',', 'regardless', 'date', 'actual', 'extension', 'approve', '.']
+
+words_with_pos_tags: [('What', 'WP'), ('duration', 'NN'), ('OPT', 'NNP'), ('employment', 'NN'), ('authorization', 'NN'), ('?', '.'), ('initial', 'JJ'), ('post-completion', 'NN'), ('period', 'NN'), ('students', 'NNS'), ('apply', 'VBP'), ('12', 'CD'), ('months', 'NNS'), (',', ','), ('less', 'JJR'), ('OPT', 'JJ'), ('time', 'NN'), ('used', 'VBN'), ('pre-completion', 'NN'), ('.', '.'), ('The', 'DT'), ('requested', 'JJ'), ('employment', 'NN'), ('start', 'NN'), ('date', 'NN'), ('must', 'MD'), ('end', 'VB'), ('program', 'NN'), ('date', 'NN'), (',', ','), ('60', 'CD'), ('days', 'NNS'), ('later', 'RB'), ('.', '.'), ('The', 'DT'), ('employment', 'NN'), ('authorization', 'NN'), ('begin', 'NN'), ('date', 'NN'), ('requested', 'VBD'), ('date', 'NN'), ('employment', 'NN'), ('authorization', 'NN'), ('adjudicated', 'VBD'), (',', ','), ('whichever', 'RB'), ('later', 'RB'), ('.', '.'), ('Exception', 'NN'), (':', ':'), ('The', 'DT'), ('employment', 'NN'), ('authorization', 'NN'), ('period', 'NN'), ('17-month', 'JJ'), ('OPT', 'NNP'), ('extension', 'NN'), ('begins', 'VBZ'), ('day', 'NN'), ('expiration', 'JJ'), ('initial', 'JJ'), ('post-completion', 'NN'), ('OPT', 'NNP'), ('employment', 'NN'), ('authorization', 'NN'), (',', ','), ('ends', 'VBZ'), ('17', 'CD'), ('months', 'NNS'), ('later', 'RB'), (',', ','), ('regardless', 'RB'), ('date', 'NN'), ('actual', 'JJ'), ('extension', 'NN'), ('approved', 'VBD'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBZ is)
+      (NP
+        (NP (DT the) (NN duration))
+        (PP (IN of)
+          (NP (NNP OPT) (NN employment) (NN authorization)))))
+    (. ?)))(ROOT
+  (S
+    (NP
+      (NP (DT the) (JJ initial) (JJ post-completion) (NN period))
+      (SBAR
+        (WHPP (IN for)
+          (WHNP (WDT which)))
+        (S
+          (NP (NNS students))
+          (VP (MD can)
+            (VP (VB apply))))))
+    (VP (VBZ is)
+      (NP (CD 12) (NNS months))
+      (, ,)
+      (NP
+        (NP (JJR less))
+        (SBAR
+          (S
+            (NP (DT any) (NN OPT) (NN time))
+            (VP (VBD used)
+              (ADJP (JJ pre-completion)))))))
+    (. .)))(ROOT
+  (S
+    (NP (DT The) (VBN requested) (NN employment) (NN start) (NN date))
+    (VP (MD must)
+      (VP (VB be)
+        (UCP
+          (PP (IN between)
+            (NP
+              (NP (DT the) (NN end))
+              (PP (IN of)
+                (NP (NN program) (NN date)))))
+          (, ,)
+          (CC and)
+          (ADVP
+            (NP (CD 60) (NNS days))
+            (RB later)))))
+    (. .)))(ROOT
+  (S
+    (NP (DT The) (NN employment) (NN authorization))
+    (VP (MD will)
+      (VP (VB begin)
+        (PP (IN on)
+          (NP
+            (NP
+              (NP (DT the) (NN date))
+              (SBAR
+                (S
+                  (VP (VBD requested)))))
+            (CC or)
+            (NP
+              (NP (DT the) (NN date))
+              (SBAR
+                (S
+                  (NP (DT the) (NN employment) (NN authorization))
+                  (VP (VBZ is)
+                    (VP (VBN adjudicated))))))
+            (, ,)
+            (SBAR
+              (WHNP (WDT whichever))
+              (S
+                (VP (VBZ is)
+                  (ADVP (RB later)))))))))
+    (. .)))(ROOT
+  (FRAG
+    (NP (NN Exception))
+    (: :)
+    (S
+      (NP
+        (NP (DT The) (NN employment) (NN authorization) (NN period))
+        (PP (IN for)
+          (NP (DT the) (JJ 17-month) (NNP OPT) (NN extension))))
+      (VP
+        (VP (VBZ begins)
+          (PP (IN on)
+            (NP (DT the) (NN day)))
+          (PP (IN after)
+            (NP
+              (NP (DT the) (NN expiration))
+              (PP (IN of)
+                (NP (DT the) (JJ initial) (JJ post-completion) (NN OPT) (NN employment) (NN authorization))))))
+        (, ,)
+        (CC and)
+        (VP (VBZ ends)
+          (S
+            (ADVP
+              (NP (CD 17) (NNS months))
+              (RB later))
+            (, ,)
+            (ADVP (RB regardless)
+              (PP (IN of)
+                (NP (DT the) (NN date))))
+            (NP (DT the) (JJ actual) (NN extension))
+            (VP (VBZ is)
+              (VP (VBN approved)))))))
+    (. .)))
+
+hypernyms_list: ['part', 'content', 'signal', 'objection', 'meaning', 'fundamental_quantity', 'companion', 'sidereal_time', 'time_unit', 'idea', 'management', 'refer', 'era', 'example', 'turn', 'reading', 'piece_of_cloth', 'life', 'legal_document', 'dance', 'point', 'denote', 'delay', 'change_of_state', 'omission', 'geological_time', 'intellectual', 'ending', 'longness', 'time', 'moment', 'wonder', 'occupation', 'document', 'opportunity', 'time_interval', 'term', 'attribute', 'give', 'edible_fruit', 'property', 'control', 'dimension', 'work_time', 'topographic_point', 'telephone', 'calendar_year', 'communicate', 'distribute', 'advantage', 'line', 'permission', 'temporal_property', 'present', 'punctuation', 'day', 'contribution', 'activity', 'performance', 'death', 'addition', 'reflex', 'end', 'discharge', 'action', 'announcement', 'string', 'show', 'decide', 'information', 'software', 'breath', 'dissemination', 'cover', 'exploit', 'consume', 'evaluate', 'calendar_month', 'authorize', 'state', 'surface', 'stretching', 'system', 'section', 'expansion', 'rhythmicity', 'compel', 'act', 'ask', 'time_period', 'request', 'beginning', 'lineman', 'case', 'calendar_day', 'boundary', 'education', 'enrollee', 'meeting', 'extremity', 'experience']
+
+hyponyms_list: ['television_program', 'first_step', 'time_frame', 'maturity', 'afternoon', 'academician', "jefferson_davis'_birthday", 'bout', 'library_program', 'confirm', 'mid-september', 'nonreader', 'assembler', 'putty', 'audit_program', 'installation', 'spreadsheet', 'halloween', 'honeymoon', "mother's_day", 'petition', 'no-goal', 'scrum', 'reserve', 'leap_day', 'hospitalization', 'islamist', 'reign', 'goliard', 'renaissance_man', 'lisp_program', 'educational_program', 'date', 'workday', 'armed_forces_day', 'introduction', 'occupation', 'adrenarche', 'quarter', 'rain_date', 'pull_out_all_the_stops', 'eternity', 'telomere', 'hours', 'tread', 'aim', "april_fools'", 'field_day', 'mid-january', 'travel_time', 'license', 'tryst', 'admission_day', 'call-back', 'piecework', 'application', 'imperium', 'half-century', 'lordship', 'american_indian_day', 'lunar_month', 'follow', 'endgame', 'abuse', 'collegian', 'duration', 'court-martial', 'challenge', 'master', 'air_alert', 'impermanence', 'iron_age', 'seminarian', 'terminus_a_quo', 'scholar', 'initiate', 'order', 'face-off', 'season', 'ides', 'peroration', 'regulation_time', 'engagement', 'rag_day', 'paper_route', 'while', 'mid-june', 'inauguration', 'shelf_life', 'law_student', 'sponge_on', 'crash_course', 'valedictorian', 'reading_program', 'pole', 'sanction', "st_patrick's_day", 'loan_approval', 'public_service', 'bill', 'tomorrow', 'masorete', 'alpha', 'seek', 'mid-july', 'school', 'waste', 'spacecraft_clock_time', 'judgment_day', 'propose', 'shortness', 'ask', 'interface', 'payday', 'usance', 'musicologist', 'mid-may', 'recycle', 'philosopher', 'span', 'utility_program', 'checking_program', 'job_control', 'object_program', 'catechumen', 'sovereignty', 'times', 'take', 'musical_time', 'exploitation', 'real_time', 'prehistory', 'bibliophile', 'coaching', 'text-matching', 'encore', 'future_date', 'ephemera', 'incarnation', 'high_time', 'stopping_point', 'road_map', 'great_year', 'life_sentence', 'railhead', 'life', 'dog_days', 'study_hall', 'hard_time', 'year', 'groundbreaking', "saint's_day", 'washday', 'bourn', 'reader', 'geological_time', 'phase_of_the_moon', 'anniversary', "robert_e_lee's_birthday", 'united_nations_day', 'time', 'bimester', 'multistage', 'fortnight', 'texas_independence_day', 'half_life', 'value', 'drink', 'longueur', 'scholiast', 'give', 'power_of_appointment', 'window', 'pan_american_day', 'overtime', 'tax_program', 'run', 'epoch', 'trial_period', 'terminus', 'stretch', 'mid-august', 'market_day', 'may_day', 'clocking', 'historian', 'sidereal_month', 'blueprint', 'solar_month', 'apply', 'present', 'cabalist', 'evening', 'put', 'continuum', 'jump_ball', 'birth', 'doctor', 'theologian', 'novitiate', 'bitthead', 'excuse', 'long_run', 'opening', 'underachiever', 'avail', 'employee_savings_plan', 'compiler', 'judge', 'red-letter_day', 'residence_time', 'carte_blanche', 'fall_back', 'mid-december', 'certification', 'kickoff', 'resumption', 'budget', 'outline', 'running_time', 'ice_age', 'bitter_end', 'mujtihad', 'ell', 'space_age', 'overuse', 'decade', 'racing_start', 'walpurgis_night', 'play', 'appeal', 'regimen', 'time_of_life', 'generation', 'calendar_day', 'citizenship_day', 'occasion', 'back', 'stock_purchase_plan', 'rehabilitation_program', 'revolutionary_calendar_month', 'coextension', 'housing_start', 'weekend', 'icebreaker', 'quadrennium', 'passing', 'spread', 'strain', 'spare', 'rule', 'pedant', 'pervert', 'drought', 'racecard', 'holiday', 'crammer', 'midsummer_eve', 'dress', 'incipiency', 'split_end', 'ministry', 'withdrawer', 'era', 'shape-up', 'sleep', 'vedist', 'command', 'startup', 'passer', 'midwinter', 'termination', 'desire', 'watch', 'mid-november', 'sixth-former', 'defense_program', 'patch', 'supervisory_program', "patriot's_day", 'school_day', 'lactation', 'century', 'playbill', 'superfund_program', 'medical_student', 'cream', 'shakespearian', 'off-day', 'night', 'administer', 'talk_show', 'art_student', 'quinquennium', 'work', 'birthday', 'plan_of_action', 'v-day', 'overachiever', 'misuse', 'november_5', 'springboard', 'youth', 'caption', 'call', 'monitor_program', 'space_program', 'sustaining_program', 'flag_day', 'term', 'skipper', 'homestretch', 'arabist', 'muscle', 'gregorian_calendar_month', 'endlessness', 'dawn', 'demand', 'attack', 'salutatorian', 'rainy_day', 'trespass', 'work_time', 'wince', 'system_program', 'oligomenorrhea', 'indiction', 'startle_reflex', 'jewish_calendar_month', 'polling_day', 'tip', 'morning', 'visa', 'day', 'cannibalize', 'inauguration_day', 'board', 'anti-virus_program', 'claim', 'tagger', 'permanence', 'source_program', 'beg', 'licentiate', 'eve', 'long_time', 'ply', 'initiation', 'exert', 'etonian', 'flower', 'activation', 'terminus_ad_quem', "lincoln's_birthday", 'festival', 'slap_on', 'wykehamist', 'year-end', 'loop', 'reusable_program', 'enjoy', 'golden_age', 'lustrum', 'practice', 'seafaring', 'past', 'arbor_day', 'semester', 'nerve_ending', 'blow', 'peacetime', 'recycling', 'calendar_month', 'uptime', 'menorrhagia', 'time_scale', 'cold-cream', 'today', 'lease', 'put_in', 'search_engine', 'anomalistic_month', 'finale', 'commission', 'olympiad', 'episode', 'philomath', 'self-adapting_program', 'supplicate', 'ivy_leaguer', "father's_day", 'telecommuting', 'address', 'future', 'question_time', 'morrow', 'orbit_period', 'gum', 'bibliographer', 'suspension_point', 'quarter-century', 'groundhog_day', 'ask_out', 'elapsed_time', 'solicit', 'threshold', 'yardarm', 'double_date', 'end_point', 'millennium', 'midafternoon', 'rubber_stamp', 'onset', 'auditor', 'constitution', 'intention', 'dab', 'workload', 'yesterday', 'silver_age', 'week', 'silly_season', 'wedding_day', 'incubation_period', 'mid-march', 'booking', 'game_show', 'prime_time', 'fortran_program', 'point', 'project', 'wartime', 'hyperextension', 'startle_response', 'debugger', 'longness', 'enlistment', 'moment', 'hindu_calendar_month', 'translator', 'fag_end', 'execute', 'last_gasp', 'indian_summer', 'period', 'bronze_age', 'implement', 'news_program', 'tight_end', 'hour', 'puerperium', 'bimillennium', 'humanist', 'anticlimax', 'finish', 'pension_plan', 'sinologist', 'destination', 'serial', 'commencement_day', 'civil_time', 'syntax_checker', 'cease', "washington's_birthday", 'thelarche', 'schoolman', "new_year's_eve", 'lengthiness', 'relocatable_program', 'prohibition', 'binary', 'wind', 'hard_times', 'death', 'degree_program', 'brevity', 'menarche', 'malevolent_program', 'mid-february', 'valentine_day', 'time_limit', 'stored_program', 'rubberstamp', 'downtime', 'speech_day', 'mid-october', 'major', 'midweek', 'misapply', 'daub', 'dead', 'daylight-saving_time', 'cosmic_time', 'exploit', 'heel', 'islamic_calendar_month', 'services', 'delegating', 'flying_start', 'mid-april', 'greenwich_mean_time', 'sell-by_date', 'parser', 'phase', 'adjust', 'spider', 'lunar_day', 'end-all', 'tet', 'purpose', 'clotting_time', 'trimester', 'master_plan', 'wee', 'web_map_service', 'epilogue', 'time_off', 'cinco_de_mayo', 'rerun', 'works_program', 'biological_time', 'blind_date', 'c_program', 'agenda', 'postdoc', 'tide', 'puffing', 'opener', 'interpreter', 'service', 'invite', 'share', 'alumnus']
+
+meronyms_list: ['full_moon', 'epoch', 'plank', 'day', 'extension_course', 'routine', 'hour', 'night', 'date', 'noon', 'course_of_lectures', 'half-moon', 'new_moon', 'week', 'morning', 'instruction']
+
+holonyms_list: ['year', 'address', 'plan_of_action', 'teacher-student_relation', 'day', 'breathing', 'filename', 'building', 'football_team', 'date', 'date_palm', 'narration', 'era', 'playing_period']
+
+synonyms_list: ['authority', '24-hour_interval', 'passing', 'expiry', 'usage', 'stop', 'sentence', 'elongation', 'call_for', 'starting_line', 'day_of_the_month', 'O.K.', 'length', 'resolve', 'showtime', 'menses', 'starting', 'extension_phone', 'metre', 'existent', 'outset', 'termination', 'political_platform', 'extension', 'years', 'pupil', 'first', 'propagation', 'factual', 'exception', 'start', 'daytime', 'point', 'flow', 'empowerment', 'month', 'scratch_line', 'date', 'destruction', 'menstruum', 'work', 'full_stop', 'ending', 'wing', 'course_of_study', 'time', 'starting_time', 'utilization', 'clip', 'bespeak', 'initial', 'programme', 'period', 'implement', 'geological_period', 'Day', 'breathing_out', 'give', 'prison_term', 'terminal', 'exhalation', 'habituate', 'meter', 'denotation', 'utilise', 'startle', 'computer_program', 'prolongation', 'goal', 'expend', 'scholarly_person', 'real', 'bookman', 'try', 'Clarence_Day', 'departure', 'get-go', 'release', 'apply', 'curriculum', 'utilisation', 'remnant', 'remainder', 'lengthiness', 'Begin', 'day', 'put_on', 'university_extension', 'go_for', 'actual', 'death', 'end', 'twenty-four_hour_period', 'duration', 'educatee', 'exercise', 'program', 'telephone_extension', 'escort', 'annexe', 'syllabus', 'mandate', 'scholar', 'twenty-four_hours', 'Menachem_Begin', 'approve', 'decide', 'mean_solar_day', 'expiration', 'settle', 'extension_service', 'adjudicate', 'dominance', 'plan', 'judge', 'hold', 'lend_oneself', 'employment', 'political_program', 'okay', 'engagement', 'practice', 'starting_signal', 'commencement', 'going', 'daylight', 'calendar_month', 'exclusion', 'sanction', 'broadcast', 'enforce', 'say-so', 'oddment', 'kickoff', 'clock_time', 'annex', 'literal', 'sidereal_day', 'reference', 'head_start', 'particular_date', 'utilize', 'catamenia', 'quest', 'computer_programme', 'closing', 'full_point', 'appointment', 'close', 'elision', 'filename_extension', 'exit', 'platform', 'potency', 'days', 'time_period', 'scratch', 'last', 'use', 'file_name_extension', 'menstruation', 'request', 'jump', 'beginning', 'authorisation', 'final_stage', 'Clarence_Shepard_Day_Jr.', 'solar_day', 'employ', 'period_of_time', 'loss', 'offset', 'fourth_dimension', 'student', 'conclusion', 'continuance', 'genuine', 'authorization']

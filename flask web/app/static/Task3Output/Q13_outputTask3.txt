@@ -1,0 +1,136 @@
+Corpus Question: What are the reporting requirements for me while I am approved for OPT?
+
+Corpus Answer: 
+All students on OPT are required to report to the DSO:
+Must make a validation report to the DSO every six months starting from the date the extension begins and ending when the student's F-1 status ends, the student changes educational levels at the same school, the student transfers to another school, or the 17-month OPT extension ends, whichever is first. The validation is a confirmation that the student's name and address, employer name and address, and/or loss of employment is current and accurate. 
+
+
+Sentence Tokenizer: ['What are the reporting requirements for me while I am approved for OPT?', "All students on OPT are required to report to the DSO:\nMust make a validation report to the DSO every six months starting from the date the extension begins and ending when the student's F-1 status ends, the student changes educational levels at the same school, the student transfers to another school, or the 17-month OPT extension ends, whichever is first.", "The validation is a confirmation that the student's name and address, employer name and address, and/or loss of employment is current and accurate."]
+
+Words Tokenizer: ['What', 'are', 'the', 'reporting', 'requirements', 'for', 'me', 'while', 'I', 'am', 'approved', 'for', 'OPT', '?', 'All', 'students', 'on', 'OPT', 'are', 'required', 'to', 'report', 'to', 'the', 'DSO', ':', 'Must', 'make', 'a', 'validation', 'report', 'to', 'the', 'DSO', 'every', 'six', 'months', 'starting', 'from', 'the', 'date', 'the', 'extension', 'begins', 'and', 'ending', 'when', 'the', 'student', "'s", 'F-1', 'status', 'ends', ',', 'the', 'student', 'changes', 'educational', 'levels', 'at', 'the', 'same', 'school', ',', 'the', 'student', 'transfers', 'to', 'another', 'school', ',', 'or', 'the', '17-month', 'OPT', 'extension', 'ends', ',', 'whichever', 'is', 'first', '.', 'The', 'validation', 'is', 'a', 'confirmation', 'that', 'the', 'student', "'s", 'name', 'and', 'address', ',', 'employer', 'name', 'and', 'address', ',', 'and/or', 'loss', 'of', 'employment', 'is', 'current', 'and', 'accurate', '.']
+
+words_without_stop_words: ['What', 'reporting', 'requirements', 'I', 'approved', 'OPT', '?', 'All', 'students', 'OPT', 'required', 'report', 'DSO', ':', 'Must', 'make', 'validation', 'report', 'DSO', 'every', 'six', 'months', 'starting', 'date', 'extension', 'begins', 'ending', 'student', "'s", 'F-1', 'status', 'ends', ',', 'student', 'changes', 'educational', 'levels', 'school', ',', 'student', 'transfers', 'another', 'school', ',', '17-month', 'OPT', 'extension', 'ends', ',', 'whichever', 'first', '.', 'The', 'validation', 'confirmation', 'student', "'s", 'name', 'address', ',', 'employer', 'name', 'address', ',', 'and/or', 'loss', 'employment', 'current', 'accurate', '.']
+
+words_with_stemming: ['what', 'report', 'requir', 'i', 'approv', 'opt', '?', 'all', 'student', 'opt', 'requir', 'report', 'dso', ':', 'must', 'make', 'valid', 'report', 'dso', 'everi', 'six', 'month', 'start', 'date', 'extens', 'begin', 'end', 'student', "'s", 'f-1', 'status', 'end', ',', 'student', 'chang', 'educ', 'level', 'school', ',', 'student', 'transfer', 'anoth', 'school', ',', '17-month', 'opt', 'extens', 'end', ',', 'whichev', 'first', '.', 'the', 'valid', 'confirm', 'student', "'s", 'name', 'address', ',', 'employ', 'name', 'address', ',', 'and/or', 'loss', 'employ', 'current', 'accur', '.']
+
+words_with_lemmatization: ['What', 'reporting', 'requirement', 'I', 'approve', 'OPT', '?', 'All', 'student', 'OPT', 'require', 'report', 'DSO', ':', 'Must', 'make', 'validation', 'report', 'DSO', 'every', 'six', 'month', 'start', 'date', 'extension', 'begin', 'end', 'student', "'s", 'F-1', 'status', 'end', ',', 'student', 'change', 'educational', 'level', 'school', ',', 'student', 'transfer', 'another', 'school', ',', '17-month', 'OPT', 'extension', 'end', ',', 'whichever', 'first', '.', 'The', 'validation', 'confirmation', 'student', "'s", 'name', 'address', ',', 'employer', 'name', 'address', ',', 'and/or', 'loss', 'employment', 'current', 'accurate', '.']
+
+words_with_pos_tags: [('What', 'WP'), ('reporting', 'NN'), ('requirements', 'NNS'), ('I', 'PRP'), ('approved', 'VBD'), ('OPT', 'NNP'), ('?', '.'), ('All', 'DT'), ('students', 'NNS'), ('OPT', 'NNP'), ('required', 'VBD'), ('report', 'NN'), ('DSO', 'NNP'), (':', ':'), ('Must', 'NNP'), ('make', 'VB'), ('validation', 'NN'), ('report', 'NN'), ('DSO', 'NNP'), ('every', 'DT'), ('six', 'CD'), ('months', 'NNS'), ('starting', 'VBG'), ('date', 'NN'), ('extension', 'NN'), ('begins', 'VBZ'), ('ending', 'VBG'), ('student', 'NN'), ("'s", 'POS'), ('F-1', 'JJ'), ('status', 'NN'), ('ends', 'NNS'), (',', ','), ('student', 'NN'), ('changes', 'NNS'), ('educational', 'JJ'), ('levels', 'NNS'), ('school', 'NN'), (',', ','), ('student', 'NN'), ('transfers', 'NNS'), ('another', 'DT'), ('school', 'NN'), (',', ','), ('17-month', 'JJ'), ('OPT', 'NNP'), ('extension', 'NN'), ('ends', 'VBZ'), (',', ','), ('whichever', 'WRB'), ('first', 'RB'), ('.', '.'), ('The', 'DT'), ('validation', 'NN'), ('confirmation', 'NN'), ('student', 'NN'), ("'s", 'POS'), ('name', 'NN'), ('address', 'NN'), (',', ','), ('employer', 'NN'), ('name', 'NN'), ('address', 'NN'), (',', ','), ('and/or', 'JJ'), ('loss', 'NN'), ('employment', 'NN'), ('current', 'JJ'), ('accurate', 'NN'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBP are)
+      (NP (DT the) (NN reporting) (NNS requirements))
+      (PP (IN for)
+        (NP (PRP me)))
+      (SBAR (IN while)
+        (S
+          (NP (PRP I))
+          (VP (VBP am)
+            (VP (VBN approved)
+              (PP (IN for)
+                (NP (NNP OPT))))))))
+    (. ?)))(ROOT
+  (S
+    (NP
+      (NP (DT All) (NNS students))
+      (PP (IN on)
+        (NP (NNP OPT))))
+    (VP (VBP are)
+      (VP (VBN required)
+        (S
+          (VP (TO to)
+            (VP (VB report)
+              (PP (TO to)
+                (NP (DT the) (NNP DSO))))))
+        (: :)
+        (SQ (MD Must)
+          (VP (VB make)
+            (NP
+              (NP (DT a) (NN validation) (NN report))
+              (PP (TO to)
+                (NP (DT the) (NNP DSO))))
+            (NP-TMP (DT every) (CD six) (NNS months))
+            (S
+              (VP
+                (VP (VBG starting)
+                  (PP (IN from)
+                    (NP
+                      (NP (DT the) (NN date))
+                      (SBAR
+                        (S
+                          (NP (DT the) (NN extension))
+                          (VP (VBZ begins)))))))
+                (CC and)
+                (VP (VBG ending)
+                  (SBAR
+                    (WHADVP (WRB when))
+                    (S
+                      (NP
+                        (NP (DT the) (NN student) (POS 's))
+                        (NN F-1) (NN status))
+                      (VP (VBZ ends) (, ,)
+                        (S
+                          (NP (DT the) (NN student) (NNS changes))
+                          (NP
+                            (NP (JJ educational) (NNS levels))
+                            (PP (IN at)
+                              (NP
+                                (NP (DT the) (JJ same) (NN school))
+                                (, ,)
+                                (NP
+                                  (NP (DT the) (NN student) (NNS transfers))
+                                  (PP (TO to)
+                                    (NP (DT another) (NN school))))
+                                (, ,)
+                                (CC or)
+                                (NP
+                                  (NP (DT the) (JJ 17-month) (NNP OPT) (NN extension))
+                                  (VP (VBZ ends)))
+                                (, ,)
+                                (SBAR
+                                  (WHNP (WDT whichever))
+                                  (S
+                                    (VP (VBZ is)
+                                      (ADVP (RB first)))))))))))))))))))
+    (. .)))(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN validation))
+      (SBAR
+        (S
+          (VP
+            (VP (VBZ is)
+              (NP
+                (NP (DT a) (NN confirmation))
+                (PP (IN that)
+                  (NP
+                    (NP (DT the) (NN student) (POS 's))
+                    (NN name)
+                    (CC and)
+                    (NN address) (, ,) (NN employer) (NN name)
+                    (CC and)
+                    (NN address)))))
+            (, ,)
+            (CC and/or)
+            (VP
+              (NP
+                (NP (NN loss))
+                (PP (IN of)
+                  (NP (NN employment)))))))))
+    (VP (VBZ is)
+      (ADJP (JJ current)
+        (CC and)
+        (JJ accurate)))
+    (. .)))
+
+hypernyms_list: ['speech_act', 'move', 'part', 'content', 'repute', 'meaning', 'family', 'companion', 'time_unit', 'language_unit', 'stance', 'transferred_property', 'educational_institution', 'defamation', 'piece_of_cloth', 'dance', 'direct', 'failure', 'agreement', 'point', 'thing', 'change_shape', 'delay', 'change_of_state', 'casualty', 'look', 'intellectual', 'ending', 'longness', 'informing', 'altitude', 'perpetrate', 'occupation', 'decline', 'document', 'determination', 'leave', 'tidy', 'disadvantage', 'noise', 'sum', 'property', 'edible_fruit', 'demand', 'tact', 'coin', 'topographic_point', 'telephone', 'essay', 'calendar_year', 'constitute', 'persuade', 'direction', 'assemble', 'rank', 'present', 'day', 'reach', 'contribution', 'street_sign', 'activity', 'indicator', 'death', 'grape_juice', 'addition', 'necessity', 'relation', 'see', 'create_by_mental_act', 'code', 'action', 'create_from_raw_material', 'string', 'transaction', 'perform', 'amount', 'achieve', 'information', 'order', 'estimate', 'dissemination', 'begin', 'make', 'head', 'cash', 'leader', 'difference', 'destroy', 'happening', 'building', 'evaluate', 'calendar_month', 'sanction', 'be', 'authorize', 'score', 'become', 'develop', 'appoint', 'state', 'body', 'surface', 'stretching', 'ticket', 'person', 'movement', 'duty', 'section', 'get', 'structure', 'expansion', 'create', 'important_person', 'excrete', 'pass', 'staleness', 'manner_of_speaking', 'act', 'geographic_point', 'play', 'guarantee', 'cause', 'time_period', 'change', 'place', 'sacrament', 'news', 'clothing', 'animal_group', 'total', 'learning', 'lineman', 'proof', 'calendar_day', 'consequence', 'education', 'boundary', 'enrollee', 'meeting', 'religious_ceremony', 'extremity', 'experience']
+
+hyponyms_list: ['add', 'kick-start', 'squeeze', 'overproduce', 'celibacy', 'immunity', 'revet', 'churn_out', 'maturity', 'case_study', 'academician', 'prepare', 'high_ground', 'mutism', 'noise_conditions', 'alias', 'signature', 'essential_condition', 'separation', 'confirm', 'nonreader', 'facilitation', 'construct', 'colloquium', 'claw', 'bootleg', 'no-goal', 'diversification', 'mezzanine', 'adulteration', 'closure', 'must', 'hospitalization', 'plane', 'direct_discourse', 'islamist', 'goliard', 'renaissance_man', 'legal_status', 'economic_condition', 'take_off', 'assumed_name', 'bastardy', 'date', 'residence', 'rename', 'white_book', 'street_name', 'nobility', 'pet_name', 'dishabille', 'decline', 'rain_date', 'saturation', 'urban_legend', 'regularization', 'impel', 'telomere', 'wetness', 'revolution', 'aim', 'depth', 'take_office', 'low', 'rear_back', 'holy_order', 'track', 'rake_off', 'prefabricate', 'froth', 'tryst', 'demotion', 'eponym', 'gossip', 'call-back', 'training_school', 'piecework', 'cry', 'application', 'compile', 'assemble', 'smelt', 'language_school', 'toehold', 'lunar_month', 'parity_check', 'compose', 'put_on', 'eye_condition', 'endgame', 'collegian', 'reproduce', 'govern', 'stub_out', 'frame', 'print', 'erupt', 'master', 'let', 'vagary', 'seminarian', 'scholar', 'initiate', 'pulse', 'emptiness', 'plunge', 'quitclaim', 'conclude', 'dominance', 'improvement', 'motivation', 'filename', 'trade_name', 'return_address', 'break_out', 'peroration', 'engagement', 'difference', 'beat', 'get_cracking', 'film', 'state_of_the_art', 'ladder', "mason's_level", 'paper_route', 'dancing_school', 'vanish', 'law_student', 'ax', 'deceleration', 'valedictorian', 'top_out', 'resettlement', 'pole', 'sanction', 'lubrication', 'sublimation', 'historical_school', 'public_service', 'lighterage', 'sacrifice', 'middle_name', 'get_off_the_ground', 'masorete', 'lay_down', 'recreate', 'astigmatism', 'rustication', 'precook', 'carry', 'academic_requirement', 'wattle', 'mechanization', 'catch_up', 'cause', 'musicologist', 'surname', 'break_in', 'flux', 'nakedness', 'light', 'fashion', 'argument', 'philosopher', 'dry-wall', 'downshift', 'reinstatement', 'acme', 'catechumen', 'change_of_direction', 'hot-wire', 'extrude', 'puncture', 'chop', 'complete', 'checksum', 'lake_poets', 'secularization', 'cantilever', 'ski_conditions', 'exploitation', 'deformation', 'updating', 'bibliophile', 'progress_report', 'coaching', 'future_date', 'public_school', 'nationalization', 'unsusceptibility', 'rake_in', 'sally_forth', 'stopping_point', 'hopefulness', 'shimmer', 'establish', 'cooper', 'mailing_address', 'dance_school', 'railhead', 'impaction', 'matronymic', 'bulletin', 'finishing_school', 'atmosphere', 'leadership', 'mummification', 'ashcan_school', 'oratory', 'start', 'driving_school', 'orderliness', 'caste', 'fullness', 'dung', 'jackrabbit', 'graduate_school', 'bourn', 'reader', 'brutalization', 'company_name', 'lead_up', 'normality', 'lend-lease', 'acceleration', 'pointillism', 'financial_loss', 'leave', 'go_through_the_motions', 'confect', 'scholiast', 'restart', 'a_level', 'academy', 'give', 'design', 'promotion', 'decrease', 'curvature', 'conservatory', 'epoch', 'terminus', 'stretch', 'set_in', 'airlift', 'get_through', 'lard', 'fudge_together', 'historian', 'shy', 'title', 'sidereal_month', 'way', 'solar_month', 'put_out', 'rank', 'silence', 'generate', 'cabalist', 'circumstance', 'high_status', 'press', 'concoct', 'phase_out', 'soundness', 'originate', 'birth', 'auspicate', 'doctor', 'danger', 'theologian', 'close_out', 'bitthead', 'general_certificate_of_secondary_education', 'create_by_mental_act', 'underachiever', 'pay', 'create_from_raw_material', 'get_to', 'scandalization', 'term_paper', 'unsoundness', 'narration', 'blast', 'slave_driver', 'decide', 'devil', 'go_back', 'render', 'vacuolization', 'virginity', 'correspondence_school', 'switch', 'top', 'stale', 'motivate', 'ionization', 'suborn', 'preservation', 'extent', 'assay', 'indirect_discourse', 'stamp_out', 'comfort', 'exoneration', 'sex_change', 'lecture', 'movement', 'bitter_end', 'mujtihad', 'intensity', 'ell', 'situation', 'raise', 'megillah', 'impromptu', 'newsletter', 'face', 'lead', 'equality', 'appellation', 'platform', 'play', 'satisfaction', 'destabilization', 'bring', 'motion', 'fruition', 'channelize', 'pass_away', 'loss_of_consciousness', 'take_home', 'adjourn', 'effect', 'automation', 'rebuild', 'floor', 'loft', 'occasion', 'back', 'capitulation', 'night_school', 'revolutionary_calendar_month', 'blue_book', 'coextension', 'run_low', 'default', 'open', 'gross', 'quickening', 'difficulty', 'clear', 'spread', 'standing', 'passing', 'set', 'frizz', 'drive', 'protuberance', 'mistress', 'ennoblement', 'pedant', 'build', 'increase', 'summit', 'financial_condition', 'crammer', 'highness', 'anchorage', 'dress', 'repair', 'cry_out_for', 'split_end', 'withdrawer', 'ministry', 'stigmatism', 'provoke', 'bud', 'decimalization', 'shape-up', 'vedist', 'secession', 'finalize', 'command', 'health', 'passer', 'termination', 'sixth-former', 'filtration', 'mode', 'encapsulation', 'custom-make', 'anecdote', 'corduroy', 'change_of_shape', 'facilitate', 'rustiness', 'development', 'medical_student', 'shakespearian', 'moderation', 'bottom_out', 'art_student', 'religious_school', 'exclusive', 'conveyance', 'absolution', 'recommence', 'birthday', 'damage', 'overachiever', 'misuse', 'riding_school', 'derive', 'turn_out', 'depolarization', 'reducing', 're-create', 'call', 'deconstructivism', 'discontinue', 'climax', 'retirement', 'skipper', 'customize', 'jostle', 'place_name', 'teleportation', 'homestretch', 'wound', 'arabist', 'nursing_school', 'gregorian_calendar_month', 'leakiness', 'polarization', 'reduction', 'crank', 'dawn', 'iniquity', 'dignity', 'attack', 'salutatorian', 'physical_condition', 'secondary_school', 'paper_loss', 'jumpstart', 'run_out', 'pseudonym', 'misnomer', 'jewish_calendar_month', 'jump_off', 'litany', 'blaze', 'hairlessness', 'metrification', 'diversity', 'cut_out', 'summarization', 'tip', 'day_school', 'participation', 'visa', 'purity', 'prompt', 'serration', 'laxness', 'atonicity', 'high', 'claim', 'business_address', 'alteration', 'licentiate', 'dummy', 'lowness', 'slot', 'mutation', 'pedestal', 'ultimacy', 'etonian', 'documentation', 'cut', 'terminus_ad_quem', 'conversion', 'wykehamist', 'tilth', 'year-end', 'make', 'environmental_condition', 'precondition', 'manufacture', 'prognathism', 'quality', "writer's_name", 'practice', 'seafaring', 'reinforcement', 'nerve_ending', 'realize', 'scallop', 'scrape', 'recycling', 'left-handedness', 'guilt', 'incorporate', 'flambe', 'ordination', 'urbanization', 'psychological_state', 'inaugural_address', 'anomalistic_month', 'overdo', 'boggle', 'nationality', 'finale', 'abort', 'philomath', 'get', 'entail', 'deification', 'change_of_integrity', 'create', 'close', 'ivy_leaguer', 'go_out', 'groin', 'subservience', 'dithyramb', 'telecommuting', 'variation', 'amplitude_level', 'preserve', 'strike', 'output', 'alienation', 'bibliographer', 'probate', 'art_nouveau', 'secretarial_school', 'proof', 'deglaze', 'machine', 'offset', 'sanitary_condition', 'paved_surface', 'fall', 'generalization', 'forfeit', 'solicit', 'yardarm', 'embark', 'double_date', 'debriefing', 'find', 'end_point', 'move', 'condemnation', 'padrone', 'authentication', 'come_on', 'nickname', 'grade_school', 'produce', 'change_of_magnitude', 'desideratum', 'determine', 'auditor', 'intention', 'standard_of_living', 'workload', 'veterinary_school', 'turning', 'eke_out', 'agnomen', 'homelessness', 'position_paper', 'underproduce', 'social_station', 'impurity', 'booking', 'delivery', 'beget', 'epilation', 'domain_name', 'direct', 'scale', 'prepossession', 'biosafety_level', 'point', 'do', 'dryness', 'communization', 'transition', 'change_of_state', 'bushwhack', 'hyperextension', 'rollover', 'chelate', 'interrupt', 'lapse', 'hindu_calendar_month', 'tension', 'requisition', 'discomfort', 'basement', 'fag_end', 'last_gasp', 'profit', 'access', 'period', 'tight_end', 'patronymic', 'lift', 'charge', 'engender', 'elaborate', 'wastage', 'humanist', 'institute', 'easing', 'anticlimax', 'finish', 'break', 'private_school', 'sinologist', 'nomination', 'destination', 'encourage', 'bed_check', 'election', 'susceptibility', 'first_name', 'hyalinization', 'resultant', 'low_status', 'niche', 'direct-grant_school', 'irradiation', 'persuade', 'cease', 'footing', 'dispatch', 'create_verbally', 'cost', 'copy', 'gradient', 'schoolman', 'crosscheck', 'public_speaking', 'arouse', 'set_off', 'medical_report', 'high_profile', 'impropriety', 'sunday_school', 'forbid', 'culminate', 'death', 'flying_school', 'rubberstamp', 'college_level', 'grind', 'transformation', 'connection', 'green_paper', 'substitution', 'alma_mater', 'whip_up', 'cleave', 'strike_out', 'identification', 'malady', 'major', 'bear', 'disorderliness', 'safety', 'innocence', 'form', 'clap_up', 'heel', 'islamic_calendar_month', 'services', 'twinkle', 'lock', 'draw', 'breed', 'remake', 'distill', 'sell-by_date', 'twine', 'choreograph', 'sermon', 'monetization', 'smear_word', 'end-all', 'film-make', 'purpose', 'standardization', 'need', 'street_address', 'climate', 'epilogue', 'roar_off', 'sun_protection_factor', 'lactosuria', 'extreme', 'url', 'compel', 'yield', 'boss', 'blind_date', 'transshipment', 'avulsion', 'postdoc', 'place', 'submission', 'dissolve', 'ground_floor', 'service', 'ground', 'immoderation', 'wet', 'about-face', 'go_on', 'style', 'surprise', 'despair', 'short-circuit', 'laminate', 'technical_school', 'allocution', 'alumnus', 'inaugurate', 'transmutation', 'regenerate']
+
+meronyms_list: ['full_moon', 'zip_code', 'body', 'introduction', 'extension_course', 'staff', 'classroom', 'fish', 'date', 'schoolteacher', 'conclusion', 'half-moon', 'new_moon', 'week', 'pickup', 'study_hall']
+
+holonyms_list: ['year', 'address', 'plan_of_action', 'teacher-student_relation', 'letter', 'filename', 'building', 'football_team', 'date', "carpenter's_level", 'date_palm', "surveyor's_level", 'narration', 'school_system']
+
+synonyms_list: ['clear', 'passing', 'have', 'necessary', 'study', 'condition', 'necessitate', 'make_up', 'usage', 'part', 'stop', 'report', 'elongation', 'take_in', 'call_for', 'produce', 'spend_a_penny', 'build', 'prepare', 'set_out', 'day_of_the_month', 'O.K.', 'pull_in', 'stratum', 'savoir-faire', 'take_up', 'extension_phone', 'account', 'news_report', 'construct', 'make_water', 'command', 'ratification', 'establish', 'validation', 'set_about', 'pretend', 'extension', 'speech', 'cook', 'start_up', 'pupil', 'school_day', 'propagation', 'requisite', 'transferee', 'crap', 'start', 'confirmation', 'must', 'earn', 'progress_to', 'point', 'take_a_leak', 'do', 'variety', 'want', 'involve', 'bring_in', 'take_a_crap', 'month', 'take_off', 'story', 'date', 'destruction', 'modification', 'work', 'conveyance', 'ending', 'wing', 'theme', 'tier', 'get_down', 'name_and_address', 'lead_off', 'name', 'utilization', 'red', 'transfer_of_training', 'horizontal_surface', 'position', 'pop_out', 'nominate', 'red_ink', 'reportage', 'bulge_out', 'reporting', 'come_out', 'storey', 'schooling', 'paper', 'give', 'terminal', 'requirement', 'set_forth', 'finish', 'stool', 'demand', 'startle', 'denotation', 'carry-over', 'prolongation', 'goal', 'make_believe', 'attain', 'transfer', 'destination', 'scholarly_person', 'bookman', 'layer', 'departure', 'constitute', 'defecate', 'cease', 'require', 'composition', 'release', 'substantiation', 'utilisation', 'remnant', 'lengthiness', 'relieve_oneself', 'remainder', 'set_off', 'epithet', 'piddle', 'Begin', 'arrive_at', 'reach', 'go', 'university_extension', 'realise', 'degree', 'originate', 'death', 'alteration', 'necessity', 'end', 'transferral', 'educatee', 'mustiness', 'induce', 'get_going', 'telephone_extension', 'shoal', 'exercise', 'get_to', 'escort', 'annexe', 'throw', 'essential', 'gain', 'scholar', 'approve', 'initiate', 'Menachem_Begin', 'schooltime', 'transportation', 'check', 'expiration', 'extension_service', 'coverage', 'hold', 'begin', 'make', 'terminate', 'form', 'level', 'deprivation', 'employment', 'okay', 'figure', 'engagement', 'moldiness', 'shit', 'write_up', 'bug_out', 'draw', 'report_card', 'going', 'realize', 'establishment', 'calendar_month', 'ca-ca', 'commence', 'pass_water', 'stage', 'sanction', 'protrude', 'score', 'pee', 'start_out', 'oddment', 'take_a_shit', 'need', 'wee', 'written_report', 'transference', 'ready', 'piss', 'lay_down', 'puddle', 'employer', 'annex', 'get', 'reference', 'prerequisite', 'school', 'reputation', 'status', 'fix', 'particular_date', 'create', 'filename_extension', 'closing', 'wee-wee', 'appointment', 'close', 'current', 'exit', 'ask', 'seduce', 'urinate', 'cause', 'schoolhouse', 'last', 'change', 'address', 'use', 'file_name_extension', 'depart', 'embark_on', 'spirit_level', 'gens', 'expect', 'pee-pee', 'jump', 'bulge', 'final_stage', 'computer_address', 'educational', 'proof', 'pop', 'floor', 'stimulate', 'verification', 'employ', 'hit', 'postulate', 'loss', 'personnel_casualty', 'grade', 'student', 'micturate', 'conclusion', 'take', 'transport', 'public_figure']

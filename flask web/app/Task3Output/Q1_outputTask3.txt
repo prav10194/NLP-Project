@@ -1,0 +1,95 @@
+Corpus Question: What is "OPT"?
+
+Corpus Answer:  Optional Practical Training (OPT) is a work benefit allowed to international students in F-1 immigration status who are enrolled in, or completing a degree program in the U.S. This employment can be used pre-completion of studies, over the annual vacation or leave term, or post-completion of studies, after the student finishes the degree.
+
+
+Sentence Tokenizer: ['What is "OPT"?', 'Optional Practical Training (OPT) is a work benefit allowed to international students in F-1 immigration status who are enrolled in, or completing a degree program in the U.S.', 'This employment can be used pre-completion of studies, over the annual vacation or leave term, or post-completion of studies, after the student finishes the degree.']
+
+Words Tokenizer: ['What', 'is', '``', 'OPT', "''", '?', 'Optional', 'Practical', 'Training', '(', 'OPT', ')', 'is', 'a', 'work', 'benefit', 'allowed', 'to', 'international', 'students', 'in', 'F-1', 'immigration', 'status', 'who', 'are', 'enrolled', 'in', ',', 'or', 'completing', 'a', 'degree', 'program', 'in', 'the', 'U.S', '.', 'This', 'employment', 'can', 'be', 'used', 'pre-completion', 'of', 'studies', ',', 'over', 'the', 'annual', 'vacation', 'or', 'leave', 'term', ',', 'or', 'post-completion', 'of', 'studies', ',', 'after', 'the', 'student', 'finishes', 'the', 'degree', '.']
+
+words_without_stop_words: ['What', '``', 'OPT', "''", '?', 'Optional', 'Practical', 'Training', '(', 'OPT', ')', 'work', 'benefit', 'allowed', 'international', 'students', 'F-1', 'immigration', 'status', 'enrolled', ',', 'completing', 'degree', 'program', 'U.S', '.', 'This', 'employment', 'used', 'pre-completion', 'studies', ',', 'annual', 'vacation', 'leave', 'term', ',', 'post-completion', 'studies', ',', 'student', 'finishes', 'degree', '.']
+
+words_with_stemming: ['what', '``', 'opt', "''", '?', 'option', 'practic', 'train', '(', 'opt', ')', 'work', 'benefit', 'allow', 'intern', 'student', 'f-1', 'immigr', 'status', 'enrol', ',', 'complet', 'degre', 'program', 'u.', '.', 'this', 'employ', 'use', 'pre-complet', 'studi', ',', 'annual', 'vacat', 'leav', 'term', ',', 'post-complet', 'studi', ',', 'student', 'finish', 'degre', '.']
+
+words_with_lemmatization: ['What', '``', 'OPT', "''", '?', 'Optional', 'Practical', 'Training', '(', 'OPT', ')', 'work', 'benefit', 'allow', 'international', 'student', 'F-1', 'immigration', 'status', 'enrol', ',', 'complete', 'degree', 'program', 'U.S', '.', 'This', 'employment', 'use', 'pre-completion', 'study', ',', 'annual', 'vacation', 'leave', 'term', ',', 'post-completion', 'study', ',', 'student', 'finish', 'degree', '.']
+
+words_with_pos_tags: [('What', 'WP'), ('``', '``'), ('OPT', 'FW'), ("''", "''"), ('?', '.'), ('Optional', 'NNP'), ('Practical', 'NNP'), ('Training', 'NNP'), ('(', '('), ('OPT', 'NNP'), (')', ')'), ('work', 'NN'), ('benefit', 'NN'), ('allowed', 'VBD'), ('international', 'JJ'), ('students', 'NNS'), ('F-1', 'JJ'), ('immigration', 'NN'), ('status', 'NN'), ('enrolled', 'VBD'), (',', ','), ('completing', 'VBG'), ('degree', 'JJ'), ('program', 'NN'), ('U.S', 'NNP'), ('.', '.'), ('This', 'DT'), ('employment', 'NN'), ('used', 'VBN'), ('pre-completion', 'NN'), ('studies', 'NNS'), (',', ','), ('annual', 'JJ'), ('vacation', 'NN'), ('leave', 'VBP'), ('term', 'NN'), (',', ','), ('post-completion', 'NN'), ('studies', 'NNS'), (',', ','), ('student', 'NN'), ('finishes', 'NNS'), ('degree', 'VBP'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBZ is) (`` ``)
+      (NP (NNP OPT))
+      ('' ''))
+    (. ?)))(ROOT
+  (S
+    (NP
+      (NP (JJ Optional) (NNP Practical) (NN Training))
+      (PRN (-LRB- -LRB-)
+        (NP (NN OPT))
+        (-RRB- -RRB-)))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN work) (NN benefit))
+        (SBAR
+          (S
+            (VP (VBD allowed)
+              (PP (TO to)
+                (NP (JJ international) (NNS students)))
+              (PP (IN in)
+                (NP
+                  (NP (NN F-1) (NN immigration) (NN status))
+                  (SBAR
+                    (WHNP (WP who))
+                    (S
+                      (VP (VBP are)
+                        (VP (VBN enrolled)
+                          (UCP
+                            (PP (IN in))
+                            (, ,)
+                            (CC or)
+                            (S
+                              (VP (VBG completing)
+                                (NP (DT a) (NN degree) (NN program))
+                                (PP (IN in)
+                                  (NP (DT the) (NNP U.S.)))))))))))))))))))(ROOT
+  (S
+    (NP (DT This) (NN employment))
+    (VP (MD can)
+      (VP
+        (VP (VB be)
+          (VP (VBN used)
+            (NP
+              (NP (NN pre-completion))
+              (PP (IN of)
+                (NP (NNS studies))))
+            (, ,)
+            (PP (IN over)
+              (NP (DT the) (JJ annual) (NN vacation)))))
+        (CC or)
+        (VP (VB leave)
+          (NP
+            (NP (NN term))
+            (, ,)
+            (CC or)
+            (NP
+              (NP (NN post-completion))
+              (PP (IN of)
+                (NP (NNS studies))))
+            (, ,))
+          (SBAR (IN after)
+            (S
+              (NP (DT the) (NN student))
+              (VP (VBZ finishes)
+                (NP (DT the) (NN degree))))))))
+    (. .)))
+
+hypernyms_list: ['perfection', 'body', 'state', 'have', 'assign', 'product', 'occupation', 'move', 'document', 'drawing', 'statue', 'activity', 'performance', 'calculate', 'permit', 'memorizer', 'produce', 'good', 'system', 'end', 'magnitude', 'concentration', 'completion', 'action', 'abrogation', 'decorativeness', 'payment', 'announcement', 'yield', 'give', 'idea', 'pass', 'tell', 'migration', 'show', 'geographic_point', 'act', 'play', 'constituent', 'register', 'end_product', 'information', 'property', 'carry_through', 'software', 'change', 'time_period', 'energy', 'upbringing', 'room', 'make', 'exploit', 'refrain', 'taste', 'musical_composition', 'lose', 'temperature_unit', 'learning', 'award', 'examination', 'quantity', 'consume', 'accept', 'happening', 'angular_unit', 'leisure', 'knowledge_domain', 'word', 'point', 'statement', 'contemplation', 'enrollee', 'fill', 'intellectual', 'discount', 'exponent', 'downfall']
+
+hyponyms_list: ['television_program', 'woodwork', 'vignette', 'celibacy', 'immunity', 'pull_out', 'case_study', 'academician', 'mutism', 'high_ground', 'noise_conditions', 'decamp', 'widow', 'honorary_degree', 'fee-tail', 'library_program', 'nonreader', 'facilitation', 'bibliotics', 'assembler', 'lacework', 'audit_program', 'publication', 'colliery', 'spreadsheet', 'bakery', 'honeymoon', 'diversification', 'first_degree', 'hospitalization', 'plane', 'unionize', 'islamist', 'lisp_program', 'goliard', 'renaissance_man', 'legal_status', 'economic_condition', 'educational_program', 'log_out', 'bastardy', 'white_book', 'nobility', 'dishabille', 'decline', 'futurology', 'saturation', 'regularization', 'pull_out_all_the_stops', 'roundhouse', 'pop_out', 'wetness', 'tenure', 'coursework', 'depth', 'low', 'oyster_bed', 'field_day', 'holy_order', 'enlist', 'tannery', 'abandon', 'ropewalk', 'glaze', 'metalwork', 'call-back', 'piecework', 'application', 'workshop', 'toehold', 'labor', 'polychrome', 'follow', 'job', 'architecture', 'eye_condition', 'abuse', 'collegian', 'action', 'master', 'let', 'seminarian', 'scholar', 'initiate', 'half-term', 'emptiness', 'dominance', 'improvement', 'motivation', 'matriculate', 'jilt', 'engagement', 'state_of_the_art', 'ladder', 'paper_route', 'allometry', 'scat', 'law_student', 'crash_course', 'valedictorian', 'reading_program', 'lubrication', 'authorize', 'fishery', 'bill', 'public_service', 'sake', 'theogony', 'masorete', 'astigmatism', 'pop_off', 'rustication', 'waste', 'mechanization', 'interface', 'predicate', 'musicologist', 'recycle', 'nakedness', 'depart', 'omega', 'light', 'laundry', 'philosopher', 'utility_program', 'reinstatement', 'acme', 'checking_program', 'job_control', 'shipyard', 'object_program', 'draft', 'catechumen', 'stock_option', 'proving_ground', 'take', 'disability_benefit', 'exploitation', 'ski_conditions', 'fish_farm', 'bibliophile', 'coaching', 'progress_report', 'victory', 'text-matching', 'unsusceptibility', 'road_map', 'hopefulness', 'waterworks', 'brokerage_house', 'scram', 'impaction', 'ology', 'atmosphere', 'masterpiece', 'leadership', 'mummification', 'subject', 'orderliness', 'military_training', 'caste', 'housewifery', 'fullness', 'reader', 'brutalization', 'privilege', 'vacate', 'normality', 'ironwork', 'forge', "bachelor's_degree", 'drink', 'scholiast', 'remember', 'give', 'subbing', 'design', 'humanistic_discipline', 'tax_program', 'get_through', 'come_away', 'silverwork', 'furlough', 'theology', 'historian', 'wicker', 'way', 'blueprint', 'rank', 'silence', 'circumstance', 'cabalist', 'death_benefit', 'go', 'high_status', 'spadework', 'soundness', 'put', 'doctor', 'danger', 'theologian', 'undertaking', 'drill', 'underachiever', 'exercise', 'discipline', 'scandalization', 'unsoundness', 'avail', 'carry_through', 'employee_savings_plan', 'compiler', 'vacuolization', 'virginity', 'top', 'nightwork', 'fall_back', 'walk_out', 'ionization', 'heavy_lifting', 'preservation', 'extent', 'assay', 'paid_vacation', 'tarry', 'writing', 'operation', 'comfort', 'exoneration', 'glassworks', 'budget', 'outline', 'science', 'mujtihad', 'intensity', 'situation', 'referent', 'overuse', 'face', 'law_degree', 'budget_for', 'equality', 'lead', 'play', 'sick_benefit', 'run_off', 'regimen', 'fruition', 'categorem', 'undock', 'loose_end', 'hightail', 'automation', 'school_term', 'stock_purchase_plan', 'rehabilitation_program', 'middle_term', 'relatum', 'blue_book', 'resurvey', 'quickening', 'difficulty', 'standing', 'strain', 'frizz', 'spare', 'protuberance', 'graphology', 'ennoblement', 'follow-up', 'pedant', 'pervert', 'care', 'financial_condition', 'racecard', 'crammer', 'highness', 'foregone_conclusion', 'anchorage', 'repair', 'ministry', 'withdrawer', 'stigmatism', 'fringe_benefit', 'shape-up', 'vedist', 'register', 'command', 'health', 'passer', 'round_out', "master's_degree", 'patch', 'sixth-former', 'defense_program', 'supervisory_program', 'mode', 'encapsulation', 'second-place_finish', 'playbill', 'photo_finish', 'superfund_program', 'rustiness', 'see_through', 'medical_student', 'shakespearian', 'moderation', 'vouchsafe', 'talk_show', 'creamery', 'art_student', 'work', 'absolution', 'plan_of_action', 'overachiever', 'misuse', 'openwork', 'wash', 'monitor_program', 'space_program', 'sustaining_program', 'climax', 'retirement', 'toilet_training', 'skipper', 'schooling', 'arabist', 'allow', 'leakiness', 'polarization', 'iniquity', 'dignity', 'cost-of-living_benefit', 'walk_off', 'salutatorian', 'physical_condition', 'trespass', 'system_program', 'convey', 'third-place_finish', 'minor_term', 'degree_centigrade', 'hairlessness', 'drop_out', 'diversity', 'shining', 'participation', 'purity', 'serration', 'cannibalize', 'workpiece', 'laxness', 'busywork', 'board', 'skull_session', 'atonicity', 'high', 'anti-virus_program', 'tagger', 'source_program', 'licentiate', 'lowness', 'slot', 'ply', 'pedestal', 'ultimacy', 'exert', 'etonian', 'test_bed', 'wykehamist', 'tilth', 'loop', 'slip_away', 'exchange', 'environmental_condition', 'reusable_program', 'enjoy', 'prognathism', 'quality', 'practice', 'seafaring', 'allowance', 'degree_fahrenheit', 'recycling', 'left-handedness', 'guilt', 'lab', 'ordination', 'urbanization', 'degree_of_a_polynomial', 'degree_of_a_term', 'psychological_state', 'get_off', 'search_engine', 'honours', 'protology', 'shop_floor', 'nationality', 'finale', 'gasworks', 'episode', 'philomath', 'timework', 'deification', 'admit', 'self-adapting_program', 'close', 'ivy_leaguer', 'go_out', 'subservience', 'telecommuting', 'address', 'amplitude_level', 'handicraft', 'bibliographer', 'communications', 'ironing', 'frontier', 'sanitary_condition', 'genealogy', 'central', 'drill_site', 'condemnation', 'stop', 'auditor', 'standard_of_living', 'workload', 'result', 'homelessness', 'position_paper', 'step_out', 'file_out', 'social_station', 'impurity', 'booking', 'desert', 'game_show', 'prepossession', 'fortran_program', 'welfare_work', 'project', 'dryness', 'escapology', 'destruction', 'debugger', 'digest', 'work_in_progress', 'tension', 'discomfort', 'translator', 'logging', 'location', 'implement', 'shoeshine', 'news_program', 'military_science', 'prison_term', 'humanist', 'rush_off', 'pension_plan', 'leave_office', 'beehive', 'sinologist', 'aliyah', 'nomination', 'serial', 'election', 'susceptibility', 'hyalinization', 'resultant', 'low_status', 'mission', 'benefit_concert', 'niche', 'lucubration', 'irradiation', 'advantage', 'syntax_checker', 'footing', 'trust', 'schoolman', 'housework', 'ironworks', 'relocatable_program', 'medical_report', 'high_profile', 'binary', 'impropriety', 'lumberyard', 'degree_program', 'major_term', 'malevolent_program', 'studio', 'end', 'stored_program', 'grind', 'green_paper', 'identification', 'malady', 'eject', 'major', 'disorderliness', 'misapply', 'safety', 'retraining', 'innocence', 'exploit', 'hop_out', 'services', 'defeat', 'follow_through', 'draw', 'engineering', 'parser', 'lacquerware', 'athletic_training', 'spider', 'leatherwork', 'standardization', "doctor's_degree", 'master_plan', 'finishing_line', 'need', 'climate', 'web_map_service', 'devise', 'duty', 'sun_protection_factor', 'lactosuria', 'extreme', 'farm', 'vac', 'rerun', 'pass', 'works_program', 'ride_off', 'c_program', 'agenda', 'investigation', 'postdoc', 'place', 'submission', 'pass_on', 'interpreter', 'service', 'immoderation', 'legalize', 'fall_out', 'numerology', 'associate_degree', 'share', 'despair', 'alumnus', 'occultism', 'paperwork', 'curvature']
+
+meronyms_list: ['plank', 'routine', 'locker_room', 'minute', 'course_of_lectures', 'instruction', 'midterm']
+
+holonyms_list: ['agreement', 'teacher-student_relation', 'oxtant', 'proposition', 'sextant', 'gestation', 'house']
+
+synonyms_list: ['set_aside', 'complete', 'condition', 'study', 'usage', 'report', 'holiday', 'forget', 'result', 'inscribe', 'stopping_point', 'sketch', 'enroll', 'finishing', 'allow_for', 'political_platform', 'pupil', 'reserve', 'subject', 'point', 'provide', 'work', 'ending', 'course_of_study', 'bequeath', 'impart', 'coating', 'finis', 'leave_behind', 'utilization', 'preparation', 'refinement', 'leave', 'position', 'outside', 'programme', 'term', 'benefit', 'fill_in', 'allow', 'subject_area', 'give', 'pull_up_stakes', 'finish', 'habituate', 'yearly', 'make_out', 'terminus', 'enrol', 'utilise', 'one-year', 'computer_program', 'destination', 'cogitation', 'goal', 'expend', 'scholarly_person', 'bookman', 'training', 'field_of_study', 'dispatch', 'field', 'countenance', 'will', 'apply', 'in-migration', 'curriculum', 'immigration', 'utilisation', 'virtual', 'leave_alone', 'degree', 'entrust', 'discharge', 'program', 'educatee', 'exercise', 'terminal_figure', 'discipline', 'practical', 'vacation', 'let', 'syllabus', 'grooming', 'international', 'scholar', 'external', 'plan', 'annual', 'level', 'full_term', 'culture', 'employment', 'political_program', 'engagement', 'practice', 'nail', 'arcdegree', 'recruit', 'survey', 'stage', 'go_forth', 'give_up', 'oeuvre', 'broadcast', 'workplace', 'academic_degree', 'tolerate', 'pragmatic', 'written_report', 'permit', 'go_away', 'finale', 'get_out', 'appropriate', 'body_of_work', 'status', 'admit', 'cultivation', 'optional', 'computer_programme', 'utilize', 'grant', 'close', 'go_out', 'lead', 'welfare', 'enter', 'platform', 'exit', 'piece_of_work', 'last', 'use', 'bailiwick', 'breeding', 'subject_field', 'pass_on', 'depart', 'fill_out', 'hardheaded', 'hard-nosed', 'polish', 'education', 'employ', 'grade', 'earmark', 'student', 'conclusion', 'take_into_account']

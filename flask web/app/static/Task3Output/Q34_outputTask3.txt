@@ -1,0 +1,76 @@
+Corpus Question: I have been unemployed for 80 days. What is going to happen on the 90th day?
+
+Corpus Answer:  If you accumulate 90 days or more of unemployment, you are in violation of status. Please speak to an advisor at BIO.
+
+
+Sentence Tokenizer: ['I have been unemployed for 80 days.', 'What is going to happen on the 90th day?', 'If you accumulate 90 days or more of unemployment, you are in violation of status.', 'Please speak to an advisor at BIO.']
+
+Words Tokenizer: ['I', 'have', 'been', 'unemployed', 'for', '80', 'days', '.', 'What', 'is', 'going', 'to', 'happen', 'on', 'the', '90th', 'day', '?', 'If', 'you', 'accumulate', '90', 'days', 'or', 'more', 'of', 'unemployment', ',', 'you', 'are', 'in', 'violation', 'of', 'status', '.', 'Please', 'speak', 'to', 'an', 'advisor', 'at', 'BIO', '.']
+
+words_without_stop_words: ['I', 'unemployed', '80', 'days', '.', 'What', 'going', 'happen', '90th', 'day', '?', 'If', 'accumulate', '90', 'days', 'unemployment', ',', 'violation', 'status', '.', 'Please', 'speak', 'advisor', 'BIO', '.']
+
+words_with_stemming: ['i', 'unemploy', '80', 'day', '.', 'what', 'go', 'happen', '90th', 'day', '?', 'if', 'accumul', '90', 'day', 'unemploy', ',', 'violat', 'status', '.', 'pleas', 'speak', 'advisor', 'bio', '.']
+
+words_with_lemmatization: ['I', 'unemployed', '80', 'day', '.', 'What', 'go', 'happen', '90th', 'day', '?', 'If', 'accumulate', '90', 'day', 'unemployment', ',', 'violation', 'status', '.', 'Please', 'speak', 'advisor', 'BIO', '.']
+
+words_with_pos_tags: [('I', 'PRP'), ('unemployed', 'VBD'), ('80', 'CD'), ('days', 'NNS'), ('.', '.'), ('What', 'WP'), ('going', 'VBG'), ('happen', 'JJ'), ('90th', 'CD'), ('day', 'NN'), ('?', '.'), ('If', 'IN'), ('accumulate', 'JJ'), ('90', 'CD'), ('days', 'NNS'), ('unemployment', 'NN'), (',', ','), ('violation', 'NN'), ('status', 'NN'), ('.', '.'), ('Please', 'NNP'), ('speak', 'JJ'), ('advisor', 'NN'), ('BIO', 'NNP'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN been)
+        (NP
+          (NP (JJ unemployed))
+          (PP (IN for)
+            (NP (CD 80) (NNS days))))))
+    (. .)))(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ
+      (VP (VBZ is)
+        (VP (VBG going)
+          (S
+            (VP (TO to)
+              (VP (VB happen)
+                (PP (IN on)
+                  (NP (DT the) (JJ 90th) (NN day)))))))))
+    (. ?)))(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP accumulate)
+          (NP (CD 90) (NNS days)
+            (QP (CC or)
+              (JJR more)))
+          (PP (IN of)
+            (NP (NN unemployment))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP are)
+      (PP (IN in)
+        (NP
+          (NP (NN violation))
+          (PP (IN of)
+            (NP (NN status))))))
+    (. .)))(ROOT
+  (S
+    (VP (VB Please)
+      (VP (VB speak)
+        (PP (TO to)
+          (NP
+            (NP (DT an) (NN advisor))
+            (PP (IN at)
+              (NP (NNP BIO)))))))
+    (. .)))
+
+hypernyms_list: ['authority', 'time', 'state', 'wrongdoing', 'opportunity', 'disappear', 'end', 'happen', 'sidereal_time', 'time_unit', 'harmonize', 'satisfy', 'act', 'era', 'exit', 'cause_to_be_perceived', 'time_period', 'change', 'change_state', 'work_time', 'evil', 'crime', 'life', 'compare', 'fit', 'choose', 'calendar_day', 'wish', 'search', 'sexual_assault', 'chance', 'be']
+
+hyponyms_list: ['whizz', 'clangor', 'celibacy', 'travel_purposefully', 'clang', 'immunity', 'afternoon', 'noise_conditions', "jefferson_davis'_birthday", 'high_ground', 'mutism', 'backfire', 'facilitation', 'sedition', 'whish', 'go_around', 'halloween', "mother's_day", 'diversification', 'drum', 'leap_day', 'hospitalization', 'crash', 'security_consultant', 'lurch', 'economic_condition', 'legal_status', 'raft', 'date', 'bastardy', 'workday', 'armed_forces_day', 'nobility', 'dishabille', 'decline', 'pursue', 'saturation', 'regularization', 'ghost', 'swing', 'wetness', 'fashion_consultant', "april_fools'", 'stand_up', 'field_day', 'betake_oneself', 'holy_order', 'resound', 'breeze', 'caravan', 'admission_day', 'zoom', 'media_consultant', 'go_off', 'endear', 'accompany', 'toehold', 'american_indian_day', 'wend', 'follow', 'eye_condition', 'succumb', 'glug', 'withdraw', 'emptiness', 'resonate', 'clank', 'dominance', 'ride', 'improvement', 'motivation', 'swash', 'radiate', 'chatter', 'ides', 'shuttle', 'angle', 'rag_day', 'hurtle', 'lance', 'round', 'island_hop', "st_patrick's_day", 'lubrication', 'retreat', 'blow_out', 'tomorrow', 'get_off_the_ground', 'astigmatism', 'career', 'carry', 'seek', 'stalemate', 'rustication', 'judgment_day', 'boom', 'mechanization', 'circulate', 'concur', 'payday', 'bleep', 'nakedness', 'light', 'ping', 'automobile', 'befall', 'reinstatement', 'enchant', 'chime', 'take', 'ferry', 'ski_conditions', 'patter', 'go_far', 'indecent_exposure', 'scramble', 'starets', 'unsusceptibility', 'arise', 'hopefulness', 'slither', 'manoeuver', 'turn', 'outflank', 'false_pretense', 'impaction', 'counselor', 'atmosphere', 'leadership', 'mummification', 'gurgle', "saint's_day", 'orderliness', 'caste', 'fullness', 'investment_adviser', 'washday', 'taxi', 'brutalization', 'predecease', 'anniversary', "robert_e_lee's_birthday", 'swap', 'normality', 'united_nations_day', 'forge', 'pace', 'inroad', 'texas_independence_day', 'zigzag', 'fly', 'disorderly_conduct', 'give', 'pan_american_day', 'run', 'guggle', 'tinkle', 'profanation', 'market_day', 'may_day', 'push', 'tram', 'derail', 'way', 'honk', 'management_consultant', 'rank', 'tessellate', 'venture', 'silence', 'circumstance', 'evening', 'buy_it', 'high_status', 'ting', 'soundness', 'travel_rapidly', 'danger', 'perjury', 'swim', 'scandalization', 'unsoundness', 'travel_by', 'live_out', 'whisk', 'vacuolization', 'red-letter_day', 'virginity', 'come_around', 'descend', 'circuit', 'appear', 'ionization', 'chance', 'preservation', 'comfort', 'exoneration', 'roll', 'situation', 'face', 'equality', 'walpurgis_night', 'crack', 'play', 'fruition', 'snowshoe', 'automation', 'pop', 'citizenship_day', 'back', 'ripple', 'click', 'tick', 'open', 'ski', 'hum', 'difficulty', 'standing', 'frizz', 'drive', 'protuberance', 'ennoblement', 'supervene', 'financial_condition', 'holiday', 'pink', 'midsummer_eve', 'anchorage', 'repair', 'suffocate', 'stigmatism', 'synchronize', 'rattle', 'command', 'health', 'patent_infringement', "patriot's_day", 'school_day', 'mode', 'serve', 'encapsulation', 'rise', 'rustiness', 'lap', 'off-day', 'work', 'absolution', 'shove_off', 'take_effect', 'propagate', 'v-day', 'get_around', 'november_5', 'turn_out', 'beauty_consultant', 'flag_day', 'retirement', 'precess', 'leakiness', 'polarization', 'iniquity', 'dignity', 'physical_condition', 'proceed', 'tipster', 'hairlessness', 'snap', 'polling_day', 'plow', 'precede', 'joint', 'diversity', 'participation', 'purity', 'buzz', 'serration', 'bang', 'laxness', 'inauguration_day', 'bounce', 'atonicity', 'wheel', 'starve', 'bluff', 'eve', 'ease', 'malfunction', 'slot', 'pedestal', 'check', 'cut', "lincoln's_birthday", 'billow', 'castle', 'settle', 'tilth', 'environmental_condition', 'drown', 'prognathism', 'pan', 'arbor_day', 'drone', 'blow', 'left-handedness', 'guilt', 'ordination', 'urbanization', 'develop', 'psychological_state', 'today', 'nationality', 'abort', 'steamer', 'come', 'deification', 'county_agent', "father's_day", 'advance', 'subservience', 'travel', 'morrow', 'misfire', 'drag', 'groundhog_day', 'sanitary_condition', 'fall', 'whistle', 'condemnation', 'midafternoon', 'glide', 'trump', 'tweet', 'recur', 'result', 'splash', 'yesterday', 'homelessness', 'social_station', 'wedding_day', 'impurity', 'perennate', 'chug', 'prepossession', 'sift', 'do', 'dryness', 'thud', 'squelch', 'military_adviser', 'hiss', 'make_noise', 'step', 'tension', 'discomfort', 'ring', 'copyright_infringement', 'crawl', 'date_rape', 'whine', 'break', 'speed', 'transpire', 'nomination', 'skirl', 'transfer', 'election', 'susceptibility', 'commencement_day', 'hyalinization', 'operate', 'low_status', 'statutory_rape', 'niche', 'irradiation', 'footing', "washington's_birthday", 'anticipate', 'cruise', "new_year's_eve", 'foul', 'high_profile', 'pass_over', 'impropriety', 'sober_up', 'rustle', 'double', 'retrograde', 'clop', 'valentine_day', 'twang', 'ascend', 'slice_into', 'speech_day', 'trail', 'identification', 'malady', 'disorderliness', 'safety', 'innocence', 'snarl', 'backroom_boy', 'amicus_curiae', 'draw', 'trundle', 'rush', 'stray', 'lunar_day', 'weave', 'splat', 'tet', 'tap', 'steamroller', 'float', 'standardization', 'walk', 'need', 'climate', 'flock', 'happen', 'lactosuria', 'cinco_de_mayo', 'pass', 'place', 'submission', 'prance', 'service', 'beetle', 'intervene', 'rumble', 'go_on', 'return', 'despair', 'circle', 'curvature']
+
+meronyms_list: ['day', 'hour', 'night', 'noon', 'morning']
+
+holonyms_list: ['day']
+
+synonyms_list: ['24-hour_interval', 'condition', 'find', 'adviser', 'move', 'perish', 'buy_the_farm', 'come_about', 'rape', 'hap', 'unemployment', 'pass_off', 'misdemeanor', 'irreverence', 'locomote', 'live_on', 'give_way', 'misdemeanour', 'encroachment', 'years', 'unemployed', 'sound', 'start', 'hold_up', 'daytime', 'infringement', 'expire', 'fail', 'work', 'please', 'break_down', 'conk', 'delight', 'run_short', 'position', 'go_bad', 'blend', 'extend', 'Day', 'endure', 'give-up_the_ghost', 'run', 'break', 'trespass', 'proceed', 'choke', 'fit', 'operate', 'materialize', 'Clarence_Day', 'materialise', 'bump', 'assault', 'day', 'go', 'hold_out', 'die', 'bechance', 'twenty-four_hour_period', 'occur', 'get_going', 'blend_in', 'kick_the_bucket', 'consultant', 'give_out', 'plump', 'violation', 'twenty-four_hours', 'mean_solar_day', 'usurpation', 'encounter', 'conk_out', 'infraction', 'intrusion', 'daylight', 'chance', 'decease', 'become', 'rifle', 'go_away', 'pop_off', 'happen', 'sidereal_day', 'get', 'status', 'pass', 'lead', 'exit', 'days', 'travel', 'last', 'take_place', 'drop_dead', 'depart', 'survive', 'pass_away', 'advisor', 'Clarence_Shepard_Day_Jr.', 'fall_out', 'ravishment', 'solar_day', 'belong', 'befall', 'go_on', 'run_low', 'live', 'croak', 'snuff_it', 'function', "cash_in_one's_chips"]

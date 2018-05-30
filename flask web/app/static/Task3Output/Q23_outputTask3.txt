@@ -1,0 +1,76 @@
+Corpus Question: How can I check the status of my OPT application after I mail it to the USCIS?
+
+Corpus Answer: 
+When you receive your USCIS Notice of Action (receipt), visitUSCIS Case Status Online(link is external)and enter your receipt number.
+
+
+Sentence Tokenizer: ['How can I check the status of my OPT application after I mail it to the USCIS?', 'When you receive your USCIS Notice of Action (receipt), visit\xa0USCIS Case Status Online(link is external)\xa0and enter your receipt number.']
+
+Words Tokenizer: ['How', 'can', 'I', 'check', 'the', 'status', 'of', 'my', 'OPT', 'application', 'after', 'I', 'mail', 'it', 'to', 'the', 'USCIS', '?', 'When', 'you', 'receive', 'your', 'USCIS', 'Notice', 'of', 'Action', '(', 'receipt', ')', ',', 'visit', 'USCIS', 'Case', 'Status', 'Online', '(', 'link', 'is', 'external', ')', 'and', 'enter', 'your', 'receipt', 'number', '.']
+
+words_without_stop_words: ['How', 'I', 'check', 'status', 'OPT', 'application', 'I', 'mail', 'USCIS', '?', 'When', 'receive', 'USCIS', 'Notice', 'Action', '(', 'receipt', ')', ',', 'visit', 'USCIS', 'Case', 'Status', 'Online', '(', 'link', 'external', ')', 'enter', 'receipt', 'number', '.']
+
+words_with_stemming: ['how', 'i', 'check', 'status', 'opt', 'applic', 'i', 'mail', 'usci', '?', 'when', 'receiv', 'usci', 'notic', 'action', '(', 'receipt', ')', ',', 'visit', 'usci', 'case', 'status', 'onlin', '(', 'link', 'extern', ')', 'enter', 'receipt', 'number', '.']
+
+words_with_lemmatization: ['How', 'I', 'check', 'status', 'OPT', 'application', 'I', 'mail', 'USCIS', '?', 'When', 'receive', 'USCIS', 'Notice', 'Action', '(', 'receipt', ')', ',', 'visit', 'USCIS', 'Case', 'Status', 'Online', '(', 'link', 'external', ')', 'enter', 'receipt', 'number', '.']
+
+words_with_pos_tags: [('How', 'WRB'), ('I', 'PRP'), ('check', 'VBP'), ('status', 'NN'), ('OPT', 'NNP'), ('application', 'NN'), ('I', 'PRP'), ('mail', 'VBP'), ('USCIS', 'NNP'), ('?', '.'), ('When', 'WRB'), ('receive', 'JJ'), ('USCIS', 'NNP'), ('Notice', 'NNP'), ('Action', 'NNP'), ('(', '('), ('receipt', 'NN'), (')', ')'), (',', ','), ('visit', 'FW'), ('USCIS', 'NNP'), ('Case', 'NNP'), ('Status', 'NNP'), ('Online', 'NNP'), ('(', '('), ('link', 'VBP'), ('external', 'NN'), (')', ')'), ('enter', 'NN'), ('receipt', 'JJ'), ('number', 'NN'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (MD can)
+      (NP (PRP I))
+      (VP (VB check)
+        (NP
+          (NP (DT the) (NN status))
+          (PP (IN of)
+            (NP (PRP$ my) (NN OPT) (NN application))))
+        (SBAR (IN after)
+          (S
+            (NP (PRP I))
+            (VP (VBP mail)
+              (NP (PRP it))
+              (PP (TO to)
+                (NP (DT the) (NNP USCIS))))))))
+    (. ?)))(ROOT
+  (FRAG
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP you))
+        (VP
+          (VP (VBP receive)
+            (NP
+              (NP
+                (NP (PRP$ your) (NNP USCIS) (NNP Notice))
+                (PP (IN of)
+                  (NP
+                    (NP (NNP Action))
+                    (PRN (-LRB- -LRB-)
+                      (NP (NN receipt))
+                      (-RRB- -RRB-)))))
+              (, ,)
+              (NP
+                (NP (NN visit))
+                (NP (NNP USCIS) (NNP Case) (NNP Status) (NNP Online)))
+              (PRN (-LRB- -LRB-)
+                (S
+                  (NP (NN link))
+                  (VP (VBZ is)
+                    (ADJP (JJ external))))
+                (-RRB- -RRB-))))
+          (CC and)
+          (VP (VB enter)
+            (NP (PRP$ your) (NN receipt) (NN number))))))
+    (. .)))
+
+hypernyms_list: ['circumstance', 'bill', 'channel', 'container', 'state', 'collection', 'drive', 'attention', 'housing', 'performance', 'communication_system', 'signal', 'remedy', 'person', 'linkage', 'containerful', 'program', 'action', 'blemish', 'message', 'announcement', 'restraint', 'fastener', 'symbol', 'mark', 'union', 'bed_linen', 'shape', 'work', 'amount', 'act', 'state_of_mind', 'size', 'linear_unit', 'merchandise', 'inspection', 'sign', 'process', 'obstruction', 'telling', 'type', 'receptacle', 'instruction', 'use', 'problem', 'definite_quantity', 'framework', 'acquiring', 'review', 'stay', 'request', 'group_action', 'argument', 'proceeding', 'fact', 'acknowledgment', 'proof', 'communication', 'happening', 'inaction', 'manual_labor', 'circuit', 'appraisal', 'draft', 'mechanism', 'positive_identification', 'effort', 'plot', 'meeting', 'grammatical_category', 'body_armor', 'periodical', 'company', 'chess_move', 'conveyance', 'covering', 'weave', 'adult', 'difficulty']
+
+hyponyms_list: ['oblique', 'bank_identification_number', 'celibacy', 'immunity', 'jacket', 'arity', 'noise_conditions', 'mutism', 'high_ground', 'straitjacket', 'briefcase', 'multiplier', 'edition', 'facilitation', 'coordinate', 'agency', 'arrival', 'vitrification', 'diversification', 'bicameral_script', 'hospitalization', 'economic_condition', 'legal_status', 'license_number', 'bastardy', 'nobility', 'mailing', 'surface_mail', 'dishabille', 'decline', 'ion_exchange', 'saturation', 'regularization', 'swing', 'wetness', 'first_class', 'painting', 'holy_order', 'compound_number', 'stub', 'transgression', 'numerousness', 'misapplication', 'patient', 'bruxism', 'kindness', 'screen_font', 'articulation', 'majority', 'application', 'toehold', 'lining', 'registered_mail', 'client', 'biquadrate', 'remainder', 'parity_check', 'unicameral_script', 'diffusion', 'decay', 'counter_check', 'job', 'air_mail', 'eye_condition', 'visiting', 'eruption', 'frame', 'express', 'emptiness', 'technology', 'dominance', 'improvement', 'motivation', 'fixed-point_number', 'employment', 'antiredeposition', 'node', 'piano_action', 'defense', 'opacification', 'leach', 'habergeon', 'plastering', 'fan_mail', 'applet', 'lubrication', 'interconnection', 'font_cartridge', 'neurolemma', 'astigmatism', 'rustication', 'reference', 'medullary_sheath', 'sink', 'pump_action', 'criminal_suit', 'anointing', 'mechanization', 'remark', 'houndstooth_check', 'custody_case', 'change', 'kit', 'nakedness', 'diriment_impediment', 'prosecution', 'light', 'transpiration', 'gothic', 'flash_card', 'reinstatement', 'extinction', 'materialization', 'quiver', 'nuclear_reaction', 'minuend', 'behavior', 'checksum', 'fetch', 'ski_conditions', 'bad_check', 'sortie', 'oscillation', 'unsusceptibility', 'piece', 'hopefulness', 'typewriter_font', 'chromatography', 'dispatch_case', 'vampirism', 'impaction', 'special_delivery', 'referral', 'atmosphere', 'leadership', 'mummification', 'personal_check', 'pickings', 'orderliness', 'caste', 'fullness', 'curdling', 'brutalization', 'countercheck', 'normality', 'time', 'stupefaction', 'formation', 'factor', 'amphibious_landing', 'natural_number', 'pagination', 'condensation', 'waxing', 'galvanization', 'mind', 'way', 'war', 'rank', 'aggression', 'silence', 'circumstance', 'square', 'test_case', 'proportional_font', 'chemical_process', 'high_status', 'soundness', 'economy', 'gun_case', 'danger', 'husk', 'scandalization', 'blackwash', 'unsoundness', 'liniment', 'locket', 'wallet', 'sorption', 'poke_check', 'antilogarithm', 'hauberk', 'cube', 'softening', 'vacuolization', 'battle', 'virginity', 'natural_language_processor', "cashier's_check", 'ionization', 'emphasizing', 'establishment', 'compact', 'preservation', 'parcel_post', 'apgar_score', 'operation', 'electronic_warfare', 'comfort', 'exoneration', 'welfare_case', 'job_application', 'obstacle', 'movement', 'situation', 'augend', 'giro', 'face', 'effervescence', 'scattering', 'equality', 'accomplishment', 'play', 'prime', 'destabilization', 'witch_hazel', 'transfusion', 'police_action', 'dismissal', 'feedback', 'fruition', 'adiabatic_process', 'drift', 'automation', 'lorica', 'aeration', 'sleeve', 'inactivation', 'medicare_check', 'obituary', 'subtrahend', 'shoe', 'third-class_mail', 'foliation', 'difficulty', 'standing', 'desorption', 'frizz', 'protuberance', 'ennoblement', 'editor_program', 'financial_condition', 'centrifugation', 'anchorage', 'repair', 'active_application', 'stigmatism', 'beatification', 'distillation', 'countersuit', 'command', 'health', 'walkie-talkie', 'letter_case', 'filtration', 'quota', 'mode', 'encapsulation', 'albatross', 'gearbox', 'oxidation_number', 'rustiness', 'magnetization', 'thing', 'kite', 'civil_suit', 'absolution', 'coherence', 'transduction', 'count', 'phase_change', 'call', 'brigandine', 'show_bill', 'pillbox', 'quotient', 'retirement', 'stiffening', 'bill_of_lading', 'resistance', 'blockade', 'cardcase', 'base', 'survival', 'leakiness', 'polarization', 'blank_check', 'iniquity', 'dignity', 'physical_condition', 'eye-lotion', 'jumpstart', 'geological_process', 'humiliation', 'hairlessness', 'nominative', 'diversity', 'release', 'bulk_mail', 'scumble', 'sans_serif', 'participation', 'fumigation', 'purity', 'res_gestae', 'serration', 'counterclaim', 'laxness', 'show-stopper', 'atonicity', 'glasses_case', 'slot', 'papering', 'pedestal', 'constant', 'roundness', 'hardening', 'tilth', 'paternity_test', 'theca', 'environmental_condition', 'credit_application', 'prognathism', 'radiation', 'tiling', 'concretion', 'boot', 'saber_rattling', 'fewness', 'left-handedness', 'guilt', 'discovered_check', 'ordination', 'urbanization', 'hate_mail', 'score', 'psychological_state', 'extraction', 'precession_of_the_equinoxes', 'nationality', 'acidification', 'deification', 'voider', 'pair_production', 'subservience', 'cardinal_number', 'stress_test', 'alienation', 'loan_application', 'drag', 'site_visit', 'capture', 'sanitary_condition', 'pawn_ticket', 'boldface', 'fibonacci_number', 'interaction', 'composite_number', 'bind', 'condemnation', 'absorption', 'homelessness', 'dissolution', 'social_station', 'rural_free_delivery', 'sericulture', 'impurity', 'bridge', 'succession', 'caveat', 'floating-point_number', 'social_security_number', 'busyness', 'prepossession', 'politeness', 'dryness', 'flow', 'word_processor', 'stimulation', 'tension', 'antitrust_case', 'preponderance', 'discomfort', 'logjam', 'choice', 'overdrive', 'integer', 'snail_mail', 'fossilization', 'baryon_number', 'saltation', 'flocculation', 'soak', 'visitation', 'writing_desk', 'convection', 'paving', 'reverence', 'nomination', 'bed_check', 'baggage', 'election', 'susceptibility', 'hyalinization', 'low_status', 'source', 'contact', 'niche', 'tinning', 'addend', 'irradiation', 'oxygenation', 'dividend', 'footing', 'patent_application', 'crosscheck', 'moot', 'complex_number', 'roman_numeral', 'prohibition', 'high_profile', 'impropriety', 'linage', 'spot_check', 'performance', 'cigarette_case', 'browser', 'playing', 'flying_visit', 'atomic_number', 'cardinality', 'identification', 'malady', 'spraying', 'gunlock', 'minority', 'disorderliness', 'class_action', 'safety', 'innocence', 'calamine_lotion', 'watch_case', 'certified_check', 'personal_identification_number', 'course', 'synergy', 'hyperlink', 'trophy_case', 'rubbing_alcohol', 'standardization', 'need', 'climate', 'menthol', 'lis_pendens', 'ordinal_number', 'lactosuria', 'temperature_change', 'airmail', 'multiplicand', 'paycheck', 'italic', 'place', 'submission', 'arabic_numeral', 'plating', 'portfolio', 'root', 'concatenation', 'record', 'decimal', 'innumerableness', 'demagnetization', 'electrophoresis', 'despair', 'divisor', 'paternity_suit', 'civil_action', 'curvature']
+
+meronyms_list: ['key', 'letter']
+
+holonyms_list: ['grandfather_clock', 'type_family', 'chain', 'ice_hockey', 'keyboard', 'window', 'doorway', 'gun', 'series']
+
+synonyms_list: ['condition', 'diligence', 'chain_mail', 'typeface', 'stop', 'legal_action', 'guinea_pig', 'ring_armor', 'card', 'vitrine', 'poster', 'post', 'display_case', 'curb', 'shell', 'character', 'receipt', 'example', 'inter-group_communication', 'action_mechanism', 'identification_number', 'turn', 'pillow_slip', 'nexus', 'confirmation', 'tie-in', 'bank_check', 'subject', 'natural_process', 'check_mark', 'link', 'covering', 'connectedness', 'coating', 'telephone_number', 'hinderance', 'casing', 'position', 'outside', 'check-out_procedure', 'applications_programme', 'tab', 'placard', 'observance', 'reception', 'hitch', 'sojourn', "typesetter's_case", 'data_link', 'number', 'grammatical_case', 'numeral', 'ring_mail', 'observation', 'suit', 'cheque', 'linkup', 'stoppage', 'tie', 'halt', 'bridle', 'baulk', 'bit', 'contact', 'event', 'connexion', 'posting', 'application', 'visit', 'hindrance', 'substantiation', 'showcase', 'causa', 'practical_application', 'activity', 'action', 'eccentric', 'chip', 'connection', 'check', 'international', 'impediment', 'lawsuit', 'external', 'routine', 'liaison', 'stay', 'figure', 'activeness', 'chain_armor', 'extraneous', 'chit', 'chain_armour', 'assay', 'bill', 'deterrent', 'issue', 'caseful', 'balk', 'checkout', "compositor's_case", 'pillowcase', 'status', 'mail_service', 'fount', 'arrest', 'mail', 'font', 'face', 'lotion', 'natural_action', 'act', 'notice', 'action_at_law', 'cause', 'phone_number', 'postal_service', 'military_action', 'slip', 'instance', 'case', 'ring_armour', 'tick', 'verification', 'notification', 'sheath', 'type', 'application_program', 'radio_link', 'handicap']

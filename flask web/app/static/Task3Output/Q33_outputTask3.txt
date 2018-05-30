@@ -1,0 +1,61 @@
+Corpus Question: Is there a minimum number of hours I need to work?
+
+Corpus Answer:  To qualify as employment, you are required to work a minimum of 20 hours/week.
+
+
+Sentence Tokenizer: ['Is there a minimum number of hours I need to work?', 'To qualify as employment, you are required to work a minimum of 20 hours/week.']
+
+Words Tokenizer: ['Is', 'there', 'a', 'minimum', 'number', 'of', 'hours', 'I', 'need', 'to', 'work', '?', 'To', 'qualify', 'as', 'employment', ',', 'you', 'are', 'required', 'to', 'work', 'a', 'minimum', 'of', '20', 'hours/week', '.']
+
+words_without_stop_words: ['Is', 'minimum', 'number', 'hours', 'I', 'need', 'work', '?', 'To', 'qualify', 'employment', ',', 'required', 'work', 'minimum', '20', 'hours/week', '.']
+
+words_with_stemming: ['is', 'minimum', 'number', 'hour', 'i', 'need', 'work', '?', 'to', 'qualifi', 'employ', ',', 'requir', 'work', 'minimum', '20', 'hours/week', '.']
+
+words_with_lemmatization: ['Is', 'minimum', 'number', 'hour', 'I', 'need', 'work', '?', 'To', 'qualify', 'employment', ',', 'require', 'work', 'minimum', '20', 'hours/week', '.']
+
+words_with_pos_tags: [('Is', 'VBZ'), ('minimum', 'JJ'), ('number', 'NN'), ('hours', 'NNS'), ('I', 'PRP'), ('need', 'VBP'), ('work', 'VB'), ('?', '.'), ('To', 'TO'), ('qualify', 'VB'), ('employment', 'NN'), (',', ','), ('required', 'VBN'), ('work', 'NN'), ('minimum', 'JJ'), ('20', 'CD'), ('hours/week', 'NN'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SQ (VBZ Is)
+    (NP (EX there))
+    (NP
+      (NP (DT a) (JJ minimum) (NN number))
+      (PP (IN of)
+        (NP
+          (NP (NNS hours))
+          (SBAR
+            (S
+              (NP (PRP I))
+              (VP (VBP need)
+                (S
+                  (VP (TO to)
+                    (VP (VB work))))))))))
+    (. ?)))(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB qualify)
+          (PP (IN as)
+            (NP (NN employment))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP are)
+      (VP (VBN required)
+        (S
+          (VP (TO to)
+            (VP (VB work)
+              (NP
+                (NP (DT a) (NN minimum))
+                (PP (IN of)
+                  (NP (CD 20) (NN hours/week)))))))))
+    (. .)))
+
+hypernyms_list: ['add', 'contract', 'condition', 'state', 'product', 'occupation', 'clock_time', 'activity', 'performance', 'limit', 'signal', 'necessity', 'prepare', 'small_indefinite_quantity', 'psychological_feature', 'action', 'time_unit', 'remember', 'symbol', 'merchandise', 'poverty', 'size', 'amount', 'geographic_point', 'end_product', 'time_period', 'order', 'energy', 'demand', 'definite_quantity', 'work_time', 'extremum', 'learning', 'modify', 'distance', 'pronounce', 'positive_identification', 'periodical', 'grammatical_category', 'company', 'be', 'suffice']
+
+hyponyms_list: ['happy_hour', 'rush_hour', 'fibonacci_number', 'composite_number', 'woodwork', 'bank_identification_number', 'central', 'exploitation', 'drill_site', 'fish_farm', 'follow-up', 'care', 'coaching', 'arity', 'none', 'workload', 'stamp', 'multiplier', 'edition', 'cry_out_for', 'ministry', 'habilitate', 'coordinate', 'noon', 'lacework', 'shape-up', 'publication', 'colliery', 'booking', 'bakery', 'waterworks', 'quota', 'brokerage_house', 'floating-point_number', 'life', 'social_security_number', 'masterpiece', 'oxidation_number', 'sidereal_hour', 'welfare_work', 'housewifery', 'provide', 'license_number', 'creamery', 'man_hour', 'ethical_motive', 'zero_hour', 'ironwork', 'count', 'sunset', 'work_in_progress', 'forge', 'misuse', 'requisition', 'preponderance', 'openwork', 'integer', 'wash', 'call', 'rational_motive', 'baryon_number', 'factor', 'psychic_energy', 'mealtime', 'logging', 'quotient', 'coursework', 'location', 'roundhouse', 'charge', 'skeleton', 'base', 'subbing', 'oyster_bed', 'natural_number', 'pagination', 'dawn', 'compound_number', 'beehive', 'tannery', 'ropewalk', 'numerousness', 'capacitate', 'mission', 'metalwork', 'silverwork', 'beggary', 'call-back', 'addend', 'dividend', 'piecework', 'wicker', 'cry', 'majority', 'application', 'workshop', 'closing_time', 'cost', 'shining', 'housework', 'labor', 'biquadrate', 'square', 'remainder', 'polychrome', 'early-morning_hour', 'ironworks', 'complex_number', 'roman_numeral', 'workpiece', 'busywork', 'show-stopper', 'spadework', 'linage', 'lumberyard', 'job', 'claim', 'forbid', 'necessity', 'studio', 'undertaking', 'action', 'govern', 'bedtime', 'atomic_number', 'cardinality', 'constant', 'roundness', 'urge', 'antilogarithm', 'test_bed', 'minority', 'cube', 'canonical_hour', 'distinguish', 'fixed-point_number', 'exchange', 'services', 'irrational_motive', 'engagement', 'practice', 'seafaring', 'nightwork', 'paper_route', 'draw', 'fewness', 'heavy_lifting', 'lacquerware', 'recycling', 'personal_identification_number', 'midnight', 'lab', 'small_hours', 'score', 'fishery', 'public_service', 'leatherwork', 'writing', 'operation', 'glassworks', 'shop_floor', 'gasworks', 'duty', 'ordinal_number', 'timework', 'augend', 'farm', 'compel', 'late-night_hour', 'multiplicand', 'shift', 'play', 'investigation', 'prime', 'telecommuting', 'cardinal_number', 'arabic_numeral', 'handicraft', 'twilight', 'root', 'service', 'record', 'decimal', 'innumerableness', 'laundry', 'loose_end', 'ironing', 'shipyard', 'subtrahend', 'divisor', 'lack', 'proving_ground', 'paperwork', 'minuend']
+
+meronyms_list: ['locker_room', 'quarter', 'minute', 'quarter-hour', 'half-hour']
+
+holonyms_list: ['day', 'series']
+
+synonyms_list: ['workplace', 'utilisation', 'pauperization', 'study', 'telephone_number', 'condition', 'lower_limit', 'necessitate', 'issue', 'usage', 'need', 'utilization', 'characterize', 'motive', 'call_for', 'time_of_day', 'hours', 'body_of_work', 'exercise', 'take', 'hour', 'hr', 'number', 'numeral', 'minute', 'work', 'act', 'ask', 'command', 'phone_number', 'stipulate', 'piece_of_work', 'motivation', 'demand', 'characterise', 'use', 'routine', 'identification_number', 'turn', 'employment', 'pauperism', 'figure', 'measure_up', 'bit', 'engagement', 'expect', 'restrict', 'dispose', 'qualify', 'employ', 'want', '60_minutes', 'postulate', 'require', 'involve', 'specify', 'indigence', 'minimum', 'penury', 'oeuvre', 'modify']

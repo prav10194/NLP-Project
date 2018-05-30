@@ -1,0 +1,109 @@
+Corpus Question: Am I eligible for OPT?
+
+Corpus Answer:  F-1 students who have been enrolled in legal status for a minimum of nine months are eligible for up to twelve (12) months of Optional Practical Training (OPT) work authorization by the U.S. Citizenship & Immigration Services (USCIS). Employment under OPT must be directly related to a student's field of study and appropriate to the level of education.
+
+
+Sentence Tokenizer: ['Am I eligible for OPT?', 'F-1 students who have been enrolled in legal status for a minimum of nine months are eligible for up to twelve (12) months of Optional Practical Training (OPT) work authorization by the U.S.', 'Citizenship & Immigration Services (USCIS).', "Employment under OPT must be directly related to a student's field of study and appropriate to the level of education."]
+
+Words Tokenizer: ['Am', 'I', 'eligible', 'for', 'OPT', '?', 'F-1', 'students', 'who', 'have', 'been', 'enrolled', 'in', 'legal', 'status', 'for', 'a', 'minimum', 'of', 'nine', 'months', 'are', 'eligible', 'for', 'up', 'to', 'twelve', '(', '12', ')', 'months', 'of', 'Optional', 'Practical', 'Training', '(', 'OPT', ')', 'work', 'authorization', 'by', 'the', 'U.S', '.', 'Citizenship', '&', 'Immigration', 'Services', '(', 'USCIS', ')', '.', 'Employment', 'under', 'OPT', 'must', 'be', 'directly', 'related', 'to', 'a', 'student', "'s", 'field', 'of', 'study', 'and', 'appropriate', 'to', 'the', 'level', 'of', 'education', '.']
+
+words_without_stop_words: ['Am', 'I', 'eligible', 'OPT', '?', 'F-1', 'students', 'enrolled', 'legal', 'status', 'minimum', 'nine', 'months', 'eligible', 'twelve', '(', '12', ')', 'months', 'Optional', 'Practical', 'Training', '(', 'OPT', ')', 'work', 'authorization', 'U.S', '.', 'Citizenship', '&', 'Immigration', 'Services', '(', 'USCIS', ')', '.', 'Employment', 'OPT', 'must', 'directly', 'related', 'student', "'s", 'field', 'study', 'appropriate', 'level', 'education', '.']
+
+words_with_stemming: ['am', 'i', 'elig', 'opt', '?', 'f-1', 'student', 'enrol', 'legal', 'status', 'minimum', 'nine', 'month', 'elig', 'twelv', '(', '12', ')', 'month', 'option', 'practic', 'train', '(', 'opt', ')', 'work', 'author', 'u.', '.', 'citizenship', '&', 'immigr', 'servic', '(', 'usci', ')', '.', 'employ', 'opt', 'must', 'direct', 'relat', 'student', "'s", 'field', 'studi', 'appropri', 'level', 'educ', '.']
+
+words_with_lemmatization: ['Am', 'I', 'eligible', 'OPT', '?', 'F-1', 'student', 'enrol', 'legal', 'status', 'minimum', 'nine', 'month', 'eligible', 'twelve', '(', '12', ')', 'month', 'Optional', 'Practical', 'Training', '(', 'OPT', ')', 'work', 'authorization', 'U.S', '.', 'Citizenship', '&', 'Immigration', 'Services', '(', 'USCIS', ')', '.', 'Employment', 'OPT', 'must', 'directly', 'relate', 'student', "'s", 'field', 'study', 'appropriate', 'level', 'education', '.']
+
+words_with_pos_tags: [('Am', 'NNP'), ('I', 'PRP'), ('eligible', 'JJ'), ('OPT', 'NNP'), ('?', '.'), ('F-1', 'JJ'), ('students', 'NNS'), ('enrolled', 'VBD'), ('legal', 'JJ'), ('status', 'NN'), ('minimum', 'JJ'), ('nine', 'CD'), ('months', 'NNS'), ('eligible', 'JJ'), ('twelve', 'NN'), ('(', '('), ('12', 'CD'), (')', ')'), ('months', 'NNS'), ('Optional', 'NNP'), ('Practical', 'NNP'), ('Training', 'NNP'), ('(', '('), ('OPT', 'NNP'), (')', ')'), ('work', 'NN'), ('authorization', 'NN'), ('U.S', 'NNP'), ('.', '.'), ('Citizenship', 'NNP'), ('&', 'CC'), ('Immigration', 'NNP'), ('Services', 'NNPS'), ('(', '('), ('USCIS', 'NNP'), (')', ')'), ('.', '.'), ('Employment', 'JJ'), ('OPT', 'NNP'), ('must', 'MD'), ('directly', 'RB'), ('related', 'VBN'), ('student', 'NN'), ("'s", 'POS'), ('field', 'NN'), ('study', 'NN'), ('appropriate', 'JJ'), ('level', 'NN'), ('education', 'NN'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (S
+    (VP (VBP Am)
+      (S
+        (NP (PRP I))
+        (ADJP (JJ eligible)
+          (PP (IN for)
+            (NP (NNP OPT))))))
+    (. ?)))(ROOT
+  (S
+    (NP
+      (NP (NN F-1) (NNS students))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP have)
+            (VP (VBN been)
+              (VP (VBN enrolled)
+                (PP (IN in)
+                  (NP
+                    (NP (JJ legal) (NN status))
+                    (PP (IN for)
+                      (NP
+                        (NP (DT a) (NN minimum))
+                        (PP (IN of)
+                          (NP (CD nine) (NNS months)))))))))))))
+    (VP (VBP are)
+      (NP
+        (ADJP (JJ eligible)
+          (PP (IN for)
+            (NP
+              (NP
+                (ADVP (RB up)
+                  (PP (TO to)
+                    (NP
+                      (NP (CD twelve))
+                      (PRN (-LRB- -LRB-)
+                        (NP (CD 12))
+                        (-RRB- -RRB-)))))
+                (NP (NNS months))
+                (PP (IN of)
+                  (NP (NNP Optional) (NNP Practical) (NN Training))))
+              (PRN (-LRB- -LRB-)
+                (NP (NN OPT))
+                (-RRB- -RRB-)))))
+        (NN work) (NN authorization))
+      (PP (IN by)
+        (NP (DT the) (NNP U.S.))))))(ROOT
+  (NP
+    (NP
+      (NP
+        (NP (NN Citizenship))
+        (CC &)
+        (NP (NNP Immigration) (NNP Services)))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP USCIS))
+        (-RRB- -RRB-)))
+    (. .)))(ROOT
+  (S
+    (NP
+      (NP (NNP Employment))
+      (PP (IN under)
+        (NP (NNP OPT))))
+    (VP (MD must)
+      (VP (VB be)
+        (ADJP
+          (ADJP (RB directly) (JJ related)
+            (PP (TO to)
+              (NP
+                (NP
+                  (NP (DT a) (NN student) (POS 's))
+                  (NN field))
+                (PP (IN of)
+                  (NP (NN study))))))
+          (CC and)
+          (ADJP (JJ appropriate)
+            (PP (TO to)
+              (NP
+                (NP (DT the) (NN level))
+                (PP (IN of)
+                  (NP (NN education)))))))))
+    (. .)))
+
+hypernyms_list: ['altitude', 'state', 'body', 'set', 'surface', 'product', 'occupation', 'executive_department', 'document', 'environment', 'drawing', 'activity', 'indicator', 'limit', 'commercial_enterprise', 'memorizer', 'content', 'care', 'small_indefinite_quantity', 'concentration', 'modulation', 'action', 'helpfulness', 'structure', 'land', 'time_unit', 'geographical_area', 'demeanor', 'physical_phenomenon', 'migration', 'management', 'geographic_point', 'accommodation', 'register', 'end_product', 'time_period', 'tennis_stroke', 'aid', 'coupling', 'facility', 'property', 'energy', 'upbringing', 'control', "master's_degree", 'room', 'place', 'force', 'delivery', 'employment', 'extremum', 'tableware', 'musical_composition', 'legal_document', 'learning', 'examination', 'profession', 'knowledge_domain', 'contemplation', 'enrollee', 'large_integer', 'legal_status', 'tract', 'religious_ceremony', 'permission', 'company', 'metallic_element', 'region', 'work', 'intellectual', 'visual_percept', 'rank']
+
+hyponyms_list: ['woodwork', 'vignette', 'celibacy', 'immunity', 'case_study', 'academician', 'mutism', 'high_ground', 'noise_conditions', 'none', 'tundra', 'committal_service', 'nonreader', 'facilitation', 'bibliotics', 'lacework', 'publication', 'colliery', 'bakery', 'diversification', 'mezzanine', 'hospitalization', 'plane', 'unionize', 'islamist', 'goliard', 'renaissance_man', 'legal_status', 'economic_condition', 'front', 'bastardy', 'date', 'white_book', 'nobility', 'dishabille', 'decline', 'futurology', 'paddy', 'bit_field', 'saturation', 'regularization', 'team_teaching', 'roundhouse', 'wetness', 'coursework', 'depth', 'physical_education', 'low', 'oyster_bed', 'holy_order', 'enlist', 'license', 'tannery', 'extracurricular_activity', 'ropewalk', 'metalwork', 'call-back', 'utility', 'piecework', 'application', 'workshop', 'imperium', 'toehold', 'lordship', 'lunar_month', 'labor', 'polychrome', 'ball_field', 'arena', 'operative_field', 'job', 'architecture', 'eye_condition', 'auxiliary_airfield', 'collegian', 'action', 'master', 'let', 'seminarian', 'scholar', 'initiate', 'emptiness', 'coeducation', 'dominance', 'improvement', 'motivation', 'eruditeness', 'matriculate', 'engagement', 'enlightenment', 'state_of_the_art', 'ladder', 'paper_route', "mason's_level", 'allometry', 'law_student', 'valedictorian', 'lubrication', 'sanction', 'moor', 'fishery', 'loan_approval', 'public_service', 'electric_field', 'province', 'theogony', 'masorete', 'astigmatism', 'rustication', 'school', 'childcare', 'kingdom', 'mechanization', 'musicologist', 'nakedness', 'light', 'laundry', 'philosopher', 'reinstatement', 'acme', 'continuing_education', 'shipyard', 'draft', 'catechumen', 'sovereignty', 'proving_ground', 'experience', 'exploitation', 'ski_conditions', 'fish_farm', 'bibliophile', 'coaching', 'progress_report', 'unsusceptibility', 'gravitational_field', 'steppe', 'hopefulness', 'self-education', 'flat', 'prayer_meeting', 'waterworks', 'brokerage_house', 'impaction', 'ology', 'atmosphere', 'leadership', 'mummification', 'masterpiece', 'microscopic_field', 'orderliness', 'caste', 'military_training', 'fullness', 'housewifery', 'reader', 'brutalization', 'normality', 'ironwork', 'forge', 'distaff', 'work-study_program', 'scholiast', 'a_level', 'skeleton', 'design', 'subbing', 'power_of_appointment', 'humanistic_discipline', 'marines', 'devotional', 'silverwork', 'theology', 'historian', 'sidereal_month', 'wicker', 'community_service', 'way', 'solar_month', 'rank', 'silence', 'circumstance', 'cabalist', 'curb_service', 'high_status', 'yard', 'spadework', 'soundness', 'llano', 'peneplain', 'doctor', 'danger', 'theologian', 'general_certificate_of_secondary_education', 'undertaking', 'drill', 'underachiever', 'exercise', 'discipline', 'scandalization', 'unsoundness', 'ace', 'bowling_green', 'elementary_education', 'vacuolization', 'self-service', 'virginity', 'coastguard', 'carte_blanche', 'nightwork', 'ionization', 'heavy_lifting', 'preservation', 'extent', 'assay', 'airstrip', 'certification', 'writing', 'operation', 'comfort', 'exoneration', 'glassworks', 'science', 'help_desk', 'mujtihad', 'coalfield', 'situation', 'intensity', 'face', 'equality', 'play', 'platform', 'fruition', 'foundation', 'loose_end', 'automation', 'boxcars', 'floor', 'loft', 'revolutionary_calendar_month', 'blue_book', 'resurvey', 'grainfield', 'quickening', 'difficulty', 'standing', 'frizz', 'graphology', 'protuberance', 'ennoblement', 'follow-up', 'pedant', 'care', 'financial_condition', 'crammer', 'highness', 'anchorage', 'repair', 'withdrawer', 'ministry', 'stigmatism', 'shape-up', 'vedist', 'register', 'command', 'health', 'passer', 'extension', 'sixth-former', 'mode', 'oilfield', 'special_education', 'encapsulation', 'rustiness', 'medical_student', 'shakespearian', 'lap', 'moderation', 'creamery', 'art_student', 'absolution', 'facility', 'overachiever', 'misuse', 'higher_education', 'openwork', 'wash', 'climax', 'retirement', 'toilet_training', 'skipper', 'schooling', 'arabist', 'muscle', 'leakiness', 'polarization', 'gregorian_calendar_month', 'national_service', 'iniquity', 'secondary_education', 'dignity', 'salutatorian', 'physical_condition', 'vocational_training', 'navy', 'jewish_calendar_month', 'place_setting', 'hairlessness', 'diversity', 'shining', 'participation', 'purity', 'serration', 'workpiece', 'laxness', 'busywork', 'atonicity', 'skull_session', 'high', 'licentiate', 'lowness', 'slot', 'consulting_service', 'pedestal', 'ultimacy', 'etonian', 'test_bed', 'wykehamist', 'tilth', 'floodplain', 'exchange', 'environmental_condition', 'prognathism', 'quality', 'air_force', 'practice', 'seafaring', 'dinner_service', 'recycling', 'left-handedness', 'guilt', 'lab', 'ordination', 'urbanization', 'psychological_state', 'political_arena', 'socage', 'protology', 'anomalistic_month', 'nationality', 'shop_floor', 'commission', 'magnetic_field', 'gasworks', 'radiation_field', 'philomath', 'timework', 'deification', 'church_service', 'ivy_leaguer', 'subservience', 'airport', 'telecommuting', 'amplitude_level', 'preserve', 'handicraft', 'bibliographer', 'communications', 'ironing', 'mastering', 'frontier', 'sanitary_condition', 'genealogy', 'paved_surface', 'acculturation', 'football_field', 'central', 'condemnation', 'drill_site', 'rubber_stamp', 'vesper', 'auditor', 'standard_of_living', 'workload', 'homelessness', 'position_paper', 'social_station', 'impurity', 'booking', 'prepossession', 'biosafety_level', 'welfare_work', 'dryness', 'court', 'escapology', 'gasfield', 'hindu_calendar_month', 'work_in_progress', 'tension', 'discomfort', 'basement', 'snowfield', 'teaching', 'watch_night', 'logging', 'location', 'campus', 'military_science', 'valet_parking', 'humanist', 'lawn', 'beehive', 'sinologist', 'nomination', 'aliyah', 'election', 'susceptibility', 'hyalinization', 'resultant', 'low_status', 'mission', 'interim_overhaul', 'niche', 'lucubration', 'irradiation', 'footing', 'schoolman', 'housework', 'ironworks', 'medical_report', 'high_profile', 'impropriety', 'lumberyard', "knight's_service", 'studio', 'college_level', 'grind', 'palestra', 'green_paper', 'army', 'identification', 'malady', 'seating', 'firebreak', 'major', 'disorderliness', 'safety', 'retraining', 'innocence', 'islamic_calendar_month', 'services', 'delegating', 'engineering', 'lacquerware', 'athletic_training', 'chapel_service', 'course', 'leatherwork', 'standardization', 'scalar_field', 'need', 'climate', 'duty', 'sun_protection_factor', 'lactosuria', 'extreme', 'farm', 'investigation', 'postdoc', 'place', 'submission', 'ground_floor', 'service', 'immoderation', 'numerology', 'fault', 'despair', 'military_service', 'alumnus', 'occultism', 'paperwork', 'curvature']
+
+meronyms_list: ['full_moon', 'battlefront', 'classwork', 'taxiway', 'combat_zone', 'locker_room', 'flight_line', 'apron', 'homework', 'sector', 'lesson', 'military_unit', 'midfield', 'half-moon', 'classroom_project', 'new_moon', 'invocation', 'week', 'runway']
+
+holonyms_list: ['year', 'teacher-student_relation', 'stadium', 'building', 'transportation_system', "carpenter's_level", "surveyor's_level", 'theater_of_war', 'house']
+
+synonyms_list: ['authority', 'condition', 'study', 'usage', 'report', 'stratum', 'inscribe', 'sketch', 'Master_of_Arts', 'enroll', 'theatre_of_operations', 'field_of_operations', 'overhaul', 'twelve', 'theater_of_operations', 'sound', 'pupil', 'serve', 'orbit', 'subject', 'point', 'empowerment', 'inspection_and_repair', 'month', 'story', 'work', 'tier', 'eligible', 'domain', 'religious_service', 'utilization', 'teaching', 'preparation', 'plain', '12', 'position', 'horizontal_surface', 'battleground', 'field_of_operation', 'educational_activity', 'storey', 'playing_field', 'subject_area', 'servicing', 'enrol', 'atomic_number_95', 'cogitation', 'scholarly_person', 'armed_service', 'citizenship', 'amplitude_modulation', 'bookman', 'training', 'layer', 'Robert_William_Service', 'field_of_study', 'help', 'field', 'theatre', 'area', 'athletic_field', 'in-migration', 'immigration', 'utilisation', 'virtual', 'playing_area', 'theater', 'arena', 'degree', 'related', 'pedagogy', 'field_of_battle', 'XII', 'champaign', 'educatee', 'serving', 'exercise', 'discipline', 'practical', 'Department_of_Education', 'divine_service', 'grooming', 'mandate', 'scholar', 'effectual', 'instruction', 'avail', 'dominance', 'Artium_Magister', 'level', 'employment', 'services', 'engagement', 'dozen', 'related_to', 'line_of_business', 'field_of_view', 'sphere', 'landing_field', 'force_field', 'survey', 'recruit', 'MA', 'calendar_month', 'stage', 'sanction', 'minimum', 'oeuvre', 'workplace', 'say-so', 'lower_limit', 'pragmatic', 'flying_field', 'written_report', 'service_of_process', 'Am', 'body_of_work', 'battlefield', 'status', 'Service', 'optional', 'table_service', 'AM', 'enter', 'potency', 'americium', 'piece_of_work', 'use', 'bailiwick', 'airfield', 'breeding', 'subject_field', 'spirit_level', 'service', 'Education', 'authorisation', 'legal', 'field_of_honor', 'hardheaded', 'hard-nosed', 'floor', 'education', 'employ', 'Education_Department', 'grade', 'student', 'military_service', 'didactics', 'field_of_force', 'authorization']

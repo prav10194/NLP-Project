@@ -1,0 +1,93 @@
+Corpus Question: Do I have to use the entire 12-month OPT period at once, or may I use it increments?
+
+Corpus Answer: 
+OPT may be used in "chunks" during an annual vacation term before completion of studies, but after completion of studies it may only be used as a single block of time (minus the difference of any previously used OPT time).
+
+
+Sentence Tokenizer: ['Do I have to use the entire 12-month OPT period at once, or may I use it increments?', 'OPT may be used in "chunks" during an annual vacation term before completion of studies, but after completion of studies it may only be used as a single block of time (minus the difference of any previously used OPT time).']
+
+Words Tokenizer: ['Do', 'I', 'have', 'to', 'use', 'the', 'entire', '12-month', 'OPT', 'period', 'at', 'once', ',', 'or', 'may', 'I', 'use', 'it', 'increments', '?', 'OPT', 'may', 'be', 'used', 'in', '``', 'chunks', "''", 'during', 'an', 'annual', 'vacation', 'term', 'before', 'completion', 'of', 'studies', ',', 'but', 'after', 'completion', 'of', 'studies', 'it', 'may', 'only', 'be', 'used', 'as', 'a', 'single', 'block', 'of', 'time', '(', 'minus', 'the', 'difference', 'of', 'any', 'previously', 'used', 'OPT', 'time', ')', '.']
+
+words_without_stop_words: ['Do', 'I', 'use', 'entire', '12-month', 'OPT', 'period', ',', 'may', 'I', 'use', 'increments', '?', 'OPT', 'may', 'used', '``', 'chunks', "''", 'annual', 'vacation', 'term', 'completion', 'studies', ',', 'completion', 'studies', 'may', 'used', 'single', 'block', 'time', '(', 'minus', 'difference', 'previously', 'used', 'OPT', 'time', ')', '.']
+
+words_with_stemming: ['do', 'i', 'use', 'entir', '12-month', 'opt', 'period', ',', 'may', 'i', 'use', 'increment', '?', 'opt', 'may', 'use', '``', 'chunk', "''", 'annual', 'vacat', 'term', 'complet', 'studi', ',', 'complet', 'studi', 'may', 'use', 'singl', 'block', 'time', '(', 'minus', 'differ', 'previous', 'use', 'opt', 'time', ')', '.']
+
+words_with_lemmatization: ['Do', 'I', 'use', 'entire', '12-month', 'OPT', 'period', ',', 'may', 'I', 'use', 'increment', '?', 'OPT', 'may', 'use', '``', 'chunk', "''", 'annual', 'vacation', 'term', 'completion', 'study', ',', 'completion', 'study', 'may', 'use', 'single', 'block', 'time', '(', 'minus', 'difference', 'previously', 'use', 'OPT', 'time', ')', '.']
+
+words_with_pos_tags: [('Do', 'VBP'), ('I', 'PRP'), ('use', 'VB'), ('entire', 'JJ'), ('12-month', 'JJ'), ('OPT', 'NNP'), ('period', 'NN'), (',', ','), ('may', 'MD'), ('I', 'PRP'), ('use', 'VB'), ('increments', 'NNS'), ('?', '.'), ('OPT', 'NNP'), ('may', 'MD'), ('used', 'VBN'), ('``', '``'), ('chunks', 'NNS'), ("''", "''"), ('annual', 'JJ'), ('vacation', 'NN'), ('term', 'NN'), ('completion', 'NN'), ('studies', 'NNS'), (',', ','), ('completion', 'NN'), ('studies', 'NNS'), ('may', 'MD'), ('used', 'VBN'), ('single', 'JJ'), ('block', 'NN'), ('time', 'NN'), ('(', '('), ('minus', 'JJ'), ('difference', 'NN'), ('previously', 'RB'), ('used', 'VBN'), ('OPT', 'NNP'), ('time', 'NN'), (')', ')'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SQ
+    (SQ (VB Do)
+      (NP (PRP I))
+      (VP (VBP have)
+        (S
+          (VP (TO to)
+            (VP (VB use)
+              (NP (DT the) (JJ entire) (JJ 12-month) (NN OPT) (NN period))
+              (PP (IN at)
+                (NP (RB once))))))))
+    (, ,)
+    (CC or)
+    (SQ (MD may)
+      (NP (PRP I))
+      (VP (VB use)
+        (S
+          (NP (PRP it))
+          (NP (NNS increments)))))
+    (. ?)))(ROOT
+  (S
+    (S
+      (NP (NN OPT))
+      (VP (MD may)
+        (VP (VB be)
+          (VP (VBN used)
+            (PP (IN in) (`` ``)
+              (NP (NNS chunks))
+              ('' ''))
+            (PP (IN during)
+              (NP (DT an) (JJ annual) (NN vacation) (NN term)))
+            (PP (IN before)
+              (NP
+                (NP (NN completion))
+                (PP (IN of)
+                  (NP (NNS studies)))))))))
+    (, ,)
+    (CC but)
+    (S
+      (PP (IN after)
+        (NP
+          (NP (NN completion))
+          (PP (IN of)
+            (NP (NNS studies)))))
+      (NP (PRP it))
+      (VP (MD may)
+        (ADVP (RB only))
+        (VP (VB be)
+          (VP (VBN used)
+            (PP (IN as)
+              (NP
+                (NP (DT a) (JJ single) (NN block))
+                (PP (IN of)
+                  (NP
+                    (NP (NN time))
+                    (-LRB- -LRB-)
+                    (PP (CC minus)
+                      (NP
+                        (NP (DT the) (NN difference))
+                        (PP (IN of)
+                          (NP (DT any)
+                            (ADJP (RB previously) (VBN used))
+                            (NNP OPT) (NN time)))))
+                    (-RRB- -RRB-)))))))))
+    (. .)))
+
+hypernyms_list: ['punctuation', 'collection', 'moment', 'inability', 'statue', 'part', 'groom', 'activity', 'document', 'drawing', 'housing', 'large_indefinite_quantity', 'memorizer', 'arithmetic_operation', 'end', 'discharge', 'concentration', 'fundamental_quantity', 'spend', 'time_interval', 'term', 'disagreement', 'satisfy', 'rhythmicity', 'attribute', 'create', 'number', 'amount', 'agglomeration', 'act', 'constituent', 'platform', 'process', 'time_period', 'carry_through', 'travel', 'obstruction', 'change', 'influence', 'demand', 'termination', 'room', 'computer_memory_unit', 'make', 'cast', 'dimension', 'exploit', 'proceed', 'variation', 'reading', 'custom', 'musical_composition', 'quality', 'solid', 'artifact', 'learning', 'quantity', 'examination', 'consume', 'case', 'utility', 'word', 'leisure', 'point', 'knowledge_domain', 'machine', 'statement', 'contemplation', 'maneuver', 'legal_right', 'area', 'geological_time', 'abrogation', 'experience']
+
+hyponyms_list: ['vignette', 'pad', 'time_frame', 'churn_out', 'case_study', 'bout', 'mid-september', 'bibliotics', 'go_around', 'honeymoon', 'bob', 'driftage', 'differential', 'hospitalization', 'reign', 'white_book', 'ingot', 'occupation', 'vulgarize', 'quarter', 'futurology', 'interpret', 'pull_out_all_the_stops', 'eternity', 'impel', 'hours', 'tenure', 'interference', 'field_day', 'mid-january', 'travel_time', 'application', 'half-century', 'fair_use', 'follow', 'accession', 'architecture', 'finalization', 'abuse', 'duration', 'air_alert', 'iron_age', 'initiate', 'half-term', 'consummation', 'season', 'regulation_time', 'while', 'mid-june', 'allometry', 'shelf_life', 'clew', 'cellblock', 'crosshead', 'premier', 'otherness', 'ritual', 'theogony', 'sentimentalise', 'carry', 'mid-july', 'school', 'waste', 'spacecraft_clock_time', 'make_as_if', 'predicate', 'usance', 'mid-may', 'recycle', 'goldbrick', 'mind_game', 'draft', 'times', 'take', 'hugger_mugger', 'musical_time', 'exploitation', 'real_time', 'prehistory', 'progress_report', 'stooge', 'ward', 'stunt', 'ephemera', 'incarnation', 'high_time', 'overachieve', 'great_year', 'life_sentence', 'briquette', 'turn', 'life', 'ology', 'dissimilarity', 'dog_days', 'study_hall', 'shamanize', 'year', 'subject', 'hard_time', 'freeze', 'variety', 'geological_time', 'phase_of_the_moon', 'nut', 'time', 'gob', 'bimester', 'multistage', 'fortnight', 'half_life', "raison_d'etre", 'drink', 'give', 'design', 'window', 'menace', 'humanistic_discipline', 'overtime', 'run', 'trial_period', 'mid-august', "writer's_block", 'theology', 'tide_over', 'footle', 'act_involuntarily', 'second_nature', 'present', 'evening', 'presume', 'put', 'continuum', 'anvil', 'novitiate', 'fairlead', 'up-tick', 'long_run', 'improvise', 'avail', 'cube', 'swage_block', 'fall_back', 'motivate', 'appear', 'follow-through', 'assay', 'mid-december', 'paid_vacation', 'chopping_block', 'dally', 'running_time', 'ice_age', 'science', 'space_age', 'accretion', 'raise', 'referent', 'overuse', 'decade', 'serenade', 'play', 'tax-increase', 'categorem', 'romanticize', 'fruition', 'click_off', 'time_of_life', 'effect', 'generation', 'calendar_day', 'occasion', 'school_term', 'conspicuous_consumption', 'middle_term', 'relatum', 'blue_book', 'resurvey', 'weekend', 'bad_block', 'quadrennium', 'strain', 'spare', 'graphology', 'pervert', 'blaze_away', 'drought', 'nog', 'provoke', 'era', 'sleep', 'proliferation', 'midwinter', 'pullulation', 'watch', 'mid-november', 'serve', 'lactation', 'price_increase', 'century', 'fare_increase', 'rise', 'quack', 'facilitate', 'underachieve', 'joke', 'night', 'quinquennium', 'work', 'declaim', 'break_down', 'frivol', 'misuse', 'rehearse', 'widening', 'youth', 'bollock', 'term', 'multiplication', 'trap_block', 'pipe_up', 'dawn', 'fall_over_backwards', 'rainy_day', 'trespass', 'work_time', 'oligomenorrhea', 'indiction', 'minor_term', 'relaxation', 'conduct', 'discrepancy', 'morning', 'scamp', 'balance', 'breechblock', 'day', 'cannibalize', 'idle_pulley', 'board', 'eve', 'long_time', 'ply', 'exert', 'chock', 'cut', 'flower', 'festival', 'population_growth', 'make', 'enjoy', 'domino', 'go_all_out', 'golden_age', 'lustrum', 'sauce', 'practice', 'past', 'clot', 'semester', 'backslap', 'peacetime', 'piffle', 'recycling', 'calendar_month', 'uptime', 'menorrhagia', 'supplement', 'lease', 'gap', 'protology', 'overdo', 'wanton', 'olympiad', 'relax', 'admit', 'swagger', 'address', 'future', 'question_time', 'cake', 'orbit_period', 'star', 'communications', 'optimize', 'suspension_point', 'quarter-century', 'elapsed_time', 'frontier', 'genealogy', 'type', 'millennium', 'determine', 'quarrel', 'position_paper', 'bungle', 'silver_age', 'week', 'silly_season', 'incubation_period', 'mid-march', 'prime_time', 'cleanliness', 'collision', 'qualify', 'wartime', 'escapology', 'vapor_lock', 'enlistment', 'moment', 'step', 'indian_summer', 'bronze_age', 'implement', 'military_science', 'hour', 'engender', 'prison_term', 'puerperium', 'bimillennium', 'finish', 'differentia', 'civil_time', 'lucubration', 'misdo', 'amplification', 'distinction', 'medical_report', 'prohibition', 'hard_times', 'major_term', 'mid-february', 'time_limit', 'green_paper', 'downtime', 'graduation', 'go_a_long_way', 'inflection', 'mid-october', 'major', 'midweek', 'misapply', 'dead', 'daylight-saving_time', 'cosmic_time', 'exploit', 'controversy', 'ramp', 'mid-april', 'slab', 'engineering', 'cut_corners', 'greenwich_mean_time', 'phase', 'clotting_time', 'trimester', 'inequality', 'wee', 'time_off', 'parry', 'vac', 'biological_time', 'act', 'starting_block', 'tide', 'numerology', 'swell', 'share', 'wave', 'plug', 'occultism']
+
+meronyms_list: ['cylinder', 'epoch', 'sector', 'midterm']
+
+holonyms_list: ['internal-combustion_engine', 'agreement', 'house', 'block_and_tackle', 'gestation', 'era', 'reciprocating_engine', 'playing_period', 'proposition']
+
+synonyms_list: ['condition', 'set', 'study', 'divergence', 'usage', 'increment', 'stop', 'coiffure', 'report', 'sentence', 'pulley_block', 'increase', 'difference_of_opinion', 'holiday', 'completion', 'answer', 'undivided', 'windup', 'culmination', 'menses', 'dress', 'consumption', 'metre', 'dispute', 'sketch', 'manipulation', 'enjoyment', 'serve', 'subject', 'closure', 'manage', 'point', 'do', 'habit', 'flow', 'menstruum', 'work', 'pass_completion', 'full_stop', 'exclusive', 'time', 'growth', 'utilization', 'clip', 'unmarried', 'execute', 'practise', 'full', 'period', 'term', 'geological_period', 'subject_area', 'prison_term', 'engine_block', 'habituate', 'yearly', 'make_out', 'terminus', 'utilise', 'one-year', 'blockage', 'coiffe', 'meter', 'cogitation', 'stoppage', 'auction_block', 'expend', 'minus', 'city_block', 'field_of_study', 'departure', 'intact', 'entire', 'block', 'fare', 'field', 'apply', 'glob', 'utilisation', 'remainder', 'mop_up', 'behave', 'economic_consumption', 'coif', 'exercise', 'terminal_figure', 'mental_block', 'discipline', 'vacation', 'perform', 'chunk', 'cube', 'pulley', 'annual', 'make', 'full_term', 'employment', 'difference', 'practice', 'arrange', 'survey', 'integral', 'get_along', 'conflict', 'use_of_goods_and_services', 'clump', 'single', 'individual', 'purpose', 'ball', 'clock_time', 'pulley-block', 'written_report', 'clod', 'subtraction', 'come', 'role', 'utilize', 'catamenia', 'closing', 'full_point', 'deviation', 'act', 'time_period', 'cause', 'usance', 'use', 'bailiwick', 'subject_field', 'menstruation', 'total', 'blocking', 'cylinder_block', 'occlusion', 'employ', 'lump', 'period_of_time', 'fourth_dimension', 'function', 'suffice']

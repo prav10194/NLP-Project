@@ -1,0 +1,102 @@
+Corpus Question: After I have submitted my OPT application, can I change my start date?
+
+Corpus Answer:  If your OPT application has not been approved, it may be possible to change the start date. However, there is no guarantee that the request to change your dates will be approved. Please contact an international student adviser immediately if you would like to change your dates. Once an application has been approved, the start date cannot be changed.
+
+
+Sentence Tokenizer: ['After I have submitted my OPT application, can I change my start date?', 'If your OPT application has not been approved, it may be possible to change the start date.', 'However, there is no guarantee that the request to change your dates will be approved.', 'Please contact an international student adviser immediately if you would like to change your dates.', 'Once an application has been approved, the start date cannot be changed.']
+
+Words Tokenizer: ['After', 'I', 'have', 'submitted', 'my', 'OPT', 'application', ',', 'can', 'I', 'change', 'my', 'start', 'date', '?', 'If', 'your', 'OPT', 'application', 'has', 'not', 'been', 'approved', ',', 'it', 'may', 'be', 'possible', 'to', 'change', 'the', 'start', 'date', '.', 'However', ',', 'there', 'is', 'no', 'guarantee', 'that', 'the', 'request', 'to', 'change', 'your', 'dates', 'will', 'be', 'approved', '.', 'Please', 'contact', 'an', 'international', 'student', 'adviser', 'immediately', 'if', 'you', 'would', 'like', 'to', 'change', 'your', 'dates', '.', 'Once', 'an', 'application', 'has', 'been', 'approved', ',', 'the', 'start', 'date', 'can', 'not', 'be', 'changed', '.']
+
+words_without_stop_words: ['After', 'I', 'submitted', 'OPT', 'application', ',', 'I', 'change', 'start', 'date', '?', 'If', 'OPT', 'application', 'approved', ',', 'may', 'possible', 'change', 'start', 'date', '.', 'However', ',', 'guarantee', 'request', 'change', 'dates', 'approved', '.', 'Please', 'contact', 'international', 'student', 'adviser', 'immediately', 'would', 'like', 'change', 'dates', '.', 'Once', 'application', 'approved', ',', 'start', 'date', 'changed', '.']
+
+words_with_stemming: ['after', 'i', 'submit', 'opt', 'applic', ',', 'i', 'chang', 'start', 'date', '?', 'if', 'opt', 'applic', 'approv', ',', 'may', 'possibl', 'chang', 'start', 'date', '.', 'howev', ',', 'guarante', 'request', 'chang', 'date', 'approv', '.', 'pleas', 'contact', 'intern', 'student', 'advis', 'immedi', 'would', 'like', 'chang', 'date', '.', 'onc', 'applic', 'approv', ',', 'start', 'date', 'chang', '.']
+
+words_with_lemmatization: ['After', 'I', 'submit', 'OPT', 'application', ',', 'I', 'change', 'start', 'date', '?', 'If', 'OPT', 'application', 'approve', ',', 'may', 'possible', 'change', 'start', 'date', '.', 'However', ',', 'guarantee', 'request', 'change', 'date', 'approve', '.', 'Please', 'contact', 'international', 'student', 'adviser', 'immediately', 'would', 'like', 'change', 'date', '.', 'Once', 'application', 'approve', ',', 'start', 'date', 'change', '.']
+
+words_with_pos_tags: [('After', 'IN'), ('I', 'PRP'), ('submitted', 'VBD'), ('OPT', 'NNP'), ('application', 'NN'), (',', ','), ('I', 'PRP'), ('change', 'VBP'), ('start', 'VB'), ('date', 'NN'), ('?', '.'), ('If', 'IN'), ('OPT', 'NNP'), ('application', 'NN'), ('approved', 'VBD'), (',', ','), ('may', 'MD'), ('possible', 'JJ'), ('change', 'VB'), ('start', 'JJ'), ('date', 'NN'), ('.', '.'), ('However', 'RB'), (',', ','), ('guarantee', 'NN'), ('request', 'NN'), ('change', 'NN'), ('dates', 'VBZ'), ('approved', 'VBN'), ('.', '.'), ('Please', 'NNP'), ('contact', 'JJ'), ('international', 'JJ'), ('student', 'NN'), ('adviser', 'NN'), ('immediately', 'RB'), ('would', 'MD'), ('like', 'VB'), ('change', 'NN'), ('dates', 'NNS'), ('.', '.'), ('Once', 'NNP'), ('application', 'NN'), ('approved', 'VBD'), (',', ','), ('start', 'VB'), ('date', 'NN'), ('changed', 'VBN'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (SQ
+    (SBAR (IN After)
+      (S
+        (NP (PRP I))
+        (VP (VBP have)
+          (VP (VBN submitted)
+            (NP (PRP$ my) (NN OPT) (NN application))))))
+    (, ,) (MD can)
+    (NP (PRP I))
+    (VP (VB change)
+      (NP (PRP$ my) (NN start) (NN date)))
+    (. ?)))(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP$ your) (NN OPT) (NN application))
+        (VP (VBZ has) (RB not)
+          (VP (VBN been)
+            (VP (VBN approved))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (MD may)
+      (VP (VB be)
+        (ADJP (JJ possible)
+          (S
+            (VP (TO to)
+              (VP (VB change)
+                (NP (DT the) (NN start) (NN date))))))))
+    (. .)))(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (EX there))
+    (VP (VBZ is)
+      (NP (DT no) (NN guarantee))
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NN request)
+            (S
+              (VP (TO to)
+                (VP (VB change)
+                  (NP (PRP$ your) (NNS dates))))))
+          (VP (MD will)
+            (VP (VB be)
+              (VP (VBN approved)))))))
+    (. .)))(ROOT
+  (S
+    (VP (VB Please)
+      (VP (VB contact)
+        (NP (DT an) (JJ international) (NN student) (NN adviser))
+        (ADVP (RB immediately))
+        (SBAR (IN if)
+          (S
+            (NP (PRP you))
+            (VP (MD would)
+              (VP (VB like)
+                (S
+                  (VP (TO to)
+                    (VP (VB change)
+                      (NP (PRP$ your) (NNS dates)))))))))))
+    (. .)))(ROOT
+  (S
+    (SBAR (RB Once)
+      (S
+        (NP (DT an) (NN application))
+        (VP (VBZ has)
+          (VP (VBN been)
+            (VP (VBN approved))))))
+    (, ,)
+    (NP (DT the) (NN start) (NN date))
+    (VP (MD can) (RB not)
+      (VP (VB be)
+        (VP (VBN changed))))
+    (. .)))
+
+hypernyms_list: ['channel', 'authority', 'submit', 'speech_act', 'day', 'interaction', 'signal', 'wish', 'remedy', 'reflex', 'relation', 'undergo', 'program', 'companion', 'action', 'junction', 'satisfy', 'dress', 'assurance', 'message', 'connection', 'yield', 'give', 'propose', 'refer', 'edible_fruit', 'travel', 'change', 'use', 'coin', 'turn', 'clothing', 'transfer', 'request', 'lens', 'beginning', 'cash', 'difference', 'calendar_year', 'accept', 'happening', 'calendar_day', 'manual_labor', 'thing', 'consequence', 'point', 'advantage', 'collateral', 'line', 'effort', 'meeting', 'touch', 'change_of_state', 'enrollee', 'evaluate', 'replace', 'calendar_month', 'representative', 'apply', 'intellectual', 'communication', 'present', 'authorize']
+
+hyponyms_list: ['weaponize', 'vulcanize', 'have', 'reticulate', 'tighten', 'first_step', 'sentimentalize', 'blind', 'take_in', 'deposit', 'maturity', 'blister', 'isomerize', 'academician', 'flick', 'humble', 'separation', 'confirm', 'nonreader', 'dope', 'installation', 'drop', 'uglify', 'denature', 'equal', 'decelerate', 'scrum', 'diversification', 'angulate', 'demythologize', 'substitute', 'dirty', 'tone_down', 'adulteration', 'ransom', 'crash', 'security_consultant', 'islamist', 'goliard', 'renaissance_man', 'nationalize', 'fail', 'cohere', 'collapse', 'receive', 'sanitize', 'hue', 'insulate', 'avianize', 'introduction', 'adrenarche', 'excite', 'transpose', 'rain_date', 'purify', 'hydrolyze', 'dim', 'lighten', 'swing', 'americanize', 'tread', 'revolution', 'contaminate', 'full', 'deaminate', 'invert', 'painting', 'invitation', 'fashion_consultant', 'animize', 'inseminate', 'mince', 'barter', 'rusticate', 'immortalize', 'habituate', 'brutalize', 'ease_up', 'tryst', 'media_consultant', 'demotion', 'entreaty', 'capacitate', 'misapplication', 'glaze', 'decalcify', 'endear', 'change_surface', 'blur', 'cry', 'application', 'glamorize', 'stiffen', 'patent', 'lining', 'unclutter', 'dynamize', 'shorten', 'sound_bow', 'short_circuit', 'oxygenize', 'decay', 'piggyback', 'disharmonize', 'job', 'change_intensity', 'collegian', 'complexify', 'sublime', 'immaterialize', 'solarize', 'frame', 'master', 'bestialize', 'port', 'vagary', 'terminus_a_quo', 'seminarian', 'scholar', 'initiate', 'clinker', 'keratinize', 'technology', 'conventionalize', 'order', 'face-off', 'complicate', 'engagement', 'chasten', 'difference', 'separate', 'de-emphasize', 'solemnize', 'verbify', 'inauguration', 'law_student', 'warm', 'deceleration', 'disintegrate', 'valedictorian', 'mutate', 'plastering', 'applet', 'antiquate', 'lubrication', 'sanction', 'sublimation', 'play_out', 'spike', 'desensitize', 'masorete', 'alpha', 'cloud', 'dissimilate', 'islamize', 'fix', 'saturate', 'utilize', 'brush', 'anointing', 'questioning', 'reflate', 'civilize', 'turn_back', 'age', 'shift', 'musicologist', 'flux', 'catch_on', 'politicize', 'prim', 'downshift', 'philosopher', 'translate', 'enchant', 'lend', 'catechumen', 'change_of_direction', 'warm_up', 'secularization', 'deformation', 'obfuscate', 'updating', 'dry', 'bibliophile', 'starets', 'relegate', 'future_date', 'glorify', 'scramble', 'socialize', 'clean', 'resume', 'enable', 'nationalization', 'remodel', 'depolarize', 'trick_or_treat', 'shimmer', 'prayer', 'promote', 'turn', 'industrialize', 'freshen', 'counselor', 'evaporate', 'ventilate', 'clarify', 'groundbreaking', 'subject', 'recede', 'digitize', 'freeze', 'investment_adviser', 'reader', 'affect', 'deflate', 'acceleration', 'vascularize', 'repress', 'ionate', 'spot', 'sexualize', 'archaize', 'wiper', 'leave', 'fly', 'undergo', 'communize', 'exteriorize', 'domesticate', 'europeanize', 'extend', 'scholiast', 'specialize', 'achromatize', 'discolor', 'give', 'promotion', 'assimilate', 'shape', 'decrease', 'weaken', 'commute', 'epoch', 'osculation', 'opsonize', 'magnetize', 'dizzy', 'acetylate', 'oxidise', 'superannuate', 'waxing', 'galvanization', 'unsex', 'invalidate', 'solvate', 'alternate', 'inflate', 'nick', 'depersonalize', 'historian', 'poison', 'management_consultant', 'mellow', 'devilize', 'assume', 'camp', 'suspend', 'cabalist', 'deodorize', 'put', 'jump_ball', 'birth', 'doctor', 'intensify', 'theologian', 'p-n_junction', 'leap', 'opening', 'underachiever', 'distributor_point', 'suburbanize', 'string', 'blackwash', 'paganize', 'liniment', 'alcoholize', 'stain', 'iodinate', 'masculinize', 'restore', 'transform', 'change_taste', 'tender', 'natural_language_processor', 'vitalize', 'switch', 'rub', 'transaminate', 'soften', 'creolize', 'undulate', 'indurate', 'oxidize', 'dull', 'empty', 'mature', 'kickoff', 'worsen', 'resumption', 'sputter', 'job_application', 'sex_change', 'demagnetize', 'deoxidize', 'roll', 'movement', 'orientalize', 'laicize', 'mujtihad', 'blunt', 'fold', 'racing_start', 'rectify', 'mechanize', 'crack', 'satisfaction', 'destabilization', 'witch_hazel', 'bring', 'decrepitate', 'brighten', 'fertilize', 'synthesize', 'motion', 'parallel', 'romanticize', 'drift', 'surf', 'loss_of_consciousness', 'decorate', 'shade', 'hydrate', 'back', 'officialize', 'etherealize', 'sequester', 'notification', 'housing_start', 'foliation', 'fall_for', 'cool', 'eye_contact', 'demonize', 'volatilize', 'icebreaker', 'clear', 'set', 'normalize', 'smoothen', 'pedant', 'opalize', 'editor_program', 'increase', 'frenchify', 'humanize', 'rejuvenate', 'ash', 'crammer', 'obsolesce', 'dress', 'incipiency', 'withdrawer', 'active_application', 'hydrogenate', 'reform', 'synchronize', 'decimalization', 'vedist', 'diversify', 'startup', 'sharpen', 'passer', 'filtration', 'sixth-former', 'barbarize', 'change_magnitude', 'stratify', 'gel', 'circularize', 'change_of_shape', 'antique', 'rise', 'classicize', 'development', 'wish', 'medical_student', 'change_shape', 'shakespearian', 'fair_ball', 'democratize', 'unite', 'catch', 'gradate', 'art_student', 'launder', 'lubricate', 'birthday', 'vivify', 'damage', 'overachiever', 'break_down', 'morph', 'depolarization', 'springboard', 'change_by_reversal', 'commercialize', 'call', 'beauty_consultant', 'corrupt', 'dinge', 'demulsify', 'sober', 'louden', 'skipper', 'customize', 'deepen', 'harden', 'symmetrize', 'arabist', 'liquefy', 'stabilize', 'visualize', 'straighten', 'reduction', 'disorder', 'liberalize', 'capitalize', 'dawn', 'widen', 'attack', 'demand', 'salutatorian', 'incandesce', 'wince', 'change_state', 'bubble', 'emulsify', 'eye-lotion', 'tipster', 'introject', 'startle_reflex', 'crackle', 'arterialize', 'vulgarise', 'urbanize', 'polarize', 'metrification', 'untie', 'mold', 'scumble', 'saponify', 'fumigation', 'visa', 'transitivize', 'tangency', 'assibilate', 'decimalize', 'alteration', 'licentiate', 'untune', 'mutation', 'estrange', 'papering', 'initiation', 'mark', 'activation', 'etonian', 'check', 'conversion', 'cut', 'wykehamist', 'carbonate', 'settle', 'lower', 'denaturalize', 'transmute', 'make', 'trade', 'prostrate', 'credit_application', 'honeycomb', 'tiling', 'sensitize', 'sauce', 'rarefy', 'even', 'boil', 'cause_to_sleep', 'clot', 'detransitivize', 'steepen', 'recall', 'legitimate', 'felt', 'ice_up', 'modify', 'develop', 'nazify', 'pall', 'recommend', 'etiolate', 'muddy', 'personalize', 'think', 'automatize', 'validate', 'better', 'ossify', 'variegate', 'stagnate', 'come', 'philomath', 'entail', 'relax', 'naturalize', 'convert', 'change_of_integrity', 'gelatinize', 'devalue', 'ivy_leaguer', 'county_agent', 'go_out', 'still', 'fatten', 'occult', 'shear', 'uniformize', 'flip', 'variation', 'internationalize', 'regress', 'coarsen', 'loan_application', 'electrical_contact', 'bibliographer', 'gum', 'loosen', 'dehydrogenate', 'diphthongize', 'slenderize', 'proof', 'break_into', 'laying_on', 'allegorize', 'flocculate', 'desalinate', 'alchemize', 'capture', 'neutralize', 'fill', 'vitrify', 'fall', 'militarize', 'threshold', 'awaken', 'flatten', 'double_date', 'move', 'change_integrity', 'onset', 'change_of_magnitude', 'solicitation', 'lifehack', 'round_off', 'constitution', 'auditor', 'harmonize', 'turning', 'salinate', 'right', 'come_in', 'caseate', 'mix', 'modernize', 'change_posture', 'give_way', 'cook', 'sell', 'narrow', 'hush', 'edit', 'sweeten', 'collision', 'touch', 'communization', 'decarboxylate', 'bring_in', 'transition', 'change_of_state', 'ulcerate', 'adapt', 'startle_response', 'obscure', 'military_adviser', 'rollover', 'opacify', 'tense', 'word_processor', 'modulate', 'placement', 'unscramble', 'digest', 'reconstruct', 'vesiculate', 'mythologize', 'format', 'color', 'supercharge', 'plasticize', 'reorient', 'recombine', 'simplify', 'lift', 'charge', 'outmode', 'rationalize', 'strengthen', 'terminal', 'humanist', 'easing', 'deform', 'break', 'condense', 'paving', 'refresh', 'transpire', 'sinologist', 'unsanctify', 'safety_net', 'transfigure', 'grow', 'tinning', 'deaden', 'security', 'shake', 'harshen', 'activate', 'thelarche', 'eroticize', 'patent_application', 'redeem', 'gradient', 'schoolman', 'disable', 'occidentalize', 'ripen', 'foul', 'ionize', 'stock_warrant', 'counterchange', 'spice', 'decentralize', 'death', 'menarche', 'end', 'die', 'schematize', 'rubberstamp', 'calcify', 'browser', 'transformation', 'ascend', 'denationalize', 'substitution', 'spraying', 'concretize', 'major', 'accelerate', 'revolutionize', 'form', 'let_out', 'centralize', 'cash', 'twinkle', 'calamine_lotion', 'refine', 'backroom_boy', 'flying_start', 'amicus_curiae', 'radicalize', 'draw', 'distill', 'sell-by_date', 'thicken', 'darken', 'barb', 'defervesce', 'turn_on', 'adjust', 'feminize', 'territorialize', 'inform', 'demist', 'rubbing_alcohol', 'full_faith_and_credit', 'menthol', 'inactivate', 'confuse', 'come_round', 'embrittle', 'professionalize', 'alter', 'pass', 'shallow', 'snick', 'blind_date', 'heat', 'alkalinize', 'avulsion', 'postdoc', 'destabilize', 'indispose', 'dissolve', 'plating', 'opener', 'impact', 'smut', 'wet', 'suffuse', 'about-face', 'tame', 'cure', 'test', 'disqualify', 'constitutionalize', 'supple', 'return', 'conjugate', 'surprise', 'acerbate', 'alumnus', 'introvert', 'transmutation', 'regenerate']
+
+meronyms_list: ['date']
+
+holonyms_list: ['date', 'teacher-student_relation', 'date_palm']
+
+synonyms_list: ['interchange', 'diligence', 'accede', 'adviser', 'starting_line', 'day_of_the_month', 'O.K.', 'relegate', 'possible', 'take', 'showtime', 'starting', 'striking', 'outset', 'inter-group_communication', 'petition', 'pupil', 'reconcile', 'first', 'give_in', 'start', 'subject', 'touch', 'variety', 'modification', 'scratch_line', 'date', 'middleman', 'link', 'covering', 'please', 'coating', 'starting_time', 'physical_contact', 'delight', 'resign', 'outside', 'applications_programme', 'deepen', 'impinging', 'commute', 'warranty', 'startle', 'asking', 'transfer', 'scholarly_person', 'contact', 'bookman', 'contact_lens', 'put_forward', 'get-go', 'application', 'present', 'practical_application', 'vary', 'tangency', 'alteration', 'postulation', 'educatee', 'escort', 'consultant', 'guaranty', 'international', 'scholar', 'approve', 'posit', 'render', 'external', 'exchange', 'liaison', 'okay', 'switch', 'engagement', 'starting_signal', 'commencement', 'sanction', 'bow', 'modify', 'state', 'submit', 'put_in', 'kickoff', 'warrant', 'head_start', 'convert', 'particular_date', 'alter', 'appointment', 'potential', 'lotion', 'shift', 'guarantee', 'scratch', 'change', 'pass_on', 'request', 'jump', 'advisor', 'beginning', 'offset', 'student', 'defer', 'application_program', 'warrantee']

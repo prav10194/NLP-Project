@@ -1,0 +1,84 @@
+Corpus Question: Does my visa need to be valid while on OPT?
+
+Corpus Answer:  While in the U.S., your visa may expire. It only needs to be valid if you wish to re-enter from abroad. Please see Travel and Visa information. Your I-20 remains active while on OPT.
+
+
+Sentence Tokenizer: ['Does my visa need to be valid while on OPT?', 'While in the U.S., your visa may expire.', 'It only needs to be valid if you wish to re-enter from abroad.', 'Please see Travel and Visa information.', 'Your I-20 remains active while on OPT.']
+
+Words Tokenizer: ['Does', 'my', 'visa', 'need', 'to', 'be', 'valid', 'while', 'on', 'OPT', '?', 'While', 'in', 'the', 'U.S.', ',', 'your', 'visa', 'may', 'expire', '.', 'It', 'only', 'needs', 'to', 'be', 'valid', 'if', 'you', 'wish', 'to', 're-enter', 'from', 'abroad', '.', 'Please', 'see', 'Travel', 'and', 'Visa', 'information', '.', 'Your', 'I-20', 'remains', 'active', 'while', 'on', 'OPT', '.']
+
+words_without_stop_words: ['Does', 'visa', 'need', 'valid', 'OPT', '?', 'While', 'U.S.', ',', 'visa', 'may', 'expire', '.', 'It', 'needs', 'valid', 'wish', 're-enter', 'abroad', '.', 'Please', 'see', 'Travel', 'Visa', 'information', '.', 'Your', 'I-20', 'remains', 'active', 'OPT', '.']
+
+words_with_stemming: ['doe', 'visa', 'need', 'valid', 'opt', '?', 'while', 'u.s.', ',', 'visa', 'may', 'expir', '.', 'it', 'need', 'valid', 'wish', 're-ent', 'abroad', '.', 'pleas', 'see', 'travel', 'visa', 'inform', '.', 'your', 'i-20', 'remain', 'activ', 'opt', '.']
+
+words_with_lemmatization: ['Does', 'visa', 'need', 'valid', 'OPT', '?', 'While', 'U.S.', ',', 'visa', 'may', 'expire', '.', 'It', 'need', 'valid', 'wish', 're-enter', 'abroad', '.', 'Please', 'see', 'Travel', 'Visa', 'information', '.', 'Your', 'I-20', 'remains', 'active', 'OPT', '.']
+
+words_with_pos_tags: [('Does', 'NNP'), ('visa', 'VB'), ('need', 'VB'), ('valid', 'JJ'), ('OPT', 'NNP'), ('?', '.'), ('While', 'IN'), ('U.S.', 'NNP'), (',', ','), ('visa', 'NN'), ('may', 'MD'), ('expire', 'VB'), ('.', '.'), ('It', 'PRP'), ('needs', 'VBZ'), ('valid', 'JJ'), ('wish', 'JJ'), ('re-enter', 'NN'), ('abroad', 'RB'), ('.', '.'), ('Please', 'VB'), ('see', 'VB'), ('Travel', 'NNP'), ('Visa', 'NNP'), ('information', 'NN'), ('.', '.'), ('Your', 'PRP$'), ('I-20', 'JJ'), ('remains', 'NNS'), ('active', 'JJ'), ('OPT', 'NNP'), ('.', '.')]
+
+parse_tree_string: (ROOT
+  (S
+    (VP (VBZ Does)
+      (NP (PRP$ my) (NN visa) (NN need))
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (ADJP (JJ valid)
+              (SBAR (IN while)
+                (FRAG
+                  (PP (IN on)
+                    (NP (NNP OPT))))))))))
+    (. ?)))(ROOT
+  (S
+    (SBAR (IN While)
+      (FRAG
+        (PP (IN in)
+          (NP (DT the) (NNP U.S.)))))
+    (, ,)
+    (NP (PRP$ your) (NN visa))
+    (VP (MD may)
+      (VP (VB expire)))
+    (. .)))(ROOT
+  (S
+    (NP (PRP It))
+    (ADVP (RB only))
+    (VP (VBZ needs)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (ADJP (JJ valid))
+            (SBAR (IN if)
+              (S
+                (NP (PRP you))
+                (VP (VBP wish)
+                  (S
+                    (VP (TO to)
+                      (VP (VB re-enter)
+                        (PP (IN from)
+                          (ADVP (RB abroad)))))))))))))
+    (. .)))(ROOT
+  (S
+    (VP (VB Please)
+      (VP (VB see)
+        (NP (NN Travel)
+          (CC and)
+          (NNP Visa) (NN information))))
+    (. .)))(ROOT
+  (S
+    (NP (PRP$ Your) (NN I-20))
+    (VP (VBZ remains)
+      (ADJP (JJ active)
+        (SBAR (IN while)
+          (FRAG
+            (PP (IN on)
+              (NP (NNP OPT)))))))
+    (. .)))
+
+hypernyms_list: ['collection', 'condition', 'object', 'body', 'executive_department', 'think', 'information_measure', 'care', 'necessity', 'consider', 'see', 'undergo', 'psychological_feature', 'movement', 'consort', 'perceive', 'detect', 'satisfy', 'message', 'poverty', 'preference', 'greeting', 'motion', 'desire', 'watch', 'bet', 'accusation', 'request', 'cognition', 'federal_government', 'placental', 'imagine', 'verify', 'tour', 'wish', 'understand', 'accompany', 'visit', 'receive', 'sanction', 'experience']
+
+hyponyms_list: ['spread', 'inspect', 'spectate', 'take_in', 'peregrination', 'perceive', 'abstract', 'card', 'stampede', 'ammunition', 'relativize', 'factoid', 'x-ray', 'read', 'air_travel', 'size_up', 'on_the_road', 'archeological_remains', 'preview', 'intelligence', 'translation', 'tend', 'example', 'respect', 'traversal', 'life', 'secret', 'read_between_the_lines', 'gait', 'gravitation', 'rise', 'confirmation', 'flow', 'lap', 'cross-check', 'intersect', 'catch', 'progress', 'receive', 'ethical_motive', 'readout', 'predictor', 'mythicize', 'course_of_study', 'stimulation', 'stroke', 'dance_step', 'identify', 'witness', 'step', 'double-check', 'acquaintance', 'auscultate', 'format', 'call', 'descriptor', 'rational_motive', 'psychic_energy', 'minister', 'reconsider', 'favor', 'visualize', 'insider_information', 'wayfaring', 'crawl', 'capitalize', 'jog', 'run', 'literalize', 'descent', 'control', 'educe', 'database', 'beggary', 'endear', 'behold', 'journey', 'background', 'disrespect', 'skinny', 'search', 'spot-check', 'tabulation', 'riding', 'cremains', 'metadata', 'spiritualize', 'circumstance', 'ascension', 'water_travel', 'tip-off', 'prize', 'know', 'suffer', 'brachiation', 'fossil', 'necessity', 'see', 'get_the_goods', 'reify', 'peruse', 'wise_up', 'glimpse', 'scan', 'autopsy', 'raw_data', 'idealize', 'check', 'urge', 'like', 'ascertain', 'evidence', 'misconstrue', 'creep', 'cover', 'make', 'enjoy', 'irrational_motive', 'deem', 'wandering', 'catch_sight', 'fact', 'discover', 'misinformation', 'report_card', 'survey', 'stage', 'circumnavigation', 'walk', 'datum', 'consider', 'appreciate', 'commutation', 'circulation', 'come', 'velleity', 'feel', 'candle', 'stuff', 'entrance', 'propaganda', 'junketing', 'accounting_data', 'details', 'driving', 'news', 'gen', 'proofread', 'include', 'reinterpret', 'staging', 'levitation', 'expect', 'test', 'enchant', 'allegorize', 'crossing', 'trip_up', 'cinch', 'lack', 'fall', 'material', 'take', 'nuts_and_bolts']
+
+meronyms_list: ['nebraska', 'new_england', 'mid-atlantic_states', 'pacific_northwest', 'district_of_columbia', 'colony', 'minnesota', 'virginia', 'texas', 'alaska', 'louisiana', 'west_virginia', 'oregon', 'maryland', 'rio_grande', 'south_carolina', 'washington', 'nevada', 'executive_branch', 'kansas', 'kentucky', 'idaho', 'niagara', 'department_of_energy_intelligence', 'arkansas', 'ohio', 'rhode_island', 'sunbelt', 'utah', 'yukon', 'wyoming', 'north_dakota', 'dakota', 'hawaii', 'midwest', 'vermont', 'indiana', 'colorado', 'massachusetts', 'north', 'west', 'montana', 'twin', 'georgia', 'north_carolina', 'connecticut', 'delaware', 'east', 'iowa', 'oklahoma', 'louisiana_purchase', 'california', 'new_york', 'niobrara', 'great_lakes', 'legislative_branch', 'new_hampshire', 'pennsylvania', 'south', 'south_dakota', 'maine', 'missouri', 'new_river', 'florida', 'illinois', 'new_jersey', 'american_state', 'michigan', 'tennessee', 'wisconsin', 'american', 'alabama', 'mississippi', 'new_mexico', 'saint_lawrence', 'arizona', 'yosemite', 'judicial_branch']
+
+holonyms_list: ['organization_of_american_states', 'passport', 'north_atlantic_treaty_organization', 'north_america']
+
+synonyms_list: ['data', 'find', 'take_in', 'determine', 'corpse', 'examine', 'Energy', 'U.S._government', 'go_steady', 'participating', 'watch', 'wishing', 'pauperism', 'travelling', 'ensure', 'wish', 'project', 'image', 'want', 'catch', 'date', 'picture', 'look', 'please', 'get_word', 'witness', 'delight', 'motive', 'interpret', 'Energy_Department', 'visualise', 'cadaver', 'selective_information', 'remains', 'Department_of_Energy', 'visualize', 'find_out', 'United_States_of_America', 'DOE', 'demand', 'control', 'go_through', 'fancy', 'United_States', 'dynamic', 'meet', 'visit', 'take_care', 'pauperization', 'visa', 'doe', 'realise', 'the_States', 'hear', 'see', 'United_States_government', 'escort', 'insure', 'check', 'U.S.', 'run_across', 'ascertain', 'information', 'motivation', 'encounter', 'figure', 'learn', 'see_to_it', 'change_of_location', 'discover', 'clay', 'understand', 'realize', 'traveling', 'indigence', 'valid', 'US', 'view', 'construe', 'come_across', 'envision', 'need', 'U.S.A.', 'America', 'consider', 'pick_up', 'US_Government', 'get_wind', 'go_out', 'fighting', 'entropy', 'travel', 'active', 'regard', 'run_into', 'compliments', 'combat-ready', 'alive', 'get_a_line', 'stiff', 'indirect_request', 'locomotion', 'reckon', 'info', 'assure', 'attend', 'USA', 'penury', 'experience']
