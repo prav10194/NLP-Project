@@ -23,6 +23,7 @@ nlp = StanfordCoreNLP('http://localhost:9000')
 * For running Task-2, we run the following command  - 
 
 ```cmd
+cd "flask web/app"
 python3 flaskpage.py
 ```
 
@@ -33,6 +34,7 @@ Also a folder is created called CorpusFilesWithoutFeatures that contains the bag
 * For running Task-3, we run the following command – 
 
 ```cmd
+cd "flask web/app"
 python3 GeneratingCorpusWithFeatures.py
 ```
 
@@ -42,6 +44,7 @@ After that we run the following command -
 
 
 ```cmd
+cd "flask web/app"
 python3 flaskpage1.py
 ```
 
